@@ -239,5 +239,71 @@
       "Détectez automatiquement les types et les emplacements des anomalies.",
       "Fournissez un accès rapide aux équipes de terrain grâce à l'intégration de codes QR."
     ]
+  },
+  "inspectionAndAudit": {
+    "hero": {
+      "subtitle": "Des Étapes Puissantes dans l'Efficacité Énergétique",
+      "title": "Optimisez vos Processus d'Inspection et d'Audit",
+      "description": "Optimisez vos processus d'inspection et d'audit dans les centrales solaires en les numérisant. Augmentez votre efficacité opérationnelle en gérant vos observations, mesures et tests conformément aux normes IEC 62446 via la plateforme MapperX. Économisez main-d'œuvre et coûts, accélérez vos processus d'analyse et de reporting, et obtenez des résultats précis.",
+      "buttons": {
+        "contact": "Contacter un Expert",
+        "register": "S'inscrire Maintenant"
+      },
+      "image": {
+        "alt": "Visuel de Maintenance des Panneaux Solaires"
+      }
+    },
+    "electricTest": {
+      "title": "Rapportez facilement vos tests et mesures électriques",
+      "description": "Dans les opérations d'inspection et d'audit, les équipes ont besoin de temps et de ressources pour mener correctement leur travail collaboratif et créer des rapports conformes aux normes en enregistrant les résultats des tests et mesures électriques. Avec la plateforme MapperX, vous pouvez gérer vos flux de travail de manière efficace et précise en les rendant durables, et créer des rapports illimités avec votre propre logo selon les normes IEC 62446.",
+      "features": {
+        "1": "Créez des jumeaux numériques des mesures et contrôles électriques.",
+        "2": "Gérez vos tests, mesures et contrôles de manière unifiée.",
+        "3": "Planifiez et exécutez vos contrôles périodiques à temps."
+      },
+      "button": "Contacter un expert",
+      "image": {
+        "alt": "Tests et mesures électriques"
+      }
+    },
+    "electricalInfrastructure": {
+      "title": "Gérez vos Opérations d'Infrastructure Électrique sur une Seule Plateforme",
+      "description": "Les opérations complexes d'inspection et d'audit effectuées à différents moments et avec différents équipements peuvent conduire à des détections incorrectes en rendant l'analyse difficile dans les flux de travail manuels. Créez des rapports autonomes en collectant les données de mesure et de test électriques conformément aux normes sur une seule plateforme avec la plateforme MapperX, et interprétez-les via des jumeaux numériques durables. Prenez des actions rapides et précises.",
+      "features": {
+        "1": "Combinez vos mesures et tests électriques dans un seul rapport.",
+        "2": "Augmentez l'efficacité durable en numérisant vos processus d'inspection.",
+        "3": "Créez des rapports illimités en optimisant tous vos flux de travail."
+      },
+      "moreInfo": "En savoir plus",
+      "image": {
+        "alt": "Visuel d'Infrastructure Électrique"
+      }
+    },
+    "mapperXStudio": {
+      "title": "MapperX Studio",
+      "description": "MapperX Studio est un outil complet où les clients peuvent ajouter et gérer leurs onduleurs, transformateurs et infrastructure électrique. Les utilisateurs peuvent créer des jumeaux numériques de leurs centrales électriques, effectuer facilement la numérotation des strings et des panneaux, et planifier tous les composants en détail. Optimisez tous vos processus de gestion de centrale depuis une seule plateforme sans nécessiter de logiciel tiers et augmentez l'efficacité.",
+      "features": {
+        "1": {
+          "title": "Gestion de l'Infrastructure Électrique",
+          "description": "Permet d'ajouter et de gérer vos onduleurs, transformateurs et autres composants électriques."
+        },
+        "2": {
+          "title": "Numérotation et Planification",
+          "description": "Planifiez votre centrale en détail en effectuant facilement la numérotation des strings et des panneaux."
+        },
+        "3": {
+          "title": "Technologie de Jumeau Numérique",
+          "description": "Optimisez tous vos processus de gestion et augmentez l'efficacité en créant le jumeau numérique de la centrale."
+        },
+        "4": {
+          "title": "Analyse Complète",
+          "description": "Analysez toutes vos données de centrale en détail et générez des insights."
+        }
+      },
+      "button": "Contacter un Expert",
+      "image": {
+        "alt": "Capture d'écran MapperX Studio"
+      }
+    }
   }
 } 

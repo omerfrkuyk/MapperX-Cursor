@@ -24,7 +24,7 @@ export const routes: RouteConfig = {
     it: '/it/piattaforma/ispezione-termografica'
   },
   inspection: {
-    tr: '/denetim-ve-muayene',
+    tr: '/tr/platform/denetim-ve-muayene',
     en: '/en/platform/inspection-and-audit',
     de: '/de/plattform/inspektion-und-ueberpruefung',
     fr: '/fr/plateforme/inspection-et-audit',

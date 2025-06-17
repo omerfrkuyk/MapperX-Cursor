@@ -337,5 +337,77 @@
     "images": {
       "temperatureMapAlt": "Isı haritası animasyonu"
     }
+  },
+  "inspectionAndAudit": {
+    "hero": {
+      "subtitle": "Enerji Verimliliğinde Güçlü Adımlar",
+      "title": "Denetim ve Muayene Süreçlerinizi Optimize Edin",
+      "description": "Güneş enerjisi santrallerinde denetim ve muayene süreçlerinizi dijitalleştirerek optimize edin. MapperX platformu üzerinden IEC 62446 standartlarına uyumlu olarak gözlem, ölçüm ve testlerinizi yöneterek operasyonel verimliliğinizi artırın. İş gücü ve maliyet tasarrufu sağlayarak, analiz ve raporlama süreçlerinizi hızlandırın ve doğru sonuçlar elde edin.",
+      "buttons": {
+        "contact": "Uzman ile Görüş",
+        "register": "Kayıt Ol"
+      },
+      "image": {
+        "alt": "Güneş Paneli Bakım Görseli"
+      }
+    },
+    "electricTest": {
+      "title": "Elektriksel Test ve Ölçümlerinizi Kolayca Raporlayın",
+      "description": "Denetim ve muayene operasyonlarında ekiplerin bir arada çalışmalarını doğru olarak yürütmesi ve elektriksel test ve ölçüm sonuçlarını kayıt altına alarak bu veriler üzerinden standartlara uygun olarak raporlar oluşturması zaman ve maliyet gerektirir. MapperX platform ile iş akışlarınızı sürdürülebilir hale getirerek verimli ve doğru bir şekilde yönetebilir, IEC 62446 standartlarında kendi logonuz ile sınırsız rapor oluşturabilirsiniz.",
+      "features": {
+        "1": "Elektriksel ölçüm ve kontrollerin dijital ikizlerini oluşturun.",
+        "2": "Birleşik olarak test, ölçüm ve kontrollerinizi yönetin.",
+        "3": "Periyodik kontrollerini zamanında planla ve operasyonlarını yürüt."
+      },
+      "button": "Uzman ile Görüşün",
+      "image": {
+        "alt": "Elektriksel Test ve Ölçüm"
+      }
+    },
+    "electricalInfrastructure": {
+      "title": "Elektriksel Altyapı Denetimi",
+      "description": "MapperX ile güneş enerjisi santrallerinde elektriksel altyapı denetimlerini gerçekleştirin. IEC 62446 standartlarına uyumlu olarak raporlar oluşturun.",
+      "features": {
+        "1": {
+          "description": "Elektriksel ölçüm ve testlerinizi tek raporda birleştirin."
+        },
+        "2": {
+          "description": "Denetim süreçlerinizi dijitalleştirerek sürdürülebilir verimliliği artırın."
+        },
+        "3": {
+          "description": "Tüm iş akışlarınızı optimize ederek sınırsız raporlar oluşturun."
+        }
+      },
+      "moreInfo": "Daha Fazla Bilgi",
+      "image": {
+        "alt": "Elektriksel Altyapı Denetimi"
+      }
+    },
+    "mapperXStudio": {
+      "title": "MapperX Studio",
+      "description": "MapperX Studio, müşterilerin inverter, transformatör ve elektriksel altyapılarını ekleyip yönetebildiği kapsamlı bir araçtır. Kullanıcılar, santrallerinin dijital ikizlerini oluşturarak, string ve panel numaralandırmalarını kolayca yapabilir ve tüm bileşenleri detaylı bir şekilde planlayabilir. Üçüncü taraf yazılım gerektirmeden, tüm santral yönetim süreçlerinizi tek bir platformdan optimize edin ve verimliliği artırın.",
+      "features": {
+        "1": {
+          "title": "Elektriksel Altyapı Yönetimi",
+          "description": "İnverter, transformatör ve diğer elektriksel bileşenlerinizi ekleyip yönetmenize olanak tanır."
+        },
+        "2": {
+          "title": "Numaralandırma ve Planlama",
+          "description": "String ve panel numaralandırmalarını kolayca yaparak, santralinizi detaylı bir şekilde planlayın."
+        },
+        "3": {
+          "title": "Dijital İkiz Teknolojisi",
+          "description": "Santralin dijital ikizini oluşturarak, tüm yönetim süreçlerinizi optimize edin ve verimliliği artırın."
+        },
+        "4": {
+          "title": "Kapsamlı Analiz",
+          "description": "Tüm santral verilerinizi detaylı bir şekilde analiz edin ve içgörüler elde edin."
+        }
+      },
+      "button": "Uzman ile Görüş",
+      "image": {
+        "alt": "MapperX Studio ekran görüntüsü"
+      }
+    }
   }
 } 

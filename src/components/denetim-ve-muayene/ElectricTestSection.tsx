@@ -1,52 +1,55 @@
 'use client';
 
 import Image from 'next/image';
+import { useTranslations } from 'next-intl';
 
 const ElectricTestSection = () => {
+  const t = useTranslations('inspectionAndAudit.electricTest');
+
   return (
-    <section className="bg-white py-28 px-6 md:px-20">
-      <div className="max-w-screen-2xl mx-auto grid md:grid-cols-2 gap-20 items-center">
-        {/* Görsel */}
-        <div className="w-full">
+    <section className="bg-white py-24 px-4 md:px-12">
+      <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-16 items-center">
+        {/* Sol görsel */}
+        <div className="relative w-full h-full flex items-center">
           <Image
             src="/electric-test-1.png"
-            alt="Elektriksel Test Görseli"
-            width={1200}
-            height={800}
-            className="w-full h-auto rounded-xl shadow-xl"
+            alt={t('image.alt')}
+            width={2000}
+            height={1500}
+            className="w-[120%] h-auto rounded-xl"
+            priority
           />
         </div>
 
-        {/* Metin */}
+        {/* Sağ içerik */}
         <div>
-          <h2 className="text-2xl md:text-4xl font-bold text-gray-900 mb-6">
-            Elektriksel Test ve Ölçümlerinizi Kolayca Raporlayın
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
+            {t('title')}
           </h2>
-          <p className="text-gray-700 text-base md:text-lg mb-6">
-            Denetim ve muayene operasyonlarında ekiplerin bir arada çalışmalarını doğru olarak yürütmesi ve elektriksel test ve ölçüm sonuçlarını kayıt altına alarak bu veriler üzerinden standartlara uygun olarak raporlar oluşturması zaman ve maliyet gerektirir. MapperX platform ile iş akışlarınızı sürdürülebilir hale getirerek verimli ve doğru bir şekilde yönetebilir, IEC 62446 standartlarında kendi logonuz ile sınırsız rapor oluşturabilirsiniz.
+          <p className="text-gray-700 text-lg mb-8">
+            {t('description')}
           </p>
 
-          <ul className="space-y-4 text-gray-700 text-base md:text-lg mb-8">
-            <li className="flex items-start gap-2">
-              <span className="text-blue-600 text-xl">›</span>
-              Elektriksel ölçüm ve kontrollerin dijital ikizlerini oluşturun.
-            </li>
-            <li className="flex items-start gap-2">
-              <span className="text-blue-600 text-xl">›</span>
-              Birleşik olarak test, ölçüm ve kontrollerinizi yönetin.
-            </li>
-            <li className="flex items-start gap-2">
-              <span className="text-blue-600 text-xl">›</span>
-              Periyodik kontrollerinizi zamanında planla ve operasyonlarını yürüt.
-            </li>
-          </ul>
+          <div className="space-y-6 mb-8">
+            {[1, 2, 3].map((index) => (
+              <div key={index} className="flex items-start gap-4">
+                <div className="flex-shrink-0 text-blue-600">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                  </svg>
+                </div>
+                <p className="text-gray-700">
+                  {t(`features.${index}`)}
+                </p>
+              </div>
+            ))}
+          </div>
 
           <a
-            href="https://mapperx.com/iletisim/"
-            target="_blank"
-            className="inline-block bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-full text-sm font-semibold transition"
+            href="#"
+            className="inline-block bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-full text-base font-semibold transition"
           >
-            Uzman ile Görüşün
+            {t('button')}
           </a>
         </div>
       </div>

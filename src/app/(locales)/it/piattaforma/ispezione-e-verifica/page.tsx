@@ -10,16 +10,16 @@ import { getMessages } from '@/lib/i18n/getMessages';
 
 export async function generateMetadata() {
   return {
-    title: 'Denetim ve Muayene - MapperX',
-    description: 'MapperX ile elektriksel altyapı denetimlerini ve testlerini gerçekleştirin, santrallerinizin dijital ikizlerini oluşturun.',
+    title: 'Ispezione e Verifica - MapperX',
+    description: 'Esegui ispezioni e test delle infrastrutture elettriche con MapperX, crea gemelli digitali delle tue centrali elettriche.',
   };
 }
 
-export default async function DenetimVeMuayenePage() {
-  const messages = await getMessages('tr');
+export default async function IspezioneEVerificaPage() {
+  const messages = await getMessages('it');
   
   return (
-    <NextIntlClientProvider messages={messages} locale="tr">
+    <NextIntlClientProvider messages={messages} locale="it">
       <main>
         <DenetimHeroSection />
         <ElektrikselAltyapiSection />

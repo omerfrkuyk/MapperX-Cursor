@@ -239,5 +239,71 @@
       "Erkennen Sie automatisch Anomalietypen und -standorte.",
       "Ermöglichen Sie schnellen Zugriff für Feldteams durch QR-Code-Integration."
     ]
+  },
+  "inspectionAndAudit": {
+    "hero": {
+      "subtitle": "Starke Schritte in der Energieeffizienz",
+      "title": "Optimieren Sie Ihre Inspektions- und Prüfprozesse",
+      "description": "Optimieren Sie Ihre Inspektions- und Prüfprozesse in Solaranlagen durch Digitalisierung. Steigern Sie Ihre betriebliche Effizienz, indem Sie Ihre Beobachtungen, Messungen und Tests gemäß IEC 62446-Standards über die MapperX-Plattform verwalten. Sparen Sie Arbeitskosten, beschleunigen Sie Ihre Analyse- und Berichtsprozesse und erzielen Sie genaue Ergebnisse.",
+      "buttons": {
+        "contact": "Experten kontaktieren",
+        "register": "Jetzt registrieren"
+      },
+      "image": {
+        "alt": "Solarpanel-Wartungsvisualisierung"
+      }
+    },
+    "electricTest": {
+      "title": "Dokumentieren Sie Ihre elektrischen Tests und Messungen einfach",
+      "description": "Bei Inspektions- und Prüfvorgängen benötigen Teams Zeit und Ressourcen, um ihre Zusammenarbeit ordnungsgemäß durchzuführen und Berichte gemäß den Standards zu erstellen, indem sie elektrische Test- und Messergebnisse aufzeichnen. Mit der MapperX-Plattform können Sie Ihre Arbeitsabläufe effizient und präzise verwalten, indem Sie sie nachhaltig gestalten, und unbegrenzte Berichte mit Ihrem eigenen Logo nach IEC 62446-Standards erstellen.",
+      "features": {
+        "1": "Erstellen Sie digitale Zwillinge von elektrischen Messungen und Kontrollen.",
+        "2": "Verwalten Sie Ihre Tests, Messungen und Kontrollen einheitlich.",
+        "3": "Planen und führen Sie Ihre periodischen Kontrollen pünktlich durch."
+      },
+      "button": "Experten kontaktieren",
+      "image": {
+        "alt": "Elektrische Tests und Messungen"
+      }
+    },
+    "electricalInfrastructure": {
+      "title": "Verwalten Sie Ihre elektrischen Infrastrukturoperationen auf einer einzigen Plattform",
+      "description": "Komplexe Inspektions- und Prüfvorgänge, die zu verschiedenen Zeiten und mit verschiedenen Geräten durchgeführt werden, können durch erschwerte Analysen in manuellen Arbeitsabläufen zu falschen Erkennungen führen. Erstellen Sie autonome Berichte, indem Sie elektrische Mess- und Testdaten standardkonform auf einer einzigen Plattform mit der MapperX-Plattform sammeln und interpretieren Sie sie durch nachhaltige digitale Zwillinge. Ergreifen Sie schnelle und genaue Maßnahmen.",
+      "features": {
+        "1": "Kombinieren Sie Ihre elektrischen Messungen und Tests in einem einzigen Bericht.",
+        "2": "Steigern Sie die nachhaltige Effizienz durch Digitalisierung Ihrer Inspektionsprozesse.",
+        "3": "Erstellen Sie unbegrenzte Berichte durch Optimierung aller Ihrer Arbeitsabläufe."
+      },
+      "moreInfo": "Mehr erfahren",
+      "image": {
+        "alt": "Elektrische Infrastrukturvisualisierung"
+      }
+    },
+    "mapperXStudio": {
+      "title": "MapperX Studio",
+      "description": "MapperX Studio ist ein umfassendes Tool, mit dem Kunden ihre Wechselrichter, Transformatoren und elektrische Infrastruktur hinzufügen und verwalten können. Benutzer können digitale Zwillinge ihrer Kraftwerke erstellen, String- und Panel-Nummerierung einfach durchführen und alle Komponenten detailliert planen. Optimieren Sie alle Ihre Anlagenverwaltungsprozesse von einer einzigen Plattform aus ohne Drittanbieter-Software und steigern Sie die Effizienz.",
+      "features": {
+        "1": {
+          "title": "Elektrische Infrastrukturverwaltung",
+          "description": "Ermöglicht das Hinzufügen und Verwalten Ihrer Wechselrichter, Transformatoren und anderer elektrischer Komponenten."
+        },
+        "2": {
+          "title": "Nummerierung und Planung",
+          "description": "Planen Sie Ihre Anlage detailliert durch einfache String- und Panel-Nummerierung."
+        },
+        "3": {
+          "title": "Digitale Zwillingstechnologie",
+          "description": "Optimieren Sie alle Ihre Verwaltungsprozesse und steigern Sie die Effizienz durch Erstellung des digitalen Zwillings der Anlage."
+        },
+        "4": {
+          "title": "Umfassende Analyse",
+          "description": "Analysieren Sie alle Ihre Anlagendaten detailliert und generieren Sie Erkenntnisse."
+        }
+      },
+      "button": "Experten kontaktieren",
+      "image": {
+        "alt": "MapperX Studio Screenshot"
+      }
+    }
   }
 } 

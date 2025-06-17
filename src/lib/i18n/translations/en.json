@@ -330,5 +330,71 @@
     "images": {
       "temperatureMapAlt": "Temperature map animation"
     }
+  },
+  "inspectionAndAudit": {
+    "hero": {
+      "subtitle": "Powerful Steps in Energy Efficiency",
+      "title": "Optimize Your Inspection and Audit Processes",
+      "description": "Optimize your inspection and audit processes in solar power plants by digitizing them. Increase your operational efficiency by managing your observations, measurements, and tests in compliance with IEC 62446 standards through the MapperX platform. Save labor and costs, accelerate your analysis and reporting processes, and obtain accurate results.",
+      "buttons": {
+        "contact": "Contact Expert",
+        "register": "Register Now"
+      },
+      "image": {
+        "alt": "Solar Panel Maintenance Visual"
+      }
+    },
+    "electricTest": {
+      "title": "Easily Report Your Electrical Tests and Measurements",
+      "description": "In inspection and audit operations, it takes time and cost for teams to properly carry out their collaborative work and create reports in accordance with standards by recording electrical test and measurement results. With the MapperX platform, you can manage your workflows efficiently and accurately by making them sustainable, and create unlimited reports with your own logo in IEC 62446 standards.",
+      "features": {
+        "1": "Create digital twins of electrical measurements and controls.",
+        "2": "Manage your tests, measurements, and controls in a unified way.",
+        "3": "Plan and execute your periodic controls on time."
+      },
+      "button": "Contact Expert",
+      "image": {
+        "alt": "Electrical Test and Measurement"
+      }
+    },
+    "electricalInfrastructure": {
+      "title": "Manage Your Electrical Infrastructure Operations on a Single Platform",
+      "description": "Complex inspection and audit operations performed at different times and with different equipment can lead to incorrect detections by making analysis difficult in manual workflows. Create autonomous reports by collecting electrical measurement and test data in compliance with standards on a single platform with MapperX platform, and interpret them through sustainable digital twins. Take quick and accurate actions.",
+      "features": {
+        "1": "Combine your electrical measurements and tests in a single report.",
+        "2": "Increase sustainable efficiency by digitalizing your inspection processes.",
+        "3": "Create unlimited reports by optimizing all your workflows."
+      },
+      "moreInfo": "Learn More",
+      "image": {
+        "alt": "Electrical Infrastructure Visual"
+      }
+    },
+    "mapperXStudio": {
+      "title": "MapperX Studio",
+      "description": "MapperX Studio is a comprehensive tool where customers can add and manage their inverters, transformers, and electrical infrastructure. Users can create digital twins of their power plants, easily perform string and panel numbering, and plan all components in detail. Optimize all your plant management processes from a single platform without requiring third-party software and increase efficiency.",
+      "features": {
+        "1": {
+          "title": "Electrical Infrastructure Management",
+          "description": "Allows you to add and manage your inverters, transformers, and other electrical components."
+        },
+        "2": {
+          "title": "Numbering and Planning",
+          "description": "Plan your plant in detail by easily performing string and panel numbering."
+        },
+        "3": {
+          "title": "Digital Twin Technology",
+          "description": "Optimize all your management processes and increase efficiency by creating the digital twin of the plant."
+        },
+        "4": {
+          "title": "Comprehensive Analysis",
+          "description": "Analyze all your plant data in detail and generate insights."
+        }
+      },
+      "button": "Contact Expert",
+      "image": {
+        "alt": "MapperX Studio screenshot"
+      }
+    }
   }
 } 

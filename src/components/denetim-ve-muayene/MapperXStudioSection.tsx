@@ -1,44 +1,53 @@
 'use client';
 
 import Image from 'next/image';
+import { useTranslations } from 'next-intl';
 
 const MapperXStudioSection = () => {
+  const t = useTranslations('inspectionAndAudit.mapperXStudio');
+
   return (
-    <section className="bg-white py-24 px-6 md:px-20">
-      <div className="max-w-screen-2xl mx-auto grid md:grid-cols-2 gap-20 items-center">
+    <section className="bg-white py-24 px-4 md:px-12">
+      <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-16 items-center">
         {/* Sol içerik */}
         <div>
-          <h2 className="text-3xl md:text-5xl font-bold text-gray-900 mb-6">
-            MapperX Studio
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
+            {t('title')}
           </h2>
-          <p className="text-gray-700 text-lg md:text-xl mb-6 leading-relaxed">
-            MapperX Studio, müşterilerin inverter, transformatör ve elektriksel altyapılarını ekleyip yönetebildiği kapsamlı bir araçtır. Kullanıcılar, santrallerinin dijital ikizlerini oluşturarak, string ve panel numaralandırmalarını kolayca yapabilir ve tüm bileşenleri detaylı bir şekilde planlayabilir. Üçüncü taraf yazılım gerektirmeden, tüm santral yönetim süreçlerinizi tek bir platformdan optimize edin ve verimliliği artırın.
+          <p className="text-gray-700 text-lg mb-8">
+            {t('description')}
           </p>
 
-          <ul className="space-y-5 text-gray-700 text-lg md:text-xl">
-            <li className="flex items-start gap-3">
-              <span className="text-blue-600 text-2xl">›</span>
-              <span><strong>Elektriksel Altyapı Yönetimi:</strong> Inverter, transformatör ve diğer elektriksel bileşenlerinizi ekleyip yönetmenize olanak tanır.</span>
-            </li>
-            <li className="flex items-start gap-3">
-              <span className="text-blue-600 text-2xl">›</span>
-              <span><strong>Numaralandırma ve Planlama:</strong> String ve panel numaralandırmalarını kolayca yaparak, santralinizi detaylı bir şekilde planlayın.</span>
-            </li>
-            <li className="flex items-start gap-3">
-              <span className="text-blue-600 text-2xl">›</span>
-              <span><strong>Dijital İkiz Teknolojisi:</strong> Santralin dijital ikizini oluşturarak, tüm yönetim süreçlerinizi optimize edin ve verimliliği artırın.</span>
-            </li>
-          </ul>
+          <div className="space-y-6">
+            {[1, 2, 3].map((index) => (
+              <div key={index} className="flex items-start gap-4">
+                <div className="flex-shrink-0 text-blue-600">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                  </svg>
+                </div>
+                <div>
+                  <h3 className="text-lg font-semibold text-gray-900 mb-1">
+                    {t(`features.${index}.title`)}
+                  </h3>
+                  <p className="text-gray-700">
+                    {t(`features.${index}.description`)}
+                  </p>
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
 
         {/* Sağ görsel */}
-        <div className="w-full">
+        <div className="relative w-full">
           <Image
             src="/mapperx-studio-1.png"
-            alt="MapperX Studio ekran görüntüsü"
-            width={1920}
-            height={1080}
-            className="w-full rounded-2xl shadow-2xl"
+            alt={t('image.alt')}
+            width={1600}
+            height={1200}
+            className="w-full h-auto rounded-xl"
+            priority
           />
         </div>
       </div>

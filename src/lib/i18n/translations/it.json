@@ -239,5 +239,71 @@
       "Rileva automaticamente i tipi e le posizioni delle anomalie.",
       "Fornisci accesso rapido ai team sul campo con l'integrazione di codici QR."
     ]
+  },
+  "inspectionAndAudit": {
+    "hero": {
+      "subtitle": "Passi Potenti nell'Efficienza Energetica",
+      "title": "Ottimizza i tuoi Processi di Ispezione e Verifica",
+      "description": "Ottimizza i tuoi processi di ispezione e verifica negli impianti fotovoltaici digitalizzandoli. Aumenta la tua efficienza operativa gestendo le tue osservazioni, misurazioni e test in conformità con gli standard IEC 62446 attraverso la piattaforma MapperX. Risparmia manodopera e costi, accelera i tuoi processi di analisi e reportistica, e ottieni risultati accurati.",
+      "buttons": {
+        "contact": "Contatta un Esperto",
+        "register": "Registrati Ora"
+      },
+      "image": {
+        "alt": "Visuale Manutenzione Pannelli Solari"
+      }
+    },
+    "electricTest": {
+      "title": "Documenta facilmente i tuoi test e misurazioni elettriche",
+      "description": "Nelle operazioni di ispezione e audit, i team necessitano di tempo e risorse per condurre correttamente il loro lavoro collaborativo e creare report conformi agli standard registrando i risultati dei test e delle misurazioni elettriche. Con la piattaforma MapperX, puoi gestire i tuoi flussi di lavoro in modo efficiente e preciso rendendoli sostenibili, e creare report illimitati con il tuo logo secondo gli standard IEC 62446.",
+      "features": {
+        "1": "Crea gemelli digitali delle misurazioni e dei controlli elettrici.",
+        "2": "Gestisci i tuoi test, misurazioni e controlli in modo unificato.",
+        "3": "Pianifica ed esegui i tuoi controlli periodici in tempo."
+      },
+      "button": "Contatta un esperto",
+      "image": {
+        "alt": "Test e misurazioni elettriche"
+      }
+    },
+    "electricalInfrastructure": {
+      "title": "Gestisci le tue Operazioni di Infrastruttura Elettrica su un'Unica Piattaforma",
+      "description": "Le operazioni complesse di ispezione e verifica eseguite in momenti diversi e con apparecchiature diverse possono portare a rilevamenti errati rendendo difficile l'analisi nei flussi di lavoro manuali. Crea report autonomi raccogliendo dati di misurazione e test elettrici conformi agli standard su un'unica piattaforma con la piattaforma MapperX, e interpretali attraverso gemelli digitali sostenibili. Prendi azioni rapide e accurate.",
+      "features": {
+        "1": "Combina le tue misurazioni e test elettrici in un unico report.",
+        "2": "Aumenta l'efficienza sostenibile digitalizzando i tuoi processi di ispezione.",
+        "3": "Crea report illimitati ottimizzando tutti i tuoi flussi di lavoro."
+      },
+      "moreInfo": "Scopri di più",
+      "image": {
+        "alt": "Visuale Infrastruttura Elettrica"
+      }
+    },
+    "mapperXStudio": {
+      "title": "MapperX Studio",
+      "description": "MapperX Studio è uno strumento completo dove i clienti possono aggiungere e gestire i loro inverter, trasformatori e infrastruttura elettrica. Gli utenti possono creare gemelli digitali dei loro impianti, eseguire facilmente la numerazione di stringhe e pannelli, e pianificare tutti i componenti in dettaglio. Ottimizza tutti i tuoi processi di gestione dell'impianto da un'unica piattaforma senza richiedere software di terze parti e aumenta l'efficienza.",
+      "features": {
+        "1": {
+          "title": "Gestione dell'Infrastruttura Elettrica",
+          "description": "Permette di aggiungere e gestire i tuoi inverter, trasformatori e altri componenti elettrici."
+        },
+        "2": {
+          "title": "Numerazione e Pianificazione",
+          "description": "Pianifica il tuo impianto in dettaglio eseguendo facilmente la numerazione di stringhe e pannelli."
+        },
+        "3": {
+          "title": "Tecnologia del Gemello Digitale",
+          "description": "Ottimizza tutti i tuoi processi di gestione e aumenta l'efficienza creando il gemello digitale dell'impianto."
+        },
+        "4": {
+          "title": "Analisi Completa",
+          "description": "Analizza tutti i tuoi dati dell'impianto in dettaglio e genera insights."
+        }
+      },
+      "button": "Contatta un Esperto",
+      "image": {
+        "alt": "Screenshot MapperX Studio"
+      }
+    }
   }
 } 

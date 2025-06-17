@@ -1,0 +1,339 @@
+{
+  "nav": {
+    "home": "Ana Sayfa",
+    "platform": "Platform",
+    "resources": "Kaynaklar",
+    "corporate": "Kurumsal",
+    "about": "Hakkımızda",
+    "services": "Hizmetler",
+    "contact": "İletişim",
+    "pricing": "Fiyatlar",
+    "faq": "SSS",
+    "blog": "Blog",
+    "support": "Bilgi Bankası",
+    "thermographic": "Termografik İnceleme",
+    "inspection": "Denetim ve Muayene",
+    "powerPlant": "Santral Yönetimi",
+    "rAndD": "Ar-Ge",
+    "career": "Kariyer",
+    "openPositions": "Açık Pozisyonlar",
+    "internship": "Staj Programı"
+  },
+  "languages": {
+    "tr": "Türkçe",
+    "en": "English",
+    "de": "Deutsch",
+    "it": "Italiano",
+    "fr": "Français"
+  },
+  "hero": {
+    "title": {
+      "line1": "Güneş Enerjisi Santrallerinde,",
+      "line2": "Analiz, Yönetim ve Raporlama Platformu."
+    },
+    "image": {
+      "alt": "MapperX Arayüz",
+      "src": "/mapperx-header-box-tr.png"
+    }
+  },
+  "features": {
+    "section": {
+      "title": "Öne Çıkan Özellikler",
+      "subtitle": "MapperX ile enerji sektörünün geleceğini keşfedin!"
+    },
+    "items": [
+      {
+        "title": "Yapay Zeka Destekli Termografik Muayene",
+        "description": "MapperX, yapay zeka destekli termografik muayene yetenekleriyle tesislerinizde maksimum güvenilirlik sağlar. Gelişmiş analiz algoritmaları ve endüstri lideri drone teknolojisi sayesinde, ekipmanlarınızın termal anormalliklerini erken aşamada tespit ederek arızaları önleyebilirsiniz. Proaktif bakım yaklaşımıyla operasyonel sürekliliğinizi artırırken, bakım maliyetlerinizi önemli ölçüde azaltabilirsiniz. MapperX ile veri odaklı kararlar alarak enerji sistemlerinizde sürdürülebilir performans elde edin ve geleceğe güvenle ilerleyin.",
+        "image": "/features/ges-yapay-zeka-termografik-muayene@2x-100_675x1200.jpg"
+      },
+      {
+        "title": "IEC Uyumlu Otonom Anomali Tespiti",
+        "description": "MapperX, IEC standartlarına tam uyumlu otonom anomali tespiti ile enerji sistemlerinizde en yüksek denetim kalitesini sunar. Yapay zeka destekli analiz motoru sayesinde, termal verileri hassasiyetle işleyerek anormallikleri otomatik olarak tespit eder ve sınıflandırır. Uluslararası standartlara uygunluk sayesinde denetim süreçlerinizi güvence altına alırken, bakım planlamanızı optimize edebilir ve arıza risklerini en aza indirebilirsiniz. MapperX ile doğrulanabilir, güvenilir ve hızlı analizlerle tesis güvenliğinizi ve performansınızı üst seviyeye taşıyın.",
+        "image": "/features/ges-iec-uyumlu-otonom-anomali-tespiti@2x-100_675x1200.jpg"
+      },
+      {
+        "title": "Verimlilik Analizi ve Finansal Kayıp Tespiti",
+        "description": "MapperX, enerji üretim süreçlerinizde verimlilik analizi ve finansal kayıp tespiti yaparak işletmenizin kârlılığını maksimize etmenizi sağlar. Gelişmiş veri analitiği ve yapay zeka algoritmalarıyla üretim kayıplarını anlık olarak tespit eder, performans düşüşlerinin kök nedenlerini ortaya koyar. Bu sayede enerji üretiminde verimsizlik kaynaklarını önceden belirleyebilir, finansal kayıpları minimize ederek yatırım getirinizi artırabilirsiniz. MapperX ile enerji yatırımlarınızdan en yüksek verimi alın ve işletme kârlılığınızı güçlendirin.",
+        "image": "/features/ges-verimlilik-analizi-finansal-kayip-tespiti@2x-100_675x1200.jpg"
+      },
+      {
+        "title": "Bakım Süreçlerinizi Optimize Edin",
+        "description": "MapperX, bakım süreçlerinizi veriye dayalı analizlerle optimize ederek ekipmanlarınızın ömrünü uzatır ve arıza risklerini minimize eder. Yapay zeka destekli erken uyarı sistemleri sayesinde bakım ihtiyaçlarını önceden tespit ederek plansız duruşların önüne geçebilir, operasyonel verimliliğinizi artırabilirsiniz. Proaktif bakım yönetimiyle maliyetleri düşürürken, tesislerinizin performansını sürekli olarak yüksek seviyede tutun. MapperX ile bakım operasyonlarınızı daha akıllı, hızlı ve etkili hale getirin.",
+        "image": "/features/ges-bakim-sureclerinizi-optimize-edin@2x-100_675x1200.jpg"
+      },
+      {
+        "title": "Pilotsuz Otonom Uçuş",
+        "description": "MapperX, DJI Dock ve DJI Dock 2 entegrasyonu sayesinde santral operasyonlarınızı tamamen otomatik hale getirir. Pilotsuz uçuş teknolojisi ile planlanan görevler kesintisiz olarak gerçekleştirilir, veri toplama süreçleri hızlanır ve insan hatası riski ortadan kaldırılır. Hava koşullarını takip eden akıllı sistemler ve otomatik şarj istasyonları sayesinde operasyonlarınızı 7/24 güvenle sürdürebilir, bakım ve denetim süreçlerini minimum insan müdahalesiyle yönetebilirsiniz. MapperX ile tesislerinizde tam otomasyonun gücünü keşfedin ve operasyonel verimliliği en üst düzeye taşıyın.",
+        "image": "/features/ges-pilotsuz-otonom-ucus@2x-100_675x1200.jpg"
+      },
+      {
+        "title": "Panel Seri No Kaydedin ve Yönetin",
+        "description": "MapperX, güneş enerjisi panellerinizin seri numaralarını gelişmiş OCR teknolojisi ile otomatik olarak kaydederek envanter yönetiminizi kolaylaştırır. Tüm panelleri dijital ortamda takip ederek garanti süreçlerini etkin bir şekilde yönetebilir, bakım ve değiştirme ihtiyaçlarını hızlıca belirleyebilirsiniz. Otomatik tanımlama ve kayıt sistemi sayesinde insan hatalarını ortadan kaldırırken, panellerinizin izlenebilirliğini artırarak operasyonel verimliliğinizi üst seviyeye taşıyın. MapperX ile panel varlık yönetiminizi daha akıllı ve güvenilir hale getirin.",
+        "image": "/features/ges-panel-seri-no-kaydedin-yonetin@2x-100_675x1200.jpg"
+      },
+      {
+        "title": "Ölçüm ve Testlerinizi Raporlayın",
+        "description": "MapperX, elektriksel ölçüm ve testlerinizi detaylı raporlarla belgeleyerek tesislerinizin performansını ve güvenliğini güvence altına alır. String testleri, izolasyon direnci ölçümleri ve IV eğrisi analizleri gibi kritik verileri otomatik olarak toplayıp yorumlayarak, anormallikleri hızla tespit etmenizi sağlar. Standartlara uygun raporlamayla garanti süreçlerini destekler, bakım planlarınızı optimize eder ve yatırım kararlarınızı veriye dayalı olarak güçlendirirsiniz. MapperX ile elektriksel testlerinizi uçtan uca dijitalleştirin, her adımı kayıt altına alın ve şeffaflık sağlayın.",
+        "image": "/features/ges-olcum-testlerinizi-raporlayin@2x-100_675x1200.jpg"
+      },
+      {
+        "title": "Yüksek Hassasiyetli Konumlandırma",
+        "description": "MapperX, anomali tespit edilen güneş enerjisi panellerinizi yüksek hassasiyetli konumlandırma teknolojisi ile doğru koordinatlarında görüntülemenizi sağlar. MapperX APP üzerinden veya raporlardaki QR kodları kullanarak sahadaki panellere hızla ulaşabilir, operasyon süreçlerinizi önemli ölçüde hızlandırabilirsiniz. Detaylı konum verileri sayesinde bakım ekipleri doğru noktalara yönlendirilir, müdahale süresi kısalır ve saha operasyonları daha verimli hale gelir. MapperX ile arızalı panelleri kolayca tespit edin, bakım süreçlerinizi optimize edin ve operasyonel verimliliği artırın.",
+        "image": "/features/ges-yuksek-hassasiyetli-konumlandirma@2x-100_675x1200.jpg"
+      },
+      {
+        "title": "Akıllı ve Hızlı Raporlama",
+        "description": "MapperX, gelişmiş veri işleme ve otomasyon yetenekleriyle ölçüm ve muayene sonuçlarınızı akıllı ve hızlı bir şekilde raporlar. Anomali tespiti, elektriksel ölçümler ve termal analizler gibi kritik verileri otomatik olarak düzenleyerek anlaşılır ve eyleme dönüştürülebilir raporlar sunar. QR kod entegrasyonu ve dinamik görseller sayesinde saha ekipleri doğru bilgilere anında erişir, karar alma süreçleri hızlanır. MapperX ile raporlama süreçlerinizi dijitalleştirerek zamandan tasarruf edin ve operasyonel verimliliğinizi artırın.",
+        "image": "/features/ges-akilli-hizli-raporlama@2x-100_675x1200.jpg"
+      },
+      {
+        "title": "Yangın Risklerini Kontrol Altına Alın",
+        "description": "MapperX, güneş enerjisi santrallerinizde yangın risklerini erken aşamada tespit ederek güvenliği en üst seviyeye taşır. Yapay zeka destekli termografik analizler ve elektriksel ölçümlerle aşırı ısınma, bağlantı hatası ve izolasyon sorunlarını proaktif olarak belirleyin. Otomatik raporlama ve yüksek hassasiyetli konumlandırma sayesinde anormal durumlara hızlıca müdahale edin, olası yangınları başlamadan önleyin. MapperX ile operasyonel güvenliğinizi artırın, ekipmanlarınızı ve yatırımınızı koruma altına alın.",
+        "image": "/features/ges-yangin-risklerini-kontrol-altina-alin@2x-100_675x1200.jpg"
+      }
+    ]
+  },
+  "thermalInspection": {
+    "title": {
+      "line1": "Yapay Zeka Destekli",
+      "line2": "Termografik İnceleme"
+    },
+    "description": "MapperX ile güneş enerjisi santrallerinde yapay zeka destekli otonom termografik muayene gerçekleştirin. IEC 62446 standartlarına uyumlu olarak raporlar oluşturun.",
+    "features": [
+      "Yapay zeka destekli analizlerle hücre bazlı anomali tespiti yaparak sonuçları otonom raporlayın.",
+      "Termal drone ile haritalama yaparak, panellerinizin hızlı ve doğru sıcaklık analizlerini gerçekleştirin.",
+      "Santral bileşenlerinin termografik muayene operasyonlarını tek bir platformda toplayın ve yönetin."
+    ],
+    "button": "Daha fazla bilgi",
+    "images": {
+      "before": {
+        "src": "/thermal-inspection/mapperx-fault-type-slider-before-1.png",
+        "alt": "Termografik Muayene"
+      },
+      "after": {
+        "src": "/thermal-inspection/mapperx-fault-type-slider-after-1.png",
+        "alt": "Anomali İşaretli"
+      }
+    }
+  },
+  "compatibleDrones": {
+    "title": "MapperX ile Uyumlu Drone Modelleri",
+    "description": "MapperX yazılımı tarafından desteklenen drone modelleri ve uçuş talimatları hakkında detaylı bilgi için {helpCenter} inceleyebilirsiniz.",
+    "helpCenter": "yardım merkezini",
+    "drones": [
+      {
+        "name": "DJI Mavic 3T",
+        "image": "/dji-mavic-3t-thermal-camera-mapperx-1-1.png"
+      },
+      {
+        "name": "DJI Matrice 30T",
+        "image": "/dji_matrice_30t_thermal_drone_-_mapperx-software-1-1.png"
+      },
+      {
+        "name": "DJI Matrice 4T",
+        "image": "/DJI_Matrice_4T_Thermal_MapperX.png"
+      },
+      {
+        "name": "DJI Matrice 350 RTK + H20T / H30T",
+        "image": "/dji_matrice_300_-_h20t_thermal_camera_-_mapperx-2-1.png"
+      }
+    ]
+  },
+  "digitalTwin": {
+    "title": {
+      "line1": "Dijital İkiz Teknolojisiyle",
+      "line2": "Denetim ve Muayene"
+    },
+    "description": "MapperX ile santrallerinizin dijital ikizlerini oluşturun. Denetim ve muayene süreçlerinizi tek platform üzerinden yönetin. Platform sayesinde hız, verimlilik ve doğruluk sağlayın.",
+    "features": [
+      "Tek raporda elektriksel ölçüm ve testlerinizi birleştirin.",
+      "Denetim süreçlerinizi dijitalleştirerek sürdürülebilir verimliliği artırın.",
+      "Tüm iş akışlarınızı optimize ederek sınırsız raporlar oluşturun."
+    ],
+    "button": "Daha fazla bilgi",
+    "image": {
+      "src": "/features/mapperx-ges-bakim-1-1.png",
+      "alt": "Dijital İkiz Teknolojisiyle Denetim"
+    }
+  },
+  "realTimePlant": {
+    "title": {
+      "line1": "Gerçek Zamanlı",
+      "line2": "Santral Yönetimi"
+    },
+    "description": "Bakım ve onarım süreçlerini dijitalleştirerek santrallerinizde kestirimci ve periyodik bakım faaliyetlerini gerçekleştirin. Enerji üretiminde kesintisizliği sağlayın.",
+    "features": [
+      "İş akışlarınızı otonom hale getirerek maliyetlerinizi düşürün.",
+      "İş emirlerinizi etkili bir şekilde yöneterek operasyonel verimliliği artırın.",
+      "Seri numaralarınızı MapperX ile hızlı ve hatasız kayıt altına alın."
+    ],
+    "button": "Daha fazla bilgi",
+    "image": {
+      "src": "/mapperx-panel-seri-numarasi-okutma-1.png",
+      "alt": "Gerçek Zamanlı Santral Yönetimi"
+    }
+  },
+  "thermalAnalysis": {
+    "title": {
+      "line1": "Gelişmiş",
+      "line2": "Termal Analiz"
+    },
+    "description": "Termografik muayene süreçlerinde sıcaklık analizleri, arızalı güneş paneli tespitinde büyük önem taşır. MapperX ile panellerinizin sıcaklık ölçümlerini IEC 62446 standartlarına uyumlu olarak gerçekleştirin ve raporlayın. Sıcaklık farkı (DeltaT) hesaplaması yaparak riskli panelleri önceliklerine göre sıralayın.",
+    "features": [
+      "Otonom sıcaklık tespiti ile insan hatalarını minimum seviyede tutarak ölçümsel doğruluğu artırın.",
+      "Operasyon sürelerinizi ve maliyetlerinizi düşürerek verimliliğinizi artırın.",
+      "Sonradan oluşabilecek riskleri önceden tespit ederek yangın risklerinin önüne geçin."
+    ],
+    "images": {
+      "left": {
+        "src": "/thermal-inspection/mapperx-santral-gorunumu-3-1.png",
+        "alt": "Normal Görüntü"
+      },
+      "right": {
+        "src": "/thermal-inspection/mapperx-santral-gorunumu-4-1.png",
+        "alt": "Termal Görüntü"
+      }
+    }
+  },
+  "autonomousInspection": {
+    "subtitle": "Yapay Zeka Destekli",
+    "title": "Otonom Termografik Muayene",
+    "description": "Geleneksel termografik muayene süreçlerinde, arızalı panellerin ve santral bileşenlerinin konumlarına göre analizlerinin yapılması ciddi iş gücü ve maliyet gerektirir. MapperX Platformu üzerinden drone ile haritaladığınız santrallerinizin dijital ikizlerini oluşturarak analizlere kolayca erişin.",
+    "features": [
+      "Yapay zeka destekli otonom analizlerle iş gücü ve bakım maliyetlerini azaltın.",
+      "Drone'lar ile ulaşılması zor ve riskli bölgelere erişerek güvenlik tehlikelerinin önüne geçin.",
+      "Tahribatsız muayene ile santralde oluşabilecek potansiyel hasarların önüne geçin."
+    ],
+    "image": {
+      "src": "/thermal-inspection/mapperx-santral-gorunumu-6-1.png",
+      "alt": "Santral Görünümü"
+    }
+  },
+  "smartReporting": {
+    "subtitle": "Akıllı ve Hızlı",
+    "title": "Raporlama Sistemi",
+    "description": "MapperX'in gelişmiş raporlama sistemi ile santrallerinizin termografik muayene sonuçlarını hızlı ve detaylı bir şekilde analiz edin. Yapay zeka destekli anomali tespiti ve sınıflandırma özelliği sayesinde, raporlarınızı otomatik olarak oluşturun.",
+    "features": [
+      "IEC standartlarına uygun detaylı raporlar oluşturun.",
+      "Anomali türlerini ve konumlarını otomatik olarak tespit edin.",
+      "QR kod entegrasyonu ile saha ekiplerine hızlı erişim sağlayın."
+    ]
+  },
+  "partnership": {
+    "dronePilot": {
+      "title": "Drone Pilot Ağı",
+      "description": "MapperX sertifikalı pilotlardan teklif alın ve operasyonlarınızı küresel olarak genişletin.",
+      "button": "İletişime Geç"
+    },
+    "partnerProgram": {
+      "title": "Partner Programı",
+      "description": "Denetim Faaliyetlerinizi Optimize Etmek İçin Güçlü İş Birlikleri Kurun!",
+      "button": "İletişime Geç"
+    },
+    "image": {
+      "src": "/mapperx-dji_dock2-drone-1.png",
+      "alt": "DJI Dock 2"
+    }
+  },
+  "pricing": {
+    "title": "Fiyatlandırma",
+    "perMwp": "MWp başına",
+    "plans": [
+      {
+        "name": "Başlangıç",
+        "price": "$0.025",
+        "features": [
+          "GSD: 10.0 ± 0.5 cm/pixel",
+          "Yüksek Uçuş Seviyesi",
+          "Genel Solar Modül İncelemesi",
+          "Düşük Detaylı İnceleme",
+          "2 Farklı Türde Anomali Tespiti",
+          "BOS Bileşenleri Modülü (Opsiyonel)",
+          "Termal ve RGB İnceleme",
+          "İş Emirleri Modülü",
+          "Panel Seri No Tarama Modülü",
+          "Verimlilik Hesaplama",
+          "Detaylı Raporlama"
+        ]
+      },
+      {
+        "name": "Profesyonel",
+        "price": "$0.040",
+        "features": [
+          "GSD: 5.0 ± 0.5 cm/pixel",
+          "Orta Uçuş Seviyesi",
+          "Hücre Bazlı Anomali İncelemesi",
+          "Detaylı İnceleme",
+          "12 Farklı Türde Anomali Tespiti",
+          "BOS Bileşenleri Modülü (Opsiyonel)",
+          "Termal ve RGB İnceleme",
+          "İş Emirleri Modülü",
+          "Panel Seri No Tarama Modülü",
+          "Verimlilik Hesaplama",
+          "Detaylı Raporlama"
+        ]
+      },
+      {
+        "name": "Enterprise",
+        "price": "$0.055",
+        "features": [
+          "GSD: 3.0 ± 0.5 cm/pixel",
+          "Alçak Uçuş Seviyesi",
+          "IEC 62446-3 Standartlarına Uygun İnceleme",
+          "Kapsamlı İnceleme",
+          "12 Farklı Türde Anomali Tespiti",
+          "BOS Bileşenleri Modülü",
+          "Termal ve RGB İnceleme",
+          "İş Emirleri Modülü",
+          "Panel Seri No Tarama Modülü",
+          "Verimlilik Hesaplama",
+          "Detaylı Raporlama"
+        ]
+      }
+    ],
+    "calculatePrice": "Fiyat Hesaplama"
+  },
+  "faq": {
+    "title": "Sıkça Sorulan Sorular",
+    "showAll": "Hepsini Göster",
+    "helpCenter": {
+      "description": "MapperX Yardım Merkezi, MapperX platformunun kullanımını kolaylaştırmak ve verimliliği artırmak amacıyla hazırlanmış kapsamlı bir dokümantasyon kaynağıdır. Kullanıcıların ihtiyaç duyduğu bilgilere hızlı ve etkili bir şekilde ulaşmalarını sağlar.",
+      "button": "Yardım Merkezi"
+    },
+    "technicalSupport": {
+      "description": "MapperX platformunda drone uçuş planlama süreci için bölge seçimi, rota oluşturma ve veri toplama adımlarını takip edin. Herhangi bir sorunla karşılaşırsanız, teknik destek ekibimizle iletişime geçebilirsiniz.",
+      "button": "Teknik Destek"
+    },
+    "blog": {
+      "title": "Blog",
+      "description": "Güneş enerjisi sistemleriyle ilgili son teknoloji haberleri, sektörel gelişmeler ve küresel enerji trendleri hakkında yazılar bulabilirsiniz.",
+      "subDescription": "Sektördeki uzmanlarımızdan güneş enerjisiyle ilgili ipuçları ve güneş enerjisi sistemlerinin geleceği hakkında bilgi edinin.",
+      "button": "Tüm Yazıları Görüntüle"
+    }
+  },
+  "reportDownload": {
+    "title": "Yapay Zekanın Geleceğine İnanın!",
+    "description": "MapperX, PV panel denetiminden daha fazlasıdır. Yapay zeka ile hata tespiti, dijital ikiz teknolojisi ve detaylı raporlama hakkında detaylı bilgi için aşağıdaki formu doldurun.",
+    "form": {
+      "fullName": "İsim Soyisim",
+      "email": "E-Posta",
+      "phone": "Telefon Numarası",
+      "required": "Bu alan zorunludur.",
+      "invalidEmail": "Lütfen geçerli bir e-posta adresi girin.",
+      "download": "Hemen İndir"
+    },
+    "image": {
+      "alt": "Termografik Muayene Raporu"
+    }
+  },
+  "thermographicInspection": {
+    "title": "Termografik İnceleme",
+    "subtitle": "Yapay Zeka Destekli Termografik Muayene",
+    "description": "MapperX ile güneş enerjisi santrallerinde yapay zeka destekli otonom termografik muayene gerçekleştirin. IEC 62446 standartlarına uyumlu olarak raporlar oluşturun.",
+    "buttons": {
+      "register": "Hemen Başla",
+      "contact": "Bize Ulaşın"
+    }
+  }
+} 

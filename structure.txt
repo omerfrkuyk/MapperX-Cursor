@@ -1,0 +1,35 @@
+.
+├── eslint.config.mjs
+├── next-env.d.ts
+├── next.config.ts
+├── package-lock.json
+├── package.json
+├── postcss.config.mjs
+├── public
+│   ├── file.svg
+│   ├── globe.svg
+│   ├── logo.svg
+│   ├── mapperx-header-box-tr.png
+│   ├── next.svg
+│   ├── vercel.svg
+│   └── window.svg
+├── README.md
+├── src
+│   ├── app
+│   │   ├── favicon.ico
+│   │   ├── globals.css
+│   │   ├── layout.tsx
+│   │   └── page.tsx
+│   ├── components
+│   │   ├── FeaturedCard.tsx
+│   │   ├── FeatureModal.tsx
+│   │   ├── FeaturesSection.tsx
+│   │   ├── Footer.tsx
+│   │   ├── HeroSection.tsx
+│   │   └── Navbar.tsx
+│   └── data
+│       └── featuresData.ts
+├── structure.txt
+└── tsconfig.json
+
+6 directories, 27 files

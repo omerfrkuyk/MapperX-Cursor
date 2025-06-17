@@ -1,0 +1,332 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "contact": "Contact",
+    "pricing": "Pricing",
+    "faq": "FAQ",
+    "blog": "Blog",
+    "support": "Knowledge Base",
+    "thermographic": "Thermographic Inspection",
+    "inspection": "Inspection and Audit",
+    "powerPlant": "Power Plant Management"
+  },
+  "languages": {
+    "tr": "Türkçe",
+    "en": "English",
+    "de": "Deutsch",
+    "it": "Italiano",
+    "fr": "Français"
+  },
+  "hero": {
+    "title": {
+      "line1": "For Solar Power Plants,",
+      "line2": "Analysis, Management and Reporting Platform."
+    },
+    "image": {
+      "alt": "MapperX Interface",
+      "src": "/mapperx-header-box-en.png"
+    }
+  },
+  "features": {
+    "section": {
+      "title": "Featured Capabilities",
+      "subtitle": "Discover the future of energy sector with MapperX!"
+    },
+    "items": [
+      {
+        "title": "AI-Powered Thermographic Inspection",
+        "description": "MapperX ensures maximum reliability in your facilities with AI-powered thermographic inspection capabilities. Through advanced analysis algorithms and industry-leading drone technology, you can detect thermal anomalies in your equipment at an early stage and prevent failures. While increasing your operational continuity with a proactive maintenance approach, you can significantly reduce your maintenance costs. Make data-driven decisions with MapperX and achieve sustainable performance in your energy systems.",
+        "image": "/features/ges-yapay-zeka-termografik-muayene@2x-100_675x1200.jpg"
+      },
+      {
+        "title": "IEC Compliant Autonomous Anomaly Detection",
+        "description": "MapperX offers the highest inspection quality in your energy systems with IEC standards-compliant autonomous anomaly detection. Thanks to its AI-powered analysis engine, it processes thermal data with precision to automatically detect and classify anomalies. While securing your inspection processes through compliance with international standards, you can optimize your maintenance planning and minimize failure risks. Take your facility safety and performance to the next level with verifiable, reliable, and fast analyses.",
+        "image": "/features/ges-iec-uyumlu-otonom-anomali-tespiti@2x-100_675x1200.jpg"
+      },
+      {
+        "title": "Efficiency Analysis and Financial Loss Detection",
+        "description": "MapperX helps you maximize your business profitability by conducting efficiency analysis and financial loss detection in your energy production processes. Through advanced data analytics and AI algorithms, it detects production losses in real-time and reveals the root causes of performance drops. This way, you can identify sources of inefficiency in energy production in advance and increase your investment return by minimizing financial losses. Get the highest efficiency from your energy investments and strengthen your operational profitability with MapperX.",
+        "image": "/features/ges-verimlilik-analizi-finansal-kayip-tespiti@2x-100_675x1200.jpg"
+      },
+      {
+        "title": "Optimize Your Maintenance Processes",
+        "description": "MapperX extends the life of your equipment and minimizes failure risks by optimizing your maintenance processes with data-driven analyses. Through AI-powered early warning systems, you can prevent unplanned downtime by detecting maintenance needs in advance and increase your operational efficiency. While reducing costs with proactive maintenance management, keep your facilities' performance consistently high. Make your maintenance operations smarter, faster, and more effective with MapperX.",
+        "image": "/features/ges-bakim-sureclerinizi-optimize-edin@2x-100_675x1200.jpg"
+      },
+      {
+        "title": "Pilotless Autonomous Flight",
+        "description": "MapperX fully automates your power plant operations through DJI Dock and DJI Dock 2 integration. With pilotless flight technology, planned tasks are carried out uninterruptedly, data collection processes are accelerated, and human error risk is eliminated. Thanks to intelligent systems that monitor weather conditions and automatic charging stations, you can safely continue your operations 24/7 and manage maintenance and inspection processes with minimal human intervention. Discover the power of full automation in your facilities and maximize operational efficiency with MapperX.",
+        "image": "/features/ges-pilotsuz-otonom-ucus@2x-100_675x1200.jpg"
+      },
+      {
+        "title": "Record and Manage Panel Serial Numbers",
+        "description": "MapperX simplifies your inventory management by automatically recording your solar panel serial numbers using advanced OCR technology. By tracking all panels digitally, you can effectively manage warranty processes and quickly identify maintenance and replacement needs. While eliminating human errors through automatic identification and registration system, increase your operational efficiency by enhancing panel traceability. Make your panel asset management smarter and more reliable with MapperX.",
+        "image": "/features/ges-panel-seri-no-kaydedin-yonetin@2x-100_675x1200.jpg"
+      },
+      {
+        "title": "Report Your Measurements and Tests",
+        "description": "MapperX secures your facilities' performance and safety by documenting your electrical measurements and tests with detailed reports. By automatically collecting and interpreting critical data such as string tests, insulation resistance measurements, and IV curve analyses, it enables you to quickly detect anomalies. Support warranty processes with standards-compliant reporting, optimize your maintenance plans, and strengthen your investment decisions based on data. Digitalize your electrical tests end-to-end, record every step, and ensure transparency with MapperX.",
+        "image": "/features/ges-olcum-testlerinizi-raporlayin@2x-100_675x1200.jpg"
+      },
+      {
+        "title": "High-Precision Positioning",
+        "description": "MapperX enables you to view your solar panels with detected anomalies at their precise coordinates using high-precision positioning technology. You can quickly reach panels in the field using MapperX APP or QR codes in reports, significantly accelerating your operation processes. Thanks to detailed location data, maintenance teams are directed to the correct points, intervention time is shortened, and field operations become more efficient. Easily detect faulty panels, optimize your maintenance processes, and increase operational efficiency with MapperX.",
+        "image": "/features/ges-yuksek-hassasiyetli-konumlandirma@2x-100_675x1200.jpg"
+      },
+      {
+        "title": "Smart and Fast Reporting",
+        "description": "MapperX smartly and quickly reports your measurement and inspection results with advanced data processing and automation capabilities. It provides clear and actionable reports by automatically organizing critical data such as anomaly detection, electrical measurements, and thermal analyses. Field teams instantly access accurate information through QR code integration and dynamic visuals, accelerating decision-making processes. Save time by digitalizing your reporting processes and increase your operational efficiency with MapperX.",
+        "image": "/features/ges-akilli-hizli-raporlama@2x-100_675x1200.jpg"
+      },
+      {
+        "title": "Control Fire Risks",
+        "description": "MapperX takes safety to the highest level by detecting fire risks in your solar power plants at an early stage. Proactively identify overheating, connection faults, and insulation problems through AI-powered thermographic analyses and electrical measurements. Quickly respond to abnormal situations and prevent potential fires before they start through automatic reporting and high-precision positioning. Increase your operational safety and protect your equipment and investment with MapperX.",
+        "image": "/features/ges-yangin-risklerini-kontrol-altina-alin@2x-100_675x1200.jpg"
+      }
+    ]
+  },
+  "thermalInspection": {
+    "title": {
+      "line1": "AI-Powered",
+      "line2": "Thermographic Inspection"
+    },
+    "description": "Perform AI-powered autonomous thermographic inspection in solar power plants with MapperX. Generate reports in compliance with IEC 62446 standards.",
+    "features": [
+      "Conduct cell-based anomaly detection with AI-powered analyses and report results autonomously.",
+      "Perform quick and accurate temperature analyses of your panels by mapping with thermal drone.",
+      "Collect and manage thermographic inspection operations of power plant components on a single platform."
+    ],
+    "button": "Learn more",
+    "images": {
+      "before": {
+        "src": "/thermal-inspection/mapperx-fault-type-slider-before-1.png",
+        "alt": "Thermographic Inspection"
+      },
+      "after": {
+        "src": "/thermal-inspection/mapperx-fault-type-slider-after-1.png",
+        "alt": "Anomaly Marked"
+      }
+    }
+  },
+  "compatibleDrones": {
+    "title": "Drone Models Compatible with MapperX",
+    "description": "You can review the {helpCenter} for detailed information about drone models and flight instructions supported by MapperX software.",
+    "helpCenter": "help center",
+    "drones": [
+      {
+        "name": "DJI Mavic 3T",
+        "image": "/dji-mavic-3t-thermal-camera-mapperx-1-1.png"
+      },
+      {
+        "name": "DJI Matrice 30T",
+        "image": "/dji_matrice_30t_thermal_drone_-_mapperx-software-1-1.png"
+      },
+      {
+        "name": "DJI Matrice 4T",
+        "image": "/DJI_Matrice_4T_Thermal_MapperX.png"
+      },
+      {
+        "name": "DJI Matrice 350 RTK + H20T / H30T",
+        "image": "/dji_matrice_300_-_h20t_thermal_camera_-_mapperx-2-1.png"
+      }
+    ]
+  },
+  "digitalTwin": {
+    "title": {
+      "line1": "With Digital Twin Technology",
+      "line2": "Inspection and Audit"
+    },
+    "description": "Create digital twins of your power plants with MapperX. Manage your inspection and audit processes from a single platform. Achieve speed, efficiency, and accuracy through the platform.",
+    "features": [
+      "Combine your electrical measurements and tests in a single report.",
+      "Increase sustainable efficiency by digitalizing your inspection processes.",
+      "Create unlimited reports by optimizing all your workflows."
+    ],
+    "button": "Learn more",
+    "image": {
+      "src": "/features/mapperx-ges-bakim-1-1.png",
+      "alt": "Inspection with Digital Twin Technology"
+    }
+  },
+  "realTimePlant": {
+    "title": {
+      "line1": "Real-Time",
+      "line2": "Plant Management"
+    },
+    "description": "Perform predictive and periodic maintenance activities in your power plants by digitalizing maintenance and repair processes. Ensure uninterrupted energy production.",
+    "features": [
+      "Reduce your costs by making your workflows autonomous.",
+      "Increase operational efficiency by effectively managing your work orders.",
+      "Record your serial numbers quickly and accurately with MapperX."
+    ],
+    "button": "Learn more",
+    "image": {
+      "src": "/mapperx-panel-seri-numarasi-okutma-1.png",
+      "alt": "Real-Time Plant Management"
+    }
+  },
+  "thermalAnalysis": {
+    "title": {
+      "line1": "Advanced",
+      "line2": "Thermal Analysis"
+    },
+    "description": "Temperature analysis in thermographic inspection processes is crucial for detecting faulty solar panels. With MapperX, perform and report your panel temperature measurements in compliance with IEC 62446 standards. Prioritize risky panels by calculating temperature differences (DeltaT).",
+    "features": [
+      "Increase measurement accuracy by minimizing human errors through autonomous temperature detection.",
+      "Increase your efficiency by reducing operation times and costs.",
+      "Prevent fire risks by detecting potential risks in advance."
+    ],
+    "images": {
+      "left": {
+        "src": "/thermal-inspection/mapperx-santral-gorunumu-3-1.png",
+        "alt": "Normal View"
+      },
+      "right": {
+        "src": "/thermal-inspection/mapperx-santral-gorunumu-4-1.png",
+        "alt": "Thermal View"
+      }
+    }
+  },
+  "autonomousInspection": {
+    "subtitle": "AI-Powered",
+    "title": "Autonomous Thermographic Inspection",
+    "description": "In traditional thermographic inspection processes, analyzing faulty panels and power plant components based on their locations requires significant labor and cost. Through the MapperX Platform, create digital twins of your drone-mapped power plants and easily access analyses.",
+    "features": [
+      "Reduce labor and maintenance costs with AI-powered autonomous analyses.",
+      "Prevent safety hazards by accessing hard-to-reach and risky areas with drones.",
+      "Prevent potential damage in the power plant through non-destructive inspection."
+    ],
+    "image": {
+      "src": "/thermal-inspection/mapperx-santral-gorunumu-6-1.png",
+      "alt": "Power Plant View"
+    }
+  },
+  "smartReporting": {
+    "subtitle": "Smart and Fast",
+    "title": "Reporting System",
+    "description": "Analyze your power plants' thermographic inspection results quickly and in detail with MapperX's advanced reporting system. Generate your reports automatically thanks to AI-powered anomaly detection and classification features.",
+    "features": [
+      "Create detailed reports compliant with IEC standards.",
+      "Automatically detect anomaly types and locations.",
+      "Provide quick access to field teams with QR code integration."
+    ]
+  },
+  "partnership": {
+    "dronePilot": {
+      "title": "Drone Pilot Network",
+      "description": "Get quotes from MapperX certified pilots and expand your operations globally.",
+      "button": "Get in touch"
+    },
+    "partnerProgram": {
+      "title": "Partner Program",
+      "description": "Build Strong Collaborations to Optimize Your Inspection Activities!",
+      "button": "Get in touch"
+    },
+    "image": {
+      "src": "/mapperx-dji_dock2-drone-1.png",
+      "alt": "DJI Dock 2"
+    }
+  },
+  "pricing": {
+    "title": "Pricing",
+    "perMwp": "per MWp",
+    "plans": [
+      {
+        "name": "Starter",
+        "price": "$0.025",
+        "features": [
+          "GSD: 10.0 ± 0.5 cm/pixel",
+          "High Flight Level",
+          "General Solar Module Inspection",
+          "Low Detail Inspection",
+          "2 Different Types of Anomaly Detection",
+          "BOS Components Module (Optional)",
+          "Thermal and RGB Inspection",
+          "Work Orders Module",
+          "Panel Serial No Scanning Module",
+          "Efficiency Calculation",
+          "Detailed Reporting"
+        ]
+      },
+      {
+        "name": "Professional",
+        "price": "$0.040",
+        "features": [
+          "GSD: 5.0 ± 0.5 cm/pixel",
+          "Medium Flight Level",
+          "Cell-Based Anomaly Inspection",
+          "Detailed Inspection",
+          "12 Different Types of Anomaly Detection",
+          "BOS Components Module (Optional)",
+          "Thermal and RGB Inspection",
+          "Work Orders Module",
+          "Panel Serial No Scanning Module",
+          "Efficiency Calculation",
+          "Detailed Reporting"
+        ]
+      },
+      {
+        "name": "Enterprise",
+        "price": "$0.055",
+        "features": [
+          "GSD: 3.0 ± 0.5 cm/pixel",
+          "Low Flight Level",
+          "IEC 62446-3 Standards Compliant Inspection",
+          "Comprehensive Inspection",
+          "12 Different Types of Anomaly Detection",
+          "BOS Components Module",
+          "Thermal and RGB Inspection",
+          "Work Orders Module",
+          "Panel Serial No Scanning Module",
+          "Efficiency Calculation",
+          "Detailed Reporting"
+        ]
+      }
+    ],
+    "calculatePrice": "Calculate Price"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "showAll": "Show All",
+    "helpCenter": {
+      "description": "MapperX Help Center is a comprehensive documentation resource designed to facilitate the use of the MapperX platform and increase efficiency. It enables users to quickly and effectively access the information they need.",
+      "button": "Help Center"
+    },
+    "technicalSupport": {
+      "description": "Follow the steps of region selection, route creation, and data collection for the drone flight planning process on the MapperX platform. If you encounter any issues, you can contact our technical support team.",
+      "button": "Technical Support"
+    },
+    "blog": {
+      "title": "Blog",
+      "description": "Find articles about the latest technology news, industry developments, and global energy trends related to solar energy systems.",
+      "subDescription": "Get insights about solar energy from our industry experts and learn about the future of solar energy systems.",
+      "button": "View All Posts"
+    }
+  },
+  "reportDownload": {
+    "title": "Believe in the Future of Artificial Intelligence!",
+    "description": "MapperX is more than PV panel inspection. Fill out the form below for detailed information about AI-powered fault detection, digital twin technology, and detailed reporting.",
+    "form": {
+      "fullName": "Full Name",
+      "email": "Email",
+      "phone": "Phone Number",
+      "required": "This field is required.",
+      "invalidEmail": "Please enter a valid email address.",
+      "download": "Download Now"
+    },
+    "image": {
+      "alt": "Thermographic Inspection Report"
+    }
+  },
+  "thermographicInspection": {
+    "title": "Thermographic Inspection",
+    "subtitle": "AI-Powered Thermographic Inspection",
+    "description": "Perform AI-powered autonomous thermographic inspection in solar power plants with MapperX. Generate reports in compliance with IEC 62446 standards.",
+    "buttons": {
+      "register": "Get Started",
+      "contact": "Contact Us"
+    }
+  }
+} 

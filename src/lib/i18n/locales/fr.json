@@ -1,0 +1,56 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "services": "Services",
+    "contact": "Contact"
+  },
+  "languages": {
+    "tr": "Türkçe",
+    "en": "English",
+    "de": "Deutsch",
+    "fr": "Français",
+    "it": "Italiano"
+  },
+  "hero": {
+    "title": "Solutions alimentées par l'IA pour vos centrales solaires",
+    "subtitle": "Augmentez les performances, réduisez les coûts de maintenance",
+    "imageAlt": "Solutions de drone MapperX"
+  },
+  "features": {
+    "section": {
+      "title": "Pourquoi MapperX ?",
+      "subtitle": "Solutions complètes pour vos centrales solaires"
+    },
+    "items": [
+      {
+        "title": "Analyse alimentée par l'IA",
+        "description": "Analysez les performances de vos centrales avec des algorithmes d'intelligence artificielle avancés",
+        "imageAlt": "Analyse IA"
+      }
+    ]
+  },
+  "thermalInspection": {
+    "title": {
+      "line1": "Inspection thermique",
+      "line2": "alimentée par l'IA"
+    },
+    "description": "Effectuez une inspection thermique autonome alimentée par l'IA dans les centrales solaires avec MapperX. Générez des rapports conformes aux normes IEC 62446.",
+    "features": [
+      "Détectez les anomalies au niveau des cellules avec une analyse alimentée par l'IA et générez des rapports autonomes.",
+      "Effectuez une analyse rapide et précise de la température de vos panneaux grâce à la cartographie par drone thermique.",
+      "Collectez et gérez les opérations d'inspection thermique des composants de la centrale sur une seule plateforme."
+    ],
+    "button": "En savoir plus",
+    "images": {
+      "before": {
+        "src": "/thermal-inspection/mapperx-fault-type-slider-before-1.png",
+        "alt": "Inspection thermique"
+      },
+      "after": {
+        "src": "/thermal-inspection/mapperx-fault-type-slider-after-1.png",
+        "alt": "Anomalie marquée"
+      }
+    }
+  }
+} 

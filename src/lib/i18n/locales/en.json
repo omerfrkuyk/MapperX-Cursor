@@ -1,0 +1,56 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "contact": "Contact"
+  },
+  "languages": {
+    "tr": "Türkçe",
+    "en": "English",
+    "de": "Deutsch",
+    "fr": "Français",
+    "it": "Italiano"
+  },
+  "hero": {
+    "title": "AI-Powered Solutions for Your Solar Power Plants",
+    "subtitle": "Increase performance, reduce maintenance costs",
+    "imageAlt": "MapperX Drone Solutions"
+  },
+  "features": {
+    "section": {
+      "title": "Why MapperX?",
+      "subtitle": "Comprehensive solutions for your solar power plants"
+    },
+    "items": [
+      {
+        "title": "AI-Powered Analysis",
+        "description": "Analyze your power plants' performance with advanced artificial intelligence algorithms",
+        "imageAlt": "AI Analysis"
+      }
+    ]
+  },
+  "thermalInspection": {
+    "title": {
+      "line1": "AI-Powered",
+      "line2": "Thermal Inspection"
+    },
+    "description": "Perform AI-powered autonomous thermal inspection in solar power plants with MapperX. Generate reports compliant with IEC 62446 standards.",
+    "features": [
+      "Detect cell-based anomalies with AI-powered analysis and generate autonomous reports.",
+      "Perform quick and accurate temperature analysis of your panels through thermal drone mapping.",
+      "Collect and manage thermal inspection operations of plant components on a single platform."
+    ],
+    "button": "Learn more",
+    "images": {
+      "before": {
+        "src": "/thermal-inspection/mapperx-fault-type-slider-before-1.png",
+        "alt": "Thermal Inspection"
+      },
+      "after": {
+        "src": "/thermal-inspection/mapperx-fault-type-slider-after-1.png",
+        "alt": "Anomaly Marked"
+      }
+    }
+  }
+} 

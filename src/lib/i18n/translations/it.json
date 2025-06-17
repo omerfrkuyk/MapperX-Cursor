@@ -1,0 +1,241 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "Aziendale",
+    "services": "Servizi",
+    "contact": "Contatti",
+    "pricing": "Prezzi",
+    "faq": "FAQ",
+    "blog": "Blog",
+    "support": "Knowledge Base",
+    "thermographic": "Ispezione Termografica",
+    "inspection": "Ispezione e Verifica",
+    "powerPlant": "Gestione della Centrale"
+  },
+  "languages": {
+    "tr": "Türkçe",
+    "en": "English",
+    "de": "Deutsch",
+    "it": "Italiano",
+    "fr": "Français"
+  },
+  "hero": {
+    "title": {
+      "line1": "Per gli Impianti Fotovoltaici,",
+      "line2": "Piattaforma di Analisi, Gestione e Reporting."
+    },
+    "image": {
+      "alt": "Interfaccia MapperX",
+      "src": "/mapperx-header-box-it.png"
+    }
+  },
+  "features": {
+    "section": {
+      "title": "Funzionalità Principali",
+      "subtitle": "Scopri il futuro del settore energetico con MapperX!"
+    },
+    "items": [
+      {
+        "title": "Ispezione Termografica Assistita da IA",
+        "description": "MapperX garantisce la massima affidabilità nei vostri impianti con capacità di ispezione termografica assistita da IA. Attraverso algoritmi di analisi avanzati e tecnologia drone leader del settore, potete rilevare anomalie termiche nelle vostre apparecchiature in fase precoce e prevenire guasti. Mentre aumentate la vostra continuità operativa con un approccio di manutenzione proattivo, potete ridurre significativamente i costi di manutenzione. Prendete decisioni basate sui dati con MapperX e ottenete prestazioni sostenibili nei vostri sistemi energetici.",
+        "image": "/features/ges-yapay-zeka-termografik-muayene@2x-100_675x1200.jpg"
+      },
+      {
+        "title": "Rilevamento Autonomo di Anomalie Conforme IEC",
+        "description": "MapperX offre la massima qualità di ispezione nei vostri sistemi energetici con rilevamento autonomo di anomalie conforme agli standard IEC. Grazie al suo motore di analisi alimentato da IA, elabora i dati termici con precisione per rilevare e classificare automaticamente le anomalie. Mentre assicurate i vostri processi di ispezione attraverso la conformità agli standard internazionali, potete ottimizzare la pianificazione della manutenzione e minimizzare i rischi di guasto. Portate la sicurezza e le prestazioni del vostro impianto al livello successivo con analisi verificabili, affidabili e veloci.",
+        "image": "/features/ges-iec-uyumlu-otonom-anomali-tespiti@2x-100_675x1200.jpg"
+      },
+      {
+        "title": "Analisi di Efficienza e Rilevamento Perdite Finanziarie",
+        "description": "MapperX vi aiuta a massimizzare la redditività aziendale conducendo analisi di efficienza e rilevando perdite finanziarie nei vostri processi di produzione energetica. Attraverso analisi dati avanzate e algoritmi di IA, rileva le perdite di produzione in tempo reale e rivela le cause profonde dei cali di prestazione. In questo modo, potete identificare in anticipo le fonti di inefficienza nella produzione energetica e aumentare il ritorno sull'investimento minimizzando le perdite finanziarie. Ottenete la massima efficienza dai vostri investimenti energetici e rafforzate la redditività operativa con MapperX.",
+        "image": "/features/ges-verimlilik-analizi-finansal-kayip-tespiti@2x-100_675x1200.jpg"
+      },
+      {
+        "title": "Ottimizzate i Vostri Processi di Manutenzione",
+        "description": "MapperX prolunga la vita delle vostre apparecchiature e minimizza i rischi di guasto ottimizzando i vostri processi di manutenzione con analisi basate sui dati. Attraverso sistemi di allerta precoce alimentati da IA, potete prevenire i tempi di inattività non pianificati rilevando le necessità di manutenzione in anticipo e aumentare la vostra efficienza operativa. Mentre riducete i costi con una gestione proattiva della manutenzione, mantenete le prestazioni dei vostri impianti costantemente elevate. Rendete le vostre operazioni di manutenzione più intelligenti, veloci ed efficaci con MapperX.",
+        "image": "/features/ges-bakim-sureclerinizi-optimize-edin@2x-100_675x1200.jpg"
+      },
+      {
+        "title": "Volo Autonomo senza Pilota",
+        "description": "MapperX automatizza completamente le vostre operazioni di centrale attraverso l'integrazione DJI Dock e DJI Dock 2. Con la tecnologia di volo senza pilota, le attività pianificate vengono eseguite senza interruzioni, i processi di raccolta dati sono accelerati e il rischio di errore umano è eliminato. Grazie a sistemi intelligenti che monitorano le condizioni meteorologiche e stazioni di ricarica automatiche, potete proseguire le vostre operazioni in sicurezza 24/7 e gestire i processi di manutenzione e ispezione con minimo intervento umano. Scoprite la potenza dell'automazione completa nei vostri impianti e massimizzate l'efficienza operativa con MapperX.",
+        "image": "/features/ges-pilotsuz-otonom-ucus@2x-100_675x1200.jpg"
+      },
+      {
+        "title": "Registrate e Gestite i Numeri di Serie dei Pannelli",
+        "description": "MapperX semplifica la vostra gestione dell'inventario registrando automaticamente i numeri di serie dei vostri pannelli solari utilizzando tecnologia OCR avanzata. Tracciando tutti i pannelli digitalmente, potete gestire efficacemente i processi di garanzia e identificare rapidamente le necessità di manutenzione e sostituzione. Mentre eliminate gli errori umani attraverso il sistema di identificazione e registrazione automatica, aumentate la vostra efficienza operativa migliorando la tracciabilità dei pannelli. Rendete la vostra gestione degli asset dei pannelli più intelligente e affidabile con MapperX.",
+        "image": "/features/ges-panel-seri-no-kaydedin-yonetin@2x-100_675x1200.jpg"
+      },
+      {
+        "title": "Documentate le Vostre Misurazioni e Test",
+        "description": "MapperX assicura le prestazioni e la sicurezza dei vostri impianti documentando le vostre misurazioni elettriche e test con rapporti dettagliati. Raccogliendo e interpretando automaticamente dati critici come test delle stringhe, misurazioni della resistenza di isolamento e analisi della curva IV, vi permette di rilevare rapidamente le anomalie. Supportate i processi di garanzia con rapporti conformi agli standard, ottimizzate i vostri piani di manutenzione e rafforzate le vostre decisioni di investimento basate sui dati. Digitalizzate i vostri test elettrici end-to-end, registrate ogni passaggio e assicurate la trasparenza con MapperX.",
+        "image": "/features/ges-olcum-testlerinizi-raporlayin@2x-100_675x1200.jpg"
+      },
+      {
+        "title": "Posizionamento di Alta Precisione",
+        "description": "MapperX vi permette di visualizzare i vostri pannelli solari con anomalie rilevate alle loro coordinate precise utilizzando tecnologia di posizionamento ad alta precisione. Potete raggiungere rapidamente i pannelli sul campo utilizzando MapperX APP o codici QR nei rapporti, accelerando significativamente i vostri processi operativi. Grazie a dati di localizzazione dettagliati, i team di manutenzione sono diretti ai punti corretti, il tempo di intervento è ridotto e le operazioni sul campo diventano più efficienti. Rilevate facilmente i pannelli difettosi, ottimizzate i vostri processi di manutenzione e aumentate l'efficienza operativa con MapperX.",
+        "image": "/features/ges-yuksek-hassasiyetli-konumlandirma@2x-100_675x1200.jpg"
+      },
+      {
+        "title": "Report Intelligenti e Veloci",
+        "description": "MapperX riporta in modo intelligente e veloce i vostri risultati di misurazione e ispezione con capacità avanzate di elaborazione dati e automazione. Fornisce report chiari e attuabili organizzando automaticamente dati critici come rilevamento anomalie, misurazioni elettriche e analisi termiche. I team sul campo accedono istantaneamente a informazioni accurate attraverso l'integrazione di codici QR e visualizzazioni dinamiche, accelerando i processi decisionali. Risparmiate tempo digitalizzando i vostri processi di reporting e aumentate la vostra efficienza operativa con MapperX.",
+        "image": "/features/ges-akilli-hizli-raporlama@2x-100_675x1200.jpg"
+      },
+      {
+        "title": "Controllate i Rischi di Incendio",
+        "description": "MapperX porta la sicurezza al massimo livello rilevando i rischi di incendio nei vostri impianti solari in fase precoce. Identificate proattivamente surriscaldamento, difetti di connessione e problemi di isolamento attraverso analisi termografiche assistite da IA e misurazioni elettriche. Reagite rapidamente a situazioni anomale e prevenite potenziali incendi prima che si verifichino attraverso report automatici e posizionamento ad alta precisione. Aumentate la vostra sicurezza operativa e proteggete la vostra attrezzatura e investimento con MapperX.",
+        "image": "/features/ges-yangin-risklerini-kontrol-altina-alin@2x-100_675x1200.jpg"
+      }
+    ]
+  },
+  "thermalInspection": {
+    "title": {
+      "line1": "Assistita da IA",
+      "line2": "Ispezione Termografica"
+    },
+    "description": "Eseguite ispezioni termografiche autonome assistite da IA negli impianti solari con MapperX. Generate report conformi agli standard IEC 62446.",
+    "features": [
+      "Eseguite il rilevamento delle anomalie a livello di cella con analisi assistite da IA e riportate i risultati in modo autonomo.",
+      "Eseguite analisi di temperatura rapide e precise dei vostri pannelli mediante mappatura con drone termico.",
+      "Raccogliete e gestite le operazioni di ispezione termografica dei componenti dell'impianto su un'unica piattaforma."
+    ],
+    "button": "Scopri di più",
+    "images": {
+      "before": {
+        "src": "/thermal-inspection/mapperx-fault-type-slider-before-1.png",
+        "alt": "Ispezione Termografica"
+      },
+      "after": {
+        "src": "/thermal-inspection/mapperx-fault-type-slider-after-1.png",
+        "alt": "Anomalia Evidenziata"
+      }
+    }
+  },
+  "compatibleDrones": {
+    "title": "Modelli di droni compatibili con MapperX",
+    "description": "Puoi consultare il {helpCenter} per informazioni dettagliate sui modelli di droni e le istruzioni di volo supportati dal software MapperX.",
+    "helpCenter": "centro assistenza",
+    "drones": [
+      {
+        "name": "DJI Mavic 3T",
+        "image": "/dji-mavic-3t-thermal-camera-mapperx-1-1.png"
+      },
+      {
+        "name": "DJI Matrice 30T",
+        "image": "/dji_matrice_30t_thermal_drone_-_mapperx-software-1-1.png"
+      },
+      {
+        "name": "DJI Matrice 4T",
+        "image": "/DJI_Matrice_4T_Thermal_MapperX.png"
+      },
+      {
+        "name": "DJI Matrice 350 RTK + H20T / H30T",
+        "image": "/dji_matrice_300_-_h20t_thermal_camera_-_mapperx-2-1.png"
+      }
+    ]
+  },
+  "digitalTwin": {
+    "title": {
+      "line1": "Con la tecnologia Digital Twin",
+      "line2": "Ispezione e Audit"
+    },
+    "description": "Crea gemelli digitali dei tuoi impianti con MapperX. Gestisci i tuoi processi di ispezione e audit da un'unica piattaforma. Raggiungi velocità, efficienza e precisione attraverso la piattaforma.",
+    "features": [
+      "Combina le tue misurazioni e test elettrici in un unico report.",
+      "Aumenta l'efficienza sostenibile digitalizzando i tuoi processi di ispezione.",
+      "Crea report illimitati ottimizzando tutti i tuoi flussi di lavoro."
+    ],
+    "button": "Scopri di più",
+    "image": {
+      "src": "/features/mapperx-ges-bakim-1-1.png",
+      "alt": "Ispezione con tecnologia Digital Twin"
+    }
+  },
+  "realTimePlant": {
+    "title": {
+      "line1": "In tempo reale",
+      "line2": "Gestione degli impianti"
+    },
+    "description": "Esegui attività di manutenzione predittiva e periodica nei tuoi impianti digitalizzando i processi di manutenzione e riparazione. Garantisci una produzione di energia ininterrotta.",
+    "features": [
+      "Riduci i costi rendendo autonomi i tuoi flussi di lavoro.",
+      "Aumenta l'efficienza operativa gestendo efficacemente i tuoi ordini di lavoro.",
+      "Registra i tuoi numeri di serie rapidamente e con precisione con MapperX."
+    ],
+    "button": "Scopri di più",
+    "image": {
+      "src": "/mapperx-panel-seri-numarasi-okutma-1.png",
+      "alt": "Gestione degli impianti in tempo reale"
+    }
+  },
+  "thermalAnalysis": {
+    "title": {
+      "line1": "Analisi termica",
+      "line2": "avanzata"
+    },
+    "description": "L'analisi della temperatura nei processi di ispezione termografica è cruciale per rilevare i pannelli solari difettosi. Con MapperX, esegui e documenta le misurazioni della temperatura dei pannelli in conformità con gli standard IEC 62446. Dai priorità ai pannelli a rischio calcolando le differenze di temperatura (DeltaT).",
+    "features": [
+      "Aumenta la precisione delle misurazioni minimizzando gli errori umani attraverso il rilevamento autonomo della temperatura.",
+      "Aumenta la tua efficienza riducendo i tempi operativi e i costi.",
+      "Previeni i rischi di incendio rilevando in anticipo i potenziali rischi."
+    ],
+    "images": {
+      "left": {
+        "src": "/thermal-inspection/mapperx-santral-gorunumu-3-1.png",
+        "alt": "Vista normale"
+      },
+      "right": {
+        "src": "/thermal-inspection/mapperx-santral-gorunumu-4-1.png",
+        "alt": "Vista termica"
+      }
+    }
+  },
+  "autonomousInspection": {
+    "subtitle": "Basato su IA",
+    "title": "Ispezione Termografica Autonoma",
+    "description": "Nei processi di ispezione termografica tradizionali, l'analisi dei pannelli difettosi e dei componenti dell'impianto in base alla loro posizione richiede notevole lavoro e costi. Attraverso la piattaforma MapperX, crea gemelli digitali dei tuoi impianti mappati con droni e accedi facilmente alle analisi.",
+    "features": [
+      "Riduci i costi di manodopera e manutenzione con analisi autonome basate su IA.",
+      "Previeni i rischi per la sicurezza accedendo ad aree difficili da raggiungere e rischiose con i droni.",
+      "Previeni potenziali danni nell'impianto attraverso l'ispezione non distruttiva."
+    ],
+    "image": {
+      "src": "/thermal-inspection/mapperx-santral-gorunumu-6-1.png",
+      "alt": "Vista dell'Impianto"
+    }
+  },
+  "partnership": {
+    "dronePilot": {
+      "title": "Rete di piloti di droni",
+      "description": "Ottieni preventivi da piloti certificati MapperX ed espandi le tue operazioni a livello globale.",
+      "button": "Contattaci"
+    },
+    "partnerProgram": {
+      "title": "Programma partner",
+      "description": "Costruisci collaborazioni solide per ottimizzare le tue attività di ispezione!",
+      "button": "Scopri di più"
+    },
+    "image": {
+      "src": "/mapperx-dji_dock2-drone-1.png",
+      "alt": "DJI Dock 2"
+    }
+  },
+  "thermographicInspection": {
+    "title": "Ispezione Termografica",
+    "subtitle": "Ispezione Termografica Assistita da IA",
+    "description": "Esegui ispezioni termografiche autonome assistite da IA negli impianti solari con MapperX. Genera rapporti conformi agli standard IEC 62446.",
+    "buttons": {
+      "register": "Inizia Ora",
+      "contact": "Contattaci"
+    }
+  },
+  "smartReporting": {
+    "subtitle": "Intelligente e Veloce",
+    "title": "Sistema di Reportistica",
+    "description": "Analizza rapidamente e in dettaglio i risultati dell'ispezione termografica dei tuoi impianti con il sistema di reportistica avanzato di MapperX. Genera i tuoi report automaticamente grazie alle funzionalità di rilevamento e classificazione delle anomalie basate su IA.",
+    "features": [
+      "Crea report dettagliati conformi agli standard IEC.",
+      "Rileva automaticamente i tipi e le posizioni delle anomalie.",
+      "Fornisci accesso rapido ai team sul campo con l'integrazione di codici QR."
+    ]
+  }
+} 

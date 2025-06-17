@@ -1,0 +1,56 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "about": "Über uns",
+    "services": "Dienstleistungen",
+    "contact": "Kontakt"
+  },
+  "languages": {
+    "tr": "Türkçe",
+    "en": "English",
+    "de": "Deutsch",
+    "fr": "Français",
+    "it": "Italiano"
+  },
+  "hero": {
+    "title": "KI-gestützte Lösungen für Ihre Solaranlagen",
+    "subtitle": "Steigern Sie die Leistung, senken Sie die Wartungskosten",
+    "imageAlt": "MapperX Drohnenlösungen"
+  },
+  "features": {
+    "section": {
+      "title": "Warum MapperX?",
+      "subtitle": "Umfassende Lösungen für Ihre Solaranlagen"
+    },
+    "items": [
+      {
+        "title": "KI-gestützte Analyse",
+        "description": "Analysieren Sie die Leistung Ihrer Anlagen mit fortschrittlichen KI-Algorithmen",
+        "imageAlt": "KI-Analyse"
+      }
+    ]
+  },
+  "thermalInspection": {
+    "title": {
+      "line1": "KI-gestützte",
+      "line2": "Thermische Inspektion"
+    },
+    "description": "Führen Sie mit MapperX KI-gestützte autonome thermische Inspektionen in Solaranlagen durch. Erstellen Sie Berichte gemäß IEC 62446-Standards.",
+    "features": [
+      "Erkennen Sie zellenbasierte Anomalien mit KI-gestützter Analyse und erstellen Sie autonome Berichte.",
+      "Führen Sie schnelle und genaue Temperaturanalysen Ihrer Module durch thermische Drohnenkartierung durch.",
+      "Sammeln und verwalten Sie thermische Inspektionsoperationen von Anlagenkomponenten auf einer einzigen Plattform."
+    ],
+    "button": "Mehr erfahren",
+    "images": {
+      "before": {
+        "src": "/thermal-inspection/mapperx-fault-type-slider-before-1.png",
+        "alt": "Thermische Inspektion"
+      },
+      "after": {
+        "src": "/thermal-inspection/mapperx-fault-type-slider-after-1.png",
+        "alt": "Anomalie Markiert"
+      }
+    }
+  }
+} 

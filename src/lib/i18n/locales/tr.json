@@ -1,0 +1,56 @@
+{
+  "nav": {
+    "home": "Ana Sayfa",
+    "about": "Hakkımızda",
+    "services": "Hizmetler",
+    "contact": "İletişim"
+  },
+  "languages": {
+    "tr": "Türkçe",
+    "en": "English",
+    "de": "Deutsch",
+    "fr": "Français",
+    "it": "Italiano"
+  },
+  "hero": {
+    "title": "Güneş Enerjisi Santralleriniz için Yapay Zeka Destekli Çözümler",
+    "subtitle": "Santrallerinizin performansını artırın, bakım maliyetlerini düşürün",
+    "imageAlt": "MapperX Drone Çözümleri"
+  },
+  "features": {
+    "section": {
+      "title": "Neden MapperX?",
+      "subtitle": "Güneş enerjisi santralleriniz için en kapsamlı çözümler"
+    },
+    "items": [
+      {
+        "title": "Yapay Zeka Destekli Analiz",
+        "description": "Gelişmiş yapay zeka algoritmaları ile santrallerinizin performansını analiz edin",
+        "imageAlt": "Yapay Zeka Analizi"
+      }
+    ]
+  },
+  "thermalInspection": {
+    "title": {
+      "line1": "Yapay Zeka Destekli",
+      "line2": "Termografik İnceleme"
+    },
+    "description": "MapperX ile güneş enerjisi santrallerinde yapay zeka destekli otonom termografik muayene gerçekleştirin. IEC 62446 standartlarına uyumlu olarak raporlar oluşturun.",
+    "features": [
+      "Yapay zeka destekli analizlerle hücre bazlı anomali tespiti yaparak sonuçları otonom raporlayın.",
+      "Termal drone ile haritalama yaparak, panellerinizin hızlı ve doğru sıcaklık analizlerini gerçekleştirin.",
+      "Santral bileşenlerinin termografik muayene operasyonlarını tek bir platformda toplayın ve yönetin."
+    ],
+    "button": "Daha fazla bilgi",
+    "images": {
+      "before": {
+        "src": "/thermal-inspection/mapperx-fault-type-slider-before-1.png",
+        "alt": "Termografik Muayene"
+      },
+      "after": {
+        "src": "/thermal-inspection/mapperx-fault-type-slider-after-1.png",
+        "alt": "Anomali İşaretli"
+      }
+    }
+  }
+} 

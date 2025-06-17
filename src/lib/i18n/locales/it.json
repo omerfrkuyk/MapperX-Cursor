@@ -1,0 +1,56 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "Chi siamo",
+    "services": "Servizi",
+    "contact": "Contatti"
+  },
+  "languages": {
+    "tr": "Türkçe",
+    "en": "English",
+    "de": "Deutsch",
+    "fr": "Français",
+    "it": "Italiano"
+  },
+  "hero": {
+    "title": "Soluzioni basate su IA per i tuoi impianti fotovoltaici",
+    "subtitle": "Aumenta le prestazioni, riduci i costi di manutenzione",
+    "imageAlt": "Soluzioni drone MapperX"
+  },
+  "features": {
+    "section": {
+      "title": "Perché MapperX?",
+      "subtitle": "Soluzioni complete per i tuoi impianti fotovoltaici"
+    },
+    "items": [
+      {
+        "title": "Analisi basata su IA",
+        "description": "Analizza le prestazioni dei tuoi impianti con algoritmi di intelligenza artificiale avanzati",
+        "imageAlt": "Analisi IA"
+      }
+    ]
+  },
+  "thermalInspection": {
+    "title": {
+      "line1": "Ispezione termica",
+      "line2": "basata su IA"
+    },
+    "description": "Esegui ispezioni termiche autonome basate su IA negli impianti fotovoltaici con MapperX. Genera report conformi agli standard IEC 62446.",
+    "features": [
+      "Rileva anomalie a livello di cella con analisi basata su IA e genera report autonomi.",
+      "Esegui analisi rapide e accurate della temperatura dei tuoi pannelli attraverso la mappatura con drone termico.",
+      "Raccogli e gestisci le operazioni di ispezione termica dei componenti dell'impianto su un'unica piattaforma."
+    ],
+    "button": "Scopri di più",
+    "images": {
+      "before": {
+        "src": "/thermal-inspection/mapperx-fault-type-slider-before-1.png",
+        "alt": "Ispezione termica"
+      },
+      "after": {
+        "src": "/thermal-inspection/mapperx-fault-type-slider-after-1.png",
+        "alt": "Anomalia evidenziata"
+      }
+    }
+  }
+} 

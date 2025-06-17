@@ -191,17 +191,16 @@
   },
   "autonomousInspection": {
     "subtitle": "Alimenté par l'IA",
-    "title": "Inspection Thermographique Autonome",
-    "description": "Dans les processus d'inspection thermographique traditionnels, l'analyse des panneaux défectueux et des composants de la centrale en fonction de leur emplacement nécessite un travail et un coût importants. Grâce à la plateforme MapperX, créez des jumeaux numériques de vos centrales cartographiées par drone et accédez facilement aux analyses.",
-    "features": [
-      "Réduisez les coûts de main-d'œuvre et de maintenance grâce aux analyses autonomes alimentées par l'IA.",
-      "Prévenez les risques de sécurité en accédant aux zones difficiles d'accès et risquées avec des drones.",
-      "Prévenez les dommages potentiels dans la centrale grâce à l'inspection non destructive."
-    ],
+    "title": "Inspection thermographique autonome",
+    "description": "Les processus d'inspection thermographique traditionnels nécessitent beaucoup de main-d'œuvre et de coûts pour analyser les panneaux défectueux et les composants des centrales en fonction de leur emplacement. Créez des jumeaux numériques de vos centrales cartographiées par drone via la plateforme MapperX et accédez facilement aux analyses.",
     "image": {
-      "src": "/thermal-inspection/mapperx-santral-gorunumu-6-1.png",
-      "alt": "Vue de la Centrale"
-    }
+      "alt": "Vue de la centrale"
+    },
+    "features": [
+      "Réduisez les coûts de main-d'œuvre et de maintenance grâce aux analyses autonomes assistées par l'IA.",
+      "Éliminez les risques de sécurité en atteignant les zones difficiles d'accès et risquées avec des drones.",
+      "Prévenez les dommages potentiels à la centrale grâce à l'inspection non destructive."
+    ]
   },
   "partnership": {
     "dronePilot": {
@@ -220,12 +219,15 @@
     }
   },
   "thermographicInspection": {
-    "title": "Inspection Thermographique",
-    "subtitle": "Inspection Thermographique Assistée par IA",
-    "description": "Effectuez une inspection thermographique autonome assistée par IA dans les centrales solaires avec MapperX. Générez des rapports conformes aux normes IEC 62446.",
+    "subtitle": "Des pas importants dans l'efficacité énergétique",
+    "title": "Solutions autonomes et fiables en inspection thermographique",
+    "description": "Optimisez vos flux de travail en détectant tous les types d'anomalies grâce à l'inspection thermographique autonome assistée par l'IA, l'analyse thermique avancée et des rapports rapides et fiables. Simplifiez vos processus de maintenance avec des solutions conformes à la norme IEC 62446.",
     "buttons": {
-      "register": "Commencer",
-      "contact": "Contactez-nous"
+      "contact": "Consulter un expert",
+      "register": "S'inscrire"
+    },
+    "images": {
+      "temperatureMapAlt": "Animation de carte thermique"
     }
   },
   "smartReporting": {

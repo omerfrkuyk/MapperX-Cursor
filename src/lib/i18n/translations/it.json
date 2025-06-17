@@ -191,17 +191,16 @@
   },
   "autonomousInspection": {
     "subtitle": "Basato su IA",
-    "title": "Ispezione Termografica Autonoma",
-    "description": "Nei processi di ispezione termografica tradizionali, l'analisi dei pannelli difettosi e dei componenti dell'impianto in base alla loro posizione richiede notevole lavoro e costi. Attraverso la piattaforma MapperX, crea gemelli digitali dei tuoi impianti mappati con droni e accedi facilmente alle analisi.",
-    "features": [
-      "Riduci i costi di manodopera e manutenzione con analisi autonome basate su IA.",
-      "Previeni i rischi per la sicurezza accedendo ad aree difficili da raggiungere e rischiose con i droni.",
-      "Previeni potenziali danni nell'impianto attraverso l'ispezione non distruttiva."
-    ],
+    "title": "Ispezione termografica autonoma",
+    "description": "I processi di ispezione termografica tradizionali richiedono notevole manodopera e costi per analizzare i pannelli difettosi e i componenti dell'impianto in base alla loro posizione. Crea gemelli digitali dei tuoi impianti mappati con droni attraverso la piattaforma MapperX e accedi facilmente alle analisi.",
     "image": {
-      "src": "/thermal-inspection/mapperx-santral-gorunumu-6-1.png",
-      "alt": "Vista dell'Impianto"
-    }
+      "alt": "Vista dell'impianto"
+    },
+    "features": [
+      "Riduci i costi di manodopera e manutenzione con analisi autonome basate sull'IA.",
+      "Elimina i rischi per la sicurezza raggiungendo aree difficili da accedere e rischiose con i droni.",
+      "Previeni potenziali danni all'impianto con l'ispezione non distruttiva."
+    ]
   },
   "partnership": {
     "dronePilot": {
@@ -220,12 +219,15 @@
     }
   },
   "thermographicInspection": {
-    "title": "Ispezione Termografica",
-    "subtitle": "Ispezione Termografica Assistita da IA",
-    "description": "Esegui ispezioni termografiche autonome assistite da IA negli impianti solari con MapperX. Genera rapporti conformi agli standard IEC 62446.",
+    "subtitle": "Passi importanti nell'efficienza energetica",
+    "title": "Soluzioni autonome e affidabili nell'ispezione termografica",
+    "description": "Ottimizza i tuoi flussi di lavoro rilevando tutti i tipi di anomalie con l'ispezione termografica autonoma basata sull'IA, l'analisi termica avanzata e report veloci e affidabili. Semplifica i tuoi processi di manutenzione con soluzioni conformi allo standard IEC 62446.",
     "buttons": {
-      "register": "Inizia Ora",
-      "contact": "Contattaci"
+      "contact": "Consulta un esperto",
+      "register": "Registrati"
+    },
+    "images": {
+      "temperatureMapAlt": "Animazione mappa termica"
     }
   },
   "smartReporting": {

@@ -199,16 +199,15 @@
   "autonomousInspection": {
     "subtitle": "Yapay Zeka Destekli",
     "title": "Otonom Termografik Muayene",
-    "description": "Geleneksel termografik muayene süreçlerinde, arızalı panellerin ve santral bileşenlerinin konumlarına göre analizlerinin yapılması ciddi iş gücü ve maliyet gerektirir. MapperX Platformu üzerinden drone ile haritaladığınız santrallerinizin dijital ikizlerini oluşturarak analizlere kolayca erişin.",
-    "features": [
-      "Yapay zeka destekli otonom analizlerle iş gücü ve bakım maliyetlerini azaltın.",
-      "Drone'lar ile ulaşılması zor ve riskli bölgelere erişerek güvenlik tehlikelerinin önüne geçin.",
-      "Tahribatsız muayene ile santralde oluşabilecek potansiyel hasarların önüne geçin."
-    ],
+    "description": "Geleneksel ölçümler ile yürütülen Termografik muayene süreçlerinde, hatalı panellerin ve santral bileşenlerinin konumları üzerinden analiz edilmesi iş gücü ve maliyet gerektirir. MapperX Platformu üzerinden, drone ile haritalaması yapılan santrallerinizin dijital ikizlerini oluşturun ve analizlere kolayca erişin.",
     "image": {
-      "src": "/thermal-inspection/mapperx-santral-gorunumu-6-1.png",
       "alt": "Santral Görünümü"
-    }
+    },
+    "features": [
+      "Yapay zeka destekli otonom analizler ile iş gücü ve bakım maliyetlerinizi düşürün.",
+      "Ulaşılması zor ve riskli bölgelere drone ile ulaşarak, İSG'yi tehlikeye atacak durumların önüne geçin.",
+      "Tahribatsız muayene ile santralde oluşabilecek hasarları önleyin."
+    ]
   },
   "smartReporting": {
     "subtitle": "Akıllı ve Hızlı",
@@ -328,12 +327,15 @@
     }
   },
   "thermographicInspection": {
-    "title": "Termografik İnceleme",
-    "subtitle": "Yapay Zeka Destekli Termografik Muayene",
-    "description": "MapperX ile güneş enerjisi santrallerinde yapay zeka destekli otonom termografik muayene gerçekleştirin. IEC 62446 standartlarına uyumlu olarak raporlar oluşturun.",
+    "subtitle": "Enerji Verimliliğinde Güçlü Adımlar",
+    "title": "Termografik İncelemede Otonom ve Güvenilir Çözümler",
+    "description": "Yapay zeka destekli otonom termografik muayene, gelişmiş termal analiz, hızlı ve güvenilir raporlama ile tüm anomali türlerini tespit ederek iş akışlarınızı optimize edin. IEC 62446 standartlarına uyumlu çözümler ile bakım onarım süreçlerinizi kolaylaştırın.",
     "buttons": {
-      "register": "Hemen Başla",
-      "contact": "Bize Ulaşın"
+      "contact": "Uzman ile Görüş",
+      "register": "Kayıt Ol"
+    },
+    "images": {
+      "temperatureMapAlt": "Isı haritası animasyonu"
     }
   }
 } 

@@ -191,17 +191,16 @@
   },
   "autonomousInspection": {
     "subtitle": "KI-gestützt",
-    "title": "Autonome Thermografische Inspektion",
-    "description": "Bei herkömmlichen thermografischen Inspektionsprozessen erfordert die Analyse defekter Module und Kraftwerkskomponenten anhand ihrer Standorte erheblichen Arbeits- und Kostenaufwand. Erstellen Sie über die MapperX-Plattform digitale Zwillinge Ihrer mit Drohnen kartierten Kraftwerke und greifen Sie einfach auf Analysen zu.",
+    "title": "Autonome thermografische Inspektion",
+    "description": "Traditionelle thermografische Inspektionsprozesse erfordern erheblichen Arbeits- und Kostenaufwand zur Analyse defekter Module und Anlagenkomponenten basierend auf ihren Standorten. Erstellen Sie digitale Zwillinge Ihrer mit Drohnen kartierten Kraftwerke über die MapperX-Plattform und greifen Sie einfach auf Analysen zu.",
+    "image": {
+      "alt": "Kraftwerksansicht"
+    },
     "features": [
       "Reduzieren Sie Arbeits- und Wartungskosten durch KI-gestützte autonome Analysen.",
-      "Verhindern Sie Sicherheitsrisiken durch den Zugang zu schwer erreichbaren und risikoreichen Bereichen mit Drohnen.",
-      "Verhindern Sie potenzielle Schäden im Kraftwerk durch zerstörungsfreie Inspektion."
-    ],
-    "image": {
-      "src": "/thermal-inspection/mapperx-santral-gorunumu-6-1.png",
-      "alt": "Kraftwerksansicht"
-    }
+      "Eliminieren Sie Sicherheitsrisiken durch Erreichen schwer zugänglicher und riskanter Bereiche mit Drohnen.",
+      "Verhindern Sie potenzielle Schäden am Kraftwerk durch zerstörungsfreie Prüfung."
+    ]
   },
   "partnership": {
     "dronePilot": {
@@ -220,12 +219,15 @@
     }
   },
   "thermographicInspection": {
-    "title": "Thermografische Inspektion",
-    "subtitle": "KI-gestützte thermografische Inspektion",
-    "description": "Führen Sie mit MapperX KI-gestützte autonome thermografische Inspektionen in Solaranlagen durch. Erstellen Sie Berichte gemäß IEC 62446-Standards.",
+    "subtitle": "Starke Schritte in der Energieeffizienz",
+    "title": "Autonome und zuverlässige Lösungen in der thermografischen Inspektion",
+    "description": "Optimieren Sie Ihre Arbeitsabläufe durch die Erkennung aller Arten von Anomalien mit KI-gestützter autonomer thermografischer Inspektion, fortschrittlicher Thermalanalyse und schneller, zuverlässiger Berichterstattung. Vereinfachen Sie Ihre Wartungsprozesse mit IEC 62446-konformen Lösungen.",
     "buttons": {
-      "register": "Jetzt Starten",
-      "contact": "Kontaktieren Sie uns"
+      "contact": "Experten konsultieren",
+      "register": "Registrieren"
+    },
+    "images": {
+      "temperatureMapAlt": "Temperaturkarten-Animation"
     }
   },
   "smartReporting": {

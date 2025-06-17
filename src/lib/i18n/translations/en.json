@@ -192,16 +192,15 @@
   "autonomousInspection": {
     "subtitle": "AI-Powered",
     "title": "Autonomous Thermographic Inspection",
-    "description": "In traditional thermographic inspection processes, analyzing faulty panels and power plant components based on their locations requires significant labor and cost. Through the MapperX Platform, create digital twins of your drone-mapped power plants and easily access analyses.",
+    "description": "Traditional thermographic inspection processes require significant labor and cost to analyze faulty panels and plant components based on their locations. Create digital twins of your drone-mapped power plants through the MapperX Platform and easily access analyses.",
+    "image": {
+      "alt": "Power Plant View"
+    },
     "features": [
       "Reduce labor and maintenance costs with AI-powered autonomous analyses.",
-      "Prevent safety hazards by accessing hard-to-reach and risky areas with drones.",
-      "Prevent potential damage in the power plant through non-destructive inspection."
-    ],
-    "image": {
-      "src": "/thermal-inspection/mapperx-santral-gorunumu-6-1.png",
-      "alt": "Power Plant View"
-    }
+      "Eliminate safety risks by reaching hard-to-access and risky areas with drones.",
+      "Prevent potential damage to the power plant with non-destructive inspection."
+    ]
   },
   "smartReporting": {
     "subtitle": "Smart and Fast",
@@ -321,12 +320,15 @@
     }
   },
   "thermographicInspection": {
-    "title": "Thermographic Inspection",
-    "subtitle": "AI-Powered Thermographic Inspection",
-    "description": "Perform AI-powered autonomous thermographic inspection in solar power plants with MapperX. Generate reports in compliance with IEC 62446 standards.",
+    "subtitle": "Strong Steps in Energy Efficiency",
+    "title": "Autonomous and Reliable Solutions in Thermographic Inspection",
+    "description": "Optimize your workflows by detecting all types of anomalies with AI-powered autonomous thermographic inspection, advanced thermal analysis, and fast, reliable reporting. Simplify your maintenance processes with IEC 62446 compliant solutions.",
     "buttons": {
-      "register": "Get Started",
-      "contact": "Contact Us"
+      "contact": "Consult an Expert",
+      "register": "Sign Up"
+    },
+    "images": {
+      "temperatureMapAlt": "Temperature map animation"
     }
   }
 } 

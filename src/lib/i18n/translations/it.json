@@ -305,5 +305,99 @@
         "alt": "Screenshot MapperX Studio"
       }
     }
+  },
+  "powerPlantManagement": {
+    "hero": {
+      "title": "Risparmia tempo nella gestione della centrale e aumenta la tua efficienza operativa",
+      "description": "Ottimizza i tuoi flussi di lavoro nelle centrali solari, aumenta l'efficienza e agisci immediatamente con una gestione operativa rapida. Proteggi la tua azienda prevenendo rischi di incendio e perdite finanziarie.",
+      "buttons": {
+        "register": "Registrati",
+        "contact": "Contatta un esperto"
+      },
+      "image": {
+        "alt": "Schermata di gestione della centrale"
+      }
+    },
+    "meteorologicalData": {
+      "title": "Dati meteorologici delle centrali",
+      "description": "Il calcolo dell'efficienza basato sui dati meteorologici per la data e l'ora del mese nelle attività di manutenzione predittiva e periodica richiede competenza e costi. Con la piattaforma MapperX, senza costi di licenza aggiuntivi, estrae autonomamente i dati meteorologici più accurati per te, esegue le tue analisi di efficienza nell'ambito degli standard IEC 62446 e ti riporta i dati.",
+      "features": {
+        "1": "Estrazione automatica di dati come radiazione, vento e temperatura dell'aria.",
+        "2": "Elimina i costi di accesso ai dati meteorologici.",
+        "3": "Crea report dettagliati accedendo a molteplici dati meteorologici."
+      },
+      "image": {
+        "alt": "Visualizzazione dati meteorologici"
+      }
+    },
+    "panelOperation": {
+      "title": "Gestione operativa in tempo reale",
+      "description": "Il monitoraggio dello stato operativo nelle attività di gestione e manutenzione è fondamentale per aumentare l'efficienza dell'impianto e garantire una produzione energetica ininterrotta. Monitora e gestisci lo stato operativo istantaneo del tuo impianto. Con dati in tempo reale, traccia continuamente le prestazioni del tuo impianto e intraprendi azioni rapide rilevando precocemente potenziali problemi.",
+      "features": {
+        "1": "Traccia lo stato attuale riportando le tue operazioni in secondi.",
+        "2": "Monitora i dati istantanei del tuo impianto e valuta le sue prestazioni.",
+        "3": "Garantisci una produzione energetica ininterrotta aumentando l'efficienza dell'impianto."
+      },
+      "image": {
+        "alt": "Stato operativo dei pannelli"
+      }
+    },
+    "serialNumber": {
+      "title": "Scansiona rapidamente i numeri di serie e agisci",
+      "description": "Nelle richieste di garanzia e nei processi di gestione, la registrazione rapida e accurata dei numeri di serie dei componenti come pannelli solari e inverter richiede solitamente tempo e costi significativi. Risparmia tempo significativo e aumenta la tua efficienza operativa semplificando questo processo con la tecnologia MapperX. Scansiona e registra istantaneamente i numeri di serie utilizzando la fotocamera del tuo telefono cellulare senza hardware aggiuntivo.",
+      "features": {
+        "1": "Aumenta l'efficienza risparmiando tempo significativo nelle richieste di garanzia.",
+        "2": "Accelera le operazioni successive creando gemelli digitali dei numeri di serie.",
+        "3": "Esporta i numeri di serie scansionati in massa in formato Excel."
+      },
+      "image": {
+        "alt": "Scansione numeri di serie"
+      }
+    },
+    "team": {
+      "title": "Membri del team e assegnazione",
+      "description": "L'assegnazione efficace dei team nelle attività di ispezione e verifica e il monitoraggio delle loro prestazioni nei flussi di lavoro è impegnativo e complesso. Gestisci e monitora le distribuzioni dei compiti dei membri del team attraverso un'unica piattaforma con la piattaforma MapperX. Ottimizza così la gestione del team e le prestazioni dell'impianto.",
+      "features": {
+        "1": "Crea report attuali illimitati su ordini di lavoro e cronologia.",
+        "2": "Autorizza i membri dell'impianto per qualsiasi impianto e compito desiderato.",
+        "3": "Accedi facilmente a tutte le informazioni tecniche e operative dell'impianto."
+      },
+      "image": {
+        "alt": "Membri del team e assegnazione"
+      }
+    }
+  },
+  "faq": {
+    "title": "Domande frequenti",
+    "showAll": "Mostra tutte le FAQ",
+    "helpCenter": {
+      "description": "Visita il nostro centro assistenza per guide dettagliate e documentazione.",
+      "button": "Vai al centro assistenza"
+    },
+    "technicalSupport": {
+      "description": "Hai bisogno di supporto tecnico? Il nostro team di esperti è qui per aiutarti.",
+      "button": "Contatta il supporto"
+    },
+    "blog": {
+      "title": "Blog MapperX",
+      "description": "Scopri gli ultimi sviluppi e le migliori pratiche nel settore solare.",
+      "subDescription": "Leggi i nostri articoli recenti e rimani aggiornato.",
+      "button": "Visita il blog"
+    }
+  },
+  "reportDownload": {
+    "title": "Scarica un report di esempio",
+    "description": "Scarica un report di esempio gratuito per vedere la qualità e la portata dei nostri report di ispezione.",
+    "form": {
+      "fullName": "Nome completo",
+      "email": "Indirizzo email",
+      "phone": "Numero di telefono",
+      "download": "Scarica il report",
+      "required": "Questo campo è obbligatorio",
+      "invalidEmail": "Inserisci un indirizzo email valido"
+    },
+    "image": {
+      "alt": "Anteprima report di esempio"
+    }
   }
 } 

@@ -49,4 +49,6 @@ export interface TranslationType {
   };
 }
 
-export type Locale = 'tr' | 'en' | 'de' | 'fr' | 'it'; 
+export type Locale = 'tr' | 'en' | 'de' | 'fr' | 'it';
+
+export type TFunction = (key: string, params?: Record<string, any>) => string; 

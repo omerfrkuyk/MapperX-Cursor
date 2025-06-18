@@ -305,5 +305,99 @@
         "alt": "Capture d'écran MapperX Studio"
       }
     }
+  },
+  "powerPlantManagement": {
+    "hero": {
+      "title": "Gagnez du temps dans la gestion des centrales et augmentez votre efficacité opérationnelle",
+      "description": "Optimisez vos flux de travail dans les centrales solaires, augmentez l'efficacité et prenez des mesures immédiates grâce à une gestion opérationnelle rapide. Protégez votre entreprise en prévenant les risques d'incendie et les pertes financières.",
+      "buttons": {
+        "register": "S'inscrire",
+        "contact": "Contacter un expert"
+      },
+      "image": {
+        "alt": "Écran de gestion de centrale"
+      }
+    },
+    "meteorologicalData": {
+      "title": "Données météorologiques des centrales",
+      "description": "Le calcul de l'efficacité basé sur les données météorologiques pour des dates et heures spécifiques dans les activités de maintenance prédictive et périodique nécessite expertise et coût. Avec la plateforme MapperX, sans coût de licence supplémentaire, elle extrait automatiquement les données météorologiques les plus précises pour vous, effectue des analyses d'efficacité dans le cadre des normes IEC 62446 et vous rapporte les données.",
+      "features": {
+        "1": "Extraction automatique des données telles que l'irradiance, le vent et la température de l'air.",
+        "2": "Élimination des coûts d'accès aux données météorologiques.",
+        "3": "Création de rapports détaillés en accédant à plusieurs points de données météorologiques."
+      },
+      "image": {
+        "alt": "Visuel des données météorologiques"
+      }
+    },
+    "panelOperation": {
+      "title": "Gestion des opérations en temps réel",
+      "description": "La surveillance de l'état opérationnel dans les activités d'exploitation et de maintenance est essentielle pour augmenter l'efficacité de la centrale et assurer une production d'énergie ininterrompue. Surveillez et gérez l'état opérationnel instantané de votre centrale. Avec des données en temps réel, suivez en continu les performances de votre centrale et effectuez des interventions rapides en détectant tôt les problèmes potentiels.",
+      "features": {
+        "1": "Surveillez l'état actuel en rapportant vos opérations en secondes.",
+        "2": "Suivez les données instantanées de votre centrale et évaluez ses performances.",
+        "3": "Assurez une production d'énergie ininterrompue en augmentant l'efficacité de la centrale."
+      },
+      "image": {
+        "alt": "État des opérations des panneaux"
+      }
+    },
+    "serialNumber": {
+      "title": "Scannez rapidement les numéros de série et prenez des mesures",
+      "description": "Dans les réclamations de garantie et les processus de gestion, l'enregistrement rapide et précis des numéros de série des composants tels que les panneaux solaires et les onduleurs nécessite généralement beaucoup de temps et de coûts. Simplifiez ce processus avec la technologie MapperX pour gagner un temps considérable et augmenter votre efficacité opérationnelle. Scannez et enregistrez instantanément les numéros de série à l'aide de votre caméra de téléphone portable sans matériel supplémentaire.",
+      "features": {
+        "1": "Augmentez l'efficacité en gagnant un temps considérable dans les réclamations de garantie.",
+        "2": "Créez des jumeaux numériques des numéros de série pour accélérer l'opération suivante.",
+        "3": "Exportez les numéros de série scannés en masse au format Excel."
+      },
+      "image": {
+        "alt": "Scan des numéros de série"
+      }
+    },
+    "team": {
+      "title": "Membres de l'équipe et affectation",
+      "description": "L'affectation efficace des équipes dans les activités d'inspection et d'audit et le suivi de leurs performances dans les flux de travail est difficile et complexe. Avec la plateforme MapperX, gérez la distribution des tâches des membres de l'équipe et surveillez leurs performances via une seule plateforme. De cette façon, optimisez la gestion d'équipe et les performances de la centrale.",
+      "features": {
+        "1": "Créez des rapports actuels illimités sur les ordres de travail et l'historique.",
+        "2": "Autorisez les membres de la centrale pour toute centrale et tâche.",
+        "3": "Accédez facilement à toutes les informations techniques et opérationnelles de la centrale."
+      },
+      "image": {
+        "alt": "Membres de l'équipe et affectation"
+      }
+    }
+  },
+  "faq": {
+    "title": "Questions fréquemment posées",
+    "showAll": "Voir toutes les FAQ",
+    "helpCenter": {
+      "description": "Visitez notre centre d'aide pour des guides détaillés et de la documentation.",
+      "button": "Accéder au centre d'aide"
+    },
+    "technicalSupport": {
+      "description": "Besoin d'assistance technique ? Notre équipe d'experts est là pour vous aider.",
+      "button": "Contacter le support"
+    },
+    "blog": {
+      "title": "Blog MapperX",
+      "description": "Découvrez les derniers développements et les meilleures pratiques de l'industrie solaire.",
+      "subDescription": "Lisez nos articles récents et restez informé.",
+      "button": "Voir le blog"
+    }
+  },
+  "reportDownload": {
+    "title": "Télécharger un rapport exemple",
+    "description": "Téléchargez un rapport d'exemple gratuit pour voir la qualité et l'étendue de nos rapports d'inspection.",
+    "form": {
+      "fullName": "Nom complet",
+      "email": "Adresse e-mail",
+      "phone": "Numéro de téléphone",
+      "download": "Télécharger le rapport",
+      "required": "Ce champ est requis",
+      "invalidEmail": "Veuillez entrer une adresse e-mail valide"
+    },
+    "image": {
+      "alt": "Aperçu du rapport exemple"
+    }
   }
 } 

@@ -1,47 +1,58 @@
 'use client';
 
 import Image from 'next/image';
+import { useTranslations } from 'next-intl';
 
-const PanelOperasyonSection = () => {
+export default function PanelOperasyonSection() {
+  const t = useTranslations('powerPlantManagement.panelOperation');
+
   return (
-    <section className="bg-white py-24 px-6 md:px-16">
-      <div className="max-w-screen-2xl mx-auto grid md:grid-cols-2 gap-16 items-center">
-        {/* Sol görsel */}
-        <div className="w-full">
-          <Image
-            src="/panel-operasyon-status-1.png"
-            alt="Panel Operasyon Durumu"
-            width={1400}
-            height={800}
-            className="w-full h-auto rounded-xl shadow-xl"
-          />
-        </div>
-
-        {/* Sağ içerik */}
-        <div>
-          <h3 className="text-xl font-semibold text-gray-900 mb-2">Gerçek Zamanlı Operasyon Yönetimi</h3>
-          <p className="text-gray-700 text-base md:text-lg mb-6">
-            İşletme ve bakım faaliyetlerinde operasyonel durumunun izlenmesi, santral verimliliğini artırmak ve kesintisiz enerji üretimini sağlamak için kritik öneme sahiptir. Santralinizin anlık operasyonel durumunu izleyin ve yönetin. Gerçek zamanlı verilerle, santralinizin performansını sürekli olarak takip edin ve potansiyel sorunları erken tespit ederek hızlı müdahalelerde bulunun.
-          </p>
-
-          <ul className="space-y-4 text-gray-700 text-base md:text-lg">
-            <li className="flex items-start gap-2">
-              <span className="text-blue-600 text-xl">›</span>
-              Operasyonlarınızı saniyeler için raporlayarak güncel durumu takip edin.
-            </li>
-            <li className="flex items-start gap-2">
-              <span className="text-blue-600 text-xl">›</span>
-              Santralinizin anlık verilerini takip edin ve performansını değerlendirin.
-            </li>
-            <li className="flex items-start gap-2">
-              <span className="text-blue-600 text-xl">›</span>
-              Santral verimliliğini artırarak enerji üretiminde kesintisizliği sağlayın.
-            </li>
-          </ul>
+    <section className="py-20 bg-white">
+      <div className="container mx-auto px-4">
+        <div className="flex flex-col lg:flex-row items-center gap-12">
+          <div className="w-full lg:w-1/2">
+            <Image
+              src="/panel-operasyon-status-1.png"
+              alt={t('image.alt')}
+              width={800}
+              height={600}
+              className="rounded-lg shadow-lg"
+            />
+          </div>
+          <div className="w-full lg:w-1/2 space-y-6">
+            <h2 className="text-3xl lg:text-4xl font-bold text-gray-900">
+              {t('title')}
+            </h2>
+            <p className="text-lg text-gray-600">
+              {t('description')}
+            </p>
+            <ul className="space-y-4">
+              {[1, 2, 3].map((index) => (
+                <li key={index} className="flex items-start gap-3">
+                  <div className="flex-shrink-0 w-6 h-6 rounded-full bg-blue-100 flex items-center justify-center">
+                    <svg
+                      className="w-4 h-4 text-blue-600"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        d="M5 13l4 4L19 7"
+                      />
+                    </svg>
+                  </div>
+                  <span className="text-gray-700">
+                    {t(`features.${index}`)}
+                  </span>
+                </li>
+              ))}
+            </ul>
+          </div>
         </div>
       </div>
     </section>
   );
-};
-
-export default PanelOperasyonSection;
+}

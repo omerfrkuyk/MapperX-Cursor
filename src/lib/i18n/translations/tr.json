@@ -409,5 +409,66 @@
         "alt": "MapperX Studio ekran görüntüsü"
       }
     }
+  },
+  "powerPlantManagement": {
+    "hero": {
+      "title": "Santral Yönetiminde Zaman Tasarrufu Sağlayın ve Operasyonel Verimliliğinizi Artırın",
+      "description": "Güneş enerjisi santrallerinde iş akışlarınızı optimize edin, verimliliği artırın ve hızlı operasyonel yönetim ile anında aksiyon alın. Yangın riskleri ve finansal kayıpların önüne geçerek işletmenizi koruma altında tutun.",
+      "buttons": {
+        "register": "Kayıt Ol",
+        "contact": "Uzman ile Görüş"
+      },
+      "image": {
+        "alt": "Santral Yönetimi Ekranı"
+      }
+    },
+    "meteorologicalData": {
+      "title": "Santrallerin Meteorolojik Verileri",
+      "description": "Kestirimci ve periyodik bakım faaliyetlerinde ayın tarih ve saate ait meteorolojik veriler üzerinden verimlilik hesaplamaları yapılması uzmanlık ve maliyet gerektirir. MapperX platformu ile ek bir lisans maliyeti gerektirmeden sizin için otonom olarak en doğru meteorolojik verileri çekerek IEC 62446 standartları kapsamında verimlilik analizlerinizi yapar ve verileri size raporlar.",
+      "features": {
+        "1": "Işınım, rüzgar ve hava sıcaklık gibi verileri otomatik çekin.",
+        "2": "Meteorolojik verilere ulaşmada maliyetleri ortadan kaldırın.",
+        "3": "Bir çok meteorolojik veriye ulaşarak detaylı raporlar oluşturun."
+      },
+      "image": {
+        "alt": "Meteorolojik Veriler Görseli"
+      }
+    },
+    "panelOperation": {
+      "title": "Gerçek Zamanlı Operasyon Yönetimi",
+      "description": "İşletme ve bakım faaliyetlerinde operasyonel durumunun izlenmesi, santral verimliliğini artırmak ve kesintisiz enerji üretimini sağlamak için kritik öneme sahiptir. Santralinizin anlık operasyonel durumunu izleyin ve yönetin. Gerçek zamanlı verilerle, santralinizin performansını sürekli olarak takip edin ve potansiyel sorunları erken tespit ederek hızlı müdahalelerde bulunun.",
+      "features": {
+        "1": "Operasyonlarınızı saniyeler için raporlayarak güncel durumu takip edin.",
+        "2": "Santralinizin anlık verilerini takip edin ve performansını değerlendirin.",
+        "3": "Santral verimliliğini artırarak enerji üretiminde kesintisizliği sağlayın."
+      },
+      "image": {
+        "alt": "Panel Operasyon Durumu"
+      }
+    },
+    "serialNumber": {
+      "title": "Seri Numaralarını Hızlıca Tara ve Aksiyon Al",
+      "description": "Garanti talepleri ve yönetim süreçlerinde, güneş paneli ve invertör gibi bileşenlerin seri numaralarını hızlı ve doğru bir şekilde kayıt altına almak genellikle ciddi zaman ve maliyet gerektirir. MapperX teknolojisi ile bu süreci kolaylaştırarak önemli ölçüde zaman kazanın ve operasyonel verimliliğinizi artırın. Mobil telefon kamerası yardımıyla ek bir donanıma gerek duymadan anında seri numaralarını tarayın ve kaydedin.",
+      "features": {
+        "1": "Garanti taleplerinde önemli ölçüde zaman kazanarak verimliliği artırın.",
+        "2": "Seri No. dijital ikizlerini oluşturarak bir sonraki operasyona hız katın.",
+        "3": "Taranan seri numaralarını Excel formatında toplu dışa aktarın."
+      },
+      "image": {
+        "alt": "Seri Numarası Taraması"
+      }
+    },
+    "team": {
+      "title": "Takım Üyeleri ve Görevlendirme",
+      "description": "Denetim ve muayene faaliyetlerinde ekipleri etkili bir şekilde görevlendirmek ve iş akışlarında performanslarını takip etmek zorlu ve karmaşıktır. MapperX platformu ile takım üyelerinin görev dağılımlarını yaparak tek bir platform üzerinden yönetin ve performanslarını izleyin. Bu sayede, ekip yönetimini ve santral performansını optimize edin.",
+      "features": {
+        "1": "İş emirlerini ve geçmişini sınırsız güncel rapor oluşturun.",
+        "2": "Santral üyelerini istediğiniz santralde ve görev için yetkilendirin.",
+        "3": "Santralin tüm teknik ve operasyonel bilgilerine kolayca erişin."
+      },
+      "image": {
+        "alt": "Takım Üyeleri ve Görevlendirme"
+      }
+    }
   }
 } 

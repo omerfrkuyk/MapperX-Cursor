@@ -396,5 +396,66 @@
         "alt": "MapperX Studio screenshot"
       }
     }
+  },
+  "powerPlantManagement": {
+    "hero": {
+      "title": "Save Time in Power Plant Management and Increase Your Operational Efficiency",
+      "description": "Optimize your workflows in solar power plants, increase efficiency, and take immediate action with fast operational management. Keep your business protected by preventing fire risks and financial losses.",
+      "buttons": {
+        "register": "Register",
+        "contact": "Contact Expert"
+      },
+      "image": {
+        "alt": "Power Plant Management Screen"
+      }
+    },
+    "meteorologicalData": {
+      "title": "Meteorological Data of Power Plants",
+      "description": "Calculating efficiency based on meteorological data for specific dates and times in predictive and periodic maintenance activities requires expertise and cost. With the MapperX platform, without requiring any additional license cost, it autonomously pulls the most accurate meteorological data for you, performs efficiency analyses within the scope of IEC 62446 standards, and reports the data to you.",
+      "features": {
+        "1": "Automatically pull data such as irradiance, wind, and air temperature.",
+        "2": "Eliminate costs in accessing meteorological data.",
+        "3": "Create detailed reports by accessing multiple meteorological data points."
+      },
+      "image": {
+        "alt": "Meteorological Data Visual"
+      }
+    },
+    "panelOperation": {
+      "title": "Real-Time Operation Management",
+      "description": "Monitoring operational status in operation and maintenance activities is critical for increasing plant efficiency and ensuring uninterrupted energy production. Monitor and manage your plant's instant operational status. With real-time data, continuously track your plant's performance and make quick interventions by detecting potential problems early.",
+      "features": {
+        "1": "Monitor current status by reporting your operations in seconds.",
+        "2": "Track your plant's instant data and evaluate its performance.",
+        "3": "Ensure uninterrupted energy production by increasing plant efficiency."
+      },
+      "image": {
+        "alt": "Panel Operation Status"
+      }
+    },
+    "serialNumber": {
+      "title": "Quickly Scan Serial Numbers and Take Action",
+      "description": "In warranty claims and management processes, quickly and accurately recording serial numbers of components such as solar panels and inverters usually requires significant time and cost. Simplify this process with MapperX technology to save significant time and increase your operational efficiency. Instantly scan and record serial numbers using your mobile phone camera without needing additional hardware.",
+      "features": {
+        "1": "Increase efficiency by saving significant time in warranty claims.",
+        "2": "Create digital twins of Serial No. to speed up the next operation.",
+        "3": "Export scanned serial numbers in bulk to Excel format."
+      },
+      "image": {
+        "alt": "Serial Number Scanning"
+      }
+    },
+    "team": {
+      "title": "Team Members and Assignment",
+      "description": "Effectively assigning teams in inspection and audit activities and tracking their performance in workflows is challenging and complex. With the MapperX platform, manage team member task distributions and monitor their performance through a single platform. This way, optimize team management and plant performance.",
+      "features": {
+        "1": "Create unlimited current reports of work orders and history.",
+        "2": "Authorize plant members for any plant and task.",
+        "3": "Easily access all technical and operational information of the plant."
+      },
+      "image": {
+        "alt": "Team Members and Assignment"
+      }
+    }
   }
 } 

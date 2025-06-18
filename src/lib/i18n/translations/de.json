@@ -305,5 +305,99 @@
         "alt": "MapperX Studio Screenshot"
       }
     }
+  },
+  "powerPlantManagement": {
+    "hero": {
+      "title": "Sparen Sie Zeit im Kraftwerksmanagement und steigern Sie Ihre betriebliche Effizienz",
+      "description": "Optimieren Sie Ihre Arbeitsabläufe in Solarkraftwerken, steigern Sie die Effizienz und ergreifen Sie sofortige Maßnahmen mit schnellem operativem Management. Schützen Sie Ihr Unternehmen durch Prävention von Brandrisiken und finanziellen Verlusten.",
+      "buttons": {
+        "register": "Registrieren",
+        "contact": "Experte kontaktieren"
+      },
+      "image": {
+        "alt": "Kraftwerksmanagement-Bildschirm"
+      }
+    },
+    "meteorologicalData": {
+      "title": "Meteorologische Daten von Kraftwerken",
+      "description": "Die Berechnung der Effizienz anhand meteorologischer Daten für bestimmte Daten und Uhrzeiten bei präventiven und periodischen Wartungsaktivitäten erfordert Fachwissen und Kosten. Mit der MapperX-Plattform werden ohne zusätzliche Lizenzkosten automatisch die genauesten meteorologischen Daten für Sie abgerufen, Effizienzanalysen im Rahmen der IEC 62446-Standards durchgeführt und die Daten an Sie berichtet.",
+      "features": {
+        "1": "Automatischer Abruf von Daten wie Einstrahlung, Wind und Lufttemperatur.",
+        "2": "Eliminierung von Kosten beim Zugriff auf meteorologische Daten.",
+        "3": "Erstellung detaillierter Berichte durch Zugriff auf mehrere meteorologische Datenpunkte."
+      },
+      "image": {
+        "alt": "Meteorologische Daten Visualisierung"
+      }
+    },
+    "panelOperation": {
+      "title": "Echtzeit-Betriebsmanagement",
+      "description": "Die Überwachung des Betriebszustands bei Betriebs- und Wartungsaktivitäten ist entscheidend für die Steigerung der Anlageneffizienz und die Sicherstellung einer unterbrechungsfreien Energieerzeugung. Überwachen und verwalten Sie den aktuellen Betriebszustand Ihrer Anlage. Mit Echtzeitdaten können Sie die Leistung Ihrer Anlage kontinuierlich verfolgen und durch frühzeitige Erkennung potenzieller Probleme schnell eingreifen.",
+      "features": {
+        "1": "Überwachen Sie den aktuellen Status durch sekundenschnelle Berichterstattung.",
+        "2": "Verfolgen Sie die Echtzeitdaten Ihrer Anlage und bewerten Sie ihre Leistung.",
+        "3": "Gewährleisten Sie unterbrechungsfreie Energieerzeugung durch Steigerung der Anlageneffizienz."
+      },
+      "image": {
+        "alt": "Panel-Betriebsstatus"
+      }
+    },
+    "serialNumber": {
+      "title": "Seriennummern schnell scannen und Maßnahmen ergreifen",
+      "description": "Bei Garantieansprüchen und Managementprozessen erfordert die schnelle und genaue Erfassung von Seriennummern von Komponenten wie Solarmodulen und Wechselrichtern normalerweise erheblichen Zeit- und Kostenaufwand. Vereinfachen Sie diesen Prozess mit der MapperX-Technologie, um erheblich Zeit zu sparen und Ihre betriebliche Effizienz zu steigern. Scannen und erfassen Sie Seriennummern sofort mit Ihrer Smartphone-Kamera ohne zusätzliche Hardware.",
+      "features": {
+        "1": "Steigern Sie die Effizienz durch erhebliche Zeitersparnis bei Garantieansprüchen.",
+        "2": "Erstellen Sie digitale Zwillinge der Seriennummern zur Beschleunigung der nächsten Operation.",
+        "3": "Exportieren Sie gescannte Seriennummern gesammelt im Excel-Format."
+      },
+      "image": {
+        "alt": "Seriennummern-Scanning"
+      }
+    },
+    "team": {
+      "title": "Teammitglieder und Zuweisung",
+      "description": "Die effektive Zuweisung von Teams bei Inspektions- und Prüfungsaktivitäten und die Verfolgung ihrer Leistung in Arbeitsabläufen ist herausfordernd und komplex. Mit der MapperX-Plattform verwalten Sie die Aufgabenverteilung der Teammitglieder und überwachen ihre Leistung über eine einzige Plattform. Auf diese Weise optimieren Sie das Teammanagement und die Anlagenleistung.",
+      "features": {
+        "1": "Erstellen Sie unbegrenzt aktuelle Berichte über Arbeitsaufträge und Historie.",
+        "2": "Autorisieren Sie Anlagenmitglieder für beliebige Anlagen und Aufgaben.",
+        "3": "Greifen Sie einfach auf alle technischen und betrieblichen Informationen der Anlage zu."
+      },
+      "image": {
+        "alt": "Teammitglieder und Zuweisung"
+      }
+    }
+  },
+  "faq": {
+    "title": "Häufig gestellte Fragen",
+    "showAll": "Alle FAQs anzeigen",
+    "helpCenter": {
+      "description": "Besuchen Sie unser Hilfezentrum für detaillierte Anleitungen und Dokumentation.",
+      "button": "Zum Hilfezentrum"
+    },
+    "technicalSupport": {
+      "description": "Benötigen Sie technische Unterstützung? Unser Expertenteam steht Ihnen zur Verfügung.",
+      "button": "Support kontaktieren"
+    },
+    "blog": {
+      "title": "MapperX Blog",
+      "description": "Entdecken Sie die neuesten Entwicklungen und Best Practices in der Solarindustrie.",
+      "subDescription": "Lesen Sie unsere aktuellen Artikel und bleiben Sie auf dem Laufenden.",
+      "button": "Zum Blog"
+    }
+  },
+  "reportDownload": {
+    "title": "Beispielbericht herunterladen",
+    "description": "Laden Sie einen kostenlosen Beispielbericht herunter, um die Qualität und den Umfang unserer Inspektionsberichte zu sehen.",
+    "form": {
+      "fullName": "Vollständiger Name",
+      "email": "E-Mail-Adresse",
+      "phone": "Telefonnummer",
+      "download": "Bericht herunterladen",
+      "required": "Dieses Feld ist erforderlich",
+      "invalidEmail": "Bitte geben Sie eine gültige E-Mail-Adresse ein"
+    },
+    "image": {
+      "alt": "Beispielbericht Vorschau"
+    }
   }
 } 

@@ -31,7 +31,7 @@ export const routes: RouteConfig = {
     it: '/it/piattaforma/ispezione-e-verifica'
   },
   powerPlant: {
-    tr: '/santral-yonetimi',
+    tr: '/tr/platform/santral-yonetimi',
     en: '/en/platform/power-plant-management',
     de: '/de/plattform/kraftwerksmanagement',
     fr: '/fr/plateforme/gestion-de-centrale',

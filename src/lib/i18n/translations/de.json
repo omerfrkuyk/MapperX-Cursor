@@ -622,5 +622,27 @@
         "answer": "Die thermografische Untersuchung ermöglicht die frühzeitige Erkennung defekter Module und Bereiche mit geringer Effizienz. Dies ermöglicht rechtzeitige Reparaturen und Wartungen und gewährleistet maximale Effizienz bei der Energieerzeugung."
       }
     ]
+  },
+  "rAndD": {
+    "hero": {
+      "title": "Zentrum",
+      "titleHighlight": "F&E",
+      "description": "In unserem innovations- und technologieorientierten F&E-Zentrum entwickeln wir mit unseren Ingenieuren und technischen Mitarbeitern innovative Lösungen."
+    },
+    "mission": {
+      "description": "MapperX konzentriert sich auf innovationsbasiertes Wirtschaftswachstum und Entwicklungsziele, indem die Anzahl der technischen Mitarbeiter und Ingenieure in F&E-Aktivitäten kontinuierlich erhöht wird. Wir produzieren hochwertige Produkte auf Basis von Hochtechnologie und investieren weiterhin in diese Bereiche. Mit unseren Ingenieuren und technischen Mitarbeitern entwickeln wir neue Produkte und Prozesse, um die Erwartungen unserer Geschäftspartner zu erfüllen. In diesem Zusammenhang sind unsere Missionsprinzipien:",
+      "principles": [
+        "Einhaltung der Grundsätze der Genauigkeit, Unparteilichkeit und Vertraulichkeit",
+        "Anwendung von Qualitätsstandards nationaler und internationaler Organisationen bei unseren Test- und Versuchsaktivitäten",
+        "Aktualisierung unserer Ausrüstung und unseres Wissens",
+        "Bereitstellung der schnellsten und innovativsten Lösungen für die Probleme unserer Kunden"
+      ],
+      "footer": "Unser F&E-Projekt wird mit Unterstützung des Ministeriums für Industrie und Technologie der Republik Türkei und TÜBİTAK (Der Wissenschaftliche und Technologische Forschungsrat der Türkei) durchgeführt. Unsere Arbeit wird im METU Technopolis Information Innovation Center fortgesetzt."
+    },
+    "greenAI": {
+      "description": "Wir freuen uns, diesen Prozess mit den von uns entwickelten Technologien im Rahmen der Bemühungen zur Reduzierung der Kohlenstoffemissionen in der Welt zu unterstützen.",
+      "highlight": "\"Grüne KI\"",
+      "subDescription": "Mit diesem Thema entwickeln wir künstliche Intelligenz-Software zur Steigerung der Effizienz erneuerbarer Energiequellen."
+    }
   }
 } 

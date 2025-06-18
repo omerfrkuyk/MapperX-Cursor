@@ -1,18 +1,40 @@
 'use client';
 
 import Image from 'next/image';
+import { useLanguage } from '@/lib/i18n/LanguageContext';
 
 const ArGeHeroSection = () => {
+  const { translate, currentLanguage } = useLanguage();
+
+  const getTitle = () => {
+    switch (currentLanguage) {
+      case 'tr':
+        return { highlight: 'Ar-Ge', text: 'Merkezi' };
+      case 'de':
+        return { highlight: 'F&E', text: 'Zentrum' };
+      case 'it':
+        return { highlight: 'R&S', text: 'Centro' };
+      case 'fr':
+        return { highlight: 'R&D', text: 'Centre' };
+      default:
+        return { highlight: 'R&D', text: 'Center' };
+    }
+  };
+
+  const title = getTitle();
+
   return (
     <section className="relative w-full h-[90vh] overflow-hidden flex">
       {/* Sol Yazı Alanı */}
       <div className="w-full md:w-1/2 flex flex-col justify-center px-6 md:px-20 z-10 bg-gradient-to-r from-[#0f2027] via-[#203a43] to-[#2c5364] relative">
         <h2 className="text-4xl md:text-5xl font-extrabold mb-6">
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-blue-500">Ar-Ge</span> Merkezi
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-blue-500">
+            {title.highlight}
+          </span>{' '}
+          {title.text}
         </h2>
         <p className="text-lg md:text-xl leading-relaxed text-white">
-          İnovasyon ve teknoloji odaklı Ar-Ge merkezimizde, mühendis ve teknik kadromuzla
-          yenilikçi çözümler geliştiriyoruz.
+          {translate('rAndD.hero.description')}
         </p>
 
         {/* Noktalı arka plan sadece sol tarafa */}
@@ -32,7 +54,7 @@ const ArGeHeroSection = () => {
       <div className="w-1/2 h-full relative z-10">
         <Image
           src="/side-view-engineer-drawing-plan-outdoors.jpeg"
-          alt="Ar-Ge Mühendisi"
+          alt={`${title.highlight} ${title.text}`}
           fill
           className="object-cover"
           priority

@@ -680,5 +680,27 @@
         "answer": "Thermographic inspection enables early detection of faulty panels and low-efficiency areas. This allows for timely repairs and maintenance, ensuring maximum efficiency in energy production."
       }
     ]
+  },
+  "rAndD": {
+    "hero": {
+      "title": "Center",
+      "titleHighlight": "R&D",
+      "description": "In our innovation and technology-focused R&D center, we develop innovative solutions with our engineers and technical staff."
+    },
+    "mission": {
+      "description": "MapperX focuses on innovation-based economic growth and development goals by continuously increasing the number of technical personnel and engineers in R&D activities. We produce high-technology value-added products and continue to invest in these areas. With our engineers and technical staff, we develop new products and processes to meet the expectations of our business partners. In this context, our mission principles are:",
+      "principles": [
+        "Adhere to principles of accuracy, impartiality, and confidentiality",
+        "Apply quality standards prepared by national and international organizations in our testing and experimental activities",
+        "Keep our equipment and knowledge up-to-date",
+        "Provide the fastest and most innovative solutions to our customers' problems"
+      ],
+      "footer": "Our R&D project is carried out with the support of the Republic of Turkey Ministry of Industry and Technology and TÜBİTAK (The Scientific and Technological Research Council of Turkey). Our work continues at METU Technopolis Information Innovation Center."
+    },
+    "greenAI": {
+      "description": "We are happy to support this process with the technologies we develop within the scope of efforts to reduce carbon emissions in the world.",
+      "highlight": "\"Green AI\"",
+      "subDescription": "With the theme, we develop artificial intelligence software to increase the efficiency of renewable energy sources."
+    }
   }
 }

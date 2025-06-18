@@ -73,11 +73,11 @@ export const routes: RouteConfig = {
     it: '/it/aziendale'
   },
   'ar-ge': {
-    tr: '/ar-ge',
-    en: '/en/r-and-d',
-    de: '/de/forschung-und-entwicklung',
-    fr: '/fr/recherche-et-developpement',
-    it: '/it/ricerca-e-sviluppo'
+    tr: '/tr/ar-ge',
+    en: '/en/rd',
+    de: '/de/fe',
+    fr: '/fr/rd',
+    it: '/it/rs'
   },
   kariyer: {
     tr: '/kariyer',

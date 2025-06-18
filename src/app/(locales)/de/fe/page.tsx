@@ -14,8 +14,6 @@ export default function Page() {
       <PartnershipSection />
       <FAQSection />
       <ReportDownloadSection />
-
-  
     </>
   );
-}
+} 

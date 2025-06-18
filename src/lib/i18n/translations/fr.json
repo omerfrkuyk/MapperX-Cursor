@@ -613,5 +613,27 @@
         "answer": "L'inspection thermographique permet la détection précoce des panneaux défectueux et des zones à faible efficacité. Cela permet des réparations et une maintenance opportunes, assurant une efficacité maximale dans la production d'énergie."
       }
     ]
+  },
+  "rAndD": {
+    "hero": {
+      "title": "Centre",
+      "titleHighlight": "R&D",
+      "description": "Dans notre centre de R&D axé sur l'innovation et la technologie, nous développons des solutions innovantes avec nos ingénieurs et notre personnel technique."
+    },
+    "mission": {
+      "description": "MapperX se concentre sur les objectifs de croissance économique et de développement basés sur l'innovation en augmentant continuellement le nombre de personnel technique et d'ingénieurs dans les activités de R&D. Nous produisons des produits à valeur ajoutée basés sur la haute technologie et continuons d'investir dans ces domaines. Avec nos ingénieurs et notre personnel technique, nous développons de nouveaux produits et processus pour répondre aux attentes de nos partenaires commerciaux. Dans ce contexte, nos principes de mission sont :",
+      "principles": [
+        "Respecter les principes d'exactitude, d'impartialité et de confidentialité",
+        "Appliquer les normes de qualité préparées par les organisations nationales et internationales dans nos activités d'essai et d'expérimentation",
+        "Maintenir notre équipement et nos connaissances à jour",
+        "Fournir les solutions les plus rapides et les plus innovantes aux problèmes de nos clients"
+      ],
+      "footer": "Notre projet de R&D est réalisé avec le soutien du Ministère de l'Industrie et de la Technologie de la République de Turquie et de TÜBİTAK (Le Conseil de la Recherche Scientifique et Technologique de Turquie). Notre travail se poursuit au Centre d'Innovation de l'Information METU Technopolis."
+    },
+    "greenAI": {
+      "description": "Nous sommes heureux de soutenir ce processus avec les technologies que nous développons dans le cadre des efforts visant à réduire les émissions de carbone dans le monde.",
+      "highlight": "\"IA Verte\"",
+      "subDescription": "Avec ce thème, nous développons des logiciels d'intelligence artificielle pour augmenter l'efficacité des sources d'énergie renouvelable."
+    }
   }
 } 

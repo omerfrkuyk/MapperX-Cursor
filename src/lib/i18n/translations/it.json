@@ -622,5 +622,27 @@
         "answer": "L'ispezione termografica consente il rilevamento precoce dei pannelli difettosi e delle aree a bassa efficienza. Questo permette riparazioni e manutenzione tempestive, garantendo la massima efficienza nella produzione di energia."
       }
     ]
+  },
+  "rAndD": {
+    "hero": {
+      "title": "Centro",
+      "titleHighlight": "R&S",
+      "description": "Nel nostro centro di R&S orientato all'innovazione e alla tecnologia, sviluppiamo soluzioni innovative con i nostri ingegneri e il nostro staff tecnico."
+    },
+    "mission": {
+      "description": "MapperX si concentra sugli obiettivi di crescita economica e sviluppo basati sull'innovazione aumentando continuamente il numero di personale tecnico e ingegneri nelle attività di R&S. Produciamo prodotti ad alto valore aggiunto basati sull'alta tecnologia e continuiamo a investire in queste aree. Con i nostri ingegneri e il nostro staff tecnico, sviluppiamo nuovi prodotti e processi per soddisfare le aspettative dei nostri partner commerciali. In questo contesto, i nostri principi di missione sono:",
+      "principles": [
+        "Aderire ai principi di accuratezza, imparzialità e riservatezza",
+        "Applicare gli standard di qualità preparati da organizzazioni nazionali e internazionali nelle nostre attività di test e sperimentazione",
+        "Mantenere aggiornate le nostre attrezzature e conoscenze",
+        "Fornire le soluzioni più rapide e innovative ai problemi dei nostri clienti"
+      ],
+      "footer": "Il nostro progetto di R&S è realizzato con il supporto del Ministero dell'Industria e della Tecnologia della Repubblica di Turchia e TÜBİTAK (Il Consiglio per la Ricerca Scientifica e Tecnologica della Turchia). Il nostro lavoro continua presso il Centro di Innovazione dell'Informazione METU Technopolis."
+    },
+    "greenAI": {
+      "description": "Siamo felici di supportare questo processo con le tecnologie che sviluppiamo nell'ambito degli sforzi per ridurre le emissioni di carbonio nel mondo.",
+      "highlight": "\"AI Verde\"",
+      "subDescription": "Con questo tema, sviluppiamo software di intelligenza artificiale per aumentare l'efficienza delle fonti di energia rinnovabile."
+    }
   }
 } 

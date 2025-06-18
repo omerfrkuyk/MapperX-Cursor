@@ -3,8 +3,10 @@
 import Image from 'next/image';
 import { useInView } from 'react-intersection-observer';
 import { motion } from 'framer-motion';
+import { useLanguage } from '@/lib/i18n/LanguageContext';
 
 const YesilZekaSection = () => {
+  const { translate } = useLanguage();
   const { ref, inView } = useInView({
     triggerOnce: true,
     threshold: 0.2,
@@ -23,20 +25,18 @@ const YesilZekaSection = () => {
       >
         <Image
           src="/yesil-zeka.webp"
-          alt="Yeşil Zeka Logo"
+          alt={translate('rAndD.greenAI.highlight')}
           width={200}
           height={80}
           className="mx-auto mb-6"
         />
         <p className="text-lg md:text-xl text-gray-700 leading-relaxed">
-          Dünyada karbon salınımını azaltmaya yönelik yapılan çalışmalar kapsamında
-          geliştirdiğimiz teknolojilerle bu sürece destek olmaktan mutluluk duyuyoruz.
+          {translate('rAndD.greenAI.description')}
           <br />
           <span className="font-semibold text-[#0f2027]">
-            “Yeşil Zeka”
+            {translate('rAndD.greenAI.highlight')}
           </span>{' '}
-          teması ile yenilenebilir enerji kaynaklarının verimliliğini artırmak için
-          yapay zeka yazılımları geliştiriyoruz.
+          {translate('rAndD.greenAI.subDescription')}
         </p>
       </motion.div>
     </section>

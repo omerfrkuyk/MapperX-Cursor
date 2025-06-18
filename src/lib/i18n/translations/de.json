@@ -392,21 +392,150 @@
     }
   },
   "faq": {
+    "heading": "Häufig gestellte Fragen",
     "title": "Häufig gestellte Fragen",
-    "showAll": "Alle FAQs anzeigen",
+    "searchPlaceholder": "Fragen oder Antworten suchen...",
+    "allCategories": "Alle Kategorien",
+    "expandAll": "Alle erweitern",
+    "collapseAll": "Alle einklappen",
+    "noResults": "Keine Fragen gefunden, die Ihren Suchkriterien entsprechen.",
+    "showAll": "Alle Fragen anzeigen",
+    "categories": {
+      "thermographic": "Thermografische Inspektion",
+      "inspection": "Inspektion und Prüfung",
+      "powerPlant": "Kraftwerksmanagement"
+    },
     "helpCenter": {
-      "description": "Besuchen Sie unser Hilfezentrum für detaillierte Anleitungen und Dokumentation.",
+      "description": "Besuchen Sie unser Hilfezentrum für detaillierte Informationen und Benutzerhandbücher.",
       "button": "Zum Hilfezentrum"
     },
     "technicalSupport": {
-      "description": "Benötigen Sie technische Unterstützung? Unser Expertenteam steht Ihnen zur Verfügung.",
-      "button": "Support kontaktieren"
+      "description": "Unser technischer Support-Team steht Ihnen zur Verfügung.",
+      "button": "Technischen Support erhalten"
     },
     "blog": {
-      "title": "MapperX Blog",
-      "description": "Entdecken Sie die neuesten Entwicklungen und Best Practices in der Solarindustrie.",
-      "subDescription": "Lesen Sie unsere aktuellen Artikel und bleiben Sie auf dem Laufenden.",
-      "button": "Zum Blog"
+      "title": "Blog",
+      "description": "Bleiben Sie über die neuesten Entwicklungen in der Solarenergie und MapperX-Updates informiert.",
+      "subDescription": "Entdecken Sie Inhalte von unseren Branchenexperten.",
+      "button": "Blog besuchen"
+    },
+    "items": {
+      "termografik-muayene-nedir": {
+        "question": "Was ist eine thermografische Untersuchung?",
+        "answer": "Die thermografische Untersuchung ist eine zerstörungsfreie Analysemethode, die Wärmebildtechnologie nutzt, um Temperaturveränderungen und potenzielle Probleme in Solarmodulen und Anlagenkomponenten zu erkennen. Diese Technik ist entscheidend für die frühzeitige Erkennung von Anomalien wie Hot Spots, defekte Zellen und Verbindungsprobleme."
+      },
+      "termografik-muayene-neden-onemlidir": {
+        "question": "Warum ist thermografische Inspektion wichtig?",
+        "answer": "Die thermografische Inspektion ermöglicht die frühzeitige Erkennung von Temperaturanomalien in Solarmodulen und verhindert so potenzielle Ausfälle und Effizienzverluste. Dies trägt zur Verbesserung der Anlagenleistung und zur Reduzierung der Wartungskosten bei."
+      },
+      "termografik-muayene-nasil-yapilir": {
+        "question": "Wie wird die thermografische Inspektion durchgeführt?",
+        "answer": "Die thermografische Inspektion wird mit Drohnen durchgeführt, die mit Wärmebildkameras ausgestattet sind. Die Drohnen fliegen über die Module und sammeln Wärmebilder, die dann über die MapperX-Plattform analysiert werden."
+      },
+      "termal-drone-kullanim-avantajlari": {
+        "question": "Was sind die Vorteile der Verwendung von Wärmebilddrohnen?",
+        "answer": "Die Verwendung von Wärmebilddrohnen ermöglicht ein schnelles und effektives Scannen großer Flächen. Drohnen können auch in schwer zugänglichen Bereichen detaillierte Wärmebilder erstellen und ermöglichen so eine umfassende Inspektion."
+      },
+      "termografik-muayene-sonuclari-nasil-raporlanir": {
+        "question": "Wie werden die Ergebnisse der thermografischen Inspektion berichtet?",
+        "answer": "Die MapperX-Plattform erstellt Berichte über thermografische Inspektionen gemäß den IEC 62446-Standards. Diese Berichte enthalten detaillierte Analysen defekter Module und Hotspots."
+      },
+      "termografik-muayene-siklik": {
+        "question": "Wie oft sollte eine thermografische Inspektion durchgeführt werden?",
+        "answer": "Die thermografische Inspektion sollte mindestens zweimal jährlich im Rahmen des periodischen Wartungsprogramms der Anlage durchgeführt werden. Häufigere Inspektionen können jedoch helfen, potenzielle Probleme frühzeitig zu erkennen und zu verhindern."
+      },
+      "hangi-arizalar-tespit-edilebilir": {
+        "question": "Welche Arten von Fehlern können mit thermografischer Inspektion erkannt werden?",
+        "answer": "Mit der thermografischen Inspektion können Zellen-, Mehrfachzellen-, Dioden-, Mehrfachdioden-, Modul-, Hotspot-, String-, Vegetationsverschattungs-, Verschmutzungs-, Verschattungs-, Anschlussdosen- und Riss-/Bruchprobleme erkannt werden. Diese Arten von Fehlern können die Anlageneffizienz negativ beeinflussen."
+      },
+      "veri-analiz-algoritmalari": {
+        "question": "Wie analysiert die MapperX-Plattform thermografische Inspektionsdaten?",
+        "answer": "Die MapperX-Plattform verwendet KI-gestützte Algorithmen zur Analyse von Wärmebildern und zur Erkennung von Temperaturanomalien. Diese Analysen ermöglichen eine schnelle Identifizierung von Fehlern und Effizienzverlusten."
+      },
+      "enerji-verimliligi-artirma": {
+        "question": "Wie verbessert die thermografische Inspektion die Energieeffizienz?",
+        "answer": "Die thermografische Inspektion ermöglicht die frühzeitige Erkennung defekter Module und leistungsschwacher Bereiche. Dies ermöglicht zeitnahe Reparaturen und Wartungen, um maximale Effizienz bei der Energieerzeugung zu gewährleisten."
+      },
+      "denetim-ve-muayene-nedir": {
+        "question": "Was ist Inspektion und Prüfung?",
+        "answer": "Inspektion und Prüfung sind regelmäßige Kontroll- und Bewertungsprozesse, die durchgeführt werden, um den sicheren und effizienten Betrieb von Solarkraftwerken zu gewährleisten. Diese Prozesse bewerten die Leistung und den Zustand von Modulen, Wechselrichtern und anderen Komponenten."
+      },
+      "denetim-ve-muayene-neden-onemlidir": {
+        "question": "Warum sind Inspektion und Prüfung wichtig?",
+        "answer": "Inspektion und Prüfung sind entscheidend, um sicherzustellen, dass Solarkraftwerke mit optimaler Leistung arbeiten, potenzielle Fehler frühzeitig erkannt werden und ein sicherer Betrieb gewährleistet ist."
+      },
+      "denetim-ve-muayene-testler": {
+        "question": "Welche Tests werden während der Inspektions- und Prüfungsprozesse durchgeführt?",
+        "answer": "Zu den während der Inspektions- und Prüfungsprozesse durchgeführten Tests gehören I-V-Kurventest, Widerstandstest, Polaritätstest, Isolationstest und verschiedene andere Messungen."
+      },
+      "platform-yardim": {
+        "question": "Wie unterstützt die MapperX-Plattform bei Inspektions- und Prüfungsprozessen?",
+        "answer": "Sie digitalisiert Inspektions- und Prüfungsprozesse, sammelt Daten auf einer einzigen Plattform und analysiert sie. Dies reduziert manuelle Fehler, beschleunigt Berichtsprozesse und erhöht die Effizienz."
+      },
+      "veri-toplama-analiz": {
+        "question": "Wie werden Inspektions- und Prüfungsdaten gesammelt und analysiert?",
+        "answer": "Inspektions- und Prüfungsdaten werden durch visuelle Inspektion, Wärmemessungen und verschiedene elektrische Testgeräte gesammelt. Die MapperX-Plattform analysiert diese Daten, erstellt digitale Zwillinge und generiert autonome Berichte."
+      },
+      "kullanilan-ekipmanlar": {
+        "question": "Welche Ausrüstung wird bei Inspektions- und Prüfungsprozessen verwendet?",
+        "answer": "Bei Inspektions- und Prüfungsprozessen werden verschiedene Geräte eingesetzt, darunter Wärmebildkameras, Drohnen, Multimeter, Isolationstestgeräte und I-V-Kurvenmessgeräte."
+      },
+      "standart-uyumluluk": {
+        "question": "Welchen Standards entsprechen die Inspektionen und Prüfungen der MapperX-Plattform?",
+        "answer": "Die mit der MapperX-Plattform durchgeführten Inspektionen und Prüfungen entsprechen den IEC 62446-Standards. Diese Standards gewährleisten die Qualität und Zuverlässigkeit der Inspektions- und Prüfungsprozesse in Solarkraftwerken."
+      },
+      "zaman-maliyet-tasarrufu": {
+        "question": "Wie werden Zeit- und Kosteneinsparungen bei Inspektions- und Prüfungsprozessen erzielt?",
+        "answer": "Die MapperX-Plattform automatisiert Inspektions- und Prüfungsprozesse und reduziert den manuellen Arbeitsaufwand. Dies beschleunigt Prozesse, reduziert Fehler und bietet erhebliche Zeit- und Kosteneinsparungen."
+      },
+      "raporlama-verilerimi-raporlayabilir-miyim": {
+        "question": "Kann ich meine Inspektions- und Prüfungsdaten berichten?",
+        "answer": "Ja, Sie können Ihre Beobachtungen, Wärmemessungen und elektrischen Messungen auf der MapperX-Plattform aufzeichnen und Ihre Arbeit in einem einzigen Bericht zusammenfassen."
+      },
+      "elektriksel-test-raporlayabilir-miyim": {
+        "question": "Kann ich elektrische Tests und Messungen mit MapperX berichten?",
+        "answer": "Ja, Sie können Ihre Arbeitsabläufe beschleunigen und Berichte erstellen, indem Sie die in der Anlage durchgeführten Test- und Messergebnisse auf der Plattform aufzeichnen. Dies ermöglicht Ihnen den Vergleich und die Analyse aller Ergebnisse."
+      },
+      "seri-numarasi-yonetimi-onemi": {
+        "question": "Warum ist Seriennummernverwaltung in Inspektions- und Prüfungsprozessen wichtig?",
+        "answer": "Seriennummernverwaltung ist entscheidend für Garantieansprüche, Wartungs- und Austauschprozesse. Die MapperX-Plattform scannt Seriennummern schnell, erstellt deren digitale Zwillinge und verwaltet alle Daten auf einer einzigen Plattform."
+      },
+      "rapor-olusturma-procesi": {
+        "question": "Wie werden Inspektions- und Prüfungsberichte erstellt?",
+        "answer": "Die MapperX-Plattform analysiert gesammelte Daten, um detaillierte und zuverlässige Inspektions- und Prüfungsberichte gemäß IEC-Standards zu erstellen. Diese Berichte werden verwendet, um die Anlagenleistung und -sicherheit zu verbessern."
+      },
+      "santral-yonetimi-nedir": {
+        "question": "Was ist Kraftwerksmanagement?",
+        "answer": "Kraftwerksmanagement umfasst alle betrieblichen und Wartungsaktivitäten, die durchgeführt werden, um den effizienten und sicheren Betrieb von Solarkraftwerken zu gewährleisten."
+      },
+      "seri-numarasi-yonetimi-nedir-onemi": {
+        "question": "Was ist Seriennummernverwaltung und warum ist sie wichtig?",
+        "answer": "Seriennummernverwaltung beinhaltet die Aufzeichnung und Verfolgung von Seriennummern von Komponenten wie Solarmodulen und Wechselrichtern. Dies ist entscheidend für Garantieansprüche, Wartungs- und Austauschprozesse. Die MapperX-Plattform scannt Seriennummern schnell, erstellt deren digitale Zwillinge und verwaltet alle Daten auf einer einzigen Plattform."
+      },
+      "santral-yonetimi-finansal-kayiplar": {
+        "question": "Wie werden finanzielle Verluste durch Kraftwerksmanagement verhindert?",
+        "answer": "Kraftwerksmanagement verhindert potenzielle Ausfälle und Effizienzverluste durch regelmäßige Wartungs- und Überwachungsaktivitäten. Dies gewährleistet Kontinuität in der Energieerzeugung und minimiert finanzielle Verluste."
+      },
+      "meteorolojik-veriler-kullanimi": {
+        "question": "Wie werden meteorologische Daten im Kraftwerksmanagement verwendet?",
+        "answer": "Meteorologische Daten werden zur Berechnung der Energieerzeugungseffizienz und Wartungsplanung verwendet. Die MapperX-Plattform ruft diese Daten automatisch ab, analysiert sie und erstellt Berichte."
+      },
+      "ekip-performansi-takip": {
+        "question": "Wie wird die Teamleistung im Kraftwerksmanagement verfolgt?",
+        "answer": "Die MapperX-Plattform bietet die Möglichkeit, die Aufgabenzuweisungen und Leistung der Teammitglieder zu überwachen. Arbeitsauftragsstatus und Teamleistung können über die Plattform verfolgt und optimiert werden."
+      },
+      "verimlilik-artirma-onlemler": {
+        "question": "Was kann getan werden, um die Kraftwerkseffizienz zu steigern?",
+        "answer": "Um die Kraftwerkseffizienz zu steigern, sollten regelmäßige Wartungen und Reparaturen durchgeführt, die Anlagenleistung durch thermografische Inspektion und elektrische Tests überwacht und bei Bedarf Eingriffe vorgenommen werden."
+      },
+      "platform-yardimci-ozellikler": {
+        "question": "Wie unterstützt die MapperX-Plattform beim Kraftwerksmanagement?",
+        "answer": "Sie digitalisiert Kraftwerkmanagementprozesse, steigert die Effizienz und vereinfacht das operative Management. Sie optimiert das Kraftwerksmanagement durch Echtzeitüberwachung von Betriebsdaten, automatische Berichterstattung und Analysefunktionen."
+      },
+      "yonetimin-onemi": {
+        "question": "Warum ist Kraftwerksmanagement wichtig?",
+        "answer": "Kraftwerksmanagement ist entscheidend für die Steigerung der Energieerzeugungseffizienz, die Reduzierung von Kosten und die Verhinderung potenzieller Ausfälle. Gutes Management gewährleistet einen langfristigen und sicheren Betrieb der Anlage."
+      }
     }
   },
   "reportDownload": {
@@ -453,5 +582,45 @@
         "Dies gewährleistet, dass die Sicherheit und Leistung der Kundenanlagen garantiert sind. MapperX verpflichtet sich, höchste Servicequalität in Qualitäts- und Sicherheitsfragen zu bieten."
       ]
     }
+  },
+  "faqData": {
+    "questions": [
+      {
+        "question": "Was ist thermografische Untersuchung?",
+        "answer": "Die thermografische Untersuchung ist eine Methode, die defekte oder ineffiziente Bereiche durch Messung der Oberflächentemperaturen von Solarmodulen und BOS-Komponenten erkennt. Diese Methode wird verwendet, um Hotspots und andere Anomalien in Modulen zu identifizieren."
+      },
+      {
+        "question": "Warum ist die thermografische Untersuchung wichtig?",
+        "answer": "Die thermografische Untersuchung ermöglicht die frühzeitige Erkennung von Temperaturanomalien in Solarmodulen und verhindert so potenzielle Ausfälle und Effizienzverluste. Dies hilft, die Anlagenleistung zu steigern und Wartungskosten zu reduzieren."
+      },
+      {
+        "question": "Wie wird die thermografische Untersuchung durchgeführt?",
+        "answer": "Die thermografische Untersuchung wird mit Drohnen durchgeführt, die mit Wärmebildkameras ausgestattet sind. Die Drohnen sammeln Wärmebilder durch Überfliegen der Module, und diese Bilder werden über die MapperX-Plattform analysiert."
+      },
+      {
+        "question": "Was sind die Vorteile der Verwendung von Wärmebilddrohnen?",
+        "answer": "Die Verwendung von Wärmebilddrohnen ermöglicht ein schnelles und effektives Scannen großer Flächen. Drohnen können auch in schwer zugänglichen Bereichen detaillierte Wärmebilder erstellen und ermöglichen so eine umfassende Inspektion."
+      },
+      {
+        "question": "Wie werden die Ergebnisse der thermografischen Untersuchung berichtet?",
+        "answer": "Die MapperX-Plattform erstellt Berichte über thermografische Untersuchungen gemäß IEC 62446-Standards. Diese Berichte enthalten detaillierte Analysen defekter Module und Hotspots."
+      },
+      {
+        "question": "Wie oft sollte eine thermografische Untersuchung durchgeführt werden?",
+        "answer": "Die thermografische Untersuchung sollte je nach periodischem Wartungsplan der Anlage mindestens zweimal jährlich durchgeführt werden. Häufigere Inspektionen können jedoch helfen, potenzielle Probleme frühzeitig zu erkennen und zu verhindern."
+      },
+      {
+        "question": "Welche Arten von Fehlern können mit der thermografischen Untersuchung erkannt werden?",
+        "answer": "Mit der thermografischen Untersuchung können Zellen-, Mehrfachzellen-, Dioden-, Mehrfachdioden-, Modul-, Hotspot-, String-, Anlagenverschattungs-, Verschmutzungs-, Verschattungs-, Anschlussdosen- und Riss-/Bruchprobleme erkannt werden. Diese Arten von Fehlern können die Anlageneffizienz negativ beeinflussen."
+      },
+      {
+        "question": "Wie analysiert die MapperX-Plattform thermografische Untersuchungsdaten?",
+        "answer": "Die MapperX-Plattform analysiert Wärmebilder mithilfe KI-gestützter Algorithmen und erkennt Temperaturanomalien. Diese Analysen ermöglichen eine schnelle Identifizierung von Fehlern und Effizienzverlusten."
+      },
+      {
+        "question": "Wie wird die Energieeffizienz durch thermografische Untersuchung gesteigert?",
+        "answer": "Die thermografische Untersuchung ermöglicht die frühzeitige Erkennung defekter Module und Bereiche mit geringer Effizienz. Dies ermöglicht rechtzeitige Reparaturen und Wartungen und gewährleistet maximale Effizienz bei der Energieerzeugung."
+      }
+    ]
   }
 } 

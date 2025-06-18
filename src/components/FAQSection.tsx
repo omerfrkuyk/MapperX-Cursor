@@ -2,14 +2,15 @@
 
 import { useState } from 'react';
 import { ChevronDown, ChevronUp } from 'lucide-react';
-import faqData from '@/data/faqData';
 import Link from 'next/link';
 import { useLanguage } from '@/lib/i18n/LanguageContext';
 import { getLocalizedRoute } from '@/lib/i18n/routes';
+import { useFaqData } from '@/data/faqData';
 
 const FAQSection = () => {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
   const { translate, currentLanguage } = useLanguage();
+  const faqData = useFaqData();
 
   const toggleIndex = (index: number) => {
     setOpenIndex(openIndex === index ? null : index);

@@ -59,7 +59,7 @@ export const routes: RouteConfig = {
     it: '/it/blog'
   },
   faq: {
-    tr: '/sikca-sorulan-sorular',
+    tr: '/tr/sikca-sorulan-sorular',
     en: '/en/faq',
     de: '/de/faq',
     fr: '/fr/faq',

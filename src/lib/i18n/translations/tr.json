@@ -235,6 +235,153 @@
       "alt": "DJI Dock 2"
     }
   },
+  "faq": {
+    "heading": "Sıkça Sorulan Sorular",
+    "title": "Sıkça Sorulan Sorular",
+    "searchPlaceholder": "Soru veya cevap ara...",
+    "allCategories": "Tüm Kategoriler",
+    "expandAll": "Tümünü Genişlet",
+    "collapseAll": "Tümünü Daralt",
+    "noResults": "Arama kriterlerinize uygun soru bulunamadı.",
+    "showAll": "Tüm Soruları Görüntüle",
+    "categories": {
+      "thermographic": "Termografik İnceleme",
+      "inspection": "Denetim ve Muayene",
+      "powerPlant": "Santral Yönetimi"
+    },
+    "helpCenter": {
+      "description": "Detaylı bilgi ve kullanım kılavuzları için yardım merkezimizi ziyaret edin.",
+      "button": "Yardım Merkezine Git"
+    },
+    "technicalSupport": {
+      "description": "Teknik destek ekibimiz size yardımcı olmak için hazır.",
+      "button": "Teknik Destek Al"
+    },
+    "blog": {
+      "title": "Blog",
+      "description": "Güneş enerjisi sektöründeki son gelişmeler ve MapperX güncellemeleri hakkında bilgi alın.",
+      "subDescription": "Sektör uzmanlarımızın hazırladığı içerikleri keşfedin.",
+      "button": "Blog'u Ziyaret Et"
+    },
+    "items": {
+      "termografik-muayene-nedir": {
+        "question": "Termografik muayene nedir?",
+        "answer": "Termografik muayene, güneş panellerinin ve diğer elektriksel ekipmanların termal kamera kullanılarak sıcaklık dağılımlarının incelenmesi ve analiz edilmesi işlemidir. Bu yöntem, panellerdeki potansiyel sorunları ve arızaları erken aşamada tespit etmeye olanak sağlar."
+      },
+      "termografik-muayene-neden-onemlidir": {
+        "question": "Termografik muayene neden önemlidir?",
+        "answer": "Termografik muayene, güneş enerjisi santrallerinde verimliliği düşüren ve yangın riski oluşturabilecek sorunların erken tespitinde kritik öneme sahiptir. Düzenli termografik muayeneler sayesinde bakım maliyetleri azaltılır, enerji üretim verimliliği korunur ve sistem güvenliği sağlanır."
+      },
+      "termografik-muayene-nasil-yapilir": {
+        "question": "Termografik muayene nasıl yapılır?",
+        "answer": "MapperX platformunda termografik muayene, özel termal kameralar ile donatılmış dronlar kullanılarak gerçekleştirilir. Dronlar, panellerin üzerinde uçarak termal görüntüler toplar ve bu veriler yapay zeka algoritmaları tarafından analiz edilerek anomaliler tespit edilir."
+      },
+      "termal-drone-kullanim-avantajlari": {
+        "question": "Termal drone kullanımının avantajları nelerdir?",
+        "answer": "Termal drone kullanımı, geniş alanların hızlı ve etkili bir şekilde taranmasını sağlar, insan kaynaklı hataları minimize eder, ulaşılması zor bölgelerin incelenmesine olanak tanır ve iş güvenliği risklerini ortadan kaldırır."
+      },
+      "termografik-muayene-sonuclari-nasil-raporlanir": {
+        "question": "Termografik muayene sonuçları nasıl raporlanır?",
+        "answer": "MapperX platformu, toplanan termal verileri otomatik olarak işler ve IEC standartlarına uygun detaylı raporlar oluşturur. Raporlar, tespit edilen anomalilerin konumlarını, türlerini ve önem derecelerini içerir."
+      },
+      "termografik-muayene-siklik": {
+        "question": "Termografik muayene ne sıklıkla yapılmalıdır?",
+        "answer": "Termografik muayenenin sıklığı, santralin büyüklüğüne ve işletme koşullarına göre değişmekle birlikte, genellikle yılda en az iki kez yapılması önerilir. Özellikle mevsim geçişlerinde ve bakım dönemlerinde muayene yapılması önemlidir."
+      },
+      "hangi-arizalar-tespit-edilebilir": {
+        "question": "Hangi arızalar tespit edilebilir?",
+        "answer": "Termografik muayene ile sıcak noktalar, bypass diyot arızaları, bağlantı sorunları, hücre çatlakları, PID etkisi, gölgelenme sorunları ve panel delaminasyonu gibi çeşitli arızalar tespit edilebilir."
+      },
+      "veri-analiz-algoritmalari": {
+        "question": "Veri analiz algoritmaları nasıl çalışır?",
+        "answer": "MapperX'in yapay zeka destekli analiz algoritmaları, termal görüntüleri işleyerek sıcaklık farklarını tespit eder, anomalileri sınıflandırır ve risk seviyelerini belirler. Sistem, geçmiş verilerle karşılaştırma yaparak trend analizi de sunar."
+      },
+      "enerji-verimliligi-artirma": {
+        "question": "Enerji verimliliği nasıl artırılır?",
+        "answer": "Düzenli termografik muayeneler ve proaktif bakım yaklaşımı ile arızalar erken tespit edilir, onarımlar zamanında yapılır ve böylece sistemin optimum verimlilikle çalışması sağlanır."
+      },
+      "denetim-ve-muayene-nedir": {
+        "question": "Denetim ve muayene hizmeti nedir?",
+        "answer": "Denetim ve muayene hizmeti, güneş enerjisi santrallerinin performansını ve güvenliğini değerlendirmek için yapılan kapsamlı kontrol ve test süreçlerini içerir. Bu hizmet, elektriksel ölçümler, fiziksel kontroller ve dokümantasyon incelemelerini kapsar."
+      },
+      "denetim-ve-muayene-neden-onemlidir": {
+        "question": "Denetim ve muayene neden önemlidir?",
+        "answer": "Düzenli denetim ve muayeneler, santralin güvenli ve verimli çalışmasını sağlar, potansiyel sorunları önceden tespit eder, garanti şartlarına uyumu kontrol eder ve yasal gerekliliklerin karşılanmasını sağlar."
+      },
+      "denetim-ve-muayene-testler": {
+        "question": "Hangi testler yapılır?",
+        "answer": "String testleri, izolasyon direnci ölçümleri, topraklama kontrolleri, I-V eğrisi analizleri, panel temizlik kontrolleri ve bağlantı noktası kontrolleri gibi çeşitli testler yapılır."
+      },
+      "platform-yardim": {
+        "question": "Platform nasıl yardımcı olur?",
+        "answer": "MapperX platformu, denetim ve muayene süreçlerini dijitalleştirir, verileri merkezi bir sistemde toplar, otomatik raporlar oluşturur ve trend analizleri sunar."
+      },
+      "veri-toplama-analiz": {
+        "question": "Veriler nasıl toplanır ve analiz edilir?",
+        "answer": "Veriler, mobil cihazlar ve özel ölçüm ekipmanları ile toplanır, bulut tabanlı sisteme aktarılır ve yapay zeka algoritmaları ile analiz edilir."
+      },
+      "kullanilan-ekipmanlar": {
+        "question": "Hangi ekipmanlar kullanılır?",
+        "answer": "Termal kameralar, multimetreler, I-V eğrisi test cihazları, izolasyon direnci ölçüm cihazları ve özel dronlar gibi profesyonel ekipmanlar kullanılır."
+      },
+      "standart-uyumluluk": {
+        "question": "Hangi standartlara uyumluluk sağlanır?",
+        "answer": "IEC 62446, IEC 61215 ve IEC 61730 gibi uluslararası standartlara tam uyumluluk sağlanır."
+      },
+      "zaman-maliyet-tasarrufu": {
+        "question": "Zaman ve maliyet tasarrufu nasıl sağlanır?",
+        "answer": "Otomatik veri toplama, dijital raporlama ve yapay zeka destekli analizler sayesinde işlemler hızlanır ve operasyonel maliyetler azalır."
+      },
+      "raporlama-verilerimi-raporlayabilir-miyim": {
+        "question": "Denetim verilerimi raporlayabilir miyim?",
+        "answer": "Evet, MapperX platformu üzerinden tüm denetim verilerinizi IEC standartlarına uygun şekilde raporlayabilirsiniz."
+      },
+      "elektriksel-test-raporlayabilir-miyim": {
+        "question": "Elektriksel test sonuçlarını raporlayabilir miyim?",
+        "answer": "Evet, platform üzerinden string testleri, izolasyon direnci ölçümleri ve diğer elektriksel test sonuçlarını detaylı şekilde raporlayabilirsiniz."
+      },
+      "seri-numarasi-yonetimi-onemi": {
+        "question": "Seri numarası yönetimi neden önemlidir?",
+        "answer": "Seri numarası yönetimi, panellerin garanti takibi, bakım geçmişi ve performans analizi için kritik öneme sahiptir."
+      },
+      "rapor-olusturma-procesi": {
+        "question": "Rapor oluşturma süreci nasıl işler?",
+        "answer": "Veriler toplandıktan sonra platform otomatik olarak standartlara uygun raporlar oluşturur, anomalileri belirler ve öneriler sunar."
+      },
+      "santral-yonetimi-nedir": {
+        "question": "Santral yönetimi nedir?",
+        "answer": "Santral yönetimi, güneş enerjisi santralinin operasyonel süreçlerinin, bakım faaliyetlerinin ve performans takibinin tek bir platform üzerinden yönetilmesidir."
+      },
+      "seri-numarasi-yonetimi-nedir-onemi": {
+        "question": "Seri numarası yönetimi nasıl yapılır?",
+        "answer": "MapperX'in OCR teknolojisi ile panel seri numaraları otomatik olarak okunur, kaydedilir ve dijital ortamda yönetilir."
+      },
+      "santral-yonetimi-finansal-kayiplar": {
+        "question": "Finansal kayıplar nasıl önlenir?",
+        "answer": "Proaktif bakım, performans analizi ve erken uyarı sistemleri sayesinde potansiyel sorunlar önceden tespit edilir ve finansal kayıplar minimize edilir."
+      },
+      "meteorolojik-veriler-kullanimi": {
+        "question": "Meteorolojik veriler nasıl kullanılır?",
+        "answer": "Meteorolojik veriler, santral performansının değerlendirilmesi, üretim tahminleri ve bakım planlaması için kullanılır."
+      },
+      "ekip-performansi-takip": {
+        "question": "Ekip performansı nasıl takip edilir?",
+        "answer": "Platform üzerinden iş emirleri yönetilir, görev takibi yapılır ve ekip performansı raporlanır."
+      },
+      "verimlilik-artirma-onlemler": {
+        "question": "Verimlilik artırıcı önlemler nelerdir?",
+        "answer": "Düzenli bakım, performans analizi, temizlik programları ve optimizasyon çalışmaları ile verimlilik artırılır."
+      },
+      "platform-yardimci-ozellikler": {
+        "question": "Platformun yardımcı özellikleri nelerdir?",
+        "answer": "Otomatik raporlama, iş emri yönetimi, varlık takibi, performans analizi ve trend raporları gibi özellikler bulunur."
+      },
+      "yonetimin-onemi": {
+        "question": "Santral yönetiminin önemi nedir?",
+        "answer": "Etkili santral yönetimi, operasyonel verimliliği artırır, maliyetleri düşürür ve yatırım getirisini maksimize eder."
+      }
+    }
+  },
   "pricing": {
     "title": "Fiyatlandırma",
     "perMwp": "MWp başına",
@@ -292,24 +439,6 @@
       }
     ],
     "calculatePrice": "Fiyat Hesaplama"
-  },
-  "faq": {
-    "title": "Sıkça Sorulan Sorular",
-    "showAll": "Hepsini Göster",
-    "helpCenter": {
-      "description": "MapperX Yardım Merkezi, MapperX platformunun kullanımını kolaylaştırmak ve verimliliği artırmak amacıyla hazırlanmış kapsamlı bir dokümantasyon kaynağıdır. Kullanıcıların ihtiyaç duyduğu bilgilere hızlı ve etkili bir şekilde ulaşmalarını sağlar.",
-      "button": "Yardım Merkezi"
-    },
-    "technicalSupport": {
-      "description": "MapperX platformunda drone uçuş planlama süreci için bölge seçimi, rota oluşturma ve veri toplama adımlarını takip edin. Herhangi bir sorunla karşılaşırsanız, teknik destek ekibimizle iletişime geçebilirsiniz.",
-      "button": "Teknik Destek"
-    },
-    "blog": {
-      "title": "Blog",
-      "description": "Güneş enerjisi sistemleriyle ilgili son teknoloji haberleri, sektörel gelişmeler ve küresel enerji trendleri hakkında yazılar bulabilirsiniz.",
-      "subDescription": "Sektördeki uzmanlarımızdan güneş enerjisiyle ilgili ipuçları ve güneş enerjisi sistemlerinin geleceği hakkında bilgi edinin.",
-      "button": "Tüm Yazıları Görüntüle"
-    }
   },
   "reportDownload": {
     "title": "Yapay Zekanın Geleceğine İnanın!",

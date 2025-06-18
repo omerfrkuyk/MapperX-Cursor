@@ -296,21 +296,150 @@
     "calculatePrice": "Calculate Price"
   },
   "faq": {
+    "heading": "Frequently Asked Questions",
     "title": "Frequently Asked Questions",
-    "showAll": "Show All",
+    "searchPlaceholder": "Search questions or answers...",
+    "allCategories": "All Categories",
+    "expandAll": "Expand All",
+    "collapseAll": "Collapse All",
+    "noResults": "No questions found matching your search criteria.",
+    "showAll": "Show All Questions",
+    "categories": {
+      "thermographic": "Thermographic Inspection",
+      "inspection": "Inspection and Audit",
+      "powerPlant": "Power Plant Management"
+    },
     "helpCenter": {
-      "description": "MapperX Help Center is a comprehensive documentation resource designed to facilitate the use of the MapperX platform and increase efficiency. It enables users to quickly and effectively access the information they need.",
-      "button": "Help Center"
+      "description": "Visit our help center for detailed information and user guides.",
+      "button": "Go to Help Center"
     },
     "technicalSupport": {
-      "description": "Follow the steps of region selection, route creation, and data collection for the drone flight planning process on the MapperX platform. If you encounter any issues, you can contact our technical support team.",
-      "button": "Technical Support"
+      "description": "Our technical support team is ready to help you.",
+      "button": "Get Technical Support"
     },
     "blog": {
       "title": "Blog",
-      "description": "Find articles about the latest technology news, industry developments, and global energy trends related to solar energy systems.",
-      "subDescription": "Get insights about solar energy from our industry experts and learn about the future of solar energy systems.",
-      "button": "View All Posts"
+      "description": "Stay updated on the latest developments in solar energy and MapperX updates.",
+      "subDescription": "Discover content prepared by our industry experts.",
+      "button": "Visit Blog"
+    },
+    "items": {
+      "termografik-muayene-nedir": {
+        "question": "What is thermographic inspection?",
+        "answer": "Thermographic inspection is a method that detects faulty or low-efficiency areas by measuring the surface temperatures of solar panels and BOS components. This method is used to identify hot spots and other anomalies in panels."
+      },
+      "termografik-muayene-neden-onemlidir": {
+        "question": "Why is thermographic inspection important?",
+        "answer": "Thermographic inspection enables early detection of temperature abnormalities in solar panels, preventing potential failures and efficiency losses. This helps improve plant performance and reduce maintenance costs."
+      },
+      "termografik-muayene-nasil-yapilir": {
+        "question": "How is thermographic inspection performed?",
+        "answer": "Thermographic inspection is performed using drones equipped with thermal cameras. The drones fly over the panels collecting thermal images, which are then analyzed through the MapperX platform."
+      },
+      "termal-drone-kullanim-avantajlari": {
+        "question": "What are the advantages of using thermal drones?",
+        "answer": "Using thermal drones enables quick and effective scanning of large areas. Drones can obtain detailed thermal images even in hard-to-reach areas, allowing for comprehensive inspection."
+      },
+      "termografik-muayene-sonuclari-nasil-raporlanir": {
+        "question": "How are thermographic inspection results reported?",
+        "answer": "The MapperX platform reports thermographic inspection results in accordance with IEC 62446 standards. These reports include detailed analysis of faulty panels and hot spots."
+      },
+      "termografik-muayene-siklik": {
+        "question": "How often should thermographic inspection be performed?",
+        "answer": "Thermographic inspection should be performed at least twice a year as part of the plant's periodic maintenance program. However, more frequent inspections can help detect and prevent potential problems early."
+      },
+      "hangi-arizalar-tespit-edilebilir": {
+        "question": "What types of faults can be detected with thermographic inspection?",
+        "answer": "Thermographic inspection can detect cell, multiple cell, diode, multiple diode, module, hot spot, string, vegetation shading, soiling, shading, junction box, and crack/break issues. These types of faults can negatively impact plant efficiency."
+      },
+      "veri-analiz-algoritmalari": {
+        "question": "How does the MapperX platform analyze thermographic inspection data?",
+        "answer": "The MapperX platform uses AI-powered algorithms to analyze thermal images and detect temperature abnormalities. These analyses enable quick identification of faults and efficiency losses."
+      },
+      "enerji-verimliligi-artirma": {
+        "question": "How does thermographic inspection improve energy efficiency?",
+        "answer": "Thermographic inspection enables early detection of faulty panels and low-efficiency areas. This allows for timely repairs and maintenance, ensuring maximum efficiency in energy production."
+      },
+      "denetim-ve-muayene-nedir": {
+        "question": "What is inspection and audit?",
+        "answer": "Inspection and audit are regular control and evaluation processes carried out to ensure the safe and efficient operation of solar power plants. These processes assess the performance and condition of panels, inverters, and other components."
+      },
+      "denetim-ve-muayene-neden-onemlidir": {
+        "question": "Why is inspection and audit important?",
+        "answer": "Inspection and audit are critical for ensuring solar power plants operate at optimal performance, detecting potential faults early, and maintaining safe operations."
+      },
+      "denetim-ve-muayene-testler": {
+        "question": "What tests are performed during inspection and audit processes?",
+        "answer": "Tests performed during inspection and audit processes include I-V Curve test, resistance test, polarity test, insulation test, and various other measurements."
+      },
+      "platform-yardim": {
+        "question": "How does the MapperX platform assist in inspection and audit processes?",
+        "answer": "It digitalizes inspection and audit processes, collects data in a single platform, and analyzes it. This reduces manual errors, speeds up reporting processes, and increases efficiency."
+      },
+      "veri-toplama-analiz": {
+        "question": "How is inspection and audit data collected and analyzed?",
+        "answer": "Inspection and audit data is collected through visual inspection, thermal measurements, and various electrical test devices. The MapperX platform analyzes this data, creates digital twins, and generates autonomous reports."
+      },
+      "kullanilan-ekipmanlar": {
+        "question": "What equipment is used in inspection and audit processes?",
+        "answer": "Inspection and audit processes use various equipment including thermal cameras, drones, multimeters, insulation test devices, and I-V Curve test devices."
+      },
+      "standart-uyumluluk": {
+        "question": "Which standards do MapperX platform inspections and audits comply with?",
+        "answer": "Inspections and audits performed with the MapperX platform comply with IEC 62446 standards. These standards ensure the quality and reliability of inspection and audit processes in solar power plants."
+      },
+      "zaman-maliyet-tasarrufu": {
+        "question": "How are time and cost savings achieved in inspection and audit processes?",
+        "answer": "The MapperX platform automates inspection and audit processes, reducing manual workload. This speeds up processes, reduces errors, and provides significant time and cost savings."
+      },
+      "raporlama-verilerimi-raporlayabilir-miyim": {
+        "question": "Can I report my inspection and audit data?",
+        "answer": "Yes, you can record your observations, thermal measurements, and electrical measurements on the MapperX platform and compile your work in a single report."
+      },
+      "elektriksel-test-raporlayabilir-miyim": {
+        "question": "Can I report electrical tests and measurements with MapperX?",
+        "answer": "Yes, you can speed up your workflows and report by recording test and measurement results performed at the plant on the platform. This allows you to compare and analyze all results."
+      },
+      "seri-numarasi-yonetimi-onemi": {
+        "question": "Why is serial number management important in inspection and audit processes?",
+        "answer": "Serial number management is critical for warranty claims, maintenance, and replacement processes. The MapperX platform quickly scans serial numbers, creates their digital twins, and manages all data on a single platform."
+      },
+      "rapor-olusturma-procesi": {
+        "question": "How are inspection and audit reports created?",
+        "answer": "The MapperX platform analyzes collected data to create detailed and reliable inspection and audit reports compliant with IEC standards. These reports are used to improve plant performance and safety."
+      },
+      "santral-yonetimi-nedir": {
+        "question": "What is power plant management?",
+        "answer": "Power plant management encompasses all operational and maintenance activities carried out to ensure the efficient and safe operation of solar power plants."
+      },
+      "seri-numarasi-yonetimi-nedir-onemi": {
+        "question": "What is serial number management and why is it important?",
+        "answer": "Serial number management involves recording and tracking serial numbers of components like solar panels and inverters. This is crucial for warranty claims, maintenance, and replacement processes. The MapperX platform quickly scans serial numbers, creates their digital twins, and manages all data on a single platform."
+      },
+      "santral-yonetimi-finansal-kayiplar": {
+        "question": "How are financial losses prevented through power plant management?",
+        "answer": "Power plant management prevents potential failures and efficiency losses through regular maintenance and monitoring activities. This ensures continuity in energy production and minimizes financial losses."
+      },
+      "meteorolojik-veriler-kullanimi": {
+        "question": "How are meteorological data used in power plant management?",
+        "answer": "Meteorological data is used in calculating energy production efficiency and maintenance planning. The MapperX platform automatically pulls this data, analyzes it, and generates reports."
+      },
+      "ekip-performansi-takip": {
+        "question": "How is team performance tracked in power plant management?",
+        "answer": "The MapperX platform provides the ability to monitor team members' task assignments and performance. Work order status and team performance can be tracked and optimized through the platform."
+      },
+      "verimlilik-artirma-onlemler": {
+        "question": "What can be done to increase power plant efficiency?",
+        "answer": "To increase power plant efficiency, regular maintenance and repairs should be performed, equipment performance should be monitored through thermographic inspection and electrical tests, and interventions should be made when necessary."
+      },
+      "platform-yardimci-ozellikler": {
+        "question": "How does the MapperX platform assist in power plant management?",
+        "answer": "It digitalizes power plant management processes, increases efficiency, and simplifies operational management. It optimizes power plant management through real-time operational data monitoring, automatic reporting, and analysis features."
+      },
+      "yonetimin-onemi": {
+        "question": "Why is power plant management important?",
+        "answer": "Power plant management is critical for increasing energy production efficiency, reducing costs, and preventing potential failures. Good management ensures long-term and safe operation of the plant."
+      }
     }
   },
   "reportDownload": {
@@ -511,5 +640,45 @@
         "This ensures that the safety and performance of customers' facilities are guaranteed. MapperX is committed to providing the highest level of service in quality and safety matters."
       ]
     }
+  },
+  "faqData": {
+    "questions": [
+      {
+        "question": "What is thermographic inspection?",
+        "answer": "Thermographic inspection is a method that detects faulty or low-efficiency areas by measuring the surface temperatures of solar panels and BOS components. This method is used to identify hot spots and other anomalies in panels."
+      },
+      {
+        "question": "Why is thermographic inspection important?",
+        "answer": "Thermographic inspection enables early detection of temperature abnormalities in solar panels, preventing potential failures and efficiency losses. This helps increase plant performance and reduce maintenance costs."
+      },
+      {
+        "question": "How is thermographic inspection performed?",
+        "answer": "Thermographic inspection is performed using drones equipped with thermal cameras. The drones collect thermal images by flying over the panels, and these images are analyzed through the MapperX platform."
+      },
+      {
+        "question": "What are the advantages of using thermal drones?",
+        "answer": "Using thermal drones allows for quick and effective scanning of large areas. Drones can obtain detailed thermal images even in hard-to-reach areas, enabling comprehensive inspection."
+      },
+      {
+        "question": "How are thermographic inspection results reported?",
+        "answer": "The MapperX platform reports thermographic inspection results in compliance with IEC 62446 standards. These reports include detailed analysis of faulty panels and hot spots."
+      },
+      {
+        "question": "How often should thermographic inspection be performed?",
+        "answer": "Thermographic inspection should be performed at least twice a year, depending on the plant's periodic maintenance schedule. However, more frequent inspections can help detect and prevent potential problems early."
+      },
+      {
+        "question": "What types of faults can be detected with thermographic inspection?",
+        "answer": "Thermographic inspection can detect cell, multiple cell, diode, multiple diode, module, hot spot, string, plant shading, contamination, shading, junction box, and crack/fracture issues. These types of faults can negatively affect plant efficiency."
+      },
+      {
+        "question": "How does the MapperX platform analyze thermographic inspection data?",
+        "answer": "The MapperX platform analyzes thermal images using AI-supported algorithms and detects temperature abnormalities. These analyses enable quick identification of faults and efficiency losses."
+      },
+      {
+        "question": "How is energy efficiency increased with thermographic inspection?",
+        "answer": "Thermographic inspection enables early detection of faulty panels and low-efficiency areas. This allows for timely repairs and maintenance, ensuring maximum efficiency in energy production."
+      }
+    ]
   }
-} 
+}

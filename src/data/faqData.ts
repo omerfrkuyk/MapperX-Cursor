@@ -1,154 +1,192 @@
+import { useLanguage } from '@/lib/i18n/LanguageContext';
+
 export type FAQItem = {
-    question: string;
-    answer: string;
-  };
-  
-  const faqData: FAQItem[] = [
+  id: string;
+  question: string;
+  answer: string;
+  category: string;
+};
+
+export const useFaqData = (): FAQItem[] => {
+  const { translate } = useLanguage();
+
+  return [
+    // Termografik Muayene Soruları
     {
-      question: "Termografik muayene nedir?",
-      answer:
-        "Termografik muayene, güneş panellerinin ve BOS bileşenlerinin yüzey sıcaklıklarını ölçerek, arızalı veya verimliliği düşük bölgeleri tespit eden bir yöntemdir. Bu yöntem, panellerdeki sıcak noktaları ve diğer anomalileri belirlemek için kullanılır.",
+      id: 'termografik-muayene-nedir',
+      question: translate('faq.items.termografik-muayene-nedir.question'),
+      answer: translate('faq.items.termografik-muayene-nedir.answer'),
+      category: 'thermographic'
     },
     {
-      question: "Termografik muayene neden önemlidir?",
-      answer:
-        "Termografik muayene, güneş panellerindeki sıcaklık anormalliklerini erken tespit ederek, potansiyel arızaların ve verimlilik kayıplarının önüne geçilmesini sağlar. Bu sayede, santralin performansı artırılır ve bakım maliyetleri düşürülür.",
+      id: 'termografik-muayene-neden-onemlidir',
+      question: translate('faq.items.termografik-muayene-neden-onemlidir.question'),
+      answer: translate('faq.items.termografik-muayene-neden-onemlidir.answer'),
+      category: 'thermographic'
     },
     {
-      question: "Termografik muayene nasıl yapılır?",
-      answer:
-        "Termografik muayene, termal kameralarla donatılmış drone’lar kullanılarak gerçekleştirilir. Drone’lar, panellerin üzerinden uçarak termal görüntüler toplar ve bu görüntüler MapperX platformu üzerinden analiz edilir.",
+      id: 'termografik-muayene-nasil-yapilir',
+      question: translate('faq.items.termografik-muayene-nasil-yapilir.question'),
+      answer: translate('faq.items.termografik-muayene-nasil-yapilir.answer'),
+      category: 'thermographic'
     },
     {
-      question: "Termal Drone kullanmanın avantajları nelerdir?",
-      answer:
-        "Termal drone kullanımı, geniş alanların hızlı ve etkin bir şekilde taranmasını sağlar. Drone’lar, erişilmesi zor bölgelerde bile ayrıntılı termal görüntüler elde ederek, kapsamlı bir inceleme yapılmasına olanak tanır.",
+      id: 'termal-drone-kullanim-avantajlari',
+      question: translate('faq.items.termal-drone-kullanim-avantajlari.question'),
+      answer: translate('faq.items.termal-drone-kullanim-avantajlari.answer'),
+      category: 'thermographic'
     },
     {
-      question: "Termografik muayene sonuçları nasıl raporlanır?",
-      answer:
-        "MapperX platformu, termografik muayene sonuçlarını IEC 62446 standartlarına uygun olarak raporlar. Bu raporlar, arızalı panellerin ve sıcak noktaların ayrıntılı analizini içerir.",
+      id: 'termografik-muayene-sonuclari-nasil-raporlanir',
+      question: translate('faq.items.termografik-muayene-sonuclari-nasil-raporlanir.question'),
+      answer: translate('faq.items.termografik-muayene-sonuclari-nasil-raporlanir.answer'),
+      category: 'thermographic'
     },
     {
-      question: "Termografik muayene hangi sıklıkla yapılmalıdır?",
-      answer:
-        "Termografik muayene, santralin periyodik bakım programına bağlı olarak yılda en az iki kez yapılmalıdır. Ancak, daha sık yapılan muayeneler, potansiyel sorunların erken tespit edilmesine ve önlenmesine yardımcı olabilir.",
+      id: 'termografik-muayene-siklik',
+      question: translate('faq.items.termografik-muayene-siklik.question'),
+      answer: translate('faq.items.termografik-muayene-siklik.answer'),
+      category: 'thermographic'
     },
     {
-      question: "Termografik muayene ile hangi tür arızalar tespit edilebilir?",
-      answer:
-        "Termografik muayene ile hücre, çoklu hücre, diyot, çoklu diyot, modül, sıcak nokta, dizi (string), bitki gölgeleme, kirlilik, gölgeleme, bağlantı kutusu, kırık/çatlak tespit edilebilir. Bu tür arızalar, santralin verimliliğini olumsuz etkileyebilir.",
+      id: 'hangi-arizalar-tespit-edilebilir',
+      question: translate('faq.items.hangi-arizalar-tespit-edilebilir.question'),
+      answer: translate('faq.items.hangi-arizalar-tespit-edilebilir.answer'),
+      category: 'thermographic'
     },
     {
-      question: "MapperX platformu termografik muayene verilerini nasıl analiz eder?",
-      answer:
-        "MapperX platformu, yapay zeka destekli algoritmalar kullanarak termal görüntüleri analiz eder ve sıcaklık anormalliklerini tespit eder. Bu analizler, arızaların ve verimlilik kayıplarının hızlı bir şekilde belirlenmesini sağlar.",
+      id: 'veri-analiz-algoritmalari',
+      question: translate('faq.items.veri-analiz-algoritmalari.question'),
+      answer: translate('faq.items.veri-analiz-algoritmalari.answer'),
+      category: 'thermographic'
     },
     {
-      question: "Termografik muayene ile enerji verimliliği nasıl artırılır?",
-      answer:
-        "Termografik muayene, arızalı panellerin ve verimliliği düşük bölgelerin erken tespit edilmesini sağlar. Bu sayede, gerekli onarımlar ve bakımlar zamanında yapılarak enerji üretiminde maksimum verimlilik sağlanır.",
+      id: 'enerji-verimliligi-artirma',
+      question: translate('faq.items.enerji-verimliligi-artirma.question'),
+      answer: translate('faq.items.enerji-verimliligi-artirma.answer'),
+      category: 'thermographic'
+    },
+    // Denetim ve Muayene Soruları
+    {
+      id: 'denetim-ve-muayene-nedir',
+      question: translate('faq.items.denetim-ve-muayene-nedir.question'),
+      answer: translate('faq.items.denetim-ve-muayene-nedir.answer'),
+      category: 'inspection'
     },
     {
-      question: "Denetim ve muayene nedir?",
-      answer:
-        "Denetim ve muayene, güneş enerjisi santrallerinin güvenli ve verimli bir şekilde çalışmasını sağlamak amacıyla yapılan düzenli kontrol ve değerlendirme süreçleridir. Bu süreçler, panellerin, invertörlerin ve diğer bileşenlerin performansını ve durumunu değerlendirir.",
+      id: 'denetim-ve-muayene-neden-onemlidir',
+      question: translate('faq.items.denetim-ve-muayene-neden-onemlidir.question'),
+      answer: translate('faq.items.denetim-ve-muayene-neden-onemlidir.answer'),
+      category: 'inspection'
     },
     {
-      question: "Denetim ve muayene neden önemlidir?",
-      answer:
-        "Denetim ve muayene, güneş enerjisi santrallerinin optimum performansta çalışmasını sağlamak, potansiyel arızaları önceden tespit etmek ve güvenli operasyonları sürdürmek için kritik öneme sahiptir.",
+      id: 'denetim-ve-muayene-testler',
+      question: translate('faq.items.denetim-ve-muayene-testler.question'),
+      answer: translate('faq.items.denetim-ve-muayene-testler.answer'),
+      category: 'inspection'
     },
     {
-      question: "Denetim ve muayene süreçlerinde hangi testler yapılır?",
-      answer:
-        "Denetim ve muayene süreçlerinde yapılan testler arasında I-V Curve testi, direnç testi, polarite testi, izolasyon testi gibi çeşitli testler ve ölçümler bulunur.",
+      id: 'platform-yardim',
+      question: translate('faq.items.platform-yardim.question'),
+      answer: translate('faq.items.platform-yardim.answer'),
+      category: 'inspection'
     },
     {
-      question: "MapperX platformu denetim ve muayene süreçlerinde nasıl yardımcı olur?",
-      answer:
-        "Denetim ve muayene süreçlerini dijitalleştirir, verileri tek bir platformda toplar ve analiz eder. Bu sayede manuel hataları azaltır, raporlama süreçlerini hızlandırır ve verimliliği artırır.",
+      id: 'veri-toplama-analiz',
+      question: translate('faq.items.veri-toplama-analiz.question'),
+      answer: translate('faq.items.veri-toplama-analiz.answer'),
+      category: 'inspection'
     },
     {
-      question: "Denetim ve muayene verileri nasıl toplanır ve analiz edilir?",
-      answer:
-        "Denetim ve muayene verileri görsel denetim, termal ölçümler ve çeşitli elektriksel test cihazları kullanılarak toplanır. MapperX platformu, bu verileri analiz eder, dijital ikizler oluşturur ve otonom raporlar sunar.",
+      id: 'kullanilan-ekipmanlar',
+      question: translate('faq.items.kullanilan-ekipmanlar.question'),
+      answer: translate('faq.items.kullanilan-ekipmanlar.answer'),
+      category: 'inspection'
     },
     {
-      question: "Denetim ve muayene süreçlerinde hangi ekipmanlar kullanılır?",
-      answer:
-        "Denetim ve muayene süreçlerinde termal kameralar, drone’lar, multimetreler, izolasyon test cihazları ve I-V Curve test cihazları gibi çeşitli ekipmanlar kullanılır.",
+      id: 'standart-uyumluluk',
+      question: translate('faq.items.standart-uyumluluk.question'),
+      answer: translate('faq.items.standart-uyumluluk.answer'),
+      category: 'inspection'
     },
     {
-      question: "MapperX platformu ile yapılan denetim ve muayeneler hangi standartlara uygundur?",
-      answer:
-        "MapperX platformu ile yapılan denetim ve muayeneler, IEC 62446 standartlarına uyumludur. Bu standartlar, güneş enerjisi santrallerinde denetim ve muayene süreçlerinin kalitesini ve güvenilirliğini sağlar.",
+      id: 'zaman-maliyet-tasarrufu',
+      question: translate('faq.items.zaman-maliyet-tasarrufu.question'),
+      answer: translate('faq.items.zaman-maliyet-tasarrufu.answer'),
+      category: 'inspection'
     },
     {
-      question: "Denetim ve muayene süreçlerinde zaman ve maliyet tasarrufu nasıl sağlanır?",
-      answer:
-        "MapperX platformu, denetim ve muayene süreçlerini otonom hale getirerek manuel iş yükünü azaltır. Bu sayede, süreçler hızlanır, hatalar azalır ve önemli ölçüde zaman ve maliyet tasarrufu sağlanır.",
+      id: 'raporlama-verilerimi-raporlayabilir-miyim',
+      question: translate('faq.items.raporlama-verilerimi-raporlayabilir-miyim.question'),
+      answer: translate('faq.items.raporlama-verilerimi-raporlayabilir-miyim.answer'),
+      category: 'inspection'
     },
     {
-      question: "Denetim ve Muayene Verilerimi Raporlayabilir miyim?",
-      answer:
-        "Evet MapperX platformunu kullanarak gözlemlerinizi, termal ölçümlerinizi ve elektriksel ölçümlerinizi platforma kaydedebilir ve işlerinizi tek bir raporda toplayabilirsiniz.",
+      id: 'elektriksel-test-raporlayabilir-miyim',
+      question: translate('faq.items.elektriksel-test-raporlayabilir-miyim.question'),
+      answer: translate('faq.items.elektriksel-test-raporlayabilir-miyim.answer'),
+      category: 'inspection'
     },
     {
-      question: "Elektriksel Test ve Ölçümleri MapperX ile Raporlayabilir miyim?",
-      answer:
-        "Evet santralde yapılan test ve ölçümlerin sonuçlarını platform üzerinde kaydederek iş akışlarınızı hızlandırabilir ve raporlayabilirsiniz. Bu size tüm sonuçları karşılaştırma ve analiz etme imkanı sağlar.",
+      id: 'seri-numarasi-yonetimi-onemi',
+      question: translate('faq.items.seri-numarasi-yonetimi-onemi.question'),
+      answer: translate('faq.items.seri-numarasi-yonetimi-onemi.answer'),
+      category: 'inspection'
     },
     {
-      question: "Denetim ve muayene süreçlerinde seri numarası yönetimi neden önemlidir?",
-      answer:
-        "Seri numarası yönetimi, garanti talepleri, bakım ve değişim süreçlerinde kritik öneme sahiptir. MapperX platformu, seri numaralarını hızlıca tarayarak dijital ikizlerini oluşturur ve tüm verileri tek bir platformda yönetir.",
+      id: 'rapor-olusturma-procesi',
+      question: translate('faq.items.rapor-olusturma-procesi.question'),
+      answer: translate('faq.items.rapor-olusturma-procesi.answer'),
+      category: 'inspection'
+    },
+    // Santral Yönetimi Soruları
+    {
+      id: 'santral-yonetimi-nedir',
+      question: translate('faq.items.santral-yonetimi-nedir.question'),
+      answer: translate('faq.items.santral-yonetimi-nedir.answer'),
+      category: 'powerPlant'
     },
     {
-      question: "Denetim ve muayene raporları nasıl oluşturulur?",
-      answer:
-        "MapperX platformu, toplanan verileri analiz ederek IEC standartlarına uygun, detaylı ve güvenilir denetim ve muayene raporları oluşturur. Bu raporlar, santral performansını ve güvenliğini artırmak için kullanılır.",
+      id: 'seri-numarasi-yonetimi-nedir-onemi',
+      question: translate('faq.items.seri-numarasi-yonetimi-nedir-onemi.question'),
+      answer: translate('faq.items.seri-numarasi-yonetimi-nedir-onemi.answer'),
+      category: 'powerPlant'
     },
     {
-      question: "Santral yönetimi nedir?",
-      answer:
-        "Santral yönetimi, güneş enerjisi santrallerinin verimli ve güvenli bir şekilde çalışmasını sağlamak için yapılan tüm operasyonel ve bakım faaliyetlerini kapsar.",
+      id: 'santral-yonetimi-finansal-kayiplar',
+      question: translate('faq.items.santral-yonetimi-finansal-kayiplar.question'),
+      answer: translate('faq.items.santral-yonetimi-finansal-kayiplar.answer'),
+      category: 'powerPlant'
     },
     {
-      question: "Seri numarası yönetimi nedir ve neden önemlidir?",
-      answer:
-        "Seri numarası yönetimi, güneş panelleri ve invertör gibi bileşenlerin seri numaralarının kayıt altına alınmasını ve izlenmesini sağlar. Bu, garanti talepleri, bakım ve değişim süreçlerinde büyük önem taşır. MapperX platformu, seri numaralarını hızlıca tarayarak dijital ikizlerini oluşturur ve tüm verileri tek bir platformda yönetir.",
+      id: 'meteorolojik-veriler-kullanimi',
+      question: translate('faq.items.meteorolojik-veriler-kullanimi.question'),
+      answer: translate('faq.items.meteorolojik-veriler-kullanimi.answer'),
+      category: 'powerPlant'
     },
     {
-      question: "Santral yönetimi ile finansal kayıplar nasıl önlenir?",
-      answer:
-        "Santral yönetimi, düzenli bakım ve izleme faaliyetleri ile potansiyel arızaların ve verimlilik kayıplarının önüne geçer. Bu sayede, enerji üretiminde süreklilik sağlanır ve finansal kayıplar minimize edilir.",
+      id: 'ekip-performansi-takip',
+      question: translate('faq.items.ekip-performansi-takip.question'),
+      answer: translate('faq.items.ekip-performansi-takip.answer'),
+      category: 'powerPlant'
     },
     {
-      question: "Meteorolojik veriler santral yönetiminde nasıl kullanılır?",
-      answer:
-        "Meteorolojik veriler, enerji üretim verimliliğinin hesaplanmasında ve bakım planlamasında kullanılır. MapperX platformu, bu verileri otomatik olarak çekerek analiz eder ve raporlar oluşturur.",
+      id: 'verimlilik-artirma-onlemler',
+      question: translate('faq.items.verimlilik-artirma-onlemler.question'),
+      answer: translate('faq.items.verimlilik-artirma-onlemler.answer'),
+      category: 'powerPlant'
     },
     {
-      question: "Santral yönetiminde ekip performansı nasıl takip edilir?",
-      answer:
-        "MapperX platformu, ekip üyelerinin görev dağılımlarını ve performanslarını izleme imkanı sunar. İş emirlerinin durumu ve ekiplerin performansı platform üzerinden takip edilerek optimize edilebilir.",
+      id: 'platform-yardimci-ozellikler',
+      question: translate('faq.items.platform-yardimci-ozellikler.question'),
+      answer: translate('faq.items.platform-yardimci-ozellikler.answer'),
+      category: 'powerPlant'
     },
     {
-      question: "Santral verimliliğini artırmak için neler yapılabilir?",
-      answer:
-        "Santral verimliliğini artırmak için düzenli bakım ve onarımlar yapılmalı, termografik muayene ve elektriksel testler ile ekipman performansı izlenmeli ve gerektiğinde müdahaleler yapılmalıdır.",
-    },
-    {
-      question: "MapperX platformu santral yönetiminde nasıl yardımcı olur?",
-      answer:
-        "Santral yönetimi süreçlerini dijitalleştirir, verimliliği artırır ve operasyonel yönetimi kolaylaştırır. Gerçek zamanlı operasyonel verileri izleme, otomatik raporlama ve analiz özellikleri ile santral yönetimini optimize eder.",
-    },
-    {
-      question: "Santral yönetimi neden önemlidir?",
-      answer:
-        "Santral yönetimi, enerji üretim verimliliğini artırmak, maliyetleri düşürmek ve potansiyel arızaların önüne geçmek için kritik öneme sahiptir. İyi bir yönetim, santralin uzun ömürlü ve güvenli çalışmasını sağlar.",
-    },
+      id: 'yonetimin-onemi',
+      question: translate('faq.items.yonetimin-onemi.question'),
+      answer: translate('faq.items.yonetimin-onemi.answer'),
+      category: 'powerPlant'
+    }
   ];
-  
-  export default faqData;
+};

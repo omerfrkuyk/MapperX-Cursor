@@ -392,21 +392,150 @@
     }
   },
   "faq": {
-    "title": "Domande frequenti",
-    "showAll": "Mostra tutte le FAQ",
+    "heading": "Domande Frequenti",
+    "title": "Domande Frequenti",
+    "searchPlaceholder": "Cerca domande o risposte...",
+    "allCategories": "Tutte le Categorie",
+    "expandAll": "Espandi Tutto",
+    "collapseAll": "Comprimi Tutto",
+    "noResults": "Nessuna domanda trovata che corrisponda ai tuoi criteri di ricerca.",
+    "showAll": "Mostra tutte le domande",
+    "categories": {
+      "thermographic": "Ispezione Termografica",
+      "inspection": "Ispezione e Verifica",
+      "powerPlant": "Gestione della Centrale"
+    },
     "helpCenter": {
-      "description": "Visita il nostro centro assistenza per guide dettagliate e documentazione.",
-      "button": "Vai al centro assistenza"
+      "description": "Visita il nostro centro assistenza per informazioni dettagliate e guide utente.",
+      "button": "Vai al Centro Assistenza"
     },
     "technicalSupport": {
-      "description": "Hai bisogno di supporto tecnico? Il nostro team di esperti è qui per aiutarti.",
-      "button": "Contatta il supporto"
+      "description": "Il nostro team di supporto tecnico è pronto ad aiutarti.",
+      "button": "Ottieni Supporto Tecnico"
     },
     "blog": {
-      "title": "Blog MapperX",
-      "description": "Scopri gli ultimi sviluppi e le migliori pratiche nel settore solare.",
-      "subDescription": "Leggi i nostri articoli recenti e rimani aggiornato.",
-      "button": "Visita il blog"
+      "title": "Blog",
+      "description": "Rimani aggiornato sugli ultimi sviluppi nell'energia solare e gli aggiornamenti MapperX.",
+      "subDescription": "Scopri i contenuti preparati dai nostri esperti del settore.",
+      "button": "Visita il Blog"
+    },
+    "items": {
+      "termografik-muayene-nedir": {
+        "question": "Cos'è l'ispezione termografica?",
+        "answer": "L'ispezione termografica è un metodo di analisi non distruttivo che utilizza la tecnologia a infrarossi per rilevare variazioni di temperatura nei pannelli solari e nei componenti dell'impianto. Questa tecnologia permette di identificare precocemente potenziali problemi come celle difettose, connessioni allentate e altri guasti che potrebbero influire sulle prestazioni dell'impianto."
+      },
+      "termografik-muayene-neden-onemlidir": {
+        "question": "Perché l'ispezione termografica è importante?",
+        "answer": "L'ispezione termografica è fondamentale per la manutenzione preventiva degli impianti fotovoltaici. Permette di identificare problemi prima che causino guasti gravi, riduce i costi di manutenzione, previene perdite di produzione e minimizza i rischi di incendio. Inoltre, aiuta a mantenere l'efficienza ottimale dell'impianto e prolungare la vita utile dei componenti."
+      },
+      "termografik-muayene-nasil-yapilir": {
+        "question": "Come viene eseguita l'ispezione termografica?",
+        "answer": "L'ispezione termografica viene eseguita utilizzando droni equipaggiati con telecamere termiche ad alta precisione. I droni sorvolano l'impianto seguendo percorsi programmati, acquisendo immagini termiche dettagliate. Queste immagini vengono poi analizzate da algoritmi di intelligenza artificiale per identificare anomalie termiche e classificare i tipi di guasto secondo gli standard IEC."
+      },
+      "termal-drone-kullanim-avantajlari": {
+        "question": "Quali sono i vantaggi dell'uso di droni termici?",
+        "answer": "L'utilizzo di droni termici offre numerosi vantaggi: ispezioni più rapide e sicure di grandi aree, accesso a zone difficili da raggiungere, raccolta dati più accurata e completa, riduzione dei costi operativi, e possibilità di effettuare ispezioni senza interrompere la produzione. Inoltre, i droni permettono di creare mappe termiche dettagliate dell'intero impianto."
+      },
+      "termografik-muayene-sonuclari-nasil-raporlanir": {
+        "question": "Come vengono documentati i risultati dell'ispezione termografica?",
+        "answer": "I risultati vengono documentati attraverso report dettagliati generati automaticamente che includono: immagini termiche, analisi delle anomalie, classificazione dei guasti, localizzazione precisa dei problemi, e raccomandazioni per la manutenzione. I report sono conformi agli standard IEC e includono codici QR per facilitare la localizzazione dei pannelli sul campo."
+      },
+      "termografik-muayene-siklik": {
+        "question": "Con quale frequenza dovrebbero essere eseguite le ispezioni termografiche?",
+        "answer": "La frequenza delle ispezioni termografiche dipende da vari fattori come l'età dell'impianto, le condizioni ambientali e i requisiti di manutenzione. In generale, si raccomanda di eseguire ispezioni complete almeno una volta all'anno, con controlli più frequenti per impianti più grandi o in condizioni ambientali difficili."
+      },
+      "hangi-arizalar-tespit-edilebilir": {
+        "question": "Quali tipi di guasti possono essere rilevati?",
+        "answer": "L'ispezione termografica può rilevare numerosi tipi di guasti: celle solari danneggiate, punti caldi, diodi di bypass difettosi, problemi di connessione, degradazione dei moduli, delaminazione, infiltrazioni d'acqua, e altri problemi che causano anomalie termiche. Tutti i guasti vengono classificati secondo gli standard IEC 62446."
+      },
+      "veri-analiz-algoritmalari": {
+        "question": "Come funzionano gli algoritmi di analisi dei dati?",
+        "answer": "Gli algoritmi di analisi utilizzano l'intelligenza artificiale e il machine learning per processare le immagini termiche. Confrontano i pattern termici con un database di guasti noti, calcolano le differenze di temperatura (ΔT), classificano le anomalie e generano report automatici. Il sistema migliora continuamente la sua precisione attraverso l'apprendimento da nuovi dati."
+      },
+      "enerji-verimliligi-artirma": {
+        "question": "Come si può migliorare l'efficienza energetica?",
+        "answer": "L'efficienza energetica può essere migliorata attraverso: monitoraggio continuo delle prestazioni, manutenzione preventiva basata sui dati delle ispezioni termografiche, rapida risoluzione delle anomalie rilevate, ottimizzazione della pulizia dei pannelli, e implementazione di best practice operative basate sull'analisi dei dati storici."
+      },
+      "denetim-ve-muayene-nedir": {
+        "question": "Cosa sono l'ispezione e la verifica?",
+        "answer": "L'ispezione e la verifica comprendono una serie di test e controlli sistematici per valutare le prestazioni e la sicurezza dell'impianto fotovoltaico. Includono misurazioni elettriche, verifiche di conformità, test delle stringhe, analisi della curva I-V, e altre procedure conformi agli standard internazionali."
+      },
+      "denetim-ve-muayene-neden-onemlidir": {
+        "question": "Perché sono importanti l'ispezione e la verifica?",
+        "answer": "L'ispezione e la verifica sono fondamentali per garantire prestazioni ottimali, sicurezza operativa e conformità normativa dell'impianto. Aiutano a prevenire guasti, ottimizzare la manutenzione, proteggere l'investimento e mantenere l'efficienza produttiva nel lungo termine."
+      },
+      "denetim-ve-muayene-testler": {
+        "question": "Quali test vengono eseguiti durante l'ispezione?",
+        "answer": "Durante l'ispezione vengono eseguiti vari test: misurazioni della resistenza di isolamento, test delle stringhe, analisi della curva I-V, verifiche dei collegamenti, controlli di messa a terra, test dei dispositivi di protezione, e altre verifiche specifiche richieste dagli standard di settore."
+      },
+      "platform-yardim": {
+        "question": "Come può aiutare la piattaforma?",
+        "answer": "La piattaforma automatizza e digitalizza i processi di ispezione e verifica, fornendo strumenti per la raccolta dati, l'analisi automatica, la generazione di report conformi agli standard, la gestione della manutenzione e il monitoraggio delle prestazioni dell'impianto in tempo reale."
+      },
+      "veri-toplama-analiz": {
+        "question": "Come vengono raccolti e analizzati i dati?",
+        "answer": "I dati vengono raccolti attraverso strumenti di misura digitali, droni, sensori IoT e dispositivi mobili. L'analisi viene effettuata utilizzando algoritmi avanzati che processano i dati in tempo reale, identificano tendenze, generano alert e forniscono insights actionable per l'ottimizzazione delle prestazioni."
+      },
+      "kullanilan-ekipmanlar": {
+        "question": "Quali attrezzature vengono utilizzate?",
+        "answer": "Le attrezzature includono: droni con telecamere termiche, tester per stringhe fotovoltaiche, misuratori di isolamento, analizzatori di curve I-V, multimetri digitali, termocamere portatili, e altri strumenti specializzati conformi agli standard IEC."
+      },
+      "standart-uyumluluk": {
+        "question": "Come viene garantita la conformità agli standard?",
+        "answer": "La conformità viene garantita attraverso procedure standardizzate, strumenti calibrati, personale qualificato e report dettagliati. Tutti i processi sono allineati con gli standard IEC 62446 e altre normative di settore, con regolare aggiornamento delle procedure secondo le nuove disposizioni."
+      },
+      "zaman-maliyet-tasarrufu": {
+        "question": "Come si ottengono risparmi di tempo e costi?",
+        "answer": "I risparmi si ottengono attraverso: automazione dei processi, ispezioni più efficienti con droni, analisi dati automatizzata, manutenzione preventiva basata sui dati, riduzione degli errori umani e ottimizzazione delle risorse grazie a una pianificazione basata sui dati."
+      },
+      "raporlama-verilerimi-raporlayabilir-miyim": {
+        "question": "Come posso documentare i miei dati?",
+        "answer": "La piattaforma offre strumenti completi per la documentazione: generazione automatica di report conformi agli standard, dashboard personalizzabili, export dei dati in vari formati, archiviazione sicura nel cloud e condivisione controllata dei documenti con gli stakeholder."
+      },
+      "elektriksel-test-raporlayabilir-miyim": {
+        "question": "Posso documentare i test elettrici?",
+        "answer": "Sì, la piattaforma permette di documentare tutti i test elettrici: misurazioni delle stringhe, test di isolamento, curve I-V, e altri parametri elettrici. I dati vengono automaticamente organizzati in report conformi agli standard, con tracciabilità completa delle misurazioni."
+      },
+      "seri-numarasi-yonetimi-onemi": {
+        "question": "Perché è importante la gestione dei numeri di serie?",
+        "answer": "La gestione dei numeri di serie è cruciale per: tracciabilità dei componenti, gestione delle garanzie, pianificazione della manutenzione, identificazione rapida dei pannelli problematici e documentazione accurata delle sostituzioni e delle riparazioni."
+      },
+      "rapor-olusturma-procesi": {
+        "question": "Come funziona il processo di generazione dei report?",
+        "answer": "Il processo di reporting è automatizzato: i dati raccolti vengono elaborati in tempo reale, organizzati secondo template standardizzati, arricchiti con analisi e raccomandazioni, e presentati in formati facilmente consultabili con funzionalità di ricerca e filtro avanzate."
+      },
+      "santral-yonetimi-nedir": {
+        "question": "Cos'è la gestione dell'impianto?",
+        "answer": "La gestione dell'impianto comprende tutte le attività necessarie per ottimizzare le prestazioni: monitoraggio in tempo reale, manutenzione preventiva, gestione degli asset, analisi delle prestazioni, pianificazione degli interventi e ottimizzazione dell'efficienza operativa."
+      },
+      "seri-numarasi-yonetimi-nedir-onemi": {
+        "question": "Cos'è e perché è importante la gestione dei numeri di serie?",
+        "answer": "La gestione dei numeri di serie è un sistema per tracciare e monitorare ogni componente dell'impianto. È importante per la gestione delle garanzie, la manutenzione preventiva, la conformità normativa e l'ottimizzazione delle prestazioni attraverso il monitoraggio del ciclo di vita dei componenti."
+      },
+      "santral-yonetimi-finansal-kayiplar": {
+        "question": "Come si prevengono le perdite finanziarie?",
+        "answer": "Le perdite finanziarie vengono prevenute attraverso: monitoraggio continuo delle prestazioni, identificazione precoce delle anomalie, manutenzione preventiva basata sui dati, ottimizzazione dell'efficienza operativa e gestione proattiva dei rischi operativi."
+      },
+      "meteorolojik-veriler-kullanimi": {
+        "question": "Come vengono utilizzati i dati meteorologici?",
+        "answer": "I dati meteorologici vengono utilizzati per: ottimizzare la pianificazione delle ispezioni, analizzare l'impatto delle condizioni ambientali sulle prestazioni, prevedere la produzione energetica e adattare le strategie di manutenzione alle condizioni meteorologiche."
+      },
+      "ekip-performansi-takip": {
+        "question": "Come viene monitorata la performance del team?",
+        "answer": "La performance del team viene monitorata attraverso: KPI specifici, tracking degli interventi, tempi di risposta, qualità delle ispezioni, efficienza operativa e feedback automatico basato sui risultati delle attività di manutenzione e ispezione."
+      },
+      "verimlilik-artirma-onlemler": {
+        "question": "Quali misure aumentano l'efficienza?",
+        "answer": "L'efficienza viene aumentata attraverso: automazione dei processi, manutenzione predittiva, ottimizzazione delle procedure operative, formazione continua del personale, utilizzo di tecnologie avanzate e implementazione di best practice basate sui dati."
+      },
+      "platform-yardimci-ozellikler": {
+        "question": "Quali funzionalità di supporto offre la piattaforma?",
+        "answer": "La piattaforma offre: dashboard personalizzabili, strumenti di pianificazione, gestione degli asset, tracking delle attività, analisi predittiva, generazione automatica di report, integrazione con sistemi esterni e supporto per la compliance normativa."
+      },
+      "yonetimin-onemi": {
+        "question": "Perché è importante la gestione efficace?",
+        "answer": "Una gestione efficace è fondamentale per: massimizzare il ritorno sull'investimento, garantire la continuità operativa, ridurre i costi di manutenzione, prevenire guasti critici, ottimizzare le prestazioni e mantenere la conformità agli standard di settore."
+      }
     }
   },
   "reportDownload": {
@@ -453,5 +582,45 @@
         "Questo garantisce la sicurezza e le prestazioni degli impianti dei clienti. MapperX si impegna a fornire il massimo livello di servizio in materia di qualità e sicurezza."
       ]
     }
+  },
+  "faqData": {
+    "questions": [
+      {
+        "question": "Cos'è l'ispezione termografica?",
+        "answer": "L'ispezione termografica è un metodo che rileva aree difettose o a bassa efficienza misurando le temperature superficiali dei pannelli solari e dei componenti BOS. Questo metodo viene utilizzato per identificare i punti caldi e altre anomalie nei pannelli."
+      },
+      {
+        "question": "Perché l'ispezione termografica è importante?",
+        "answer": "L'ispezione termografica consente il rilevamento precoce delle anomalie di temperatura nei pannelli solari, prevenendo potenziali guasti e perdite di efficienza. Questo aiuta ad aumentare le prestazioni dell'impianto e ridurre i costi di manutenzione."
+      },
+      {
+        "question": "Come viene eseguita l'ispezione termografica?",
+        "answer": "L'ispezione termografica viene eseguita utilizzando droni dotati di telecamere termiche. I droni raccolgono immagini termiche sorvolando i pannelli, e queste immagini vengono analizzate attraverso la piattaforma MapperX."
+      },
+      {
+        "question": "Quali sono i vantaggi dell'utilizzo dei droni termici?",
+        "answer": "L'utilizzo di droni termici permette una scansione rapida ed efficace di grandi aree. I droni possono ottenere immagini termiche dettagliate anche in aree difficili da raggiungere, consentendo un'ispezione completa."
+      },
+      {
+        "question": "Come vengono riportati i risultati dell'ispezione termografica?",
+        "answer": "La piattaforma MapperX riporta i risultati dell'ispezione termografica in conformità con gli standard IEC 62446. Questi report includono analisi dettagliate dei pannelli difettosi e dei punti caldi."
+      },
+      {
+        "question": "Con quale frequenza dovrebbe essere eseguita l'ispezione termografica?",
+        "answer": "L'ispezione termografica dovrebbe essere eseguita almeno due volte all'anno, in base al programma di manutenzione periodica dell'impianto. Tuttavia, ispezioni più frequenti possono aiutare a rilevare e prevenire potenziali problemi in anticipo."
+      },
+      {
+        "question": "Quali tipi di guasti possono essere rilevati con l'ispezione termografica?",
+        "answer": "L'ispezione termografica può rilevare problemi di celle, celle multiple, diodi, diodi multipli, moduli, punti caldi, stringhe, ombreggiamento da piante, contaminazione, ombreggiamento, scatole di giunzione e crepe/fratture. Questi tipi di guasti possono influire negativamente sull'efficienza dell'impianto."
+      },
+      {
+        "question": "Come analizza la piattaforma MapperX i dati dell'ispezione termografica?",
+        "answer": "La piattaforma MapperX analizza le immagini termiche utilizzando algoritmi supportati dall'IA e rileva le anomalie di temperatura. Queste analisi consentono una rapida identificazione dei guasti e delle perdite di efficienza."
+      },
+      {
+        "question": "Come viene aumentata l'efficienza energetica con l'ispezione termografica?",
+        "answer": "L'ispezione termografica consente il rilevamento precoce dei pannelli difettosi e delle aree a bassa efficienza. Questo permette riparazioni e manutenzione tempestive, garantendo la massima efficienza nella produzione di energia."
+      }
+    ]
   }
 } 

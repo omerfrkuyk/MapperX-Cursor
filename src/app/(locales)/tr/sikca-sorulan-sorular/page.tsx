@@ -1,28 +1,19 @@
-// app/sikca-sorulan-sorular/page.tsx
 'use client';
 
 import { useState, useMemo, useEffect } from 'react';
-import { ChevronDown, ChevronUp, Search, Link as LinkIcon, Loader2 } from 'lucide-react';
+import { ChevronDown, ChevronUp, Search } from 'lucide-react';
 import { useLanguage } from '@/lib/i18n/LanguageContext';
 import { useFaqData } from '@/data/faqData';
-import { Metadata } from 'next';
-
-export const metadata: Metadata = {
-  title: 'Sıkça Sorulan Sorular | MapperX',
-  description: 'Güneş enerjisi sistemleri, termografik muayene, denetim süreçleri ve MapperX hakkında sıkça sorulan soruları bu sayfada bulabilirsiniz.',
-};
 
 const FAQPage = () => {
   const [openIndexes, setOpenIndexes] = useState<number[]>([]);
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
-  const [copiedId, setCopiedId] = useState<string | null>(null);
   const [isLoading, setIsLoading] = useState(true);
   const { translate } = useLanguage();
   const faqData = useFaqData();
 
   useEffect(() => {
-    // Handle direct links with hash
     if (window.location.hash) {
       const id = window.location.hash.slice(1);
       const index = faqData.findIndex(faq => faq.id === id);
@@ -48,13 +39,6 @@ const FAQPage = () => {
     setOpenIndexes(prev => 
       prev.length === filteredFAQs.length ? [] : filteredFAQs.map((_, i) => i)
     );
-  };
-
-  const copyLink = (id: string) => {
-    const url = `${window.location.origin}${window.location.pathname}#${id}`;
-    navigator.clipboard.writeText(url);
-    setCopiedId(id);
-    setTimeout(() => setCopiedId(null), 2000);
   };
 
   const filteredFAQs = useMemo(() => {
@@ -89,7 +73,7 @@ const FAQPage = () => {
   if (isLoading) {
     return (
       <div className="min-h-screen bg-gray-50 flex items-center justify-center">
-        <Loader2 className="w-8 h-8 animate-spin text-blue-600" />
+        <div className="w-8 h-8 border-4 border-blue-600 border-t-transparent rounded-full animate-spin" />
       </div>
     );
   }
@@ -171,49 +155,32 @@ const FAQPage = () => {
                     isOpen ? 'bg-gray-50' : ''
                   }`}
                 >
-                  <div className="flex justify-between items-start">
-                    <div className="flex-grow pr-4">
-                      <div 
-                        onClick={() => toggleIndex(index)}
-                        onKeyDown={(e) => handleKeyDown(e, index)}
-                        role="button"
-                        tabIndex={0}
-                        className="flex justify-between items-start cursor-pointer"
-                      >
-                        <div className="space-y-2">
-                          <span className="text-lg font-medium text-gray-800 block">
-                            {faq.question}
-                          </span>
-                          <span className="inline-block px-3 py-1 text-xs font-medium rounded-full bg-blue-50 text-blue-700">
-                            {getCategoryLabel(faq.category)}
-                          </span>
-                        </div>
-                        {isOpen ? (
-                          <ChevronUp className="text-blue-600 flex-shrink-0 mt-1" size={24} />
-                        ) : (
-                          <ChevronDown className="text-gray-400 flex-shrink-0 mt-1" size={24} />
-                        )}
-                      </div>
-                      {isOpen && (
-                        <p className="text-gray-700 mt-4 leading-relaxed whitespace-pre-line">
-                          {faq.answer}
-                        </p>
-                      )}
+                  <div 
+                    onClick={() => toggleIndex(index)}
+                    onKeyDown={(e) => handleKeyDown(e, index)}
+                    role="button"
+                    tabIndex={0}
+                    className="flex justify-between items-start cursor-pointer"
+                  >
+                    <div className="space-y-2">
+                      <span className="text-lg font-medium text-gray-800 block">
+                        {faq.question}
+                      </span>
+                      <span className="inline-block px-3 py-1 text-xs font-medium rounded-full bg-blue-50 text-blue-700">
+                        {getCategoryLabel(faq.category)}
+                      </span>
                     </div>
-                    <button
-                      onClick={(e) => {
-                        e.stopPropagation();
-                        copyLink(faq.id);
-                      }}
-                      className="flex-shrink-0 p-2 hover:bg-gray-100 rounded-lg transition-colors"
-                      title={translate('faq.linkTitle')}
-                    >
-                      <LinkIcon
-                        size={20}
-                        className={copiedId === faq.id ? 'text-green-500' : 'text-gray-400'}
-                      />
-                    </button>
+                    {isOpen ? (
+                      <ChevronUp className="text-blue-600 flex-shrink-0 mt-1" size={24} />
+                    ) : (
+                      <ChevronDown className="text-gray-400 flex-shrink-0 mt-1" size={24} />
+                    )}
                   </div>
+                  {isOpen && (
+                    <p className="text-gray-700 mt-4 leading-relaxed whitespace-pre-line">
+                      {faq.answer}
+                    </p>
+                  )}
                 </div>
               );
             })
@@ -224,4 +191,4 @@ const FAQPage = () => {
   );
 };
 
-export default FAQPage;
+export default FAQPage; 

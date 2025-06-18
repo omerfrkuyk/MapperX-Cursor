@@ -383,21 +383,150 @@
     }
   },
   "faq": {
-    "title": "Questions fréquemment posées",
-    "showAll": "Voir toutes les FAQ",
+    "heading": "Questions Fréquemment Posées",
+    "title": "Questions Fréquemment Posées",
+    "searchPlaceholder": "Rechercher des questions ou réponses...",
+    "allCategories": "Toutes les Catégories",
+    "expandAll": "Tout développer",
+    "collapseAll": "Tout réduire",
+    "noResults": "Aucune question ne correspond à vos critères de recherche.",
+    "showAll": "Afficher toutes les questions",
+    "categories": {
+      "thermographic": "Inspection Thermographique",
+      "inspection": "Inspection et Audit",
+      "powerPlant": "Gestion de Centrale"
+    },
     "helpCenter": {
-      "description": "Visitez notre centre d'aide pour des guides détaillés et de la documentation.",
-      "button": "Accéder au centre d'aide"
+      "description": "Visitez notre centre d'aide pour des informations détaillées et des guides d'utilisation.",
+      "button": "Accéder au Centre d'Aide"
     },
     "technicalSupport": {
-      "description": "Besoin d'assistance technique ? Notre équipe d'experts est là pour vous aider.",
-      "button": "Contacter le support"
+      "description": "Notre équipe de support technique est prête à vous aider.",
+      "button": "Obtenir un Support Technique"
     },
     "blog": {
-      "title": "Blog MapperX",
-      "description": "Découvrez les derniers développements et les meilleures pratiques de l'industrie solaire.",
-      "subDescription": "Lisez nos articles récents et restez informé.",
-      "button": "Voir le blog"
+      "title": "Blog",
+      "description": "Restez informé des derniers développements dans l'énergie solaire et des mises à jour MapperX.",
+      "subDescription": "Découvrez le contenu préparé par nos experts du secteur.",
+      "button": "Visiter le Blog"
+    },
+    "items": {
+      "termografik-muayene-nedir": {
+        "question": "Qu'est-ce que l'inspection thermographique ?",
+        "answer": "L'inspection thermographique est une méthode d'analyse non destructive qui utilise la technologie d'imagerie thermique pour détecter les variations de température et les problèmes potentiels dans les panneaux solaires et les composants de l'installation. Cette technique est essentielle pour identifier précocement les anomalies telles que les points chauds, les cellules défectueuses et les problèmes de connexion."
+      },
+      "termografik-muayene-neden-onemlidir": {
+        "question": "Pourquoi l'inspection thermographique est-elle importante ?",
+        "answer": "L'inspection thermographique permet la détection précoce des anomalies de température dans les panneaux solaires, prévenant ainsi les pannes potentielles et les pertes d'efficacité. Cela aide à augmenter les performances de l'installation et à réduire les coûts de maintenance."
+      },
+      "termografik-muayene-nasil-yapilir": {
+        "question": "Comment est réalisée l'inspection thermographique ?",
+        "answer": "L'inspection thermographique est réalisée à l'aide de drones équipés de caméras thermiques. Les drones collectent des images thermiques en survolant les panneaux, et ces images sont analysées via la plateforme MapperX."
+      },
+      "termal-drone-kullanim-avantajlari": {
+        "question": "Quels sont les avantages de l'utilisation de drones thermiques ?",
+        "answer": "L'utilisation de drones thermiques permet un balayage rapide et efficace des grandes surfaces. Les drones peuvent obtenir des images thermiques détaillées même dans les zones difficiles d'accès, permettant une inspection complète."
+      },
+      "termografik-muayene-sonuclari-nasil-raporlanir": {
+        "question": "Comment sont rapportés les résultats de l'inspection thermographique ?",
+        "answer": "La plateforme MapperX rapporte les résultats d'inspection thermographique conformément aux normes IEC 62446. Ces rapports incluent une analyse détaillée des panneaux défectueux et des points chauds."
+      },
+      "termografik-muayene-siklik": {
+        "question": "À quelle fréquence doit-on effectuer une inspection thermographique ?",
+        "answer": "L'inspection thermographique doit être effectuée au moins deux fois par an dans le cadre du programme de maintenance périodique de la centrale. Cependant, des inspections plus fréquentes peuvent aider à détecter et prévenir les problèmes potentiels plus tôt."
+      },
+      "hangi-arizalar-tespit-edilebilir": {
+        "question": "Quels types de défauts peuvent être détectés par l'inspection thermographique ?",
+        "answer": "L'inspection thermographique peut détecter les problèmes de cellules, de cellules multiples, de diodes, de diodes multiples, de modules, de points chauds, de chaînes, d'ombrage par la végétation, de salissures, d'ombrage, de boîtes de jonction et de fissures/cassures. Ces types de défauts peuvent affecter négativement l'efficacité de la centrale."
+      },
+      "veri-analiz-algoritmalari": {
+        "question": "Comment la plateforme MapperX analyse-t-elle les données d'inspection thermographique ?",
+        "answer": "La plateforme MapperX utilise des algorithmes basés sur l'IA pour analyser les images thermiques et détecter les anomalies de température. Ces analyses permettent une identification rapide des défauts et des pertes d'efficacité."
+      },
+      "enerji-verimliligi-artirma": {
+        "question": "Comment l'inspection thermographique améliore-t-elle l'efficacité énergétique ?",
+        "answer": "L'inspection thermographique permet la détection précoce des panneaux défectueux et des zones à faible rendement. Cela permet des réparations et une maintenance opportunes, assurant une efficacité maximale dans la production d'énergie."
+      },
+      "denetim-ve-muayene-nedir": {
+        "question": "Qu'est-ce que l'inspection et l'audit ?",
+        "answer": "L'inspection et l'audit sont des processus réguliers de contrôle et d'évaluation effectués pour assurer le fonctionnement sûr et efficace des centrales solaires. Ces processus évaluent la performance et l'état des panneaux, des onduleurs et autres composants."
+      },
+      "denetim-ve-muayene-neden-onemlidir": {
+        "question": "Pourquoi l'inspection et l'audit sont-ils importants ?",
+        "answer": "L'inspection et l'audit sont essentiels pour assurer que les centrales solaires fonctionnent à performance optimale, détecter les défauts potentiels tôt et maintenir des opérations sûres."
+      },
+      "denetim-ve-muayene-testler": {
+        "question": "Quels tests sont effectués lors des processus d'inspection et d'audit ?",
+        "answer": "Les tests effectués lors des processus d'inspection et d'audit comprennent le test de courbe I-V, le test de résistance, le test de polarité, le test d'isolation et diverses autres mesures."
+      },
+      "platform-yardim": {
+        "question": "Comment la plateforme MapperX aide-t-elle dans les processus d'inspection et d'audit ?",
+        "answer": "Elle numérise les processus d'inspection et d'audit, collecte les données sur une seule plateforme et les analyse. Cela réduit les erreurs manuelles, accélère les processus de rapport et augmente l'efficacité."
+      },
+      "veri-toplama-analiz": {
+        "question": "Comment les données d'inspection et d'audit sont-elles collectées et analysées ?",
+        "answer": "Les données d'inspection et d'audit sont collectées par inspection visuelle, mesures thermiques et divers appareils de test électrique. La plateforme MapperX analyse ces données, crée des jumeaux numériques et génère des rapports autonomes."
+      },
+      "kullanilan-ekipmanlar": {
+        "question": "Quels équipements sont utilisés dans les processus d'inspection et d'audit ?",
+        "answer": "Les processus d'inspection et d'audit utilisent divers équipements dont des caméras thermiques, des drones, des multimètres, des testeurs d'isolation et des appareils de test de courbe I-V."
+      },
+      "standart-uyumluluk": {
+        "question": "À quelles normes sont conformes les inspections et audits de la plateforme MapperX ?",
+        "answer": "Les inspections et audits effectués avec la plateforme MapperX sont conformes aux normes IEC 62446. Ces normes assurent la qualité et la fiabilité des processus d'inspection et d'audit dans les centrales solaires."
+      },
+      "zaman-maliyet-tasarrufu": {
+        "question": "Comment réalise-t-on des économies de temps et de coûts dans les processus d'inspection et d'audit ?",
+        "answer": "La plateforme MapperX automatise les processus d'inspection et d'audit, réduisant la charge de travail manuelle. Cela accélère les processus, réduit les erreurs et offre des économies significatives de temps et de coûts."
+      },
+      "raporlama-verilerimi-raporlayabilir-miyim": {
+        "question": "Puis-je rapporter mes données d'inspection et d'audit ?",
+        "answer": "Oui, vous pouvez enregistrer vos observations, mesures thermiques et mesures électriques sur la plateforme MapperX et compiler votre travail dans un seul rapport."
+      },
+      "elektriksel-test-raporlayabilir-miyim": {
+        "question": "Puis-je rapporter les tests et mesures électriques avec MapperX ?",
+        "answer": "Oui, vous pouvez accélérer vos flux de travail et rapporter en enregistrant les résultats des tests et mesures effectués sur la centrale sur la plateforme. Cela vous permet de comparer et d'analyser tous les résultats."
+      },
+      "seri-numarasi-yonetimi-onemi": {
+        "question": "Pourquoi la gestion des numéros de série est-elle importante dans les processus d'inspection et d'audit ?",
+        "answer": "La gestion des numéros de série est cruciale pour les réclamations de garantie, les processus de maintenance et de remplacement. La plateforme MapperX scanne rapidement les numéros de série, crée leurs jumeaux numériques et gère toutes les données sur une seule plateforme."
+      },
+      "rapor-olusturma-procesi": {
+        "question": "Comment sont créés les rapports d'inspection et d'audit ?",
+        "answer": "La plateforme MapperX analyse les données collectées pour créer des rapports d'inspection et d'audit détaillés et fiables conformes aux normes IEC. Ces rapports sont utilisés pour améliorer la performance et la sécurité de la centrale."
+      },
+      "santral-yonetimi-nedir": {
+        "question": "Qu'est-ce que la gestion de centrale ?",
+        "answer": "La gestion de centrale englobe toutes les activités opérationnelles et de maintenance effectuées pour assurer le fonctionnement efficace et sûr des centrales solaires."
+      },
+      "seri-numarasi-yonetimi-nedir-onemi": {
+        "question": "Qu'est-ce que la gestion des numéros de série et pourquoi est-elle importante ?",
+        "answer": "La gestion des numéros de série implique l'enregistrement et le suivi des numéros de série des composants comme les panneaux solaires et les onduleurs. C'est crucial pour les réclamations de garantie, les processus de maintenance et de remplacement. La plateforme MapperX scanne rapidement les numéros de série, crée leurs jumeaux numériques et gère toutes les données sur une seule plateforme."
+      },
+      "santral-yonetimi-finansal-kayiplar": {
+        "question": "Comment les pertes financières sont-elles évitées par la gestion de centrale ?",
+        "answer": "La gestion de centrale prévient les pannes potentielles et les pertes d'efficacité grâce à des activités régulières de maintenance et de surveillance. Cela assure la continuité dans la production d'énergie et minimise les pertes financières."
+      },
+      "meteorolojik-veriler-kullanimi": {
+        "question": "Comment les données météorologiques sont-elles utilisées dans la gestion de centrale ?",
+        "answer": "Les données météorologiques sont utilisées pour calculer l'efficacité de la production d'énergie et planifier la maintenance. La plateforme MapperX extrait automatiquement ces données, les analyse et génère des rapports."
+      },
+      "ekip-performansi-takip": {
+        "question": "Comment la performance de l'équipe est-elle suivie dans la gestion de centrale ?",
+        "answer": "La plateforme MapperX offre la possibilité de surveiller les attributions de tâches et la performance des membres de l'équipe. Le statut des ordres de travail et la performance de l'équipe peuvent être suivis et optimisés via la plateforme."
+      },
+      "verimlilik-artirma-onlemler": {
+        "question": "Que peut-on faire pour augmenter l'efficacité de la centrale ?",
+        "answer": "Pour augmenter l'efficacité de la centrale, il faut effectuer des maintenances et réparations régulières, surveiller la performance des équipements par inspection thermographique et tests électriques, et intervenir si nécessaire."
+      },
+      "platform-yardimci-ozellikler": {
+        "question": "Comment la plateforme MapperX aide-t-elle dans la gestion de centrale ?",
+        "answer": "Elle numérise les processus de gestion de centrale, augmente l'efficacité et simplifie la gestion opérationnelle. Elle optimise la gestion de centrale grâce à la surveillance en temps réel des données opérationnelles, au reporting automatique et aux fonctionnalités d'analyse."
+      },
+      "yonetimin-onemi": {
+        "question": "Pourquoi la gestion de centrale est-elle importante ?",
+        "answer": "La gestion de centrale est cruciale pour augmenter l'efficacité de la production d'énergie, réduire les coûts et prévenir les pannes potentielles. Une bonne gestion assure un fonctionnement durable et sûr de la centrale."
+      }
     }
   },
   "reportDownload": {
@@ -444,5 +573,45 @@
         "Cela garantit la sécurité et la performance des installations des clients. MapperX s'engage à fournir le plus haut niveau de service en matière de qualité et de sécurité."
       ]
     }
+  },
+  "faqData": {
+    "questions": [
+      {
+        "question": "Qu'est-ce que l'inspection thermographique ?",
+        "answer": "L'inspection thermographique est une méthode qui détecte les zones défectueuses ou à faible efficacité en mesurant les températures de surface des panneaux solaires et des composants BOS. Cette méthode est utilisée pour identifier les points chauds et autres anomalies dans les panneaux."
+      },
+      {
+        "question": "Pourquoi l'inspection thermographique est-elle importante ?",
+        "answer": "L'inspection thermographique permet la détection précoce des anomalies de température dans les panneaux solaires, prévenant ainsi les pannes potentielles et les pertes d'efficacité. Cela aide à augmenter les performances de l'installation et à réduire les coûts de maintenance."
+      },
+      {
+        "question": "Comment l'inspection thermographique est-elle réalisée ?",
+        "answer": "L'inspection thermographique est réalisée à l'aide de drones équipés de caméras thermiques. Les drones collectent des images thermiques en survolant les panneaux, et ces images sont analysées via la plateforme MapperX."
+      },
+      {
+        "question": "Quels sont les avantages de l'utilisation des drones thermiques ?",
+        "answer": "L'utilisation de drones thermiques permet un balayage rapide et efficace des grandes surfaces. Les drones peuvent obtenir des images thermiques détaillées même dans les zones difficiles d'accès, permettant une inspection complète."
+      },
+      {
+        "question": "Comment les résultats de l'inspection thermographique sont-ils rapportés ?",
+        "answer": "La plateforme MapperX rapporte les résultats d'inspection thermographique conformément aux normes IEC 62446. Ces rapports incluent une analyse détaillée des panneaux défectueux et des points chauds."
+      },
+      {
+        "question": "À quelle fréquence l'inspection thermographique doit-elle être effectuée ?",
+        "answer": "L'inspection thermographique doit être effectuée au moins deux fois par an, selon le programme de maintenance périodique de l'installation. Cependant, des inspections plus fréquentes peuvent aider à détecter et prévenir les problèmes potentiels plus tôt."
+      },
+      {
+        "question": "Quels types de défauts peuvent être détectés avec l'inspection thermographique ?",
+        "answer": "L'inspection thermographique peut détecter les problèmes de cellules, de cellules multiples, de diodes, de diodes multiples, de modules, de points chauds, de chaînes, d'ombrage de plantes, de contamination, d'ombrage, de boîtes de jonction et de fissures/fractures. Ces types de défauts peuvent affecter négativement l'efficacité de l'installation."
+      },
+      {
+        "question": "Comment la plateforme MapperX analyse-t-elle les données d'inspection thermographique ?",
+        "answer": "La plateforme MapperX analyse les images thermiques à l'aide d'algorithmes supportés par l'IA et détecte les anomalies de température. Ces analyses permettent une identification rapide des défauts et des pertes d'efficacité."
+      },
+      {
+        "question": "Comment l'efficacité énergétique est-elle augmentée avec l'inspection thermographique ?",
+        "answer": "L'inspection thermographique permet la détection précoce des panneaux défectueux et des zones à faible efficacité. Cela permet des réparations et une maintenance opportunes, assurant une efficacité maximale dans la production d'énergie."
+      }
+    ]
   }
 } 

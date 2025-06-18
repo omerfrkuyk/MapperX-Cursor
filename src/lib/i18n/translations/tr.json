@@ -211,12 +211,12 @@
   },
   "smartReporting": {
     "subtitle": "Akıllı ve Hızlı",
-    "title": "Raporlama Sistemi",
-    "description": "MapperX'in gelişmiş raporlama sistemi ile santrallerinizin termografik muayene sonuçlarını hızlı ve detaylı bir şekilde analiz edin. Yapay zeka destekli anomali tespiti ve sınıflandırma özelliği sayesinde, raporlarınızı otomatik olarak oluşturun.",
+    "title": "Akıllı Raporlama Çözümleri",
+    "description": "Bakım onarım faaliyetlerinde, farklı disiplinlerdeki ekiplerin bir araya gelerek gerçekleştirdiği muayene ve denetim raporları, operasyonların verimliliği ve doğruluğu için kritik öneme sahiptir. MapperX teknolojisi ile iş akışlarınızı verimli hale getirerek iş akışlarınızı platform üzerinden yönetin haftalar süren raporlama süreçlerini IEC 62446 standartlarına uyumlu olarak saniyeler içinde tamamlayın.",
     "features": [
-      "IEC standartlarına uygun detaylı raporlar oluşturun.",
-      "Anomali türlerini ve konumlarını otomatik olarak tespit edin.",
-      "QR kod entegrasyonu ile saha ekiplerine hızlı erişim sağlayın."
+      "Haftalarca süren raporlama süreçlerini saniyeler içinde, doğru ve güvenilir şekilde tamamlayın.",
+      "Raporlarınızı IEC standartlarına uyumlu olarak oluşturun ve operasyonel doğruluğunuzu artırın.",
+      "Kendi logonuzu kullanarak gelişmiş filtreleme seçenekleri ile sınırsız rapor oluşturun."
     ]
   },
   "partnership": {
@@ -336,6 +336,15 @@
     },
     "images": {
       "temperatureMapAlt": "Isı haritası animasyonu"
+    },
+    "anomalyTypes": {
+      "title": "Otonom Tespit Edilen Anomali Türleri",
+      "description": "Geleneksel yöntemler ile yapılan termal inceleme analizlerinde hatalı veya arızalı güneş panelinin tespit edilmesi uzun sürmektedir. MapperX ile IEC 62446 standartları kapsamında yer alan tüm anomali türlerini ve sebeplerini otonom bir şekilde standarda uyumlu olarak kısa sürede tespit edin.",
+      "features": [
+        "Anomali türlerini belirleyin ve sebeplerini kontrol altına alın.",
+        "Bakım ve onarım sürecinde hızlı kararlar alarak kayıplarınızı azaltın.",
+        "Gelişmiş filtreleme seçenekleri ile önceliklerinizi belirleyin."
+      ]
     }
   },
   "inspectionAndAudit": {

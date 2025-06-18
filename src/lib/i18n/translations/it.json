@@ -108,6 +108,15 @@
         "src": "/thermal-inspection/mapperx-fault-type-slider-after-1.png",
         "alt": "Anomalia Evidenziata"
       }
+    },
+    "anomalyTypes": {
+      "title": "Tipi di Anomalie Rilevate Automaticamente",
+      "description": "Il rilevamento di pannelli solari difettosi o guasti utilizzando metodi tradizionali di analisi dell'ispezione termica richiede molto tempo. Con MapperX, identifica rapidamente tutti i tipi di anomalie e le loro cause coperte dagli standard IEC 62446 in modo autonomo e conforme allo standard.",
+      "features": [
+        "Identifica i tipi di anomalie e controlla le loro cause.",
+        "Prendi decisioni rapide durante la manutenzione e la riparazione per ridurre le perdite.",
+        "Imposta le tue priorità con opzioni di filtro avanzate."
+      ]
     }
   },
   "compatibleDrones": {
@@ -228,16 +237,25 @@
     },
     "images": {
       "temperatureMapAlt": "Animazione mappa termica"
+    },
+    "anomalyTypes": {
+      "title": "Tipi di Anomalie Rilevate Automaticamente",
+      "description": "Il rilevamento di pannelli solari difettosi o guasti utilizzando metodi tradizionali di analisi dell'ispezione termica richiede molto tempo. Con MapperX, identifica rapidamente tutti i tipi di anomalie e le loro cause coperte dagli standard IEC 62446 in modo autonomo e conforme allo standard.",
+      "features": [
+        "Identifica i tipi di anomalie e controlla le loro cause.",
+        "Prendi decisioni rapide durante la manutenzione e la riparazione per ridurre le perdite.",
+        "Imposta le tue priorità con opzioni di filtro avanzate."
+      ]
     }
   },
   "smartReporting": {
     "subtitle": "Intelligente e Veloce",
-    "title": "Sistema di Reportistica",
-    "description": "Analizza rapidamente e in dettaglio i risultati dell'ispezione termografica dei tuoi impianti con il sistema di reportistica avanzato di MapperX. Genera i tuoi report automaticamente grazie alle funzionalità di rilevamento e classificazione delle anomalie basate su IA.",
+    "title": "Soluzioni di Reportistica Intelligente",
+    "description": "Nelle attività di manutenzione e riparazione, i rapporti di ispezione e audit creati da team di diverse discipline sono fondamentali per l'efficienza e l'accuratezza delle operazioni. Con la tecnologia MapperX, rendi efficienti i tuoi flussi di lavoro gestendoli attraverso la piattaforma e completa i processi di reportistica che richiedono settimane in pochi secondi, in conformità con gli standard IEC 62446.",
     "features": [
-      "Crea report dettagliati conformi agli standard IEC.",
-      "Rileva automaticamente i tipi e le posizioni delle anomalie.",
-      "Fornisci accesso rapido ai team sul campo con l'integrazione di codici QR."
+      "Completa i processi di reportistica che richiedono settimane in pochi secondi, in modo accurato e affidabile.",
+      "Crea i tuoi report in conformità con gli standard IEC e aumenta la tua accuratezza operativa.",
+      "Crea report illimitati con opzioni di filtro avanzate utilizzando il tuo logo."
     ]
   },
   "inspectionAndAudit": {
@@ -267,16 +285,22 @@
       }
     },
     "electricalInfrastructure": {
-      "title": "Gestisci le tue Operazioni di Infrastruttura Elettrica su un'Unica Piattaforma",
-      "description": "Le operazioni complesse di ispezione e verifica eseguite in momenti diversi e con apparecchiature diverse possono portare a rilevamenti errati rendendo difficile l'analisi nei flussi di lavoro manuali. Crea report autonomi raccogliendo dati di misurazione e test elettrici conformi agli standard su un'unica piattaforma con la piattaforma MapperX, e interpretali attraverso gemelli digitali sostenibili. Prendi azioni rapide e accurate.",
+      "title": "Ispezione dell'Infrastruttura Elettrica",
+      "description": "Esegui ispezioni dell'infrastruttura elettrica negli impianti solari con MapperX. Crea report conformi agli standard IEC 62446.",
       "features": {
-        "1": "Combina le tue misurazioni e test elettrici in un unico report.",
-        "2": "Aumenta l'efficienza sostenibile digitalizzando i tuoi processi di ispezione.",
-        "3": "Crea report illimitati ottimizzando tutti i tuoi flussi di lavoro."
+        "1": {
+          "description": "Combina le tue misurazioni e test elettrici in un unico report."
+        },
+        "2": {
+          "description": "Aumenta l'efficienza sostenibile digitalizzando i tuoi processi di ispezione."
+        },
+        "3": {
+          "description": "Crea report illimitati ottimizzando tutti i tuoi flussi di lavoro."
+        }
       },
-      "moreInfo": "Scopri di più",
+      "moreInfo": "Maggiori Informazioni",
       "image": {
-        "alt": "Visuale Infrastruttura Elettrica"
+        "alt": "Ispezione dell'Infrastruttura Elettrica"
       }
     },
     "mapperXStudio": {

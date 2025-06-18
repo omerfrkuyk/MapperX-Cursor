@@ -108,6 +108,15 @@
         "src": "/thermal-inspection/mapperx-fault-type-slider-after-1.png",
         "alt": "Anomaly Marked"
       }
+    },
+    "anomalyTypes": {
+      "title": "Autonomously Detected Anomaly Types",
+      "description": "Detecting faulty or defective solar panels in thermal inspection analyses using traditional methods takes a long time. With MapperX, quickly identify all types of anomalies and their causes autonomously in compliance with IEC 62446 standards.",
+      "features": [
+        "Identify anomaly types and control their causes.",
+        "Reduce your losses by making quick decisions during maintenance and repair.",
+        "Set your priorities with advanced filtering options."
+      ]
     }
   },
   "compatibleDrones": {
@@ -204,12 +213,12 @@
   },
   "smartReporting": {
     "subtitle": "Smart and Fast",
-    "title": "Reporting System",
-    "description": "Analyze your power plants' thermographic inspection results quickly and in detail with MapperX's advanced reporting system. Generate your reports automatically thanks to AI-powered anomaly detection and classification features.",
+    "title": "Smart Reporting Solutions",
+    "description": "In maintenance and repair activities, inspection and audit reports created by teams from different disciplines coming together are critical for the efficiency and accuracy of operations. With MapperX technology, make your workflows efficient by managing them through the platform and complete reporting processes that take weeks in seconds, in compliance with IEC 62446 standards.",
     "features": [
-      "Create detailed reports compliant with IEC standards.",
-      "Automatically detect anomaly types and locations.",
-      "Provide quick access to field teams with QR code integration."
+      "Complete reporting processes that take weeks in seconds, accurately and reliably.",
+      "Create your reports in compliance with IEC standards and increase your operational accuracy.",
+      "Create unlimited reports with advanced filtering options using your own logo."
     ]
   },
   "partnership": {
@@ -329,6 +338,15 @@
     },
     "images": {
       "temperatureMapAlt": "Temperature map animation"
+    },
+    "anomalyTypes": {
+      "title": "Autonomously Detected Anomaly Types",
+      "description": "Detecting faulty or defective solar panels using traditional thermal inspection analysis methods takes a long time. With MapperX, quickly identify all anomaly types and their causes covered by IEC 62446 standards autonomously and in compliance with the standard.",
+      "features": [
+        "Identify anomaly types and control their causes.",
+        "Make quick decisions during maintenance and repair to reduce your losses.",
+        "Set your priorities with advanced filtering options."
+      ]
     }
   },
   "inspectionAndAudit": {
@@ -358,16 +376,22 @@
       }
     },
     "electricalInfrastructure": {
-      "title": "Manage Your Electrical Infrastructure Operations on a Single Platform",
-      "description": "Complex inspection and audit operations performed at different times and with different equipment can lead to incorrect detections by making analysis difficult in manual workflows. Create autonomous reports by collecting electrical measurement and test data in compliance with standards on a single platform with MapperX platform, and interpret them through sustainable digital twins. Take quick and accurate actions.",
+      "title": "Electrical Infrastructure Inspection",
+      "description": "Perform electrical infrastructure inspections in solar power plants with MapperX. Create reports in compliance with IEC 62446 standards.",
       "features": {
-        "1": "Combine your electrical measurements and tests in a single report.",
-        "2": "Increase sustainable efficiency by digitalizing your inspection processes.",
-        "3": "Create unlimited reports by optimizing all your workflows."
+        "1": {
+          "description": "Combine your electrical measurements and tests in a single report."
+        },
+        "2": {
+          "description": "Increase sustainable efficiency by digitalizing your inspection processes."
+        },
+        "3": {
+          "description": "Create unlimited reports by optimizing all your workflows."
+        }
       },
-      "moreInfo": "Learn More",
+      "moreInfo": "More Information",
       "image": {
-        "alt": "Electrical Infrastructure Visual"
+        "alt": "Electrical Infrastructure Inspection"
       }
     },
     "mapperXStudio": {

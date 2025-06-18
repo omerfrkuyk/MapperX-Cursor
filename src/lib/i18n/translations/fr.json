@@ -228,16 +228,25 @@
     },
     "images": {
       "temperatureMapAlt": "Animation de carte thermique"
+    },
+    "anomalyTypes": {
+      "title": "Types d'Anomalies Détectés Automatiquement",
+      "description": "La détection des panneaux solaires défectueux ou défaillants à l'aide des méthodes traditionnelles d'analyse d'inspection thermique prend beaucoup de temps. Avec MapperX, identifiez rapidement tous les types d'anomalies et leurs causes couverts par les normes IEC 62446 de manière autonome et conforme à la norme.",
+      "features": [
+        "Identifiez les types d'anomalies et contrôlez leurs causes.",
+        "Prenez des décisions rapides pendant la maintenance et la réparation pour réduire vos pertes.",
+        "Définissez vos priorités avec des options de filtrage avancées."
+      ]
     }
   },
   "smartReporting": {
     "subtitle": "Intelligent et Rapide",
-    "title": "Système de Rapport",
-    "description": "Analysez rapidement et en détail les résultats d'inspection thermographique de vos centrales avec le système de rapport avancé de MapperX. Générez vos rapports automatiquement grâce aux fonctionnalités de détection et de classification des anomalies alimentées par l'IA.",
+    "title": "Solutions de Rapports Intelligents",
+    "description": "Dans les activités de maintenance et de réparation, les rapports d'inspection et d'audit créés par des équipes de différentes disciplines sont essentiels pour l'efficacité et la précision des opérations. Avec la technologie MapperX, rendez vos flux de travail efficaces en les gérant via la plateforme et complétez les processus de rapport qui prennent des semaines en quelques secondes, conformément aux normes IEC 62446.",
     "features": [
-      "Créez des rapports détaillés conformes aux normes IEC.",
-      "Détectez automatiquement les types et les emplacements des anomalies.",
-      "Fournissez un accès rapide aux équipes de terrain grâce à l'intégration de codes QR."
+      "Complétez les processus de rapport qui prennent des semaines en quelques secondes, avec précision et fiabilité.",
+      "Créez vos rapports conformément aux normes IEC et augmentez votre précision opérationnelle.",
+      "Créez des rapports illimités avec des options de filtrage avancées en utilisant votre propre logo."
     ]
   },
   "inspectionAndAudit": {
@@ -267,16 +276,22 @@
       }
     },
     "electricalInfrastructure": {
-      "title": "Gérez vos Opérations d'Infrastructure Électrique sur une Seule Plateforme",
-      "description": "Les opérations complexes d'inspection et d'audit effectuées à différents moments et avec différents équipements peuvent conduire à des détections incorrectes en rendant l'analyse difficile dans les flux de travail manuels. Créez des rapports autonomes en collectant les données de mesure et de test électriques conformément aux normes sur une seule plateforme avec la plateforme MapperX, et interprétez-les via des jumeaux numériques durables. Prenez des actions rapides et précises.",
+      "title": "Inspection de l'Infrastructure Électrique",
+      "description": "Effectuez des inspections de l'infrastructure électrique dans les centrales solaires avec MapperX. Créez des rapports conformes aux normes IEC 62446.",
       "features": {
-        "1": "Combinez vos mesures et tests électriques dans un seul rapport.",
-        "2": "Augmentez l'efficacité durable en numérisant vos processus d'inspection.",
-        "3": "Créez des rapports illimités en optimisant tous vos flux de travail."
+        "1": {
+          "description": "Combinez vos mesures et tests électriques dans un seul rapport."
+        },
+        "2": {
+          "description": "Augmentez l'efficacité durable en numérisant vos processus d'inspection."
+        },
+        "3": {
+          "description": "Créez des rapports illimités en optimisant tous vos flux de travail."
+        }
       },
-      "moreInfo": "En savoir plus",
+      "moreInfo": "Plus d'Informations",
       "image": {
-        "alt": "Visuel d'Infrastructure Électrique"
+        "alt": "Inspection de l'Infrastructure Électrique"
       }
     },
     "mapperXStudio": {

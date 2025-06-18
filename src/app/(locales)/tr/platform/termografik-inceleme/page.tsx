@@ -2,8 +2,13 @@ import OtonomTermografikMuayeneSection from '@/components/termografik-inceleme/O
 import GelismisTermalAnalizSection from '@/components/GelismisTermalAnalizSection';
 import AkilliRaporlamaSection from '@/components/termografik-inceleme/AkilliRaporlamaSection';
 import TermografikHeroSection from '@/components/termografik-inceleme/TermografikHeroSection';
+import AnomaliTurleriSection from '@/components/termografik-inceleme/AnomaliTurleriSection';
+import CompatibleDroneSection from '@/components/CompatibleDroneSection';
+import ReportDownloadSection from '@/components/ReportDownloadSection';
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from '@/lib/i18n/getMessages';
+import PartnershipSection from '@/components/PartnershipSection';
+import FAQSection from '@/components/FAQSection';
 
 export async function generateMetadata() {
   return {
@@ -22,6 +27,10 @@ export default async function TermografikIncelemePage() {
         <OtonomTermografikMuayeneSection />
         <GelismisTermalAnalizSection />
         <AkilliRaporlamaSection />
+        <AnomaliTurleriSection />
+        <PartnershipSection />
+        <FAQSection />
+        <ReportDownloadSection />
       </main>
     </NextIntlClientProvider>
   );

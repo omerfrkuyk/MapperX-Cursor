@@ -108,6 +108,15 @@
         "src": "/thermal-inspection/mapperx-fault-type-slider-after-1.png",
         "alt": "Anomalie Markiert"
       }
+    },
+    "anomalyTypes": {
+      "title": "Autonom erkannte Anomalietypen",
+      "description": "Die Erkennung fehlerhafter oder defekter Solarmodule mit herkömmlichen Methoden der Wärmebildanalyse ist zeitaufwändig. Mit MapperX können Sie schnell alle im IEC 62446-Standard enthaltenen Anomalietypen und deren Ursachen autonom und standardkonform identifizieren.",
+      "features": [
+        "Identifizieren Sie Anomalietypen und kontrollieren Sie deren Ursachen.",
+        "Treffen Sie schnelle Entscheidungen bei Wartung und Reparatur, um Ihre Verluste zu reduzieren.",
+        "Setzen Sie Ihre Prioritäten mit erweiterten Filteroptionen."
+      ]
     }
   },
   "compatibleDrones": {
@@ -228,16 +237,25 @@
     },
     "images": {
       "temperatureMapAlt": "Temperaturkarten-Animation"
+    },
+    "anomalyTypes": {
+      "title": "Autonom erkannte Anomalietypen",
+      "description": "Die Erkennung fehlerhafter oder defekter Solarmodule mit herkömmlichen Methoden der Wärmebildanalyse ist zeitaufwändig. Mit MapperX können Sie schnell alle im IEC 62446-Standard enthaltenen Anomalietypen und deren Ursachen autonom und standardkonform identifizieren.",
+      "features": [
+        "Identifizieren Sie Anomalietypen und kontrollieren Sie deren Ursachen.",
+        "Treffen Sie schnelle Entscheidungen bei Wartung und Reparatur, um Ihre Verluste zu reduzieren.",
+        "Setzen Sie Ihre Prioritäten mit erweiterten Filteroptionen."
+      ]
     }
   },
   "smartReporting": {
     "subtitle": "Intelligent und Schnell",
-    "title": "Berichtssystem",
-    "description": "Analysieren Sie die thermografischen Inspektionsergebnisse Ihrer Kraftwerke schnell und detailliert mit dem fortschrittlichen Berichtssystem von MapperX. Erstellen Sie Ihre Berichte automatisch dank KI-gestützter Anomalieerkennung und Klassifizierung.",
+    "title": "Intelligente Berichtslösungen",
+    "description": "Bei Wartungs- und Reparaturarbeiten sind Inspektions- und Prüfberichte, die von Teams verschiedener Disziplinen gemeinsam erstellt werden, für die Effizienz und Genauigkeit der Operationen von entscheidender Bedeutung. Mit der MapperX-Technologie gestalten Sie Ihre Arbeitsabläufe effizient, indem Sie sie über die Plattform verwalten und wochenlange Berichtsprozesse in Sekundenschnelle gemäß IEC 62446-Standards abschließen.",
     "features": [
-      "Erstellen Sie detaillierte Berichte gemäß IEC-Standards.",
-      "Erkennen Sie automatisch Anomalietypen und -standorte.",
-      "Ermöglichen Sie schnellen Zugriff für Feldteams durch QR-Code-Integration."
+      "Schließen Sie wochenlange Berichtsprozesse in Sekundenschnelle, präzise und zuverlässig ab.",
+      "Erstellen Sie Ihre Berichte gemäß IEC-Standards und erhöhen Sie Ihre betriebliche Genauigkeit.",
+      "Erstellen Sie unbegrenzte Berichte mit erweiterten Filteroptionen unter Verwendung Ihres eigenen Logos."
     ]
   },
   "inspectionAndAudit": {
@@ -267,16 +285,22 @@
       }
     },
     "electricalInfrastructure": {
-      "title": "Verwalten Sie Ihre elektrischen Infrastrukturoperationen auf einer einzigen Plattform",
-      "description": "Komplexe Inspektions- und Prüfvorgänge, die zu verschiedenen Zeiten und mit verschiedenen Geräten durchgeführt werden, können durch erschwerte Analysen in manuellen Arbeitsabläufen zu falschen Erkennungen führen. Erstellen Sie autonome Berichte, indem Sie elektrische Mess- und Testdaten standardkonform auf einer einzigen Plattform mit der MapperX-Plattform sammeln und interpretieren Sie sie durch nachhaltige digitale Zwillinge. Ergreifen Sie schnelle und genaue Maßnahmen.",
+      "title": "Inspektion der elektrischen Infrastruktur",
+      "description": "Führen Sie mit MapperX Inspektionen der elektrischen Infrastruktur in Solaranlagen durch. Erstellen Sie Berichte gemäß IEC 62446-Standards.",
       "features": {
-        "1": "Kombinieren Sie Ihre elektrischen Messungen und Tests in einem einzigen Bericht.",
-        "2": "Steigern Sie die nachhaltige Effizienz durch Digitalisierung Ihrer Inspektionsprozesse.",
-        "3": "Erstellen Sie unbegrenzte Berichte durch Optimierung aller Ihrer Arbeitsabläufe."
+        "1": {
+          "description": "Kombinieren Sie Ihre elektrischen Messungen und Tests in einem einzigen Bericht."
+        },
+        "2": {
+          "description": "Steigern Sie die nachhaltige Effizienz durch Digitalisierung Ihrer Inspektionsprozesse."
+        },
+        "3": {
+          "description": "Erstellen Sie unbegrenzte Berichte durch Optimierung aller Ihrer Arbeitsabläufe."
+        }
       },
-      "moreInfo": "Mehr erfahren",
+      "moreInfo": "Weitere Informationen",
       "image": {
-        "alt": "Elektrische Infrastrukturvisualisierung"
+        "alt": "Inspektion der elektrischen Infrastruktur"
       }
     },
     "mapperXStudio": {

@@ -1,45 +1,89 @@
 'use client';
 
+import { useEffect } from 'react';
 import Image from 'next/image';
+import { motion, useAnimation } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import { motion } from 'framer-motion';
+import { useTranslations } from 'next-intl';
 
 const IecStandartSection = () => {
-  const { ref, inView } = useInView({
-    triggerOnce: true,
-    threshold: 0.2,
-  });
+  const t = useTranslations('about.iecStandart');
+  const controls = useAnimation();
+  const [ref, inView] = useInView({ triggerOnce: true, threshold: 0.2 });
+
+  const features = [0, 1, 2, 3].map(index => t(`features.${index}`));
+
+  useEffect(() => {
+    if (inView) {
+      controls.start('visible');
+    }
+  }, [controls, inView]);
 
   return (
-    <section className="bg-[#F9F9F9] py-24 px-6 md:px-20">
+    <section className="bg-white py-24 px-4 md:px-16">
       <div className="max-w-screen-xl mx-auto grid md:grid-cols-2 gap-16 items-center">
-        {/* Sol görsel */}
-        <div className="flex justify-center">
-          <Image
-            src="/IEC-62446-3@2x.png"
-            alt="IEC 62446 Standardı"
-            width={500}
-            height={500}
-            className="w-full max-w-[500px] h-auto"
-          />
-        </div>
+        {/* Left Image */}
+        <motion.div
+          initial={{ opacity: 0, scale: 0.95 }}
+          animate={inView ? { opacity: 1, scale: 1 } : {}}
+          transition={{ duration: 0.8 }}
+          className="relative flex justify-start pl-0 md:pl-12"
+        >
+          <div className="w-full max-w-[600px]">
+            <Image
+              src="/IEC-62446-3@2x.png"
+              alt="IEC Standards"
+              width={600}
+              height={600}
+              className="w-full h-auto"
+              priority
+            />
+          </div>
+        </motion.div>
 
-        {/* Sağ yazı */}
+        {/* Right Content */}
         <motion.div
           ref={ref}
-          initial={{ opacity: 0, y: 30 }}
-          animate={inView ? { opacity: 1, y: 0 } : {}}
-          transition={{ duration: 0.6 }}
+          initial={{ opacity: 0, y: 20 }}
+          animate={controls}
+          variants={{
+            visible: {
+              opacity: 1,
+              y: 0,
+              transition: { duration: 0.8, ease: 'easeOut' }
+            }
+          }}
+          className="space-y-6"
         >
-          <h2 className="text-xl md:text-2xl font-semibold text-gray-900 mb-6">
-            IEC Standartlarına Tam Uyum
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8">
+            {t('title')}
           </h2>
-          <ul className="space-y-4 text-base text-gray-700">
-            <li>➤ MapperX, uluslararası kabul görmüş IEC 62446 standartlarına tam uyum sağlayarak hizmet verir.</li>
-            <li>➤ Bu standartlar, fotovoltaik sistemlerin güvenli ve verimli çalışmasını sağlamak için gerekli olan test ve belgelendirme süreçlerini belirler.</li>
-            <li>➤ MapperX’in bu standartlara uygun denetim ve analizleri, müşterilere güvenilir ve doğrulanabilir sonuçlar sunar.</li>
-            <li>➤ Bu sayede, müşterilerin tesislerinin güvenliği ve performansı garanti altına alınmış olur. MapperX, kalite ve güvenlik konularında en üst seviyede hizmet sunmayı taahhüt eder.</li>
-          </ul>
+
+          <div className="space-y-4">
+            {features.map((feature: string, index: number) => (
+              <div key={index} className="flex items-start gap-3">
+                <div className="text-blue-600 mt-1">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth={2}
+                    stroke="currentColor"
+                    className="w-5 h-5"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                    />
+                  </svg>
+                </div>
+                <p className="text-gray-700 text-lg">
+                  {feature}
+                </p>
+              </div>
+            ))}
+          </div>
         </motion.div>
       </div>
     </section>

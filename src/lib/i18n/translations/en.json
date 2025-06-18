@@ -457,5 +457,35 @@
         "alt": "Team Members and Assignment"
       }
     }
+  },
+  "about": {
+    "hero": {
+      "title": "More Than PV Panel Inspection",
+      "description": "MapperX provides thermographic inspection, audit, and autonomous analysis solutions for solar power plants. Enhance the performance and safety of your plants with our AI-powered technology.",
+      "contactUs": "Contact us",
+      "mapperxTechnology": "MapperX Technology",
+      "mapperxDescription": "MapperX is an innovative platform that analyzes the condition of industrial facilities in detail using advanced drone and thermography technologies. It collects and analyzes data with high precision using advanced image processing algorithms and AI support.",
+      "operationalEfficiency": "Operational Efficiency",
+      "operationalDescription": "Optimizes facility maintenance and repair processes, increases operational efficiency by detecting faults in advance.",
+      "proactiveMaintenance": "Proactive Maintenance",
+      "proactiveDescription": "In addition to identifying existing problems, it offers a proactive maintenance strategy by predicting potential problems that may arise in the future."
+    },
+    "carbonReduction": {
+      "title": "Reduce Carbon Emissions with MapperX",
+      "description": "MapperX contributes significantly to green transformation goals as an environmentally conscious technology. Through advanced monitoring and analysis systems, it increases energy efficiency and optimizes maintenance processes. As a result, energy consumption and carbon emissions are significantly reduced. MapperX ensures more efficient use of energy resources through interventions made at the right time and place. Thus, while reducing operating costs, it also minimizes environmental impacts.",
+      "energyEfficiency": "Energy Efficiency",
+      "energyDescription": "Reduces carbon emissions by increasing energy efficiency through advanced monitoring and analysis systems.",
+      "sustainability": "Sustainability",
+      "sustainabilityDescription": "Contributes to a sustainable future by minimizing environmental impacts through timely interventions."
+    },
+    "iecStandart": {
+      "title": "Full Compliance with IEC Standards",
+      "features": [
+        "MapperX provides services in full compliance with internationally recognized IEC 62446 standards.",
+        "These standards define the necessary testing and documentation processes to ensure safe and efficient operation of photovoltaic systems.",
+        "MapperX's inspections and analyses in accordance with these standards provide customers with reliable and verifiable results.",
+        "This ensures that the safety and performance of customers' facilities are guaranteed. MapperX is committed to providing the highest level of service in quality and safety matters."
+      ]
+    }
   }
 } 

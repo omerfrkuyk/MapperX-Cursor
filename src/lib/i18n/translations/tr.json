@@ -470,5 +470,35 @@
         "alt": "Takım Üyeleri ve Görevlendirme"
       }
     }
+  },
+  "about": {
+    "hero": {
+      "title": "PV Panel Denetiminden Daha Fazlası",
+      "description": "MapperX, güneş enerjisi santrallerinde termografik muayene, denetim ve otonom analiz çözümleri sunar. Yapay zeka destekli teknolojimiz ile santrallerinizin performansını ve güvenliğini artırın.",
+      "contactUs": "İletişime geç",
+      "mapperxTechnology": "MapperX Teknolojisi",
+      "mapperxDescription": "MapperX, ileri drone ve termografi teknolojilerini kullanarak endüstriyel tesislerin durumunu detaylı bir şekilde analiz eden yenilikçi bir platformdur. Gelişmiş görüntü işleme algoritmaları ve yapay zeka desteği ile yüksek hassasiyetle veri toplar ve analiz eder.",
+      "operationalEfficiency": "Operasyonel Verimlilik",
+      "operationalDescription": "Tesislerin bakım ve onarım süreçlerini optimize eder, arızaları önceden tespit ederek operasyonel verimliliği artırır.",
+      "proactiveMaintenance": "Proaktif Bakım",
+      "proactiveDescription": "Mevcut sorunları belirlemenin yanı sıra gelecekte ortaya çıkabilecek potansiyel sorunları öngörerek proaktif bir bakım stratejisi sunar."
+    },
+    "carbonReduction": {
+      "title": "MapperX ile Karbon Emisyonunu Azaltın",
+      "description": "MapperX, çevreye duyarlı bir teknoloji olarak yeşil dönüşüm hedeflerine önemli katkılarda bulunur. Gelişmiş izleme ve analiz sistemleri sayesinde enerji verimliliğini artırır ve bakım süreçlerini optimize eder. Bu sayede, enerji tüketimi ve karbon emisyonları önemli ölçüde azalır. MapperX, doğru zamanda ve doğru yerde yapılan müdahaleler ile enerji kaynaklarının daha verimli kullanılmasını sağlar. Böylece, işletme maliyetlerini düşürürken çevresel etkileri de en aza indirir.",
+      "energyEfficiency": "Enerji Verimliliği",
+      "energyDescription": "Gelişmiş izleme ve analiz sistemleri ile enerji verimliliğini artırarak karbon emisyonlarını azaltır.",
+      "sustainability": "Sürdürülebilirlik",
+      "sustainabilityDescription": "Doğru zamanda yapılan müdahalelerle çevresel etkileri minimize ederek sürdürülebilir bir geleceğe katkıda bulunur."
+    },
+    "iecStandart": {
+      "title": "IEC Standartlarına Tam Uyum",
+      "features": [
+        "MapperX, uluslararası kabul görmüş IEC 62446 standartlarına tam uyum sağlayarak hizmet verir.",
+        "Bu standartlar, fotovoltaik sistemlerin güvenli ve verimli çalışmasını sağlamak için gerekli olan test ve belgelendirme süreçlerini belirler.",
+        "MapperX'in bu standartlara uygun denetim ve analizleri, müşterilere güvenilir ve doğrulanabilir sonuçlar sunar.",
+        "Bu sayede, müşterilerin tesislerinin güvenliği ve performansı garanti altına alınmış olur. MapperX, kalite ve güvenlik konularında en üst seviyede hizmet sunmayı taahhüt eder."
+      ]
+    }
   }
 } 

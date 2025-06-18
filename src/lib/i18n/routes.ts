@@ -66,7 +66,7 @@ export const routes: RouteConfig = {
     it: '/it/faq'
   },
   corporate: {
-    tr: '/kurumsal',
+    tr: '/tr/kurumsal',
     en: '/en/corporate',
     de: '/de/unternehmen',
     fr: '/fr/entreprise',
@@ -106,7 +106,6 @@ export function getLocalizedRoute(routeKey: keyof typeof routes, locale: string)
   return routes[routeKey][locale as keyof (typeof routes)[typeof routeKey]];
 }
 
-// URL'den route key'ini bulma fonksiyonu
 export function getRouteKeyFromPath(path: string, locale: string): string | null {
   const normalizedPath = path.endsWith('/') ? path.slice(0, -1) : path;
   
@@ -119,7 +118,6 @@ export function getRouteKeyFromPath(path: string, locale: string): string | null
   return null;
 }
 
-// Mevcut URL'yi başka bir dile çevirme
 export function translateUrl(currentPath: string, fromLocale: string, toLocale: string): string {
   const routeKey = getRouteKeyFromPath(currentPath, fromLocale);
   if (!routeKey) return currentPath;

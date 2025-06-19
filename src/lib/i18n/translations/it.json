@@ -653,109 +653,159 @@
     }
   },
   "pricing": {
-    "title": "Prezzi",
-    "selectPanelType": "Seleziona il tipo di pannello FV",
+    "title": "Piani Tariffari",
+    "perMwp": "per MWp",
+    "calculatePrice": "Calcola Prezzo",
+    "selectPanelType": "Seleziona il Tipo di Pannello FV",
     "standard": "Pannello Standard",
     "halfcut": "Pannello Half-Cut",
-    "panelCount": "Numero di pannelli",
-    "includeBos": "Aggiungi componente BOS",
-    "totalPrice": "Prezzo totale",
-    "price": "€{price}",
+    "panelCount": "Numero di Pannelli",
+    "includeBos": "Includi Componente BOS",
+    "totalPrice": "Prezzo Totale",
     "3cm": {
       "title": "Enterprise",
       "subtitle": "GSD: 3,0 ± 0,5 cm/pixel",
       "standard": {
-        "description": "Questo livello è necessario per l'ispezione termica dettagliata e la reportistica secondo gli standard IEC 62446-3. È adatto per l'identificazione completa delle anomalie critiche nei pannelli solari e nelle celle."
-      },
-      "halfcut": {
-        "description": "Questo livello è necessario per l'ispezione termica dettagliata e la reportistica secondo gli standard IEC 62446-3. È adatto per l'identificazione completa delle anomalie critiche nei pannelli solari e nelle celle."
+        "description": "Questo livello è richiesto per l'ispezione termica dettagliata e la reportistica conforme a IEC 62446-3. Adatto per l'identificazione completa delle anomalie critiche nei pannelli solari e nelle celle."
       }
     },
     "5cm": {
-      "title": "Professionale",
+      "title": "Professional",
       "subtitle": "GSD: 5,0 ± 0,5 cm/pixel",
       "standard": {
-        "description": "Ideale per il rilevamento dettagliato delle anomalie e la reportistica a livello di cella. Questo pacchetto offre soluzioni economiche e veloci grazie a operazioni di mappatura più rapide con l'altitudine di volo."
-      },
-      "halfcut": {
-        "description": "Ideale per il rilevamento dettagliato delle anomalie e la reportistica a livello di cella. Questo pacchetto offre soluzioni economiche e veloci grazie a operazioni di mappatura più rapide con l'altitudine di volo."
+        "description": "Ideale per il rilevamento dettagliato delle anomalie e la reportistica a livello di cella. Questo pacchetto offre soluzioni economiche e rapide con operazioni di mappatura più veloci attraverso l'altitudine di volo."
       }
     },
     "10cm": {
-      "title": "Base",
+      "title": "Starter",
       "subtitle": "GSD: 10,0 ± 0,5 cm/pixel",
       "standard": {
-        "description": "Ispezione di livello base adatta per la scansione rapida di grandi aree. I voli ad alta quota offrono un ampio campo visivo ma producono immagini meno dettagliate."
-      },
-      "halfcut": {
-        "description": "Ispezione di livello base adatta per la scansione rapida di grandi aree. I voli ad alta quota offrono un ampio campo visivo ma producono immagini meno dettagliate."
+        "description": "Ispezione a livello base adatta per la scansione rapida di grandi aree. I voli ad alta quota forniscono un ampio campo visivo ma producono immagini meno dettagliate."
       }
-    }
-  },
-  "pricingComparison": {
-    "features": {
-      "gsd": "GSD",
-      "flightLevel": "Livello di Volo",
-      "inspectionType": "Tipo di Ispezione",
-      "detailLevel": "Livello di Dettaglio",
-      "anomalyTypes": "Rilevamento Anomalie",
-      "bosModule": "Modulo Componenti BOS",
-      "thermalRgb": "Ispezione Termica e RGB",
-      "workOrders": "Modulo Ordini di Lavoro",
-      "serialNumber": "Modulo Scansione Numero di Serie",
-      "efficiency": "Calcolo Efficienza",
-      "reporting": "Reportistica Dettagliata",
-      "description": "Descrizione",
-      "detectedIssues": "Problemi Rilevati"
     },
-    "plans": {
-      "starter": {
+    "Comparison": {
+      "features": {
+        "gsd": "Distanza di Campionamento al Suolo (GSD)",
+        "flightHeight": "Altezza di Volo",
+        "inspectionSpeed": "Velocità di Ispezione",
+        "thermalAccuracy": "Precisione Termica",
+        "defectDetection": "Rilevamento Difetti",
+        "reportingDetail": "Dettaglio Reportistica",
+        "iecCompliance": "Conformità IEC 62446-3",
+        "cellLevelAnalysis": "Analisi a Livello Cella",
+        "stringLevelAnalysis": "Analisi a Livello String",
+        "moduleMapping": "Mappatura Moduli",
+        "bom": "Distinta Base (BOM)",
+        "warranty": "Idoneità Richieste Garanzia",
+        "description": "Descrizione",
+        "detectedIssues": "Problemi Rilevati"
+      }
+    },
+    "plans": [
+      {
         "name": "Base",
-        "gsd": "GSD: 10,0 ± 0,5 cm/pixel",
-        "flightLevel": "Livello di Volo Alto",
-        "inspectionType": "Ispezione Generale Moduli Solari",
-        "detailLevel": "Ispezione Basso Dettaglio",
-        "anomalyTypes": "2 Diversi Tipi di Rilevamento Anomalie",
-        "bosModule": "Modulo Componenti BOS (Opzionale)",
-        "thermalRgb": "Ispezione Termica e RGB",
-        "workOrders": "Modulo Ordini di Lavoro",
-        "serialNumber": "Modulo Scansione Numero di Serie",
-        "efficiency": "Calcolo Efficienza",
-        "reporting": "Reportistica Dettagliata",
-        "description": "Ispezione di livello base adatta per la scansione rapida di grandi aree. I voli ad alta quota offrono un ampio campo visivo ma producono immagini meno dettagliate.",
-        "detectedIssues": "Tipi di Problemi Rilevati: Modulo, Stringa"
+        "price": "$0.03",
+        "features": [
+          "Ispezione Termica GSD 10cm",
+          "Report Conformi IEC 62446",
+          "Rilevamento Anomalie Base",
+          "Modulo BOS Opzionale",
+          "Supporto Standard"
+        ]
       },
-      "professional": {
+      {
         "name": "Professionale",
-        "gsd": "GSD: 5,0 ± 0,5 cm/pixel",
-        "flightLevel": "Livello di Volo Medio",
-        "inspectionType": "Ispezione Anomalie a Livello Cella",
-        "detailLevel": "Ispezione Dettagliata",
-        "anomalyTypes": "12 Diversi Tipi di Rilevamento Anomalie",
-        "bosModule": "Modulo Componenti BOS (Opzionale)",
-        "thermalRgb": "Ispezione Termica e RGB",
-        "workOrders": "Modulo Ordini di Lavoro",
-        "serialNumber": "Modulo Scansione Numero di Serie",
-        "efficiency": "Calcolo Efficienza",
-        "reporting": "Reportistica Dettagliata",
-        "description": "Ideale per il rilevamento dettagliato delle anomalie e la reportistica a livello di cella. Questo pacchetto offre operazioni di mappatura economiche e veloci con altezza di volo regolata per una mappatura più rapida.",
-        "detectedIssues": "Tipi di Anomalie Rilevate: Cella, Celle Multiple, Diodo, Diodi Multipli, Modulo, Punto Caldo, Stringa, Ombreggiamento Vegetale, Sporcizia, Ombreggiamento, Scatola di Giunzione, Crepa/Rottura"
+        "price": "$0.05",
+        "features": [
+          "Ispezione Termica GSD 5cm",
+          "Report Conformi IEC 62446",
+          "Rilevamento Anomalie Avanzato",
+          "Modulo BOS Opzionale",
+          "Supporto Prioritario",
+          "Gestione Numeri di Serie",
+          "Gestione Ordini di Lavoro"
+        ]
       },
-      "enterprise": {
+      {
         "name": "Enterprise",
-        "gsd": "GSD: 3,0 ± 0,5 cm/pixel",
-        "flightLevel": "Livello di Volo Basso",
-        "inspectionType": "Ispezione Standard IEC 62446-3",
-        "detailLevel": "Ispezione Completa",
-        "anomalyTypes": "12 Diversi Tipi di Rilevamento Anomalie",
-        "bosModule": "Modulo Componenti BOS",
+        "price": "$0.075",
+        "features": [
+          "Ispezione Termica GSD 3cm",
+          "Report Conformi IEC 62446",
+          "Rilevamento Anomalie Premium",
+          "Modulo BOS Incluso",
+          "Supporto Premium 24/7",
+          "Gestione Numeri di Serie",
+          "Gestione Ordini di Lavoro",
+          "Supporto Integrazione Personalizzato"
+        ]
+      }
+    ],
+    "pricingComparison": {
+      "features": {
+        "gsd": "GSD",
+        "flightLevel": "Livello di Volo",
+        "inspectionType": "Tipo di Ispezione",
+        "detailLevel": "Livello di Dettaglio",
+        "anomalyTypes": "Rilevamento Anomalie",
+        "bosModule": "Modulo BOS",
         "thermalRgb": "Ispezione Termica e RGB",
         "workOrders": "Modulo Ordini di Lavoro",
-        "serialNumber": "Modulo Scansione Numero di Serie",
+        "serialNumber": "Modulo Scansione Numeri di Serie",
         "efficiency": "Calcolo Efficienza",
         "reporting": "Reportistica Dettagliata",
-        "description": "Necessario per l'ispezione termica dettagliata e la reportistica secondo gli standard IEC 62446-3. Questo livello di GSD è adatto per l'identificazione completa delle anomalie critiche nei pannelli solari e nelle celle secondo gli standard riconosciuti internazionalmente.",
-        "detectedIssues": "Tipi di Anomalie Rilevate: Cella, Celle Multiple, Diodo, Diodi Multipli, Modulo, Punto Caldo, Stringa, Ombreggiamento Vegetale, Sporcizia, Ombreggiamento, Scatola di Giunzione, Crepa/Rottura"
+        "description": "Descrizione",
+        "detectedIssues": "Problemi Rilevati"
+      },
+      "plans": {
+        "starter": {
+          "name": "Base",
+          "gsd": "GSD: 10,0 ± 0,5 cm/pixel",
+          "flightLevel": "Livello di Volo Alto",
+          "inspectionType": "Ispezione Generale dei Moduli Solari",
+          "detailLevel": "Ispezione a Basso Dettaglio",
+          "anomalyTypes": "2 Diversi Tipi di Rilevamento Anomalie",
+          "bosModule": "Modulo BOS (Opzionale)",
+          "thermalRgb": "Ispezione Termica e RGB",
+          "workOrders": "Modulo Ordini di Lavoro",
+          "serialNumber": "Modulo Scansione Numeri di Serie",
+          "efficiency": "Calcolo Efficienza",
+          "reporting": "Reportistica Dettagliata",
+          "description": "Ispezione di livello base adatta per la scansione rapida di grandi aree. I voli ad alta quota forniscono un ampio campo visivo ma producono immagini meno dettagliate.",
+          "detectedIssues": "Tipi di Problemi Rilevati: Modulo, Stringa"
+        },
+        "professional": {
+          "name": "Professionale",
+          "gsd": "GSD: 5,0 ± 0,5 cm/pixel",
+          "flightLevel": "Livello di Volo Medio",
+          "inspectionType": "Ispezione Anomalie a Livello Cellulare",
+          "detailLevel": "Ispezione Dettagliata",
+          "anomalyTypes": "12 Diversi Tipi di Rilevamento Anomalie",
+          "bosModule": "Modulo BOS (Opzionale)",
+          "thermalRgb": "Ispezione Termica e RGB",
+          "workOrders": "Modulo Ordini di Lavoro",
+          "serialNumber": "Modulo Scansione Numeri di Serie",
+          "efficiency": "Calcolo Efficienza",
+          "reporting": "Reportistica Dettagliata",
+          "description": "Ideale per il rilevamento dettagliato delle anomalie a livello cellulare e la reportistica. Questo pacchetto offre operazioni di mappatura economiche e veloci con altezza di volo regolata.",
+          "detectedIssues": "Tipi di Anomalie Rilevate: Cella, Multi-Cella, Diodo, Multi-Diodo, Modulo, Punto Caldo, Stringa, Ombreggiamento Vegetale, Sporcizia, Ombreggiamento, Scatola di Giunzione, Crepa/Rottura"
+        },
+        "enterprise": {
+          "name": "Enterprise",
+          "gsd": "GSD: 3,0 ± 0,5 cm/pixel",
+          "flightLevel": "Livello di Volo Basso",
+          "inspectionType": "Ispezione Standard IEC 62446-3",
+          "detailLevel": "Ispezione Completa",
+          "anomalyTypes": "12 Diversi Tipi di Rilevamento Anomalie",
+          "bosModule": "Modulo BOS",
+          "thermalRgb": "Ispezione Termica e RGB",
+          "workOrders": "Modulo Ordini di Lavoro",
+          "serialNumber": "Modulo Scansione Numeri di Serie",
+          "efficiency": "Calcolo Efficienza",
+          "reporting": "Reportistica Dettagliata",
+          "description": "Necessario per l'ispezione termica dettagliata e la reportistica secondo gli standard IEC 62446-3. Questo livello di GSD è adatto per l'identificazione completa delle anomalie critiche nei pannelli solari e nelle celle secondo gli standard riconosciuti internazionalmente.",
+          "detectedIssues": "Tipi di Anomalie Rilevate: Cella, Multi-Cella, Diodo, Multi-Diodo, Modulo, Punto Caldo, Stringa, Ombreggiamento Vegetale, Sporcizia, Ombreggiamento, Scatola di Giunzione, Crepa/Rottura"
+        }
       }
     }
   },

@@ -245,42 +245,159 @@
     }
   },
   "pricing": {
-    "title": "Pricing",
-    "selectPanelType": "Please Select Your PV Panel Type",
+    "title": "Pricing Plans",
+    "perMwp": "per MWp",
+    "calculatePrice": "Calculate Price",
+    "selectPanelType": "Select Your PV Panel Type",
     "standard": "Standard Panel",
     "halfcut": "Half-Cut Panel",
     "panelCount": "Panel Count",
-    "includeBos": "Add BOS Component",
+    "includeBos": "Include BOS Component",
     "totalPrice": "Total Price",
-    "price": "€{price}",
     "3cm": {
       "title": "Enterprise",
       "subtitle": "GSD: 3.0 ± 0.5 cm/pixel",
       "standard": {
-        "description": "This level is required for detailed thermal inspection and reporting in accordance with IEC 62446-3 standards. It is suitable for comprehensive identification of critical anomalies in solar panels and cells."
-      },
-      "halfcut": {
-        "description": "This level is required for detailed thermal inspection and reporting in accordance with IEC 62446-3 standards. It is suitable for comprehensive identification of critical anomalies in solar panels and cells."
+        "description": "This level is required for detailed thermal inspection and IEC 62446-3 compliant reporting. Suitable for complete identification of critical anomalies in solar panels and cells."
       }
     },
     "5cm": {
       "title": "Professional",
       "subtitle": "GSD: 5.0 ± 0.5 cm/pixel",
       "standard": {
-        "description": "Ideal for detailed anomaly detection and reporting at the cell level. This package provides economical and fast solutions by offering faster mapping operations with flight altitude."
-      },
-      "halfcut": {
-        "description": "Ideal for detailed anomaly detection and reporting at the cell level. This package provides economical and fast solutions by offering faster mapping operations with flight altitude."
+        "description": "Ideal for detailed anomaly detection and cell-level reporting. This package offers cost-effective and quick solutions with faster mapping operations through flight altitude."
       }
     },
     "10cm": {
       "title": "Starter",
       "subtitle": "GSD: 10.0 ± 0.5 cm/pixel",
       "standard": {
-        "description": "Entry-level inspection suitable for rapid scanning of large areas. High-altitude flights provide a wide field of view but produce less detailed images."
+        "description": "Starter level inspection suitable for quick scanning of large areas. High altitude flights provide wide field of view but produce less detailed images."
+      }
+    },
+    "Comparison": {
+      "features": {
+        "gsd": "Ground Sampling Distance (GSD)",
+        "flightHeight": "Flight Height",
+        "inspectionSpeed": "Inspection Speed",
+        "thermalAccuracy": "Thermal Accuracy",
+        "defectDetection": "Defect Detection",
+        "reportingDetail": "Reporting Detail",
+        "iecCompliance": "IEC 62446-3 Compliance",
+        "cellLevelAnalysis": "Cell Level Analysis",
+        "stringLevelAnalysis": "String Level Analysis",
+        "moduleMapping": "Module Mapping",
+        "bom": "Bill of Materials (BOM)",
+        "warranty": "Warranty Claim Suitability",
+        "description": "Description",
+        "detectedIssues": "Detected Issues"
+      }
+    },
+    "plans": [
+      {
+        "name": "Starter",
+        "price": "$0.03",
+        "features": [
+          "10cm GSD Thermal Inspection",
+          "IEC 62446 Compliant Reports",
+          "Basic Anomaly Detection",
+          "Optional BOS Module",
+          "Standard Support"
+        ]
       },
-      "halfcut": {
-        "description": "Entry-level inspection suitable for rapid scanning of large areas. High-altitude flights provide a wide field of view but produce less detailed images."
+      {
+        "name": "Professional",
+        "price": "$0.05",
+        "features": [
+          "5cm GSD Thermal Inspection",
+          "IEC 62446 Compliant Reports",
+          "Advanced Anomaly Detection",
+          "Optional BOS Module",
+          "Priority Support",
+          "Panel Serial Number Management",
+          "Work Order Management"
+        ]
+      },
+      {
+        "name": "Enterprise",
+        "price": "$0.075",
+        "features": [
+          "3cm GSD Thermal Inspection",
+          "IEC 62446 Compliant Reports",
+          "Premium Anomaly Detection",
+          "Included BOS Module",
+          "24/7 Premium Support",
+          "Panel Serial Number Management",
+          "Work Order Management",
+          "Custom Integration Support"
+        ]
+      }
+    ],
+    "pricingComparison": {
+      "features": {
+        "gsd": "GSD",
+        "flightLevel": "Flight Level",
+        "inspectionType": "Inspection Type",
+        "detailLevel": "Detail Level",
+        "anomalyTypes": "Anomaly Detection",
+        "bosModule": "BOS Components Module",
+        "thermalRgb": "Thermal and RGB Inspection",
+        "workOrders": "Work Orders Module",
+        "serialNumber": "Panel Serial Number Scan Module",
+        "efficiency": "Efficiency Calculation",
+        "reporting": "Detailed Reporting",
+        "description": "Description",
+        "detectedIssues": "Detected Issues"
+      },
+      "plans": {
+        "starter": {
+          "name": "Starter",
+          "gsd": "GSD: 10.0 ± 0.5 cm/pixel",
+          "flightLevel": "High Flight Level",
+          "inspectionType": "General Solar Module Inspection",
+          "detailLevel": "Low Detail Inspection",
+          "anomalyTypes": "2 Different Types of Anomaly Detection",
+          "bosModule": "BOS Components Module (Optional)",
+          "thermalRgb": "Thermal and RGB Inspection",
+          "workOrders": "Work Orders Module",
+          "serialNumber": "Panel Serial Number Scan Module",
+          "efficiency": "Efficiency Calculation",
+          "reporting": "Detailed Reporting",
+          "description": "Entry-level inspection suitable for quick scanning of large areas. High-altitude flights provide a wide field of view but produce less detailed images.",
+          "detectedIssues": "Detected Issue Types: Module, String"
+        },
+        "professional": {
+          "name": "Professional",
+          "gsd": "GSD: 5.0 ± 0.5 cm/pixel",
+          "flightLevel": "Medium Flight Level",
+          "inspectionType": "Cell-Based Anomaly Inspection",
+          "detailLevel": "Detailed Inspection",
+          "anomalyTypes": "12 Different Types of Anomaly Detection",
+          "bosModule": "BOS Components Module (Optional)",
+          "thermalRgb": "Thermal and RGB Inspection",
+          "workOrders": "Work Orders Module",
+          "serialNumber": "Panel Serial Number Scan Module",
+          "efficiency": "Efficiency Calculation",
+          "reporting": "Detailed Reporting",
+          "description": "Ideal for cell-level detailed anomaly detection and reporting. This package offers economical and fast mapping operations with adjusted flight height for faster mapping.",
+          "detectedIssues": "Detected Anomaly Types: Cell, Multi-Cell, Diode, Multi-Diode, Module, Hot Spot, String, Plant Shading, Soiling, Shading, Junction Box, Crack/Break"
+        },
+        "enterprise": {
+          "name": "Enterprise",
+          "gsd": "GSD: 3.0 ± 0.5 cm/pixel",
+          "flightLevel": "Low Flight Level",
+          "inspectionType": "IEC 62446-3 Standards Inspection",
+          "detailLevel": "Comprehensive Inspection",
+          "anomalyTypes": "12 Different Types of Anomaly Detection",
+          "bosModule": "BOS Components Module",
+          "thermalRgb": "Thermal and RGB Inspection",
+          "workOrders": "Work Orders Module",
+          "serialNumber": "Panel Serial Number Scan Module",
+          "efficiency": "Efficiency Calculation",
+          "reporting": "Detailed Reporting",
+          "description": "Required for detailed thermal inspection and reporting in accordance with IEC 62446-3 standards. This GSD level is suitable for comprehensive identification of critical anomalies in solar panels and cells in accordance with internationally recognized standards.",
+          "detectedIssues": "Detected Anomaly Types: Cell, Multi-Cell, Diode, Multi-Diode, Module, Hot Spot, String, Plant Shading, Soiling, Shading, Junction Box, Crack/Break"
+        }
       }
     }
   },
@@ -732,73 +849,6 @@
           "internship": "Internship Program"
         },
         "contact": "Contact"
-      }
-    }
-  },
-  "pricingComparison": {
-    "features": {
-      "gsd": "GSD",
-      "flightLevel": "Flight Level",
-      "inspectionType": "Inspection Type",
-      "detailLevel": "Detail Level",
-      "anomalyTypes": "Anomaly Detection",
-      "bosModule": "BOS Components Module",
-      "thermalRgb": "Thermal and RGB Inspection",
-      "workOrders": "Work Orders Module",
-      "serialNumber": "Panel Serial Number Scan Module",
-      "efficiency": "Efficiency Calculation",
-      "reporting": "Detailed Reporting",
-      "description": "Description",
-      "detectedIssues": "Detected Issues"
-    },
-    "plans": {
-      "starter": {
-        "name": "Starter",
-        "gsd": "GSD: 10.0 ± 0.5 cm/pixel",
-        "flightLevel": "High Flight Level",
-        "inspectionType": "General Solar Module Inspection",
-        "detailLevel": "Low Detail Inspection",
-        "anomalyTypes": "2 Different Types of Anomaly Detection",
-        "bosModule": "BOS Components Module (Optional)",
-        "thermalRgb": "Thermal and RGB Inspection",
-        "workOrders": "Work Orders Module",
-        "serialNumber": "Panel Serial Number Scan Module",
-        "efficiency": "Efficiency Calculation",
-        "reporting": "Detailed Reporting",
-        "description": "Entry-level inspection suitable for rapid scanning of large areas. High-altitude flights provide a wide field of view but produce less detailed images.",
-        "detectedIssues": "Detected Issue Types: Module, String"
-      },
-      "professional": {
-        "name": "Professional",
-        "gsd": "GSD: 5.0 ± 0.5 cm/pixel",
-        "flightLevel": "Medium Flight Level",
-        "inspectionType": "Cell-Based Anomaly Inspection",
-        "detailLevel": "Detailed Inspection",
-        "anomalyTypes": "12 Different Types of Anomaly Detection",
-        "bosModule": "BOS Components Module (Optional)",
-        "thermalRgb": "Thermal and RGB Inspection",
-        "workOrders": "Work Orders Module",
-        "serialNumber": "Panel Serial Number Scan Module",
-        "efficiency": "Efficiency Calculation",
-        "reporting": "Detailed Reporting",
-        "description": "Ideal for detailed anomaly detection and reporting at the cell level. This package offers economical and fast mapping operations with adjusted flight height for faster mapping.",
-        "detectedIssues": "Detected Anomaly Types: Cell, Multiple Cells, Diode, Multiple Diodes, Module, Hot Spot, String, Plant Shading, Soiling, Shading, Junction Box, Crack/Break"
-      },
-      "enterprise": {
-        "name": "Enterprise",
-        "gsd": "GSD: 3.0 ± 0.5 cm/pixel",
-        "flightLevel": "Low Flight Level",
-        "inspectionType": "IEC 62446-3 Standards Inspection",
-        "detailLevel": "Comprehensive Inspection",
-        "anomalyTypes": "12 Different Types of Anomaly Detection",
-        "bosModule": "BOS Components Module",
-        "thermalRgb": "Thermal and RGB Inspection",
-        "workOrders": "Work Orders Module",
-        "serialNumber": "Panel Serial Number Scan Module",
-        "efficiency": "Efficiency Calculation",
-        "reporting": "Detailed Reporting",
-        "description": "Required for detailed thermal inspection and reporting in accordance with IEC 62446-3 standards. This GSD level is suitable for comprehensive identification of critical anomalies in solar panels and cells in accordance with internationally recognized standards.",
-        "detectedIssues": "Detected Anomaly Types: Cell, Multiple Cells, Diode, Multiple Diodes, Module, Hot Spot, String, Plant Shading, Soiling, Shading, Junction Box, Crack/Break"
       }
     }
   }

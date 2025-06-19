@@ -1,125 +1,73 @@
 "use client";
 
-import { useLanguage } from "@/lib/i18n/LanguageContext";
+import { useTranslations } from "next-intl";
 
-const PricingComparison = () => {
-  const { translate } = useLanguage();
+interface PricingComparisonProps {
+  locale: string;
+}
+
+export default function PricingComparison({ locale }: PricingComparisonProps) {
+  const t = useTranslations('pricing.pricingComparison');
 
   const features = [
-    { key: "gsd", label: translate("pricingComparison.features.gsd") },
-    { key: "flightLevel", label: translate("pricingComparison.features.flightLevel") },
-    { key: "inspectionType", label: translate("pricingComparison.features.inspectionType") },
-    { key: "detailLevel", label: translate("pricingComparison.features.detailLevel") },
-    { key: "anomalyTypes", label: translate("pricingComparison.features.anomalyTypes") },
-    { key: "bosModule", label: translate("pricingComparison.features.bosModule") },
-    { key: "thermalRgb", label: translate("pricingComparison.features.thermalRgb") },
-    { key: "workOrders", label: translate("pricingComparison.features.workOrders") },
-    { key: "serialNumber", label: translate("pricingComparison.features.serialNumber") },
-    { key: "efficiency", label: translate("pricingComparison.features.efficiency") },
-    { key: "reporting", label: translate("pricingComparison.features.reporting") }
+    { key: "gsd", label: t('features.gsd') },
+    { key: "flightLevel", label: t('features.flightLevel') },
+    { key: "inspectionType", label: t('features.inspectionType') },
+    { key: "detailLevel", label: t('features.detailLevel') },
+    { key: "anomalyTypes", label: t('features.anomalyTypes') },
+    { key: "bosModule", label: t('features.bosModule') },
+    { key: "thermalRgb", label: t('features.thermalRgb') },
+    { key: "workOrders", label: t('features.workOrders') },
+    { key: "serialNumber", label: t('features.serialNumber') },
+    { key: "efficiency", label: t('features.efficiency') },
+    { key: "reporting", label: t('features.reporting') },
+    { key: "description", label: t('features.description') },
+    { key: "detectedIssues", label: t('features.detectedIssues') }
   ];
 
-  const plans = [
-    {
-      key: "starter",
-      name: translate("pricingComparison.plans.starter.name"),
-      features: {
-        gsd: translate("pricingComparison.plans.starter.gsd"),
-        flightLevel: translate("pricingComparison.plans.starter.flightLevel"),
-        inspectionType: translate("pricingComparison.plans.starter.inspectionType"),
-        detailLevel: translate("pricingComparison.plans.starter.detailLevel"),
-        anomalyTypes: translate("pricingComparison.plans.starter.anomalyTypes"),
-        bosModule: translate("pricingComparison.plans.starter.bosModule"),
-        thermalRgb: translate("pricingComparison.plans.starter.thermalRgb"),
-        workOrders: translate("pricingComparison.plans.starter.workOrders"),
-        serialNumber: translate("pricingComparison.plans.starter.serialNumber"),
-        efficiency: translate("pricingComparison.plans.starter.efficiency"),
-        reporting: translate("pricingComparison.plans.starter.reporting"),
-        description: translate("pricingComparison.plans.starter.description"),
-        detectedIssues: translate("pricingComparison.plans.starter.detectedIssues")
-      }
-    },
-    {
-      key: "professional",
-      name: translate("pricingComparison.plans.professional.name"),
-      features: {
-        gsd: translate("pricingComparison.plans.professional.gsd"),
-        flightLevel: translate("pricingComparison.plans.professional.flightLevel"),
-        inspectionType: translate("pricingComparison.plans.professional.inspectionType"),
-        detailLevel: translate("pricingComparison.plans.professional.detailLevel"),
-        anomalyTypes: translate("pricingComparison.plans.professional.anomalyTypes"),
-        bosModule: translate("pricingComparison.plans.professional.bosModule"),
-        thermalRgb: translate("pricingComparison.plans.professional.thermalRgb"),
-        workOrders: translate("pricingComparison.plans.professional.workOrders"),
-        serialNumber: translate("pricingComparison.plans.professional.serialNumber"),
-        efficiency: translate("pricingComparison.plans.professional.efficiency"),
-        reporting: translate("pricingComparison.plans.professional.reporting"),
-        description: translate("pricingComparison.plans.professional.description"),
-        detectedIssues: translate("pricingComparison.plans.professional.detectedIssues")
-      }
-    },
-    {
-      key: "enterprise",
-      name: translate("pricingComparison.plans.enterprise.name"),
-      features: {
-        gsd: translate("pricingComparison.plans.enterprise.gsd"),
-        flightLevel: translate("pricingComparison.plans.enterprise.flightLevel"),
-        inspectionType: translate("pricingComparison.plans.enterprise.inspectionType"),
-        detailLevel: translate("pricingComparison.plans.enterprise.detailLevel"),
-        anomalyTypes: translate("pricingComparison.plans.enterprise.anomalyTypes"),
-        bosModule: translate("pricingComparison.plans.enterprise.bosModule"),
-        thermalRgb: translate("pricingComparison.plans.enterprise.thermalRgb"),
-        workOrders: translate("pricingComparison.plans.enterprise.workOrders"),
-        serialNumber: translate("pricingComparison.plans.enterprise.serialNumber"),
-        efficiency: translate("pricingComparison.plans.enterprise.efficiency"),
-        reporting: translate("pricingComparison.plans.enterprise.reporting"),
-        description: translate("pricingComparison.plans.enterprise.description"),
-        detectedIssues: translate("pricingComparison.plans.enterprise.detectedIssues")
-      }
-    }
-  ];
+  const plans = ["starter", "professional", "enterprise"];
 
   return (
-    <div className="max-w-7xl mx-auto px-4 py-12">
-      <div className="grid grid-cols-4 gap-4">
-        {/* Feature Labels Column */}
-        <div className="space-y-4">
-          <div className="h-20"></div> {/* Spacer for alignment with plan headers */}
-          {features.map((feature) => (
-            <div key={feature.key} className="p-4 bg-gray-50 rounded-lg text-gray-800 font-medium">
-              {feature.label}
-            </div>
-          ))}
-          <div className="p-4 bg-gray-50 rounded-lg text-gray-800 font-medium">
-            {translate("pricingComparison.features.description")}
-          </div>
-          <div className="p-4 bg-gray-50 rounded-lg text-gray-800 font-medium">
-            {translate("pricingComparison.features.detectedIssues")}
-          </div>
-        </div>
-
-        {/* Plan Columns */}
-        {plans.map((plan) => (
-          <div key={plan.key} className="space-y-4">
-            <div className="h-20 flex items-center justify-center bg-blue-600 text-white rounded-lg text-xl font-bold">
-              {plan.name}
-            </div>
-            {features.map((feature) => (
-              <div key={feature.key} className="p-4 bg-white border rounded-lg min-h-[60px] flex items-center text-gray-800">
-                {plan.features[feature.key as keyof typeof plan.features]}
-              </div>
+    <div className="max-w-7xl mx-auto px-4 py-8">
+      <div className="w-full overflow-x-auto bg-white rounded-xl shadow-lg">
+        <table className="min-w-full divide-y divide-gray-200">
+          <thead>
+            <tr>
+              <th className="px-6 py-4 bg-gray-50 text-left text-xs font-medium text-gray-500 uppercase tracking-wider rounded-tl-xl"></th>
+              {plans.map((plan, index) => (
+                <th 
+                  key={plan} 
+                  className={`px-6 py-4 bg-gray-50 text-left text-xs font-medium text-gray-500 uppercase tracking-wider ${
+                    index === plans.length - 1 ? 'rounded-tr-xl' : ''
+                  }`}
+                >
+                  {t(`plans.${plan}.name`)}
+                </th>
+              ))}
+            </tr>
+          </thead>
+          <tbody className="divide-y divide-gray-200">
+            {features.map(({ key, label }, rowIndex) => (
+              <tr 
+                key={key}
+                className={rowIndex % 2 === 0 ? 'bg-white' : 'bg-gray-50'}
+              >
+                <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
+                  {label}
+                </td>
+                {plans.map((plan) => (
+                  <td 
+                    key={`${plan}-${key}`} 
+                    className="px-6 py-4 whitespace-normal text-sm text-gray-600 hover:bg-blue-50 transition-colors duration-150"
+                  >
+                    {t(`plans.${plan}.${key}`)}
+                  </td>
+                ))}
+              </tr>
             ))}
-            <div className="p-4 bg-white border rounded-lg text-gray-800">
-              {plan.features.description}
-            </div>
-            <div className="p-4 bg-white border rounded-lg text-gray-800">
-              {plan.features.detectedIssues}
-            </div>
-          </div>
-        ))}
+          </tbody>
+        </table>
       </div>
     </div>
   );
-};
-
-export default PricingComparison; 
+} 

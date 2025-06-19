@@ -644,21 +644,19 @@
     }
   },
   "pricing": {
-    "title": "Tarifs",
-    "selectPanelType": "Veuillez sélectionner votre type de panneau PV",
+    "title": "Plans Tarifaires",
+    "perMwp": "par MWc",
+    "calculatePrice": "Calculer le Prix",
+    "selectPanelType": "Sélectionnez votre type de panneau PV",
     "standard": "Panneau Standard",
     "halfcut": "Panneau Half-Cut",
     "panelCount": "Nombre de panneaux",
     "includeBos": "Ajouter le composant BOS",
     "totalPrice": "Prix total",
-    "price": "€{price}",
     "3cm": {
       "title": "Enterprise",
       "subtitle": "GSD : 3,0 ± 0,5 cm/pixel",
       "standard": {
-        "description": "Ce niveau est requis pour l'inspection thermique détaillée et les rapports conformes aux normes IEC 62446-3. Il convient à l'identification complète des anomalies critiques dans les panneaux solaires et les cellules."
-      },
-      "halfcut": {
         "description": "Ce niveau est requis pour l'inspection thermique détaillée et les rapports conformes aux normes IEC 62446-3. Il convient à l'identification complète des anomalies critiques dans les panneaux solaires et les cellules."
       }
     },
@@ -667,9 +665,6 @@
       "subtitle": "GSD : 5,0 ± 0,5 cm/pixel",
       "standard": {
         "description": "Idéal pour la détection détaillée des anomalies et les rapports au niveau cellulaire. Ce forfait offre des solutions économiques et rapides grâce à des opérations de cartographie plus rapides avec l'altitude de vol."
-      },
-      "halfcut": {
-        "description": "Idéal pour la détection détaillée des anomalies et les rapports au niveau cellulaire. Ce forfait offre des solutions économiques et rapides grâce à des opérations de cartographie plus rapides avec l'altitude de vol."
       }
     },
     "10cm": {
@@ -677,76 +672,131 @@
       "subtitle": "GSD : 10,0 ± 0,5 cm/pixel",
       "standard": {
         "description": "Inspection de niveau débutant adaptée au balayage rapide de grandes surfaces. Les vols à haute altitude offrent un large champ de vision mais produisent des images moins détaillées."
-      },
-      "halfcut": {
-        "description": "Inspection de niveau débutant adaptée au balayage rapide de grandes surfaces. Les vols à haute altitude offrent un large champ de vision mais produisent des images moins détaillées."
       }
-    }
-  },
-  "pricingComparison": {
-    "features": {
-      "gsd": "GSD",
-      "flightLevel": "Niveau de Vol",
-      "inspectionType": "Type d'Inspection",
-      "detailLevel": "Niveau de Détail",
-      "anomalyTypes": "Détection d'Anomalies",
-      "bosModule": "Module Composants BOS",
-      "thermalRgb": "Inspection Thermique et RGB",
-      "workOrders": "Module Ordres de Travail",
-      "serialNumber": "Module Scan Numéro de Série",
-      "efficiency": "Calcul d'Efficacité",
-      "reporting": "Rapport Détaillé",
-      "description": "Description",
-      "detectedIssues": "Problèmes Détectés"
     },
-    "plans": {
-      "starter": {
+    "Comparison": {
+      "features": {
+        "gsd": "Distance d'échantillonnage au sol (GSD)",
+        "flightHeight": "Hauteur de vol",
+        "inspectionSpeed": "Vitesse d'inspection",
+        "thermalAccuracy": "Précision thermique",
+        "defectDetection": "Détection des défauts",
+        "reportingDetail": "Détail des rapports",
+        "iecCompliance": "Conformité IEC 62446-3",
+        "cellLevelAnalysis": "Analyse au niveau cellulaire",
+        "stringLevelAnalysis": "Analyse au niveau des strings",
+        "moduleMapping": "Cartographie des modules",
+        "bom": "Nomenclature (BOM)",
+        "warranty": "Éligibilité aux réclamations de garantie",
+        "description": "Description",
+        "detectedIssues": "Problèmes détectés"
+      }
+    },
+    "plans": [
+      {
         "name": "Débutant",
-        "gsd": "GSD : 10,0 ± 0,5 cm/pixel",
-        "flightLevel": "Niveau de Vol Élevé",
-        "inspectionType": "Inspection Générale des Modules Solaires",
-        "detailLevel": "Inspection Faible Détail",
-        "anomalyTypes": "2 Types Différents de Détection d'Anomalies",
-        "bosModule": "Module Composants BOS (Optionnel)",
-        "thermalRgb": "Inspection Thermique et RGB",
-        "workOrders": "Module Ordres de Travail",
-        "serialNumber": "Module Scan Numéro de Série",
-        "efficiency": "Calcul d'Efficacité",
-        "reporting": "Rapport Détaillé",
-        "description": "Inspection de niveau débutant adaptée au scan rapide de grandes surfaces. Les vols à haute altitude offrent un large champ de vision mais produisent des images moins détaillées.",
-        "detectedIssues": "Types de Problèmes Détectés : Module, String"
+        "price": "$0.03",
+        "features": [
+          "Inspection Thermique GSD 10cm",
+          "Rapports Conformes IEC 62446",
+          "Détection d'Anomalies de Base",
+          "Module BOS Optionnel",
+          "Support Standard"
+        ]
       },
-      "professional": {
+      {
         "name": "Professionnel",
-        "gsd": "GSD : 5,0 ± 0,5 cm/pixel",
-        "flightLevel": "Niveau de Vol Moyen",
-        "inspectionType": "Inspection d'Anomalies au Niveau Cellule",
-        "detailLevel": "Inspection Détaillée",
-        "anomalyTypes": "12 Types Différents de Détection d'Anomalies",
-        "bosModule": "Module Composants BOS (Optionnel)",
-        "thermalRgb": "Inspection Thermique et RGB",
-        "workOrders": "Module Ordres de Travail",
-        "serialNumber": "Module Scan Numéro de Série",
-        "efficiency": "Calcul d'Efficacité",
-        "reporting": "Rapport Détaillé",
-        "description": "Idéal pour la détection détaillée d'anomalies et le reporting au niveau cellule. Ce forfait offre des opérations de cartographie économiques et rapides avec une hauteur de vol ajustée pour une cartographie plus rapide.",
-        "detectedIssues": "Types d'Anomalies Détectées : Cellule, Cellules Multiples, Diode, Diodes Multiples, Module, Point Chaud, String, Ombrage Végétal, Encrassement, Ombrage, Boîte de Jonction, Fissure/Cassure"
+        "price": "$0.05",
+        "features": [
+          "Inspection Thermique GSD 5cm",
+          "Rapports Conformes IEC 62446",
+          "Détection d'Anomalies Avancée",
+          "Module BOS Optionnel",
+          "Support Prioritaire",
+          "Gestion des Numéros de Série",
+          "Gestion des Ordres de Travail"
+        ]
       },
-      "enterprise": {
-        "name": "Enterprise",
-        "gsd": "GSD : 3,0 ± 0,5 cm/pixel",
-        "flightLevel": "Niveau de Vol Bas",
-        "inspectionType": "Inspection Standards IEC 62446-3",
-        "detailLevel": "Inspection Complète",
-        "anomalyTypes": "12 Types Différents de Détection d'Anomalies",
-        "bosModule": "Module Composants BOS",
+      {
+        "name": "Entreprise",
+        "price": "$0.075",
+        "features": [
+          "Inspection Thermique GSD 3cm",
+          "Rapports Conformes IEC 62446",
+          "Détection d'Anomalies Premium",
+          "Module BOS Inclus",
+          "Support Premium 24/7",
+          "Gestion des Numéros de Série",
+          "Gestion des Ordres de Travail",
+          "Support d'Intégration Personnalisé"
+        ]
+      }
+    ],
+    "pricingComparison": {
+      "features": {
+        "gsd": "GSD",
+        "flightLevel": "Niveau de Vol",
+        "inspectionType": "Type d'Inspection",
+        "detailLevel": "Niveau de Détail",
+        "anomalyTypes": "Détection d'Anomalies",
+        "bosModule": "Module BOS",
         "thermalRgb": "Inspection Thermique et RGB",
-        "workOrders": "Module Ordres de Travail",
-        "serialNumber": "Module Scan Numéro de Série",
+        "workOrders": "Module d'Ordres de Travail",
+        "serialNumber": "Module de Scan des Numéros de Série",
         "efficiency": "Calcul d'Efficacité",
-        "reporting": "Rapport Détaillé",
-        "description": "Nécessaire pour l'inspection thermique détaillée et le reporting conformément aux normes IEC 62446-3. Ce niveau de GSD est adapté à l'identification complète des anomalies critiques dans les panneaux solaires et les cellules conformément aux normes internationalement reconnues.",
-        "detectedIssues": "Types d'Anomalies Détectées : Cellule, Cellules Multiples, Diode, Diodes Multiples, Module, Point Chaud, String, Ombrage Végétal, Encrassement, Ombrage, Boîte de Jonction, Fissure/Cassure"
+        "reporting": "Rapports Détaillés",
+        "description": "Description",
+        "detectedIssues": "Problèmes Détectés"
+      },
+      "plans": {
+        "starter": {
+          "name": "Débutant",
+          "gsd": "GSD: 10,0 ± 0,5 cm/pixel",
+          "flightLevel": "Niveau de Vol Élevé",
+          "inspectionType": "Inspection Générale des Modules Solaires",
+          "detailLevel": "Inspection de Faible Détail",
+          "anomalyTypes": "2 Types Différents de Détection d'Anomalies",
+          "bosModule": "Module BOS (Optionnel)",
+          "thermalRgb": "Inspection Thermique et RGB",
+          "workOrders": "Module d'Ordres de Travail",
+          "serialNumber": "Module de Scan des Numéros de Série",
+          "efficiency": "Calcul d'Efficacité",
+          "reporting": "Rapports Détaillés",
+          "description": "Inspection de niveau débutant adaptée à la numérisation rapide de grandes surfaces. Les vols à haute altitude offrent un large champ de vision mais produisent des images moins détaillées.",
+          "detectedIssues": "Types de Problèmes Détectés : Module, String"
+        },
+        "professional": {
+          "name": "Professionnel",
+          "gsd": "GSD: 5,0 ± 0,5 cm/pixel",
+          "flightLevel": "Niveau de Vol Moyen",
+          "inspectionType": "Inspection des Anomalies au Niveau Cellulaire",
+          "detailLevel": "Inspection Détaillée",
+          "anomalyTypes": "12 Types Différents de Détection d'Anomalies",
+          "bosModule": "Module BOS (Optionnel)",
+          "thermalRgb": "Inspection Thermique et RGB",
+          "workOrders": "Module d'Ordres de Travail",
+          "serialNumber": "Module de Scan des Numéros de Série",
+          "efficiency": "Calcul d'Efficacité",
+          "reporting": "Rapports Détaillés",
+          "description": "Idéal pour la détection détaillée des anomalies au niveau cellulaire et la génération de rapports. Ce forfait offre des opérations de cartographie économiques et rapides avec une hauteur de vol ajustée.",
+          "detectedIssues": "Types d'Anomalies Détectées : Cellule, Multi-Cellules, Diode, Multi-Diodes, Module, Point Chaud, String, Ombrage Végétal, Encrassement, Ombrage, Boîte de Jonction, Fissure/Cassure"
+        },
+        "enterprise": {
+          "name": "Entreprise",
+          "gsd": "GSD: 3,0 ± 0,5 cm/pixel",
+          "flightLevel": "Niveau de Vol Bas",
+          "inspectionType": "Inspection aux Normes IEC 62446-3",
+          "detailLevel": "Inspection Complète",
+          "anomalyTypes": "12 Types Différents de Détection d'Anomalies",
+          "bosModule": "Module BOS",
+          "thermalRgb": "Inspection Thermique et RGB",
+          "workOrders": "Module d'Ordres de Travail",
+          "serialNumber": "Module de Scan des Numéros de Série",
+          "efficiency": "Calcul d'Efficacité",
+          "reporting": "Rapports Détaillés",
+          "description": "Nécessaire pour l'inspection thermique détaillée et la génération de rapports conformes aux normes IEC 62446-3. Ce niveau de GSD est adapté à l'identification complète des anomalies critiques dans les panneaux solaires et les cellules selon les normes internationalement reconnues.",
+          "detectedIssues": "Types d'Anomalies Détectées : Cellule, Multi-Cellules, Diode, Multi-Diodes, Module, Point Chaud, String, Ombrage Végétal, Encrassement, Ombrage, Boîte de Jonction, Fissure/Cassure"
+        }
       }
     }
   },

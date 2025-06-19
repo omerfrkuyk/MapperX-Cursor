@@ -440,7 +440,7 @@
       "plans": {
         "starter": {
           "name": "Başlangıç",
-          "gsd": "GSD: 10.0 ± 0.5 cm/piksel",
+          "gsd": "GSD: 10,0 ± 0,5 cm/piksel",
           "flightLevel": "Yüksek Uçuş Seviyesi",
           "inspectionType": "Genel Güneş Modülü İncelemesi",
           "detailLevel": "Düşük Detaylı İnceleme",
@@ -456,7 +456,7 @@
         },
         "professional": {
           "name": "Profesyonel",
-          "gsd": "GSD: 5.0 ± 0.5 cm/piksel",
+          "gsd": "GSD: 5,0 ± 0,5 cm/piksel",
           "flightLevel": "Orta Uçuş Seviyesi",
           "inspectionType": "Hücre Tabanlı Anomali İncelemesi",
           "detailLevel": "Detaylı İnceleme",
@@ -472,7 +472,7 @@
         },
         "enterprise": {
           "name": "Enterprise",
-          "gsd": "GSD: 3.0 ± 0.5 cm/piksel",
+          "gsd": "GSD: 3,0 ± 0,5 cm/piksel",
           "flightLevel": "Düşük Uçuş Seviyesi",
           "inspectionType": "IEC 62446-3 Standartları İncelemesi",
           "detailLevel": "Kapsamlı İnceleme",
@@ -486,6 +486,24 @@
           "description": "IEC 62446-3 standartlarına uygun olarak detaylı termal inceleme ve raporlama için gerekli. Bu GSD seviyesi, uluslararası olarak tanınan standartlara uygun olarak güneş panellerinde ve hücrelerindeki kritik anomalilerin kapsamlı tanımlanması için uygundur.",
           "detectedIssues": "Tespit Edilen Anomali Türleri: Hücre, Çoklu Hücre, Diyot, Çoklu Diyot, Modül, Sıcak Nokta, Dizi (String), Bitki Gölgeleme, Kirlilik, Gölgeleme, Bağlantı Kutusu, Kırık/Çatlak"
         }
+      }
+    },
+    "Comparison": {
+      "features": {
+        "gsd": "Yer Örnekleme Mesafesi (GSD)",
+        "flightHeight": "Uçuş Yüksekliği",
+        "inspectionSpeed": "İnceleme Hızı",
+        "thermalAccuracy": "Termal Doğruluk",
+        "defectDetection": "Kusur Tespiti",
+        "reportingDetail": "Raporlama Detayı",
+        "iecCompliance": "IEC 62446-3 Uyumluluğu",
+        "cellLevelAnalysis": "Hücre Seviyesi Analiz",
+        "stringLevelAnalysis": "String Seviyesi Analiz",
+        "moduleMapping": "Modül Haritalama",
+        "bom": "Malzeme Listesi (BOM)",
+        "warranty": "Garanti Talepleri için Uygunluk",
+        "description": "Açıklama",
+        "detectedIssues": "Tespit Edilen Sorunlar"
       }
     }
   },

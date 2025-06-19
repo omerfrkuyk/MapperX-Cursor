@@ -38,7 +38,7 @@ export const routes: RouteConfig = {
     it: '/it/piattaforma/gestione-della-centrale'
   },
   pricing: {
-    tr: '/fiyatlar',
+    tr: '/tr/fiyatlar',
     en: '/en/prices',
     de: '/de/preise',
     fr: '/fr/prix',

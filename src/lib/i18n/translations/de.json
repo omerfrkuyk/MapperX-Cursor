@@ -654,48 +654,43 @@
   },
   "pricing": {
     "title": "Preise",
-    "perMwp": "pro MWp",
-    "plans": [
-      {
-        "name": "Starter",
-        "price": "0,025 €",
-        "features": [
-          "GSD: 10.0 ± 0.5 cm/pixel",
-          "Hohe Flughöhe",
-          "Allgemeine Solarmodul-Inspektion",
-          "Grundlegende Anomalieerkennung",
-          "Standardberichte",
-          "E-Mail-Support"
-        ]
+    "selectPanelType": "Bitte wählen Sie Ihren PV-Modultyp",
+    "standard": "Standard-Modul",
+    "halfcut": "Half-Cut-Modul",
+    "panelCount": "Modulanzahl",
+    "includeBos": "BOS-Komponente hinzufügen",
+    "totalPrice": "Gesamtpreis",
+    "price": "€{price}",
+    "3cm": {
+      "title": "Enterprise",
+      "subtitle": "GSD: 3,0 ± 0,5 cm/Pixel",
+      "standard": {
+        "description": "Diese Stufe ist für detaillierte thermische Inspektion und Berichterstattung gemäß IEC 62446-3 Standards erforderlich. Geeignet für umfassende Identifizierung kritischer Anomalien in Solarmodulen und Zellen."
       },
-      {
-        "name": "Professional",
-        "price": "0,035 €",
-        "features": [
-          "GSD: 5.0 ± 0.5 cm/pixel",
-          "Mittlere Flughöhe",
-          "Detaillierte Modulinspektion",
-          "Erweiterte Anomalieerkennung",
-          "Angepasste Berichte",
-          "Prioritäts-Support",
-          "API-Zugang"
-        ]
-      },
-      {
-        "name": "Enterprise",
-        "price": "Auf Anfrage",
-        "features": [
-          "GSD: 3.0 ± 0.5 cm/pixel",
-          "Niedrige Flughöhe",
-          "Ultra-detaillierte Inspektion",
-          "Fortgeschrittene KI & maschinelles Lernen",
-          "Maßgeschneiderte Berichte",
-          "24/7 dedizierter Support",
-          "Unbegrenztes API",
-          "Individuelle Integration"
-        ]
+      "halfcut": {
+        "description": "Diese Stufe ist für detaillierte thermische Inspektion und Berichterstattung gemäß IEC 62446-3 Standards erforderlich. Geeignet für umfassende Identifizierung kritischer Anomalien in Solarmodulen und Zellen."
       }
-    ]
+    },
+    "5cm": {
+      "title": "Professional",
+      "subtitle": "GSD: 5,0 ± 0,5 cm/Pixel",
+      "standard": {
+        "description": "Ideal für detaillierte Anomalieerkennung und Berichterstattung auf Zellenebene. Dieses Paket bietet wirtschaftliche und schnelle Lösungen durch schnellere Kartierungsoperationen mit angepasster Flughöhe."
+      },
+      "halfcut": {
+        "description": "Ideal für detaillierte Anomalieerkennung und Berichterstattung auf Zellenebene. Dieses Paket bietet wirtschaftliche und schnelle Lösungen durch schnellere Kartierungsoperationen mit angepasster Flughöhe."
+      }
+    },
+    "10cm": {
+      "title": "Einsteiger",
+      "subtitle": "GSD: 10,0 ± 0,5 cm/Pixel",
+      "standard": {
+        "description": "Einstiegslevel-Inspektion für schnelles Scannen großer Flächen. Flüge in großer Höhe bieten ein weites Sichtfeld, produzieren aber weniger detaillierte Bilder."
+      },
+      "halfcut": {
+        "description": "Einstiegslevel-Inspektion für schnelles Scannen großer Flächen. Flüge in großer Höhe bieten ein weites Sichtfeld, produzieren aber weniger detaillierte Bilder."
+      }
+    }
   },
   "footer": {
     "description": {
@@ -738,6 +733,13 @@
         },
         "contact": "Kontakt"
       }
+    }
+  },
+  "pricingComparison": {
+    "features": {
+      "gsd": "GSD",
+      "flightLevel": "Flughöhe",
+      "inspectionType": "Inspektionstyp"
     }
   }
 } 

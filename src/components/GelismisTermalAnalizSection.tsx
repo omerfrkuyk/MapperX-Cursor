@@ -29,7 +29,7 @@ const GelismisTermalAnalizSection = () => {
 
   return (
     <section className="bg-gray-50 py-24 px-4 md:px-12">
-      <div className="max-w-[1600px] mx-auto grid md:grid-cols-2 gap-16 items-center">
+      <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-16 items-center">
         {/* Sol içerik */}
         <div>
           <h4 className="text-gray-900 font-semibold text-base md:text-lg mb-2">

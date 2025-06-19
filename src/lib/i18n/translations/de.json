@@ -696,5 +696,48 @@
         ]
       }
     ]
+  },
+  "footer": {
+    "description": {
+      "line1": "MapperX ist eine KI-gestützte Analyse- und Berichtssoftware, die darauf abzielt, die Effizienz von Solaranlagen zu steigern und gleichzeitig die Kohlenstoffemissionen zu reduzieren.",
+      "line2": "MapperX arbeitet gemäß IEC-62446-Standards und steigert die betriebliche Effizienz bei gleichzeitiger Minimierung finanzieller Verluste durch Digitalisierung der Wartungs- und Reparaturprozesse.",
+      "line3": "Analyse-, Management- und Berichtsplattform für Solaranlagen.",
+      "copyright": "© 2025 MapperX – Alle Rechte vorbehalten."
+    },
+    "corporate": {
+      "title": "Unternehmen",
+      "dataProtection": "Datenschutz",
+      "privacyPolicy": "Datenschutzerklärung",
+      "deliveryReturn": "Lieferung und Rückgabe",
+      "faq": "FAQ",
+      "pricing": "Preise",
+      "contact": "Kontakt"
+    },
+    "quickMenu": {
+      "title": "Schnellmenü",
+      "platform": {
+        "title": "Plattform",
+        "thermographic": "Thermografische Inspektion",
+        "inspection": "Inspektion und Prüfung",
+        "powerPlant": "Kraftwerksmanagement"
+      },
+      "resources": {
+        "title": "Ressourcen",
+        "knowledgeBase": "Wissensdatenbank",
+        "blog": "Blog",
+        "faq": "FAQ"
+      },
+      "corporate": {
+        "title": "Unternehmen",
+        "about": "Über uns",
+        "rAndD": "F&E",
+        "career": {
+          "title": "Karriere",
+          "openPositions": "Offene Stellen",
+          "internship": "Praktikumsprogramm"
+        },
+        "contact": "Kontakt"
+      }
+    }
   }
 } 

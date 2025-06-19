@@ -696,5 +696,48 @@
         ]
       }
     ]
+  },
+  "footer": {
+    "description": {
+      "line1": "MapperX è un software di analisi e reportistica basato sull'IA che mira ad aumentare l'efficienza degli impianti solari riducendo le emissioni di carbonio.",
+      "line2": "Operando in conformità con gli standard IEC-62446, MapperX aumenta l'efficienza operativa e minimizza le perdite finanziarie digitalizzando i processi di manutenzione e riparazione.",
+      "line3": "Piattaforma di Analisi, Gestione e Reportistica per Impianti Solari.",
+      "copyright": "© 2025 MapperX – Tutti i diritti riservati."
+    },
+    "corporate": {
+      "title": "Aziendale",
+      "dataProtection": "Protezione dei Dati",
+      "privacyPolicy": "Informativa sulla Privacy",
+      "deliveryReturn": "Consegna e Reso",
+      "faq": "FAQ",
+      "pricing": "Prezzi",
+      "contact": "Contatti"
+    },
+    "quickMenu": {
+      "title": "Menu Rapido",
+      "platform": {
+        "title": "Piattaforma",
+        "thermographic": "Ispezione Termografica",
+        "inspection": "Ispezione e Verifica",
+        "powerPlant": "Gestione della Centrale"
+      },
+      "resources": {
+        "title": "Risorse",
+        "knowledgeBase": "Base di Conoscenza",
+        "blog": "Blog",
+        "faq": "FAQ"
+      },
+      "corporate": {
+        "title": "Aziendale",
+        "about": "Chi Siamo",
+        "rAndD": "R&S",
+        "career": {
+          "title": "Carriera",
+          "openPositions": "Posizioni Aperte",
+          "internship": "Programma di Stage"
+        },
+        "contact": "Contatti"
+      }
+    }
   }
 } 

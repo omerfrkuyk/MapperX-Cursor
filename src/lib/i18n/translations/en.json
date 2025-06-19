@@ -709,5 +709,48 @@
       "highlight": "\"Green AI\"",
       "subDescription": "With the theme, we develop artificial intelligence software to increase the efficiency of renewable energy sources."
     }
+  },
+  "footer": {
+    "description": {
+      "line1": "MapperX is an AI-powered analysis and reporting software that aims to increase the efficiency of solar power plants while reducing carbon emissions.",
+      "line2": "Working in compliance with IEC-62446 standards, MapperX increases operational efficiency and minimizes financial losses by digitalizing maintenance and repair processes.",
+      "line3": "Analysis, Management and Reporting Platform for Solar Power Plants.",
+      "copyright": "© 2025 MapperX – All Rights Reserved."
+    },
+    "corporate": {
+      "title": "Corporate",
+      "dataProtection": "Personal Data Protection",
+      "privacyPolicy": "Privacy Policy",
+      "deliveryReturn": "Delivery and Return",
+      "faq": "FAQ",
+      "pricing": "Pricing",
+      "contact": "Contact"
+    },
+    "quickMenu": {
+      "title": "Quick Menu",
+      "platform": {
+        "title": "Platform",
+        "thermographic": "Thermographic Inspection",
+        "inspection": "Inspection and Audit",
+        "powerPlant": "Power Plant Management"
+      },
+      "resources": {
+        "title": "Resources",
+        "knowledgeBase": "Knowledge Base",
+        "blog": "Blog",
+        "faq": "FAQ"
+      },
+      "corporate": {
+        "title": "Corporate",
+        "about": "About Us",
+        "rAndD": "R&D",
+        "career": {
+          "title": "Career",
+          "openPositions": "Open Positions",
+          "internship": "Internship Program"
+        },
+        "contact": "Contact"
+      }
+    }
   }
 }

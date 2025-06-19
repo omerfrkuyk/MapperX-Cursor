@@ -660,5 +660,48 @@
       "highlight": "\"Yeşil Zeka\"",
       "subDescription": "teması ile yenilenebilir enerji kaynaklarının verimliliğini artırmak için yapay zeka yazılımları geliştiriyoruz."
     }
+  },
+  "footer": {
+    "description": {
+      "line1": "MapperX, güneş enerjisi santrallerinin verimliliğini artırarak karbon emisyonunu azaltmayı hedefleyen yapay zeka destekli analiz ve raporlama yazılımıdır.",
+      "line2": "IEC–62446 standartlarına uyumlu olarak çalışan MapperX, bakım ve onarım süreçlerini dijitalleştirerek operasyonel verimliliği artırır ve finansal kayıpları en aza indirir.",
+      "line3": "Güneş Enerji Santrallerinde, Analiz, Yönetim ve Raporlama Platformu.",
+      "copyright": "© 2025 MapperX – Tüm Hakları Saklıdır."
+    },
+    "corporate": {
+      "title": "Kurumsal",
+      "dataProtection": "Kişisel Verilerin Korunması",
+      "privacyPolicy": "Gizlilik Politikası",
+      "deliveryReturn": "Teslimat ve İade",
+      "faq": "Sıkça Sorulan Sorular",
+      "pricing": "Fiyatlar",
+      "contact": "İletişim"
+    },
+    "quickMenu": {
+      "title": "Hızlı Menü",
+      "platform": {
+        "title": "Platform",
+        "thermographic": "Termografik İnceleme",
+        "inspection": "Denetim ve Muayene",
+        "powerPlant": "Santral Yönetimi"
+      },
+      "resources": {
+        "title": "Kaynaklar",
+        "knowledgeBase": "Bilgi Bankası",
+        "blog": "Blog",
+        "faq": "Sıkça Sorulan Sorular"
+      },
+      "corporate": {
+        "title": "Kurumsal",
+        "about": "Hakkımızda",
+        "rAndD": "Ar-Ge",
+        "career": {
+          "title": "Kariyer",
+          "openPositions": "Açık Pozisyonlar",
+          "internship": "Staj Programı"
+        },
+        "contact": "İletişim"
+      }
+    }
   }
 } 

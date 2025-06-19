@@ -1,16 +1,23 @@
 {
   "nav": {
     "home": "Accueil",
-    "about": "Entreprise",
+    "platform": "Plateforme",
+    "resources": "Ressources",
+    "corporate": "Entreprise",
+    "about": "À propos",
     "services": "Services",
     "contact": "Contact",
-    "pricing": "Prix",
+    "pricing": "Tarifs",
     "faq": "FAQ",
     "blog": "Blog",
-    "support": "Base de Connaissances",
-    "thermographic": "Inspection Thermographique",
-    "inspection": "Inspection et Audit",
-    "powerPlant": "Gestion de Centrale"
+    "support": "Base de connaissances",
+    "thermographic": "Inspection thermographique",
+    "inspection": "Inspection et audit",
+    "powerPlant": "Gestion de centrale",
+    "rAndD": "R&D",
+    "career": "Carrière",
+    "openPositions": "Postes ouverts",
+    "internship": "Stage"
   },
   "languages": {
     "tr": "Türkçe",
@@ -635,5 +642,50 @@
       "highlight": "\"IA Verte\"",
       "subDescription": "Avec ce thème, nous développons des logiciels d'intelligence artificielle pour augmenter l'efficacité des sources d'énergie renouvelable."
     }
+  },
+  "pricing": {
+    "title": "Tarifs",
+    "perMwp": "par MWc",
+    "plans": [
+      {
+        "name": "Starter",
+        "price": "0,025 €",
+        "features": [
+          "GSD: 10.0 ± 0.5 cm/pixel",
+          "Niveau de vol élevé",
+          "Inspection générale des modules solaires",
+          "Détection d'anomalies basique",
+          "Rapports standards",
+          "Support par e-mail"
+        ]
+      },
+      {
+        "name": "Professional",
+        "price": "0,035 €",
+        "features": [
+          "GSD: 5.0 ± 0.5 cm/pixel",
+          "Niveau de vol moyen",
+          "Inspection détaillée des modules",
+          "Détection avancée d'anomalies",
+          "Rapports personnalisés",
+          "Support prioritaire",
+          "Accès API"
+        ]
+      },
+      {
+        "name": "Enterprise",
+        "price": "Sur devis",
+        "features": [
+          "GSD: 3.0 ± 0.5 cm/pixel",
+          "Niveau de vol bas",
+          "Inspection ultra-détaillée",
+          "IA avancée & apprentissage automatique",
+          "Rapports sur mesure",
+          "Support dédié 24/7",
+          "API illimitée",
+          "Intégration personnalisée"
+        ]
+      }
+    ]
   }
 } 

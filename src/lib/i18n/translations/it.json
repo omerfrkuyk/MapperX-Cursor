@@ -1,16 +1,23 @@
 {
   "nav": {
     "home": "Home",
-    "about": "Aziendale",
+    "platform": "Piattaforma",
+    "resources": "Risorse",
+    "corporate": "Azienda",
+    "about": "Chi siamo",
     "services": "Servizi",
     "contact": "Contatti",
     "pricing": "Prezzi",
     "faq": "FAQ",
     "blog": "Blog",
     "support": "Knowledge Base",
-    "thermographic": "Ispezione Termografica",
-    "inspection": "Ispezione e Verifica",
-    "powerPlant": "Gestione della Centrale"
+    "thermographic": "Ispezione termografica",
+    "inspection": "Ispezione e verifica",
+    "powerPlant": "Gestione della centrale",
+    "rAndD": "R&S",
+    "career": "Carriera",
+    "openPositions": "Posizioni aperte",
+    "internship": "Tirocinio"
   },
   "languages": {
     "tr": "Türkçe",
@@ -644,5 +651,50 @@
       "highlight": "\"AI Verde\"",
       "subDescription": "Con questo tema, sviluppiamo software di intelligenza artificiale per aumentare l'efficienza delle fonti di energia rinnovabile."
     }
+  },
+  "pricing": {
+    "title": "Prezzi",
+    "perMwp": "per MWp",
+    "plans": [
+      {
+        "name": "Starter",
+        "price": "0,025 €",
+        "features": [
+          "GSD: 10.0 ± 0.5 cm/pixel",
+          "Livello di volo alto",
+          "Ispezione generale dei moduli solari",
+          "Rilevamento anomalie di base",
+          "Report standard",
+          "Supporto via email"
+        ]
+      },
+      {
+        "name": "Professional",
+        "price": "0,035 €",
+        "features": [
+          "GSD: 5.0 ± 0.5 cm/pixel",
+          "Livello di volo medio",
+          "Ispezione dettagliata dei moduli",
+          "Rilevamento anomalie avanzato",
+          "Report personalizzati",
+          "Supporto prioritario",
+          "Accesso API"
+        ]
+      },
+      {
+        "name": "Enterprise",
+        "price": "Su richiesta",
+        "features": [
+          "GSD: 3.0 ± 0.5 cm/pixel",
+          "Livello di volo basso",
+          "Ispezione ultra-dettagliata",
+          "IA avanzata & machine learning",
+          "Report su misura",
+          "Supporto dedicato 24/7",
+          "API illimitata",
+          "Integrazione personalizzata"
+        ]
+      }
+    ]
   }
 } 

@@ -1,16 +1,23 @@
 {
   "nav": {
     "home": "Startseite",
-    "about": "Unternehmen",
+    "platform": "Plattform",
+    "resources": "Ressourcen",
+    "corporate": "Unternehmen",
+    "about": "Über uns",
     "services": "Dienstleistungen",
     "contact": "Kontakt",
     "pricing": "Preise",
     "faq": "FAQ",
     "blog": "Blog",
     "support": "Wissensdatenbank",
-    "thermographic": "Thermografische Untersuchung",
-    "inspection": "Inspektion und Überprüfung",
-    "powerPlant": "Kraftwerksmanagement"
+    "thermographic": "Thermografische Inspektion",
+    "inspection": "Inspektion und Prüfung",
+    "powerPlant": "Kraftwerksmanagement",
+    "rAndD": "F&E",
+    "career": "Karriere",
+    "openPositions": "Offene Stellen",
+    "internship": "Praktikum"
   },
   "languages": {
     "tr": "Türkçe",
@@ -644,5 +651,50 @@
       "highlight": "\"Grüne KI\"",
       "subDescription": "Mit diesem Thema entwickeln wir künstliche Intelligenz-Software zur Steigerung der Effizienz erneuerbarer Energiequellen."
     }
+  },
+  "pricing": {
+    "title": "Preise",
+    "perMwp": "pro MWp",
+    "plans": [
+      {
+        "name": "Starter",
+        "price": "0,025 €",
+        "features": [
+          "GSD: 10.0 ± 0.5 cm/pixel",
+          "Hohe Flughöhe",
+          "Allgemeine Solarmodul-Inspektion",
+          "Grundlegende Anomalieerkennung",
+          "Standardberichte",
+          "E-Mail-Support"
+        ]
+      },
+      {
+        "name": "Professional",
+        "price": "0,035 €",
+        "features": [
+          "GSD: 5.0 ± 0.5 cm/pixel",
+          "Mittlere Flughöhe",
+          "Detaillierte Modulinspektion",
+          "Erweiterte Anomalieerkennung",
+          "Angepasste Berichte",
+          "Prioritäts-Support",
+          "API-Zugang"
+        ]
+      },
+      {
+        "name": "Enterprise",
+        "price": "Auf Anfrage",
+        "features": [
+          "GSD: 3.0 ± 0.5 cm/pixel",
+          "Niedrige Flughöhe",
+          "Ultra-detaillierte Inspektion",
+          "Fortgeschrittene KI & maschinelles Lernen",
+          "Maßgeschneiderte Berichte",
+          "24/7 dedizierter Support",
+          "Unbegrenztes API",
+          "Individuelle Integration"
+        ]
+      }
+    ]
   }
 } 

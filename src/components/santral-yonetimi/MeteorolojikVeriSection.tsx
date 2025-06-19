@@ -8,7 +8,7 @@ export default function MeteorolojikVeriSection() {
 
   return (
     <section className="py-20 bg-gray-50">
-      <div className="max-w-7xl mx-auto px-4 md:px-12">
+      <div className="container mx-auto px-4">
         <div className="flex flex-col lg:flex-row-reverse items-center gap-12">
           <div className="w-full lg:w-1/2">
             <Image

@@ -1,6 +1,9 @@
 {
   "nav": {
     "home": "Home",
+    "platform": "Platform",
+    "resources": "Resources",
+    "corporate": "Corporate",
     "about": "About",
     "services": "Services",
     "contact": "Contact",
@@ -10,7 +13,11 @@
     "support": "Knowledge Base",
     "thermographic": "Thermographic Inspection",
     "inspection": "Inspection and Audit",
-    "powerPlant": "Power Plant Management"
+    "powerPlant": "Power Plant Management",
+    "rAndD": "R&D",
+    "career": "Career",
+    "openPositions": "Open Positions",
+    "internship": "Internship Program"
   },
   "languages": {
     "tr": "Türkçe",

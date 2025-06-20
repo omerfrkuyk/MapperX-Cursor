@@ -7,8 +7,8 @@ export default function SantralYonetimiHeroSection() {
   const t = useTranslations('powerPlantManagement.hero');
 
   return (
-    <section className="relative w-full h-screen flex items-center justify-center bg-white">
-      <div className="container mx-auto px-4 flex flex-col lg:flex-row items-center justify-between gap-8">
+    <section className="relative w-full py-36 px-4 md:px-12 flex items-center justify-center bg-white">
+      <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center justify-between gap-8">
         <div className="w-full lg:w-1/2 space-y-6">
           <h2 className="text-4xl lg:text-5xl font-bold text-gray-900">
             {t('title')}

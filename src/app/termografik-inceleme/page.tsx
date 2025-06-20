@@ -12,7 +12,7 @@ import TermografikHeroSection from '@/components/termografik-inceleme/Termografi
 
 export default function TermografikPage() {
   return (
-    <main>
+    <main className="flex min-h-screen flex-col">
       <TermografikHeroSection />
       <OtonomTermografikMuayeneSection/>
       <GelismisTermalAnalizSection />

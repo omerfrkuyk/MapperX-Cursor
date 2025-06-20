@@ -17,7 +17,7 @@ const PricingSection = () => {
   }
 
   const plans = translate('pricing.plans') as PricingPlan[];
-  
+
   if (!Array.isArray(plans)) {
     console.error('Pricing plans data is not an array:', plans);
     return null;
@@ -26,7 +26,7 @@ const PricingSection = () => {
   return (
     <section className="bg-[#f9f9f9] py-20 px-4 md:px-12">
       <div className="max-w-7xl mx-auto text-center mb-12">
-        <h2 className="text-4xl font-bold text-gray-900">{translate('pricing.title')}</h2>
+        <h2 className="text-4xl md:text-5xl font-bold text-gray-900">{translate('pricing.title')}</h2>
       </div>
       <div className="grid md:grid-cols-3 gap-8 max-w-7xl mx-auto">
         {plans.map((plan: PricingPlan, index: number) => (
@@ -49,7 +49,7 @@ const PricingSection = () => {
               </span>
             </p>
             <ul className="text-sm space-y-3 mb-6">
-              {plan.features.map((feature: string, idx: number) => (
+              {Array.isArray(plan.features) && plan.features.map((feature: string, idx: number) => (
                 <li key={idx} className="flex items-start gap-2">
                   <span className={`${index === 1 ? 'text-white' : 'text-blue-600'}`}>•</span>
                   <span>{feature}</span>
@@ -57,7 +57,7 @@ const PricingSection = () => {
               ))}
             </ul>
             <Link
-              href="https://mapperx.com/fiyatlar/"
+              href="/fiyatlar"
               className={`block text-center rounded-full px-6 py-3 font-medium text-sm transition ${
                 index === 1
                   ? "bg-white text-blue-600 hover:bg-gray-100"

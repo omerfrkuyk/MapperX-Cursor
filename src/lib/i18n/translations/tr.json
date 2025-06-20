@@ -28,11 +28,11 @@
   },
   "hero": {
     "title": {
-      "line1": "Güneş Enerjisi Santrallerinde,",
+      "line1": "Güneş Enerjisi Santralleri için,",
       "line2": "Analiz, Yönetim ve Raporlama Platformu."
     },
     "image": {
-      "alt": "MapperX Arayüz",
+      "alt": "MapperX Arayüzü",
       "src": "/mapperx-header-box-tr.png"
     }
   },
@@ -384,6 +384,8 @@
   },
   "pricing": {
     "title": "Fiyatlar",
+    "perMwp": "MWp başına",
+    "calculatePrice": "Fiyat Hesapla",
     "selectPanelType": "Lütfen PV Panel Türünüzü Seçin",
     "standard": "Standart Panel",
     "halfcut": "Half-Cut Panel",
@@ -391,6 +393,46 @@
     "includeBos": "BOS Bileşeni Ekle",
     "totalPrice": "Toplam Fiyat",
     "price": "€{price}",
+    "plans": [
+      {
+        "name": "Başlangıç",
+        "price": "$0.03",
+        "features": [
+          "10cm GSD Termal İnceleme",
+          "IEC 62446 Uyumlu Raporlar",
+          "Temel Anomali Tespiti",
+          "İsteğe Bağlı BOS Modülü",
+          "Standart Destek"
+        ]
+      },
+      {
+        "name": "Profesyonel",
+        "price": "$0.05",
+        "features": [
+          "5cm GSD Termal İnceleme",
+          "IEC 62446 Uyumlu Raporlar",
+          "Gelişmiş Anomali Tespiti",
+          "İsteğe Bağlı BOS Modülü",
+          "Öncelikli Destek",
+          "Seri Numara Yönetimi",
+          "İş Emri Yönetimi"
+        ]
+      },
+      {
+        "name": "Enterprise",
+        "price": "$0.075",
+        "features": [
+          "3cm GSD Termal İnceleme",
+          "IEC 62446 Uyumlu Raporlar",
+          "Premium Anomali Tespiti",
+          "BOS Modülü Dahil",
+          "7/24 Premium Destek",
+          "Seri Numara Yönetimi",
+          "İş Emri Yönetimi",
+          "Özel Entegrasyon Desteği"
+        ]
+      }
+    ],
     "3cm": {
       "title": "Enterprise",
       "subtitle": "GSD: 3,0 ± 0,5 cm/pixel",
@@ -453,57 +495,7 @@
           "reporting": "Detaylı Raporlama",
           "description": "Büyük alanların hızlı taraması için uygun olan başlangıç seviyesi inceleme. Yüksek irtifa uçuşları geniş bir görüş alanı sağlar ancak daha az detaylı görüntüler üretir.",
           "detectedIssues": "Tespit Edilen Hata Türleri: Modül, Dizi (String)"
-        },
-        "professional": {
-          "name": "Profesyonel",
-          "gsd": "GSD: 5,0 ± 0,5 cm/piksel",
-          "flightLevel": "Orta Uçuş Seviyesi",
-          "inspectionType": "Hücre Tabanlı Anomali İncelemesi",
-          "detailLevel": "Detaylı İnceleme",
-          "anomalyTypes": "12 Farklı Türde Anomali Tespiti",
-          "bosModule": "BOS Bileşenler Modülü (İsteğe Bağlı)",
-          "thermalRgb": "Termal ve RGB İncelemesi",
-          "workOrders": "İş Emirleri Modülü",
-          "serialNumber": "Panel Seri Numarası Tara Modülü",
-          "efficiency": "Verimlilik Hesaplama",
-          "reporting": "Detaylı Raporlama",
-          "description": "Hücre seviyesinde detaylı anomali tespiti ve raporlama için idealdir. Bu paket, daha hızlı haritalama için uçuş yüksekliği ayarlanmış ekonomik ve hızlı haritalama işlemleri sunar.",
-          "detectedIssues": "Tespit Edilen Anomali Türleri: Hücre, Çoklu Hücre, Diyot, Çoklu Diyot, Modül, Sıcak Nokta, Dizi (String), Bitki Gölgeleme, Kirlilik, Gölgeleme, Bağlantı Kutusu, Kırık/Çatlak"
-        },
-        "enterprise": {
-          "name": "Enterprise",
-          "gsd": "GSD: 3,0 ± 0,5 cm/piksel",
-          "flightLevel": "Düşük Uçuş Seviyesi",
-          "inspectionType": "IEC 62446-3 Standartları İncelemesi",
-          "detailLevel": "Kapsamlı İnceleme",
-          "anomalyTypes": "12 Farklı Türde Anomali Tespiti",
-          "bosModule": "BOS Bileşenler Modülü",
-          "thermalRgb": "Termal ve RGB İncelemesi",
-          "workOrders": "İş Emirleri Modülü",
-          "serialNumber": "Panel Seri Numarası Tara Modülü",
-          "efficiency": "Verimlilik Hesaplama",
-          "reporting": "Detaylı Raporlama",
-          "description": "IEC 62446-3 standartlarına uygun olarak detaylı termal inceleme ve raporlama için gerekli. Bu GSD seviyesi, uluslararası olarak tanınan standartlara uygun olarak güneş panellerinde ve hücrelerindeki kritik anomalilerin kapsamlı tanımlanması için uygundur.",
-          "detectedIssues": "Tespit Edilen Anomali Türleri: Hücre, Çoklu Hücre, Diyot, Çoklu Diyot, Modül, Sıcak Nokta, Dizi (String), Bitki Gölgeleme, Kirlilik, Gölgeleme, Bağlantı Kutusu, Kırık/Çatlak"
         }
-      }
-    },
-    "Comparison": {
-      "features": {
-        "gsd": "Yer Örnekleme Mesafesi (GSD)",
-        "flightHeight": "Uçuş Yüksekliği",
-        "inspectionSpeed": "İnceleme Hızı",
-        "thermalAccuracy": "Termal Doğruluk",
-        "defectDetection": "Kusur Tespiti",
-        "reportingDetail": "Raporlama Detayı",
-        "iecCompliance": "IEC 62446-3 Uyumluluğu",
-        "cellLevelAnalysis": "Hücre Seviyesi Analiz",
-        "stringLevelAnalysis": "String Seviyesi Analiz",
-        "moduleMapping": "Modül Haritalama",
-        "bom": "Malzeme Listesi (BOM)",
-        "warranty": "Garanti Talepleri için Uygunluk",
-        "description": "Açıklama",
-        "detectedIssues": "Tespit Edilen Sorunlar"
       }
     }
   },

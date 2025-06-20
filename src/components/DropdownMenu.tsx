@@ -61,7 +61,7 @@ const DropdownMenu = ({ label, items }: DropdownMenuProps) => {
       </button>
 
       {isOpen && (
-        <div className="absolute left-0 mt-2 w-56 bg-white rounded-lg shadow-xl border border-gray-100 z-50">
+        <div className="absolute left-0 mt-2 w-72 bg-white rounded-lg shadow-xl border border-gray-100 z-50">
           {items.map((item) => (
             <div
               key={String(item.path)}
@@ -71,19 +71,19 @@ const DropdownMenu = ({ label, items }: DropdownMenuProps) => {
             >
               <Link
                 href={getLocalizedRoute(item.path, currentLanguage)}
-                className="block px-4 py-2 text-base text-gray-700 hover:bg-gray-50 hover:text-gray-900 flex items-center justify-between"
+                className="block px-6 py-3 text-base text-gray-700 hover:bg-gray-50 hover:text-gray-900 flex items-center justify-between"
               >
                 {translate(item.name)}
                 {item.children && <ChevronRight className="w-4 h-4" />}
               </Link>
 
               {item.children && activeSubmenu === String(item.path) && (
-                <div className="absolute left-full top-0 w-56 bg-white rounded-lg shadow-xl border border-gray-100">
+                <div className="absolute left-full top-0 w-72 bg-white rounded-lg shadow-xl border border-gray-100">
                   {item.children.map((child) => (
                     <Link
                       key={String(child.path)}
                       href={getLocalizedRoute(child.path, currentLanguage)}
-                      className="block px-4 py-2 text-base text-gray-700 hover:bg-gray-50 hover:text-gray-900"
+                      className="block px-6 py-3 text-base text-gray-700 hover:bg-gray-50 hover:text-gray-900"
                     >
                       {translate(child.name)}
                     </Link>

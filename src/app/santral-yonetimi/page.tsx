@@ -9,7 +9,7 @@ import TeamSection from '@/components/santral-yonetimi/TeamSection';
 
 export default function SantralYonetimiPage() {
   return (
-    <main>
+    <main className="flex min-h-screen flex-col">
       <SantralYonetimiHeroSection />
       <PanelOperasyonSection />
       <MeteorolojikVeriSection />

@@ -422,8 +422,8 @@
     },
     "blog": {
       "title": "Blog",
-      "description": "Rimani aggiornato sugli ultimi sviluppi nell'energia solare e gli aggiornamenti MapperX.",
-      "subDescription": "Scopri i contenuti preparati dai nostri esperti del settore.",
+      "description": "Rimani aggiornato sugli ultimi sviluppi nell'energia solare e gli aggiornamenti di MapperX.",
+      "subDescription": "",
       "button": "Visita il Blog"
     },
     "items": {

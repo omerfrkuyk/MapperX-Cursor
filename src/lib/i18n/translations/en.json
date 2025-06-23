@@ -426,7 +426,7 @@
     "blog": {
       "title": "Blog",
       "description": "Stay updated on the latest developments in solar energy and MapperX updates.",
-      "subDescription": "Discover content prepared by our industry experts.",
+      "subDescription": "",
       "button": "Visit Blog"
     },
     "items": {
@@ -806,7 +806,7 @@
     "greenAI": {
       "description": "We are happy to support this process with the technologies we develop within the scope of efforts to reduce carbon emissions in the world.",
       "highlight": "\"Green AI\"",
-      "subDescription": "With the theme, we develop artificial intelligence software to increase the efficiency of renewable energy sources."
+      "subDescription": ""
     }
   },
   "footer": {

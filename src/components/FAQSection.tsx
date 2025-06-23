@@ -22,11 +22,11 @@ const FAQSection = () => {
     <section className="bg-gray-50 py-20 px-4 md:px-12">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
         {/* SSS kısmı */}
-        <div>
+        <div className="flex flex-col h-full">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
             {translate('faq.title')}
           </h2>
-          <div className="space-y-4">
+          <div className="flex-grow space-y-4">
             {limitedFaqs.map((faq, index) => {
               const isOpen = openIndex === index;
               return (
@@ -68,44 +68,41 @@ const FAQSection = () => {
         </div>
 
         {/* Yardım ve Destek kutuları + Blog kutusu */}
-        <div className="space-y-6">
-          <div className="bg-white rounded-2xl shadow-md p-6">
-            <p className="text-gray-700 mb-4">
+        <div className="flex flex-col h-full justify-between space-y-6">
+          <div className="bg-white rounded-2xl shadow-md p-6 flex flex-col">
+            <p className="text-gray-700 mb-4 flex-grow">
               {translate('faq.helpCenter.description')}
             </p>
             <Link
               href="https://support.mapperx.com/"
-              className="inline-block bg-blue-50 text-blue-700 hover:bg-blue-100 px-6 py-2 rounded-full border border-blue-200 text-sm font-medium transition"
+              className="inline-block bg-blue-50 text-blue-700 hover:bg-blue-100 px-6 py-2 rounded-full border border-blue-200 text-sm font-medium transition self-start"
             >
               {translate('faq.helpCenter.button')}
             </Link>
           </div>
 
-          <div className="bg-white rounded-2xl shadow-md p-6">
-            <p className="text-gray-700 mb-4">
+          <div className="bg-white rounded-2xl shadow-md p-6 flex flex-col">
+            <p className="text-gray-700 mb-4 flex-grow">
               {translate('faq.technicalSupport.description')}
             </p>
             <Link
               href={getLocalizedRoute('contact', currentLanguage)}
-              className="inline-block bg-blue-50 text-blue-700 hover:bg-blue-100 px-6 py-2 rounded-full border border-blue-200 text-sm font-medium transition"
+              className="inline-block bg-blue-50 text-blue-700 hover:bg-blue-100 px-6 py-2 rounded-full border border-blue-200 text-sm font-medium transition self-start"
             >
               {translate('faq.technicalSupport.button')}
             </Link>
           </div>
 
-          <div className="bg-white rounded-2xl shadow-md p-6">
+          <div className="bg-white rounded-2xl shadow-md p-6 flex flex-col">
             <h3 className="text-2xl font-bold text-gray-900 mb-4">
               {translate('faq.blog.title')}
             </h3>
-            <p className="text-gray-700 mb-4">
+            <p className="text-gray-700 mb-4 flex-grow">
               {translate('faq.blog.description')}
-            </p>
-            <p className="text-gray-700 mb-6">
-              {translate('faq.blog.subDescription')}
             </p>
             <Link
               href={getLocalizedRoute('blog', currentLanguage)}
-              className="inline-block bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-full text-sm font-medium transition"
+              className="inline-block bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-full text-sm font-medium transition self-start"
             >
               {translate('faq.blog.button')}
             </Link>

@@ -414,7 +414,7 @@
     "blog": {
       "title": "Blog",
       "description": "Restez informé des derniers développements dans l'énergie solaire et des mises à jour MapperX.",
-      "subDescription": "Découvrez le contenu préparé par nos experts du secteur.",
+      "subDescription": "",
       "button": "Visiter le Blog"
     },
     "items": {

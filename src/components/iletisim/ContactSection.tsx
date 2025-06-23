@@ -74,16 +74,16 @@ const ContactSection = () => {
         </div>
 
         {/* Right: Map */}
-        <div className="w-full h-[600px] rounded-2xl overflow-hidden shadow-2xl">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12239.051176934178!2d32.855867!3d39.9137478!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d34f0a7ea5f5d7%3A0x2288a27591a8367b!2sKavakl%C4%B1dere%2C%20B%C3%BCkl%C3%BCm%20Cd.%20No%3A11%2F5%2C%2006600%20%C3%87ankaya%2FAnkara!5e0!3m2!1str!2str!4v1717365394464!5m2!1str!2str"
-            width="100%"
-            height="100%"
-            loading="lazy"
-            className="border-0"
-            allowFullScreen
-          ></iframe>
-        </div>
+<div className="w-full h-[600px] rounded-2xl overflow-hidden shadow-2xl">
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12239.051176934178!2d32.855867!3d39.9137478!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d34f0a7ea5f5d7%3A0x2288a27591a8367b!2sKavakl%C4%B1dere%2C%20B%C3%BCkl%C3%BCm%20Cd.%20No%3A11%2F5%2C%2006600%20%C3%87ankaya%2FAnkara!5e0!3m2!1str!2str!4v1717365394464!5m2!1str!2str"
+    width="100%"
+    height="100%"
+    loading="lazy"
+    className="border-0"
+    allowFullScreen
+  ></iframe>
+</div>
       </div>
     </section>
   );

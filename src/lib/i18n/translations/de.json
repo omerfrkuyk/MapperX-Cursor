@@ -10,14 +10,15 @@
     "pricing": "Preise",
     "faq": "FAQ",
     "blog": "Blog",
-    "support": "Wissensdatenbank",
-    "thermographic": "Thermografische Inspektion",
+    "support": "Support",
+    "thermographic": "Thermografische Untersuchung",
     "inspection": "Inspektion und Prüfung",
     "powerPlant": "Kraftwerksmanagement",
     "rAndD": "F&E",
     "career": "Karriere",
     "openPositions": "Offene Stellen",
-    "internship": "Praktikum"
+    "internship": "Praktikum",
+    "knowledgeBase": "Wissensdatenbank"
   },
   "languages": {
     "tr": "Türkçe",
@@ -49,7 +50,7 @@
       },
       {
         "title": "IEC-konforme autonome Anomalieerkennung",
-        "description": "MapperX bietet höchste Inspektionsqualität in Ihren Energiesystemen mit IEC-standardkonformer autonomer Anomalieerkennung. Dank seiner KI-gestützten Analysemaschine verarbeitet es thermische Daten präzise, um Anomalien automatisch zu erkennen und zu klassifizieren. Während Sie Ihre Inspektionsprozesse durch die Einhaltung internationaler Standards sichern, können Sie Ihre Wartungsplanung optimieren und Ausfallrisiken minimieren. Bringen Sie Ihre Anlagensicherheit und -leistung mit überprüfbaren, zuverlässigen und schnellen Analysen auf die nächste Stufe.",
+        "description": "MapperX bietet höchste Inspektionsqualität in Ihren Energiesystemen mit IEC-standardkonformer autonomer Anomalieerkennung. Dank seiner KI-gestützten Analysemaschine verarbeitet es thermische Daten präzise, um Anomalien automatisch zu erkennen und zu klassifizieren. Während Sie Ihre Inspektionsprozesse durch die Einhaltung internationaler Standards sichern, können Sie Ihre Wartungskosten erheblich reduzieren. Bringen Sie Ihre Anlagensicherheit und -leistung mit überprüfbaren, zuverlässigen und schnellen Analysen auf die nächste Stufe.",
         "image": "/features/ges-iec-uyumlu-otonom-anomali-tespiti@2x-100_675x1200.jpg"
       },
       {
@@ -882,6 +883,20 @@
       "siteCapacity": {
         "label": "Wie groß ist Ihre Anlagenkapazität?"
       }
+    }
+  },
+  "knowledgeBase": {
+    "title": "Wissensdatenbank",
+    "welcomeTitle": "Willkommen in der MapperX Wissensdatenbank",
+    "welcomeDescription": "Hier finden Sie detaillierte Informationen und Anleitungen zur MapperX-Plattform.",
+    "searchPlaceholder": "Wissensdatenbank durchsuchen...",
+    "mainSearchPlaceholder": "Worüber möchten Sie mehr erfahren?",
+    "categories": {
+      "gettingStarted": "Erste Schritte",
+      "userGuides": "Benutzerhandbücher",
+      "technicalDocs": "Technische Dokumentation",
+      "bestPractices": "Best Practices",
+      "troubleshooting": "Fehlerbehebung"
     }
   }
 } 

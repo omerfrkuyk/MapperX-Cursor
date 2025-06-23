@@ -10,14 +10,15 @@
     "pricing": "Prezzi",
     "faq": "FAQ",
     "blog": "Blog",
-    "support": "Knowledge Base",
-    "thermographic": "Ispezione termografica",
-    "inspection": "Ispezione e verifica",
-    "powerPlant": "Gestione della centrale",
+    "support": "Supporto",
+    "thermographic": "Ispezione Termografica",
+    "inspection": "Ispezione e Verifica",
+    "powerPlant": "Gestione della Centrale",
     "rAndD": "R&S",
     "career": "Carriera",
     "openPositions": "Posizioni aperte",
-    "internship": "Tirocinio"
+    "internship": "Tirocinio",
+    "knowledgeBase": "Base di Conoscenza"
   },
   "languages": {
     "tr": "Türkçe",
@@ -882,6 +883,20 @@
       "siteCapacity": {
         "label": "Qual è la capacità del tuo sito?"
       }
+    }
+  },
+  "knowledgeBase": {
+    "title": "Base di Conoscenza",
+    "welcomeTitle": "Benvenuti nella Base di Conoscenza MapperX",
+    "welcomeDescription": "Trova qui informazioni dettagliate e guide sulla piattaforma MapperX.",
+    "searchPlaceholder": "Cerca nella base di conoscenza...",
+    "mainSearchPlaceholder": "Cosa vorresti imparare?",
+    "categories": {
+      "gettingStarted": "Per Iniziare",
+      "userGuides": "Guide Utente",
+      "technicalDocs": "Documentazione Tecnica",
+      "bestPractices": "Migliori Pratiche",
+      "troubleshooting": "Risoluzione Problemi"
     }
   }
 } 

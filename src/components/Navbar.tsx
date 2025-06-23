@@ -66,8 +66,8 @@ export default function Navbar() {
     label: translate('nav.resources'),
     items: [
       {
-        name: 'nav.support',
-        path: 'support'
+        name: 'nav.knowledgeBase',
+        path: 'knowledge-base'
       },
       {
         name: 'nav.blog',

@@ -10,14 +10,15 @@
     "pricing": "Fiyatlar",
     "faq": "SSS",
     "blog": "Blog",
-    "support": "Bilgi Bankası",
+    "support": "Destek",
     "thermographic": "Termografik İnceleme",
     "inspection": "Denetim ve Muayene",
     "powerPlant": "Santral Yönetimi",
     "rAndD": "Ar-Ge",
     "career": "Kariyer",
     "openPositions": "Açık Pozisyonlar",
-    "internship": "Staj Programı"
+    "internship": "Staj Programı",
+    "knowledgeBase": "Bilgi Bankası"
   },
   "languages": {
     "tr": "Türkçe",
@@ -825,6 +826,20 @@
       "siteCapacity": {
         "label": "Saha kapasiteniz ne kadar?"
       }
+    }
+  },
+  "knowledgeBase": {
+    "title": "Bilgi Bankası",
+    "welcomeTitle": "MapperX Bilgi Bankasına Hoş Geldiniz",
+    "welcomeDescription": "MapperX platformu hakkında detaylı bilgi ve rehberlere buradan ulaşabilirsiniz.",
+    "searchPlaceholder": "Bilgi bankasında ara...",
+    "mainSearchPlaceholder": "Ne hakkında bilgi almak istersiniz?",
+    "categories": {
+      "gettingStarted": "Başlangıç",
+      "userGuides": "Kullanım Kılavuzları",
+      "technicalDocs": "Teknik Dokümanlar",
+      "bestPractices": "En İyi Uygulamalar",
+      "troubleshooting": "Sorun Giderme"
     }
   }
 } 

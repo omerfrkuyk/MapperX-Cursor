@@ -53,10 +53,17 @@ export const routes: RouteConfig = {
   },
   blog: {
     tr: '/blog',
-    en: '/en/blog',
-    de: '/de/blog',
-    fr: '/fr/blog',
-    it: '/it/blog'
+    en: '/blog',
+    de: '/blog',
+    fr: '/blog',
+    it: '/blog',
+  },
+  'knowledge-base': {
+    tr: '/tr/bilgi-bankasi',
+    en: '/en/knowledge-base',
+    de: '/de/wissensdatenbank',
+    fr: '/fr/base-de-connaissances',
+    it: '/it/base-di-conoscenza',
   },
   faq: {
     tr: '/tr/sikca-sorulan-sorular',

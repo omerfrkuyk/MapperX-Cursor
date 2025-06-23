@@ -17,7 +17,8 @@
     "rAndD": "R&D",
     "career": "Career",
     "openPositions": "Open Positions",
-    "internship": "Internship Program"
+    "internship": "Internship Program",
+    "knowledgeBase": "Knowledge Base"
   },
   "languages": {
     "tr": "Türkçe",
@@ -883,5 +884,23 @@
         "label": "What is your site capacity?"
       }
     }
+  },
+  "knowledgeBase": {
+    "title": "Knowledge Base",
+    "welcomeTitle": "Welcome to MapperX Knowledge Base",
+    "welcomeDescription": "Find detailed information and guides about the MapperX platform here.",
+    "searchPlaceholder": "Search knowledge base...",
+    "mainSearchPlaceholder": "What would you like to learn about?",
+    "categories": {
+      "gettingStarted": "Getting Started",
+      "userGuides": "User Guides",
+      "technicalDocs": "Technical Documentation",
+      "bestPractices": "Best Practices",
+      "troubleshooting": "Troubleshooting"
+    },
+    "readMore": "Read More",
+    "lastUpdated": "Last Updated",
+    "relatedArticles": "Related Articles",
+    "noResults": "No results found matching your search criteria."
   }
 }

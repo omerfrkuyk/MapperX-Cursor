@@ -94,7 +94,7 @@ export const routes: RouteConfig = {
     it: '/it/tirocinio'
   },
   contact: {
-    tr: '/iletisim',
+    tr: '/tr/iletisim',
     en: '/en/contact',
     de: '/de/kontakt',
     fr: '/fr/contact',

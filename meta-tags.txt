@@ -1,0 +1,488 @@
+# MapperX Website Meta Tags ve SEO Yapılandırması
+
+## Temel Meta Tag Yapısı
+
+```html
+<!-- Temel Meta Tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximumScale: 1">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://mapperx.com/[SAYFA-URL]">
+
+<!-- Dil Alternatifleri -->
+<link rel="alternate" hreflang="tr" href="https://mapperx.com/tr/[SAYFA-URL]">
+<link rel="alternate" hreflang="en" href="https://mapperx.com/en/[SAYFA-URL]">
+<link rel="alternate" hreflang="de" href="https://mapperx.com/de/[SAYFA-URL]">
+<link rel="alternate" hreflang="fr" href="https://mapperx.com/fr/[SAYFA-URL]">
+<link rel="alternate" hreflang="it" href="https://mapperx.com/it/[SAYFA-URL]">
+<link rel="alternate" hreflang="x-default" href="https://mapperx.com/en/[SAYFA-URL]">
+
+<!-- Open Graph Meta Tags -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="MapperX">
+<meta property="og:image" content="https://mapperx.com/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+
+<!-- Twitter Card Meta Tags -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@MapperX">
+<meta name="twitter:creator" content="@MapperX">
+```
+
+## Sayfa Meta Tag'leri
+
+### Ana Sayfa (/)
+```html
+<!-- TR -->
+<title>MapperX | Güneş Enerjisi Santralleri için Yapay Zeka Destekli Otonom Çözümler</title>
+<meta name="description" content="MapperX, güneş enerjisi santrallerinde termografik muayene, denetim ve otonom analiz çözümleri sunar. Yapay zeka destekli teknolojilerle verimliliğinizi artırın.">
+<meta name="keywords" content="MapperX, güneş enerjisi, termografik muayene, yapay zeka, otonom analiz, santral yönetimi, GES, solar panel, drone, termal kamera">
+
+<!-- EN -->
+<title>MapperX | AI-Powered Autonomous Solutions for Solar Power Plants</title>
+<meta name="description" content="MapperX offers thermographic inspection, audit, and autonomous analysis solutions for solar power plants. Increase your efficiency with AI-powered technologies.">
+<meta name="keywords" content="MapperX, solar energy, thermographic inspection, artificial intelligence, autonomous analysis, plant management, SPP, solar panel, drone, thermal camera">
+```
+
+### Termografik İnceleme (/termografik-inceleme)
+```html
+<!-- TR -->
+<title>Termografik İnceleme | Yapay Zeka Destekli Termal Analiz | MapperX</title>
+<meta name="description" content="IEC 62446 standartlarına uygun yapay zeka destekli otonom termografik muayene hizmeti. Drone ile termal haritalama ve detaylı anomali tespiti.">
+<meta name="keywords" content="termografik muayene, termal analiz, IEC 62446, drone ile haritalama, anomali tespiti, sıcaklık analizi, panel arıza tespiti">
+
+<!-- EN -->
+<title>Thermographic Inspection | AI-Powered Thermal Analysis | MapperX</title>
+<meta name="description" content="AI-powered autonomous thermographic inspection service compliant with IEC 62446 standards. Thermal mapping with drones and detailed anomaly detection.">
+<meta name="keywords" content="thermographic inspection, thermal analysis, IEC 62446, drone mapping, anomaly detection, temperature analysis, panel fault detection">
+```
+
+### Denetim ve Muayene (/denetim-ve-muayene)
+```html
+<!-- TR -->
+<title>Denetim ve Muayene | Dijital İkiz Teknolojisi | MapperX</title>
+<meta name="description" content="Güneş enerjisi santrallerinde dijital ikiz teknolojisiyle denetim ve muayene hizmetleri. Elektriksel ölçüm, test ve raporlama çözümleri.">
+<meta name="keywords" content="denetim, muayene, dijital ikiz, elektriksel ölçüm, test, raporlama, IEC standartları, kalite kontrol">
+
+<!-- EN -->
+<title>Inspection and Audit | Digital Twin Technology | MapperX</title>
+<meta name="description" content="Inspection and audit services with digital twin technology for solar power plants. Electrical measurement, testing, and reporting solutions.">
+<meta name="keywords" content="inspection, audit, digital twin, electrical measurement, testing, reporting, IEC standards, quality control">
+```
+
+### Santral Yönetimi (/santral-yonetimi)
+```html
+<!-- TR -->
+<title>Santral Yönetimi | Gerçek Zamanlı İzleme ve Analiz | MapperX</title>
+<meta name="description" content="Güneş enerjisi santrallerinde gerçek zamanlı izleme, bakım yönetimi ve performans analizi. Verimlilik optimizasyonu ve kestirimci bakım çözümleri.">
+<meta name="keywords" content="santral yönetimi, gerçek zamanlı izleme, bakım yönetimi, performans analizi, verimlilik optimizasyonu, kestirimci bakım">
+
+<!-- EN -->
+<title>Plant Management | Real-Time Monitoring and Analysis | MapperX</title>
+<meta name="description" content="Real-time monitoring, maintenance management, and performance analysis for solar power plants. Efficiency optimization and predictive maintenance solutions.">
+<meta name="keywords" content="plant management, real-time monitoring, maintenance management, performance analysis, efficiency optimization, predictive maintenance">
+```
+
+### Ar-Ge (/ar-ge)
+```html
+<!-- TR -->
+<title>Ar-Ge | İnovasyon ve Teknoloji Merkezi | MapperX</title>
+<meta name="description" content="MapperX Ar-Ge merkezi, yenilenebilir enerji sektöründe yapay zeka ve teknoloji odaklı çözümler geliştiriyor. TÜBİTAK destekli projeler ve inovasyon.">
+<meta name="keywords" content="Ar-Ge, inovasyon, teknoloji, yapay zeka, TÜBİTAK, yeşil teknoloji, yenilenebilir enerji, araştırma geliştirme">
+
+<!-- EN -->
+<title>R&D | Innovation and Technology Center | MapperX</title>
+<meta name="description" content="MapperX R&D center develops AI and technology-focused solutions in the renewable energy sector. TUBITAK-supported projects and innovation.">
+<meta name="keywords" content="R&D, innovation, technology, artificial intelligence, TUBITAK, green technology, renewable energy, research development">
+```
+
+### Kurumsal (/kurumsal)
+```html
+<!-- TR -->
+<title>Kurumsal | Hakkımızda | MapperX</title>
+<meta name="description" content="MapperX'in kurumsal vizyonu, misyonu ve değerleri. Yenilenebilir enerji sektöründe lider teknoloji çözümleri sağlayıcısı.">
+<meta name="keywords" content="kurumsal, hakkımızda, vizyon, misyon, değerler, teknoloji çözümleri, yenilenebilir enerji">
+
+<!-- EN -->
+<title>Corporate | About Us | MapperX</title>
+<meta name="description" content="MapperX's corporate vision, mission, and values. Leading technology solutions provider in the renewable energy sector.">
+<meta name="keywords" content="corporate, about us, vision, mission, values, technology solutions, renewable energy">
+```
+
+### Fiyatlar (/fiyatlar)
+```html
+<!-- TR -->
+<title>Fiyatlar | Esnek Paket Seçenekleri | MapperX</title>
+<meta name="description" content="MapperX hizmet paketleri ve fiyatlandırma seçenekleri. Başlangıç, Profesyonel ve Enterprise paketleri ile ihtiyacınıza uygun çözümler.">
+<meta name="keywords" content="fiyatlar, paketler, başlangıç paketi, profesyonel paket, enterprise paketi, hizmet ücretleri">
+
+<!-- EN -->
+<title>Pricing | Flexible Package Options | MapperX</title>
+<meta name="description" content="MapperX service packages and pricing options. Solutions tailored to your needs with Starter, Professional, and Enterprise packages.">
+<meta name="keywords" content="pricing, packages, starter package, professional package, enterprise package, service fees">
+```
+
+### SSS (/sikca-sorulan-sorular)
+```html
+<!-- TR -->
+<title>Sıkça Sorulan Sorular | Yardım Merkezi | MapperX</title>
+<meta name="description" content="MapperX hizmetleri hakkında sıkça sorulan sorular ve detaylı cevaplar. Termografik muayene, denetim ve santral yönetimi konularında bilgiler.">
+<meta name="keywords" content="SSS, sıkça sorulan sorular, yardım, destek, bilgi bankası, kullanım kılavuzu">
+
+<!-- EN -->
+<title>FAQ | Help Center | MapperX</title>
+<meta name="description" content="Frequently asked questions and detailed answers about MapperX services. Information about thermographic inspection, audit, and plant management.">
+<meta name="keywords" content="FAQ, frequently asked questions, help, support, knowledge base, user guide">
+```
+
+### İletişim (/iletisim)
+```html
+<!-- TR -->
+<title>İletişim | Bize Ulaşın | MapperX</title>
+<meta name="description" content="MapperX ile iletişime geçin. Teknik destek, satış ve iş birliği için iletişim bilgilerimiz ve online form.">
+<meta name="keywords" content="iletişim, bize ulaşın, teknik destek, satış, iş birliği, iletişim formu">
+
+<!-- EN -->
+<title>Contact | Get in Touch | MapperX</title>
+<meta name="description" content="Contact MapperX. Our contact information and online form for technical support, sales, and cooperation.">
+<meta name="keywords" content="contact, get in touch, technical support, sales, cooperation, contact form">
+```
+
+## JSON-LD Yapısal Veriler
+
+### Organization Schema
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "MapperX",
+  "url": "https://mapperx.com",
+  "logo": "https://mapperx.com/logo.svg",
+  "description": "Güneş enerjisi santralleri için yapay zeka destekli otonom çözümler sunan teknoloji şirketi.",
+  "sameAs": [
+    "https://twitter.com/MapperX",
+    "https://linkedin.com/company/mapperx",
+    "https://www.youtube.com/c/MapperX"
+  ],
+  "address": {
+    "@type": "PostalAddress",
+    "addressCountry": "TR",
+    "addressLocality": "Ankara",
+    "addressRegion": "Ankara",
+    "postalCode": "06800",
+    "streetAddress": "ODTÜ Teknokent Bilişim İnovasyon Merkezi"
+  },
+  "contactPoint": [
+    {
+      "@type": "ContactPoint",
+      "telephone": "+90-xxx-xxx-xxxx",
+      "contactType": "customer service",
+      "areaServed": ["TR", "EN", "DE", "FR", "IT"],
+      "availableLanguage": ["Turkish", "English", "German", "French", "Italian"]
+    },
+    {
+      "@type": "ContactPoint",
+      "telephone": "+90-xxx-xxx-xxxx",
+      "contactType": "technical support",
+      "areaServed": ["TR", "EN", "DE", "FR", "IT"],
+      "availableLanguage": ["Turkish", "English", "German", "French", "Italian"]
+    }
+  ]
+}
+```
+
+### WebSite Schema
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "MapperX",
+  "url": "https://mapperx.com",
+  "description": "Güneş enerjisi santralleri için yapay zeka destekli otonom çözümler",
+  "inLanguage": ["tr", "en", "de", "fr", "it"],
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://mapperx.com/search?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+```
+
+### Service Schema
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Solar Panel Inspection and Management",
+  "provider": {
+    "@type": "Organization",
+    "name": "MapperX"
+  },
+  "areaServed": ["TR", "EU"],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "MapperX Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Termografik Muayene",
+          "description": "IEC 62446 standartlarına uygun yapay zeka destekli otonom termografik muayene"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Denetim ve Muayene",
+          "description": "Dijital ikiz teknolojisiyle denetim ve muayene hizmetleri"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Santral Yönetimi",
+          "description": "Gerçek zamanlı izleme ve analiz çözümleri"
+        }
+      }
+    ]
+  }
+}
+```
+
+## SEO Dosyaları
+
+### robots.txt
+```txt
+User-agent: *
+Allow: /
+
+# Ana Sitemap
+Sitemap: https://mapperx.com/sitemap.xml
+
+# Dil Spesifik Sitemaplar
+Sitemap: https://mapperx.com/tr/sitemap.xml
+Sitemap: https://mapperx.com/en/sitemap.xml
+Sitemap: https://mapperx.com/de/sitemap.xml
+Sitemap: https://mapperx.com/fr/sitemap.xml
+Sitemap: https://mapperx.com/it/sitemap.xml
+
+# Yönetim Paneli ve Özel Sayfalar
+Disallow: /admin/
+Disallow: /private/
+Disallow: /temp/
+Disallow: /draft/
+
+# URL Parametreleri
+Disallow: /*?*
+Disallow: /*&*
+
+# Kaynak Dosyaları
+Allow: /*.js
+Allow: /*.css
+Allow: /*.png
+Allow: /*.jpg
+Allow: /*.gif
+Allow: /*.svg
+Allow: /*.ico
+Allow: /*.woff
+Allow: /*.woff2
+
+# Hızlı Erişim için Crawl-delay
+Crawl-delay: 1
+```
+
+### sitemap.xml
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  
+  <!-- Ana Sayfa -->
+  <url>
+    <loc>https://mapperx.com/tr</loc>
+    <lastmod>2024-03-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://mapperx.com/tr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mapperx.com/en"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mapperx.com/de"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mapperx.com/fr"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mapperx.com/it"/>
+    <image:image>
+      <image:loc>https://mapperx.com/og-image.jpg</image:loc>
+      <image:title>MapperX Ana Sayfa</image:title>
+    </image:image>
+  </url>
+
+  <!-- Termografik İnceleme -->
+  <url>
+    <loc>https://mapperx.com/tr/termografik-inceleme</loc>
+    <lastmod>2024-03-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://mapperx.com/tr/termografik-inceleme"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mapperx.com/en/thermographic-inspection"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mapperx.com/de/thermografische-untersuchung"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mapperx.com/fr/inspection-thermographique"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mapperx.com/it/ispezione-termografica"/>
+  </url>
+
+  <!-- Denetim ve Muayene -->
+  <url>
+    <loc>https://mapperx.com/tr/denetim-ve-muayene</loc>
+    <lastmod>2024-03-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://mapperx.com/tr/denetim-ve-muayene"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mapperx.com/en/inspection-and-audit"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mapperx.com/de/inspektion-und-ueberpruefung"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mapperx.com/fr/inspection-et-audit"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mapperx.com/it/ispezione-e-verifica"/>
+  </url>
+
+  <!-- Santral Yönetimi -->
+  <url>
+    <loc>https://mapperx.com/tr/santral-yonetimi</loc>
+    <lastmod>2024-03-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://mapperx.com/tr/santral-yonetimi"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mapperx.com/en/power-plant-management"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mapperx.com/de/kraftwerksmanagement"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mapperx.com/fr/gestion-de-centrale"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mapperx.com/it/gestione-della-centrale"/>
+  </url>
+
+  <!-- Ar-Ge -->
+  <url>
+    <loc>https://mapperx.com/tr/ar-ge</loc>
+    <lastmod>2024-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://mapperx.com/tr/ar-ge"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mapperx.com/en/rd"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mapperx.com/de/fe"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mapperx.com/fr/rd"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mapperx.com/it/rs"/>
+  </url>
+
+  <!-- Kurumsal -->
+  <url>
+    <loc>https://mapperx.com/tr/kurumsal</loc>
+    <lastmod>2024-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://mapperx.com/tr/kurumsal"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mapperx.com/en/corporate"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mapperx.com/de/unternehmen"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mapperx.com/fr/entreprise"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mapperx.com/it/aziendale"/>
+  </url>
+
+  <!-- Fiyatlar -->
+  <url>
+    <loc>https://mapperx.com/tr/fiyatlar</loc>
+    <lastmod>2024-03-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://mapperx.com/tr/fiyatlar"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mapperx.com/en/prices"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mapperx.com/de/preise"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mapperx.com/fr/prix"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mapperx.com/it/prezzi"/>
+  </url>
+
+  <!-- SSS -->
+  <url>
+    <loc>https://mapperx.com/tr/sikca-sorulan-sorular</loc>
+    <lastmod>2024-03-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://mapperx.com/tr/sikca-sorulan-sorular"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mapperx.com/en/faq"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mapperx.com/de/faq"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mapperx.com/fr/faq"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mapperx.com/it/faq"/>
+  </url>
+
+  <!-- İletişim -->
+  <url>
+    <loc>https://mapperx.com/tr/iletisim</loc>
+    <lastmod>2024-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://mapperx.com/tr/iletisim"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mapperx.com/en/contact"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mapperx.com/de/kontakt"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mapperx.com/fr/contact"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://mapperx.com/it/contatto"/>
+  </url>
+</urlset>
+```
+
+## Sosyal Medya Görselleri ve Meta Tag Gereksinimleri
+
+### Open Graph Görseli
+- Boyut: 1200x630px
+- Format: JPG/PNG
+- Dosya: /public/og-image.jpg
+- Maksimum Boyut: 5MB
+- Önerilen Aspect Ratio: 1.91:1
+
+### Twitter Card Görseli
+- Boyut: 1200x600px
+- Format: JPG/PNG
+- Dosya: /public/twitter-image.jpg
+- Maksimum Boyut: 5MB
+- Önerilen Aspect Ratio: 2:1
+
+### Favicon Gereksinimleri
+- favicon.ico: 16x16, 32x32
+- apple-touch-icon.png: 180x180
+- android-chrome-192x192.png: 192x192
+- android-chrome-512x512.png: 512x512
+
+## SEO Optimizasyon Kontrol Listesi
+
+### Teknik SEO
+- [x] Tüm sayfalar için canonical URL'ler
+- [x] Doğru hreflang implementasyonu
+- [x] XML Sitemap yapılandırması
+- [x] robots.txt optimizasyonu
+- [x] Sayfa yükleme hızı optimizasyonu
+- [x] Mobile-first tasarım
+- [x] HTTPS kullanımı
+- [x] Yapısal veri (Schema.org) implementasyonu
+
+### İçerik SEO
+- [x] Her sayfa için benzersiz title tag'leri
+- [x] Optimize edilmiş meta descriptions
+- [x] Hedef anahtar kelimeler için içerik optimizasyonu
+- [x] Alt text için görsel optimizasyonu
+- [x] İç link yapısı
+- [x] URL yapısı optimizasyonu
+- [x] Çok dilli SEO desteği
+
+### Sosyal Medya
+- [x] Open Graph meta tag'leri
+- [x] Twitter Card meta tag'leri
+- [x] Sosyal medya görselleri
+- [x] Paylaşım butonları
+
+### Yerel SEO
+- [x] Organization Schema
+- [x] Local Business Schema
+- [x] İletişim bilgileri
+- [x] Adres bilgileri
+- [x] Çalışma saatleri
+
+### Analitik ve İzleme
+- [x] Google Analytics kurulumu
+- [x] Google Search Console entegrasyonu
+- [x] Olay izleme
+- [x] Dönüşüm izleme 

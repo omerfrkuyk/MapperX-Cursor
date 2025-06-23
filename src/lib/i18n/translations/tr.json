@@ -495,6 +495,38 @@
           "reporting": "Detaylı Raporlama",
           "description": "Büyük alanların hızlı taraması için uygun olan başlangıç seviyesi inceleme. Yüksek irtifa uçuşları geniş bir görüş alanı sağlar ancak daha az detaylı görüntüler üretir.",
           "detectedIssues": "Tespit Edilen Hata Türleri: Modül, Dizi (String)"
+        },
+        "professional": {
+          "name": "Profesyonel",
+          "gsd": "GSD: 5,0 ± 0,5 cm/piksel",
+          "flightLevel": "Orta Uçuş Seviyesi",
+          "inspectionType": "Detaylı Güneş Modülü İncelemesi",
+          "detailLevel": "Orta Detaylı İnceleme",
+          "anomalyTypes": "5 Farklı Türde Anomali Tespiti",
+          "bosModule": "BOS Bileşenler Modülü (İsteğe Bağlı)",
+          "thermalRgb": "Gelişmiş Termal ve RGB İncelemesi",
+          "workOrders": "Gelişmiş İş Emirleri Modülü",
+          "serialNumber": "Gelişmiş Panel Seri Numarası Tara Modülü",
+          "efficiency": "Detaylı Verimlilik Hesaplama",
+          "reporting": "Özelleştirilebilir Detaylı Raporlama",
+          "description": "Hücre düzeyinde detaylı anomali tespiti ve detaylı raporlama için ideal. Orta irtifa uçuşları ile daha hızlı haritalama operasyonları sunarak ekonomik ve hızlı çözümler sağlar.",
+          "detectedIssues": "Tespit Edilen Hata Türleri: Modül, Dizi (String), Hücre, Bağlantı, Sıcak Nokta"
+        },
+        "enterprise": {
+          "name": "Enterprise",
+          "gsd": "GSD: 3,0 ± 0,5 cm/piksel",
+          "flightLevel": "Düşük Uçuş Seviyesi",
+          "inspectionType": "Premium Güneş Modülü İncelemesi",
+          "detailLevel": "Yüksek Detaylı İnceleme",
+          "anomalyTypes": "Tüm Anomali Türlerinin Tespiti",
+          "bosModule": "BOS Bileşenler Modülü (Dahil)",
+          "thermalRgb": "Premium Termal ve RGB İncelemesi",
+          "workOrders": "Premium İş Emirleri Modülü",
+          "serialNumber": "Premium Panel Seri Numarası Tara Modülü",
+          "efficiency": "Premium Verimlilik Hesaplama",
+          "reporting": "Tam Özelleştirilebilir Premium Raporlama",
+          "description": "IEC 62446-3 standartlarına uygun detaylı termal inceleme ve raporlamalar için gerekli seviye. Solar paneller ve hücreler üzerinde kritik anomalilerin kapsamlı bir şekilde belirlenmesi için uygundur.",
+          "detectedIssues": "Tespit Edilen Hata Türleri: Tüm Anomali Türleri ve Özel Analizler"
         }
       }
     }
@@ -760,6 +792,38 @@
           "internship": "Staj Programı"
         },
         "contact": "İletişim"
+      }
+    }
+  },
+  "contact": {
+    "headquarters": {
+      "title": "Genel Merkez",
+      "address": "Kavaklıdere Mah. Büklüm Cad. No:11/5\nÇankaya, Ankara"
+    },
+    "rdCenter": {
+      "title": "Ar-Ge Merkezi",
+      "address": "ODTÜ Teknokent Bilişim İnovasyon Merkezi\nMustafa Kemal Mh. Dumlupınar Blv. 280/G No:1260, Çankaya, Ankara"
+    },
+    "address": "A",
+    "form": {
+      "fullName": "İsim Soyisim",
+      "companyName": "Firma Adı",
+      "city": "Şehir",
+      "email": "E-Posta",
+      "select": "Seçiniz",
+      "submit": "Gönder",
+      "companyType": {
+        "label": "Aşağıdakilerden hangisi şirketinizi en iyi şekilde tanımlar?",
+        "options": {
+          "epc": "Solar – EPC Firması",
+          "om": "Solar – O&M Firması",
+          "siteOwner": "Solar – Saha Sahibi",
+          "technicalTeam": "Solar – Teknik Ekip",
+          "droneService": "Drone Servis Firması"
+        }
+      },
+      "siteCapacity": {
+        "label": "Saha kapasiteniz ne kadar?"
       }
     }
   }

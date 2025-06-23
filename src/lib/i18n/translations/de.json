@@ -851,5 +851,37 @@
         "contact": "Kontakt"
       }
     }
+  },
+  "contact": {
+    "headquarters": {
+      "title": "Hauptsitz",
+      "address": "Kavaklıdere Mah. Büklüm Cad. No:11/5\nÇankaya, Ankara"
+    },
+    "rdCenter": {
+      "title": "F&E-Zentrum",
+      "address": "METU Technopark Informations-Innovationszentrum\nMustafa Kemal Mh. Dumlupınar Blv. 280/G No:1260, Çankaya, Ankara"
+    },
+    "address": "A",
+    "form": {
+      "fullName": "Vor- und Nachname",
+      "companyName": "Firmenname",
+      "city": "Stadt",
+      "email": "E-Mail",
+      "select": "Auswählen",
+      "submit": "Absenden",
+      "companyType": {
+        "label": "Welche der folgenden Optionen beschreibt Ihr Unternehmen am besten?",
+        "options": {
+          "epc": "Solar – EPC-Unternehmen",
+          "om": "Solar – O&M-Unternehmen",
+          "siteOwner": "Solar – Anlagenbetreiber",
+          "technicalTeam": "Solar – Technisches Team",
+          "droneService": "Drohnen-Service-Unternehmen"
+        }
+      },
+      "siteCapacity": {
+        "label": "Wie groß ist Ihre Anlagenkapazität?"
+      }
+    }
   }
 } 

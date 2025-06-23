@@ -851,5 +851,37 @@
         "contact": "Contatti"
       }
     }
+  },
+  "contact": {
+    "headquarters": {
+      "title": "Sede Centrale",
+      "address": "Kavaklıdere Mah. Büklüm Cad. No:11/5\nÇankaya, Ankara"
+    },
+    "rdCenter": {
+      "title": "Centro R&S",
+      "address": "Centro di Innovazione dell'Informazione METU Technopark\nMustafa Kemal Mh. Dumlupınar Blv. 280/G No:1260, Çankaya, Ankara"
+    },
+    "address": "A",
+    "form": {
+      "fullName": "Nome Completo",
+      "companyName": "Nome Azienda",
+      "city": "Città",
+      "email": "Email",
+      "select": "Seleziona",
+      "submit": "Invia",
+      "companyType": {
+        "label": "Quale delle seguenti opzioni descrive meglio la tua azienda?",
+        "options": {
+          "epc": "Solare – Azienda EPC",
+          "om": "Solare – Azienda O&M",
+          "siteOwner": "Solare – Proprietario del Sito",
+          "technicalTeam": "Solare – Team Tecnico",
+          "droneService": "Azienda di Servizi Drone"
+        }
+      },
+      "siteCapacity": {
+        "label": "Qual è la capacità del tuo sito?"
+      }
+    }
   }
 } 

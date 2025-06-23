@@ -5,6 +5,7 @@ import Image from 'next/image';
 import { motion, useAnimation } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { useTranslations } from 'next-intl';
+import { FaCheckCircle } from 'react-icons/fa';
 
 const IecStandartSection = () => {
   const t = useTranslations('about.iecStandart');
@@ -62,23 +63,8 @@ const IecStandartSection = () => {
           <div className="space-y-4">
             {features.map((feature: string, index: number) => (
               <div key={index} className="flex items-start gap-3">
-                <div className="text-blue-600 mt-1">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    strokeWidth={2}
-                    stroke="currentColor"
-                    className="w-5 h-5"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M8.25 4.5l7.5 7.5-7.5 7.5"
-                    />
-                  </svg>
-                </div>
-                <p className="text-gray-700 text-lg">
+                <FaCheckCircle className="mt-1 text-green-500" size={20} />
+                <p className="text-black text-lg">
                   {feature}
                 </p>
               </div>

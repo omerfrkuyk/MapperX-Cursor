@@ -5,6 +5,7 @@ import Image from 'next/image';
 import { motion, useAnimation } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { useTranslations } from 'next-intl';
+import { FaCheckCircle } from 'react-icons/fa';
 
 const AnomaliTurleriSection = () => {
   const t = useTranslations('thermographicInspection.anomalyTypes');
@@ -37,30 +38,15 @@ const AnomaliTurleriSection = () => {
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8">
             {t('title')}
           </h2>
-          <p className="text-gray-700 text-lg mb-8">
+          <p className="text-black text-lg mb-8">
             {t('description')}
           </p>
 
           <div className="space-y-4">
             {[0, 1, 2].map((index) => (
               <div key={index} className="flex items-start gap-3">
-                <div className="text-blue-600 mt-1">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    strokeWidth={2}
-                    stroke="currentColor"
-                    className="w-5 h-5"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M8.25 4.5l7.5 7.5-7.5 7.5"
-                    />
-                  </svg>
-                </div>
-                <p className="text-gray-700 text-lg">
+                <FaCheckCircle className="mt-1 text-green-500" size={20} />
+                <p className="text-black text-lg">
                   {t(`features.${index}`)}
                 </p>
               </div>

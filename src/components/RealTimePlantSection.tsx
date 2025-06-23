@@ -1,7 +1,8 @@
 'use client';
 
+import React from 'react';
 import Image from 'next/image';
-import { ArrowRight } from 'lucide-react';
+import { FaCheckCircle } from 'react-icons/fa';
 import Link from 'next/link';
 import { useLanguage } from '@/lib/i18n/LanguageContext';
 import { getLocalizedRoute } from '@/lib/i18n/routes';
@@ -42,9 +43,9 @@ const RealTimePlantSection = () => {
           <ul className="space-y-4 mb-8 text-gray-700">
             {features.map((feature, index) => (
               <li key={index} className="flex items-start gap-2">
-              <ArrowRight className="mt-1 text-blue-500" size={20} />
+                <FaCheckCircle className="mt-1 text-green-500" size={20} />
                 {feature}
-            </li>
+              </li>
             ))}
           </ul>
 

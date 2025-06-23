@@ -39,7 +39,7 @@ const CarbonReductionSection = () => {
           <h2 className="text-2xl md:text-4xl font-bold text-gray-900 mb-6">
             {t('title')}
           </h2>
-          <p className="text-gray-700 text-base md:text-lg mb-8">
+          <p className="text-black text-base md:text-lg mb-8">
             {t('description')}
           </p>
 
@@ -48,7 +48,7 @@ const CarbonReductionSection = () => {
               <h4 className="font-semibold text-gray-900 text-lg mb-2">
                 {t('energyEfficiency')}
               </h4>
-              <p className="text-gray-700">
+              <p className="text-black">
                 {t('energyDescription')}
               </p>
             </div>
@@ -56,7 +56,7 @@ const CarbonReductionSection = () => {
               <h4 className="font-semibold text-gray-900 text-lg mb-2">
                 {t('sustainability')}
               </h4>
-              <p className="text-gray-700">
+              <p className="text-black">
                 {t('sustainabilityDescription')}
               </p>
             </div>

@@ -1,6 +1,8 @@
 'use client';
 
+import React from 'react';
 import Image from 'next/image';
+import { FaCheckCircle } from 'react-icons/fa';
 import { useTranslations } from 'next-intl';
 
 const AkilliRaporlamaSection = () => {
@@ -25,14 +27,14 @@ const AkilliRaporlamaSection = () => {
           <h3 className="text-black font-semibold text-lg md:text-xl mb-2">
             {t('smartReporting.title')}
           </h3>
-          <p className="text-gray-700 text-base md:text-lg mb-6">
+          <p className="text-black text-base md:text-lg mb-6">
             {t('smartReporting.description')}
           </p>
 
-          <ul className="space-y-4 text-gray-700 text-base md:text-lg">
+          <ul className="space-y-4 text-black text-base md:text-lg">
             {t.raw('smartReporting.features').map((feature: string, index: number) => (
               <li key={index} className="flex items-start gap-2">
-                <span className="text-blue-600 text-xl">›</span>
+                <FaCheckCircle className="mt-1 text-green-500" size={20} />
                 {feature}
               </li>
             ))}

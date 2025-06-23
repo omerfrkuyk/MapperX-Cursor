@@ -17,7 +17,7 @@ const DenetimHeroSection = () => {
           <h1 className="text-3xl md:text-5xl font-bold text-blue-700 leading-tight mb-6">
             {t('title')}
           </h1>
-          <p className="text-gray-700 text-base md:text-lg mb-8">
+          <p className="text-black text-base md:text-lg mb-8">
             {t('description')}
           </p>
 
@@ -30,7 +30,7 @@ const DenetimHeroSection = () => {
             </a>
             <a
               href="https://mapperx.com/iletisim/"
-              className="text-gray-700 hover:text-blue-700 text-base font-medium underline underline-offset-4"
+              className="text-black hover:text-blue-700 text-base font-medium underline underline-offset-4"
             >
               {t('buttons.contact')}
             </a>

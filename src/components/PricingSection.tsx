@@ -1,6 +1,8 @@
 "use client";
 
 import Link from "next/link";
+import React from 'react';
+import { FaCheckCircle } from 'react-icons/fa';
 import { useLanguage } from "@/lib/i18n/LanguageContext";
 
 interface PricingPlan {
@@ -51,8 +53,8 @@ const PricingSection = () => {
             <ul className="text-sm space-y-3 mb-6">
               {Array.isArray(plan.features) && plan.features.map((feature: string, idx: number) => (
                 <li key={idx} className="flex items-start gap-2">
-                  <span className={`${index === 1 ? 'text-white' : 'text-blue-600'}`}>•</span>
-                  <span>{feature}</span>
+                  <FaCheckCircle className="mt-1 text-green-500" size={20} />
+                  {feature}
                 </li>
               ))}
             </ul>

@@ -2,6 +2,7 @@
 
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
+import { FaCheckCircle } from 'react-icons/fa';
 
 const OtonomTermografikMuayeneSection = () => {
   const t = useTranslations('autonomousInspection');
@@ -28,14 +29,14 @@ const OtonomTermografikMuayeneSection = () => {
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-5 leading-snug">
             {t('title')}
           </h2>
-          <p className="text-gray-700 text-base md:text-lg mb-6 leading-relaxed">
+          <p className="text-black text-base md:text-lg mb-6 leading-relaxed">
             {t('description')}
           </p>
 
-          <ul className="space-y-4 text-gray-800 text-base md:text-lg">
+          <ul className="space-y-4 text-black text-base md:text-lg">
             {t.raw('features').map((feature: string, index: number) => (
               <li key={index} className="flex items-start gap-3">
-                <span className="text-blue-600 text-2xl leading-none">›</span>
+                <FaCheckCircle className="mt-1 text-green-500" size={20} />
                 {feature}
               </li>
             ))}

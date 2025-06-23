@@ -1,8 +1,11 @@
 'use client';
 
+import React from 'react';
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import { useRef, useState } from 'react';
+import { FaCheckCircle } from 'react-icons/fa';
+import { useLanguage } from '@/lib/i18n/LanguageContext';
 
 const GelismisTermalAnalizSection = () => {
   const t = useTranslations('thermalAnalysis');
@@ -45,7 +48,7 @@ const GelismisTermalAnalizSection = () => {
           <ul className="space-y-4 text-gray-700 text-base md:text-lg">
             {t.raw('features').map((feature: string, index: number) => (
               <li key={index} className="flex items-start gap-2">
-                <span className="text-blue-600 text-xl">›</span>
+                <FaCheckCircle className="mt-1 text-green-500" size={20} />
                 {feature}
               </li>
             ))}

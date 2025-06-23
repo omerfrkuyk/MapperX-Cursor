@@ -21,14 +21,14 @@ const TermografikHeroSection = () => {
           <h1 className="text-3xl md:text-5xl font-bold text-blue-700 leading-tight mb-6">
             {t('title')}
           </h1>
-          <p className="text-gray-700 text-base md:text-lg mb-6">
+          <p className="text-black text-base md:text-lg mb-6">
             {t('description')}
           </p>
 
           <div className="flex gap-6 items-center mb-6">
             <a
               href="https://mapperx.com/iletisim/"
-              className="text-base font-medium underline underline-offset-4 text-gray-700 hover:text-blue-700"
+              className="text-base font-medium underline underline-offset-4 text-black hover:text-blue-700"
             >
               {t('buttons.contact')}
             </a>

@@ -1,11 +1,13 @@
 'use client';
 
+import React from 'react';
 import Image from 'next/image';
 import { useState } from 'react';
 import clsx from 'classnames';
 import { useLanguage } from '@/lib/i18n/LanguageContext';
 import Link from 'next/link';
 import { getLocalizedRoute } from '@/lib/i18n/routes';
+import { FaCheckCircle } from 'react-icons/fa';
 
 const ThermalInspectionSection = () => {
   const [hovered, setHovered] = useState(false);
@@ -60,9 +62,9 @@ const ThermalInspectionSection = () => {
           <ul className="space-y-4 mb-8">
             {features.map((feature, index) => (
               <li key={index} className="flex items-start gap-2">
-                <span className="text-blue-600 text-xl">›</span>
-                <span className="text-gray-700">{feature}</span>
-            </li>
+                <FaCheckCircle className="mt-1 text-green-500" size={20} />
+                {feature}
+              </li>
             ))}
           </ul>
 

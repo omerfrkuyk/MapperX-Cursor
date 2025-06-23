@@ -28,28 +28,28 @@ const AboutHeroSection = () => {
 
           <div className="space-y-6">
             <div>
-              <h4 className="text-xl font-semibold text-gray-800 mb-2">
+              <h4 className="text-xl font-semibold text-gray-900 mb-2">
                 {t('mapperxTechnology')}
               </h4>
-              <p className="text-gray-700">
+              <p className="text-black">
                 {t('mapperxDescription')}
               </p>
             </div>
 
             <div className="grid md:grid-cols-2 gap-6">
               <div>
-                <h4 className="text-xl font-semibold text-gray-800 mb-2">
+                <h4 className="text-xl font-semibold text-gray-900 mb-2">
                   {t('operationalEfficiency')}
                 </h4>
-                <p className="text-gray-700">
+                <p className="text-black">
                   {t('operationalDescription')}
                 </p>
               </div>
               <div>
-                <h4 className="text-xl font-semibold text-gray-800 mb-2">
+                <h4 className="text-xl font-semibold text-gray-900 mb-2">
                   {t('proactiveMaintenance')}
                 </h4>
-                <p className="text-gray-700">
+                <p className="text-black">
                   {t('proactiveDescription')}
                 </p>
               </div>

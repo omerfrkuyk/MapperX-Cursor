@@ -16,6 +16,13 @@ export const routes: RouteConfig = {
     fr: '/fr',
     it: '/it'
   },
+  login: {
+    tr: '/tr/login',
+    en: '/en/login',
+    de: '/de/login',
+    fr: '/fr/login',
+    it: '/it/login'
+  },
   thermographic: {
     tr: '/tr/platform/termografik-inceleme',
     en: '/en/platform/thermographic-inspection',

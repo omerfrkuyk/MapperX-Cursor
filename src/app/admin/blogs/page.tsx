@@ -123,7 +123,7 @@ export default function BlogsPage() {
                   </td>
                   <td className="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
                     <Link
-                      href={`/admin/blogs/edit/${blog.id}`}
+                      href={`/admin/blogs/edit/${blog.slug}`}
                       className="text-blue-600 hover:text-blue-900 inline-flex items-center mr-4"
                     >
                       <Pencil className="w-4 h-4 mr-1" />

@@ -55,7 +55,7 @@ export default function AdminDashboard() {
               {recentBlogs.map((blog) => (
                 <div key={blog.id} className="border-b border-gray-200 pb-4 last:border-0 last:pb-0">
                   <Link 
-                    href={`/admin/blogs/edit/${blog.id}`}
+                    href={`/admin/blogs/edit/${blog.slug}`}
                     className="block hover:bg-gray-50 -mx-4 px-4 py-2 rounded-lg transition-colors"
                   >
                     <h3 className="text-base font-medium text-gray-900">{blog.title}</h3>

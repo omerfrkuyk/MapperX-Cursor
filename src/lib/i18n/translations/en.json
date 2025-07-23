@@ -902,5 +902,10 @@
     "lastUpdated": "Last Updated",
     "relatedArticles": "Related Articles",
     "noResults": "No results found matching your search criteria."
+  },
+  "blog": {
+    "title": "Blog Posts",
+    "noArticles": "No blog posts found",
+    "readMore": "Read More"
   }
 }

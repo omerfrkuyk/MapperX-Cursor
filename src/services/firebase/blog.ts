@@ -1,97 +1,16 @@
-import { db } from '@/lib/firebase/config';
-import {
-  collection,
-  query,
-  where,
-  orderBy,
-  getDocs,
-  doc,
-  getDoc,
-  addDoc,
-  updateDoc,
-  deleteDoc,
-  limit,
-  startAfter,
-  QueryConstraint
-} from 'firebase/firestore';
+import { db, storage } from '@/lib/firebase/config';
+import { collection, addDoc, updateDoc, doc, getDocs, query, where } from 'firebase/firestore';
+import { ref, uploadBytes, getDownloadURL } from 'firebase/storage';
 import { Blog } from '@/types/Blog';
 
-const BLOGS_COLLECTION = 'blogs';
-
 export const blogService = {
-  // Get blogs with pagination and filters
-  async getBlogs(options: {
-    locale?: string;
-    page?: number;
-    limit?: number;
-    orderByField?: string;
-  } = {}) {
+  // Blog oluşturma
+  createBlog: async (blogData: Partial<Blog>) => {
     try {
-      const {
-        locale,
-        page = 1,
-        limit: pageSize = 10,
-        orderByField = 'createdAt'
-      } = options;
-
-      // Temporary solution until index is ready
-      const q = query(
-        collection(db, BLOGS_COLLECTION),
-        orderBy('createdAt', 'desc'),
-        limit(pageSize)
-      );
-
-      const querySnapshot = await getDocs(q);
-      let blogs = querySnapshot.docs.map(doc => ({
-        id: doc.id,
-        ...doc.data()
-      })) as Blog[];
-
-      // Client-side filtering for locale if specified
-      if (locale) {
-        blogs = blogs.filter(blog => blog.locale === locale);
-      }
-      
-      return {
-        blogs,
-        lastDoc: querySnapshot.docs[querySnapshot.docs.length - 1],
-        total: blogs.length
-      };
-    } catch (error) {
-      console.error('Error fetching blogs:', error);
-      throw error;
-    }
-  },
-
-  // Get a single blog by ID
-  async getBlogById(id: string) {
-    try {
-      const docRef = doc(db, BLOGS_COLLECTION, id);
-      const docSnap = await getDoc(docRef);
-      
-      if (!docSnap.exists()) {
-        return null;
-      }
-
-      return {
-        id: docSnap.id,
-        ...docSnap.data()
-      } as Blog;
-    } catch (error) {
-      console.error('Error fetching blog by ID:', error);
-      throw error;
-    }
-  },
-
-  // Create a new blog
-  async createBlog(blogData: Omit<Blog, 'id'>) {
-    try {
-      const docRef = await addDoc(collection(db, BLOGS_COLLECTION), {
+      const docRef = await addDoc(collection(db, 'blogs'), {
         ...blogData,
-        createdAt: new Date().toISOString(),
-        updatedAt: new Date().toISOString()
+        date: new Date().toISOString()
       });
-
       return docRef.id;
     } catch (error) {
       console.error('Error creating blog:', error);
@@ -99,26 +18,64 @@ export const blogService = {
     }
   },
 
-  // Update an existing blog
-  async updateBlog(id: string, blogData: Partial<Blog>) {
+  // Blog güncelleme
+  updateBlog: async (id: string, blogData: Partial<Blog>) => {
     try {
-      const docRef = doc(db, BLOGS_COLLECTION, id);
-      await updateDoc(docRef, {
-        ...blogData,
-        updatedAt: new Date().toISOString()
-      });
+      const blogRef = doc(db, 'blogs', id);
+      await updateDoc(blogRef, blogData);
     } catch (error) {
       console.error('Error updating blog:', error);
       throw error;
     }
   },
 
-  // Delete a blog
-  async deleteBlog(id: string) {
+  // Blog getirme (slug'a göre)
+  getBlogBySlug: async (slug: string, lang: string) => {
     try {
-      await deleteDoc(doc(db, BLOGS_COLLECTION, id));
+      const blogsCollection = collection(db, 'blogs');
+      const q = query(
+        blogsCollection,
+        where('slug', '==', slug),
+        where('lang', '==', lang)
+      );
+      const querySnapshot = await getDocs(q);
+      
+      if (querySnapshot.empty) {
+        throw new Error('Blog not found');
+      }
+
+      const blogDoc = querySnapshot.docs[0];
+      return { id: blogDoc.id, ...blogDoc.data() } as Blog;
     } catch (error) {
-      console.error('Error deleting blog:', error);
+      console.error('Error fetching blog:', error);
+      throw error;
+    }
+  },
+
+  // Görsel yükleme
+  uploadImage: async (file: File, type: 'featured' | 'content' = 'content'): Promise<string> => {
+    try {
+      const folder = type === 'featured' ? 'featured-images' : 'blog-content-images';
+      const fileName = `${folder}/${Date.now()}-${file.name}`;
+      const storageRef = ref(storage, fileName);
+      
+      const snapshot = await uploadBytes(storageRef, file);
+      const downloadURL = await getDownloadURL(snapshot.ref);
+      
+      return downloadURL;
+    } catch (error) {
+      console.error('Error uploading image:', error);
+      throw error;
+    }
+  },
+
+  // TinyMCE için görsel yükleme işleyicisi
+  handleEditorImageUpload: async (blobInfo: any): Promise<string> => {
+    try {
+      const file = blobInfo.blob();
+      return await blogService.uploadImage(file, 'content');
+    } catch (error) {
+      console.error('Error uploading editor image:', error);
       throw error;
     }
   }

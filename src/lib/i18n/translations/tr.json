@@ -841,5 +841,10 @@
       "bestPractices": "En İyi Uygulamalar",
       "troubleshooting": "Sorun Giderme"
     }
+  },
+  "blog": {
+    "title": "Blog Yazıları",
+    "noArticles": "Henüz blog yazısı bulunmuyor",
+    "readMore": "Devamını Oku"
   }
 } 

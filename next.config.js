@@ -1,4 +1,4 @@
-const withNextIntl = require('next-intl/plugin')('./src/i18n/request.ts');
+const withNextIntl = require('next-intl/plugin')();
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
@@ -13,9 +13,11 @@ const nextConfig = {
     ],
     domains: ['firebasestorage.googleapis.com'],
   },
-  // Admin route'ları için özel konfigürasyon
+
+  // Tüm rewrite kuralları
   async rewrites() {
     return [
+      // Admin route'ları için
       {
         source: '/admin',
         destination: '/admin',
@@ -23,9 +25,25 @@ const nextConfig = {
       {
         source: '/admin/:path*',
         destination: '/admin/:path*',
+      },
+      // TinyMCE için
+      {
+        source: '/tinymce/:path*',
+        destination: '/tinymce/:path*',
       }
     ]
   },
-}
 
-module.exports = withNextIntl(nextConfig) 
+  // TinyMCE için webpack yapılandırması
+  webpack: (config, { isServer }) => {
+    if (!isServer) {
+      config.resolve.alias = {
+        ...config.resolve.alias,
+        'tinymce': 'tinymce/tinymce.min.js',
+      };
+    }
+    return config;
+  }
+};
+
+module.exports = withNextIntl(nextConfig); 

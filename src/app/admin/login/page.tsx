@@ -22,7 +22,26 @@ export default function LoginPage() {
       router.push('/admin');
     } catch (error: any) {
       console.error('Login error:', error);
-      setError('Giriş başarısız. Lütfen bilgilerinizi kontrol edin.');
+      let errorMessage = 'Giriş başarısız. ';
+      
+      switch (error.code) {
+        case 'auth/invalid-credential':
+          errorMessage += 'Email veya şifre hatalı.';
+          break;
+        case 'auth/user-not-found':
+          errorMessage += 'Bu email adresi ile kayıtlı kullanıcı bulunamadı.';
+          break;
+        case 'auth/wrong-password':
+          errorMessage += 'Şifre hatalı.';
+          break;
+        case 'auth/too-many-requests':
+          errorMessage += 'Çok fazla başarısız giriş denemesi. Lütfen daha sonra tekrar deneyin.';
+          break;
+        default:
+          errorMessage += 'Lütfen bilgilerinizi kontrol edin.';
+      }
+      
+      setError(errorMessage);
     } finally {
       setLoading(false);
     }

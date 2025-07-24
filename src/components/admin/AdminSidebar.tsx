@@ -7,7 +7,8 @@ import {
   FileText, 
   Settings, 
   Globe,
-  ChevronDown
+  ChevronDown,
+  BookOpen
 } from 'lucide-react';
 import { useState } from 'react';
 
@@ -39,6 +40,25 @@ const menuItems: MenuItem[] = [
       {
         name: 'Yeni Yazı',
         href: '/admin/blogs/create'
+      }
+    ]
+  },
+  {
+    name: 'Bilgi Bankası',
+    href: '/admin/knowledge-base',
+    icon: BookOpen,
+    children: [
+      {
+        name: 'Kategoriler',
+        href: '/admin/knowledge-base/categories'
+      },
+      {
+        name: 'Makaleler',
+        href: '/admin/knowledge-base/articles'
+      },
+      {
+        name: 'Yeni Makale',
+        href: '/admin/knowledge-base/articles/create'
       }
     ]
   },
